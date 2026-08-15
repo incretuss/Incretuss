@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#faf9f4"/>
+  <rect x="0.5" y="0.5" width="399" height="299" fill="none" stroke="#e3e1d8"/>
+  <text x="24" y="34" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#8f9389">DIV.01 — NUTRACEUTICALS</text>
+  <line x1="24" y1="46" x2="376" y2="46" stroke="#e3e1d8"/>
+
+  <!-- capsule -->
+  <g transform="translate(150,110)">
+    <rect x="0" y="0" width="100" height="46" rx="23" fill="none" stroke="#1f3d17" stroke-width="2"/>
+    <path d="M50 0 A23 23 0 0 1 50 46 Z" fill="#4c8c2b"/>
+    <line x1="50" y1="0" x2="50" y2="46" stroke="#1f3d17" stroke-width="2"/>
+  </g>
+
+  <!-- leaf accent -->
+  <g transform="translate(255,150)">
+    <path d="M0 0 C 18 -6, 30 -22, 24 -40 C 6 -34, -6 -18, 0 0 Z" fill="none" stroke="#4c8c2b" stroke-width="1.6"/>
+    <line x1="0" y1="0" x2="20" y2="-32" stroke="#4c8c2b" stroke-width="1.2"/>
+  </g>
+
+  <!-- droplet dots -->
+  <circle cx="120" cy="205" r="4" fill="#b3241f"/>
+  <circle cx="138" cy="212" r="2.5" fill="#4c8c2b"/>
+  <circle cx="105" cy="215" r="2.5" fill="#4c8c2b"/>
+
+  <text x="24" y="270" font-family="IBM Plex Mono, monospace" font-size="9" fill="#8f9389">HUMAN &amp; ANIMAL NUTRITION</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f6f4ef"/>
+  <rect x="0.5" y="0.5" width="399" height="299" fill="none" stroke="#e4e1d6"/>
+  <text x="24" y="34" font-family="IBM Plex Mono, monospace" font-size="9.5" letter-spacing="1.2" fill="#8a8f89">PIPER NIGRUM</text>
+  <line x1="24" y1="46" x2="376" y2="46" stroke="#e4e1d6"/>
+  <g transform="translate(200,150) rotate(-10)">
+    <circle r="46" fill="none" stroke="#3f5d47" stroke-width="1.6"/>
+    <path d="M0 -46 C 18 -30, 22 -10, 0 10 C -22 -10, -18 -30, 0 -46 Z" fill="#3f5d47" opacity="0.85"/>
+    <circle r="4" fill="#a9812f"/>
+  </g>
+  <text x="200" y="160" font-family="Fraunces, serif" font-size="30" fill="#14171a" text-anchor="middle" opacity="0">P</text>
+  <text x="24" y="270" font-family="IBM Plex Mono, monospace" font-size="9" fill="#8a8f89">PEPPER</text>
+</svg>

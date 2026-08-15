@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#faf9f4"/>
+  <rect x="0.5" y="0.5" width="399" height="299" fill="none" stroke="#e3e1d8"/>
+  <text x="24" y="34" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#8f9389">DIV.05 — ESSENTIAL OILS</text>
+  <line x1="24" y1="46" x2="376" y2="46" stroke="#e3e1d8"/>
+
+  <!-- dropper bottle -->
+  <g transform="translate(165,80)">
+    <rect x="10" y="40" width="50" height="70" rx="6" fill="none" stroke="#1f3d17" stroke-width="2"/>
+    <rect x="24" y="20" width="22" height="24" fill="none" stroke="#1f3d17" stroke-width="2"/>
+    <rect x="20" y="6" width="30" height="16" rx="3" fill="#4c8c2b"/>
+    <rect x="16" y="60" width="42" height="42" fill="#4c8c2b" opacity="0.75"/>
+    <line x1="35" y1="0" x2="35" y2="8" stroke="#1f3d17" stroke-width="2"/>
+  </g>
+
+  <!-- oil drop -->
+  <g transform="translate(265,150)">
+    <path d="M14 0 C 24 16, 28 28, 28 36 A14 14 0 0 1 0 36 C 0 28, 4 16, 14 0 Z" fill="#b3241f"/>
+  </g>
+
+  <text x="24" y="270" font-family="IBM Plex Mono, monospace" font-size="9" fill="#8f9389">EXTRACTION &amp; DISTILLATION</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#faf9f4"/>
+  <rect x="0.5" y="0.5" width="399" height="299" fill="none" stroke="#e3e1d8"/>
+  <text x="24" y="34" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#8f9389">DIV.04 — PHARMACEUTICALS</text>
+  <line x1="24" y1="46" x2="376" y2="46" stroke="#e3e1d8"/>
+
+  <!-- pill / capsule tilted -->
+  <g transform="translate(200,150) rotate(-30)">
+    <rect x="-55" y="-20" width="110" height="40" rx="20" fill="none" stroke="#1f3d17" stroke-width="2"/>
+    <path d="M0 -20 A20 20 0 0 1 0 20 Z" fill="#b3241f"/>
+    <line x1="0" y1="-20" x2="0" y2="20" stroke="#1f3d17" stroke-width="2"/>
+  </g>
+
+  <!-- cross mark -->
+  <g transform="translate(300,110)">
+    <rect x="-3" y="-14" width="6" height="28" fill="#4c8c2b"/>
+    <rect x="-14" y="-3" width="28" height="6" fill="#4c8c2b"/>
+  </g>
+
+  <circle cx="110" cy="200" r="3" fill="#8f9389"/>
+  <circle cx="125" cy="208" r="3" fill="#8f9389"/>
+
+  <text x="24" y="270" font-family="IBM Plex Mono, monospace" font-size="9" fill="#8f9389">APIs &amp; FORMULATIONS</text>
+</svg>
