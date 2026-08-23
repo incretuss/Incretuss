@@ -1,0 +1,13 @@
+{
+  "name": "incretuss-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Incretuss static website with a Netlify Function backing the contact form",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.13",
+    "resend": "^6.22.0"
+  }
+}
