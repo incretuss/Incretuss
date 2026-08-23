@@ -116,6 +116,9 @@ header{
 .nav-cta .btn{min-height:38px; padding:9px 15px;}
 .menu-toggle{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px; margin:-8px;}
 .menu-toggle span{width:22px; height:1.5px; background:var(--text); display:block; transition:transform .2s var(--ease), opacity .2s var(--ease);}
+.menu-toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(6.5px) rotate(45deg);}
+.menu-toggle[aria-expanded="true"] span:nth-child(2){opacity:0;}
+.menu-toggle[aria-expanded="true"] span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg);}
 
 /* ---------- 6. Buttons ---------- */
 .btn{
@@ -475,41 +478,6 @@ footer{background:var(--primary); color:#e7e6e1; margin-top:0;}
 .footer-bottom .socials a{color:#8fa08c; transition:color .2s var(--ease);}
 .footer-bottom .socials a:hover{color:#fff;}
 
-/* ---------- 13. AI assistant widget ---------- */
-.ai-widget{position:fixed; right:22px; bottom:22px; z-index:80; font-family:var(--font-body);}
-.ai-bubble{
-  width:58px; height:58px; border-radius:50%; background:var(--primary); color:#fff; border:none; cursor:pointer;
-  display:flex; align-items:center; justify-content:center; box-shadow:0 12px 30px rgba(0,0,0,.2);
-  transition:transform .2s var(--ease), box-shadow .2s var(--ease);
-}
-.ai-bubble:hover{transform:translateY(-2px) scale(1.03); box-shadow:0 16px 38px rgba(0,0,0,.25);}
-.ai-bubble svg{width:24px; height:24px;}
-.ai-panel{
-  position:absolute; bottom:70px; right:0; width:340px; max-height:440px; background:var(--surface);
-  border:1px solid var(--border); border-radius:var(--radius-lg); box-shadow:0 24px 70px rgba(0,0,0,.2);
-  display:none; flex-direction:column; overflow:hidden;
-  opacity:0; transform:translateY(10px) scale(.98);
-  transition:opacity .2s var(--ease), transform .2s var(--ease);
-}
-.ai-panel.open{display:flex; opacity:1; transform:none;}
-.ai-panel-head{padding:16px 18px; border-bottom:1px solid var(--line-soft); display:flex; justify-content:space-between; align-items:center;}
-.ai-panel-head strong{font-family:var(--font-display); font-size:15px;}
-.ai-panel-head span{font-family:var(--font-mono); font-size:10px; color:var(--accent); letter-spacing:0.04em; display:block; margin-top:2px;}
-.ai-panel-close{background:none; border:none; cursor:pointer; color:var(--muted); font-size:16px; transition:color .2s var(--ease);}
-.ai-panel-close:hover{color:var(--text);}
-.ai-messages{flex:1; overflow-y:auto; padding:16px 18px; display:flex; flex-direction:column; gap:12px; font-size:13.5px;}
-.ai-msg{padding:10px 12px; border-radius:10px; max-width:85%; line-height:1.4;}
-.ai-msg.bot{background:var(--sage-tint); color:var(--text); align-self:flex-start;}
-.ai-msg.user{background:var(--primary); color:#fff; align-self:flex-end;}
-.ai-quick{display:flex; flex-wrap:wrap; gap:6px; padding:0 18px 14px;}
-.ai-quick button{font-family:var(--font-mono); font-size:10.5px; border:1px solid var(--border); background:none; padding:6px 9px; cursor:pointer; color:var(--muted); border-radius:var(--radius-sm); transition:border-color .2s var(--ease), color .2s var(--ease);}
-.ai-quick button:hover{border-color:var(--sage); color:var(--text);}
-.ai-input-row{display:flex; border-top:1px solid var(--line-soft);}
-.ai-input-row input{flex:1; border:none; padding:12px 14px; background:none; font-size:13px; color:var(--text); font-family:var(--font-body);}
-.ai-input-row input:focus{outline:none;}
-.ai-input-row button{border:none; background:none; padding:0 16px; cursor:pointer; color:var(--primary); font-family:var(--font-mono); font-size:12px; text-transform:uppercase; transition:color .2s var(--ease);}
-.ai-input-row button:hover{color:var(--sage);}
-
 /* ---------- 14. Carousel (home page product showcase) ---------- */
 .custom-carousel{
   position:relative;
@@ -601,6 +569,11 @@ footer{background:var(--primary); color:#e7e6e1; margin-top:0;}
 }
 @media (max-width:680px){
   .nav-links{display:none;}
+  .nav-links.nav-open{
+    display:flex; position:absolute; top:72px; left:0; right:0;
+    background:var(--paper); flex-direction:column; padding:20px 24px;
+    border-bottom:1px solid var(--line); gap:18px; z-index:59;
+  }
   .menu-toggle{display:flex;}
   .nav-row{height:72px;}
   .logo svg{width:185px;}
