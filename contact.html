@@ -93,8 +93,8 @@
 
       <div class="reveal">
         <div class="eyebrow">Send a message</div>
-        <!-- Submits to the /api/contact endpoint (server/src/server.js), which emails the
-             submission via SMTP. See contact-form script below and server/.env.example. -->
+        <!-- Submits to /api/contact, redirected (see netlify.toml) to the Netlify Function
+             at netlify/functions/contact.js, which emails the submission via Resend. -->
         <form class="contact-form" id="contactForm" style="display:flex; flex-direction:column; gap:18px; margin-top:20px;">
           <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:18px;">
             <div class="field" style="display:flex; flex-direction:column; gap:8px;">
@@ -266,7 +266,7 @@
     });
   })();
 
-  // contact form submission (posts to /api/contact, served by server/src/server.js)
+  // contact form submission (posts to /api/contact -> netlify/functions/contact.js)
   (function(){
     var form = document.getElementById('contactForm');
     if(!form) return;

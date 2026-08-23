@@ -1,0 +1,8 @@
+# Netlify still deploys the "publish" directory when it's "." (this repo's root),
+# so explicitly keep server-only files out of the public static-asset bundle.
+# Function source itself is picked up separately via [build.functions] in netlify.toml.
+node_modules/
+netlify/functions/
+package.json
+package-lock.json
+.env
