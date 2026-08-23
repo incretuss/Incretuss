@@ -93,37 +93,41 @@
 
       <div class="reveal">
         <div class="eyebrow">Send a message</div>
-        <!-- This form opens the visitor's email client with the message pre-filled (mailto action).
-             To collect submissions directly on your server, swap the action/method for a form backend
-             (e.g. Formspree, or your own endpoint) and remove enctype="text/plain". -->
-        <form class="contact-form" style="display:flex; flex-direction:column; gap:18px; margin-top:20px;" action="mailto:hello@incretuss.com" method="post" enctype="text/plain">
+        <!-- Submits to the /api/contact endpoint (server/src/server.js), which emails the
+             submission via SMTP. See contact-form script below and server/.env.example. -->
+        <form class="contact-form" id="contactForm" style="display:flex; flex-direction:column; gap:18px; margin-top:20px;">
           <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:18px;">
             <div class="field" style="display:flex; flex-direction:column; gap:8px;">
               <label for="name" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--ink-soft);">Name</label>
-              <input id="name" name="Name" type="text" required style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;">
+              <input id="name" name="name" type="text" required style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;">
             </div>
             <div class="field" style="display:flex; flex-direction:column; gap:8px;">
               <label for="company" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--ink-soft);">Company</label>
-              <input id="company" name="Company" type="text" style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;">
+              <input id="company" name="company" type="text" style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;">
             </div>
           </div>
           <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:18px;">
             <div class="field" style="display:flex; flex-direction:column; gap:8px;">
               <label for="email" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--ink-soft);">Email</label>
-              <input id="email" name="Email" type="email" required style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;">
+              <input id="email" name="email" type="email" required style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;">
             </div>
             <div class="field" style="display:flex; flex-direction:column; gap:8px;">
               <label for="product" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--ink-soft);">Product of Interest</label>
-              <select id="product" name="Product" style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;"><option>Ginger</option><option>Garcinia Cambogia</option><option>Pepper</option><option>Green Coffee</option><option>Green Tea</option><option>Turmeric</option><option>Ashwagandha</option><option>Tulsi (Holy Basil)</option><option>Nutmeg</option><option>Cinnamon</option><option>Boswellia Serrata</option><option>Bacopa</option><option>Custom / Not listed</option>
+              <select id="product" name="product" style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px;"><option>Ginger</option><option>Garcinia Cambogia</option><option>Pepper</option><option>Green Coffee</option><option>Green Tea</option><option>Turmeric</option><option>Ashwagandha</option><option>Tulsi (Holy Basil)</option><option>Nutmeg</option><option>Cinnamon</option><option>Boswellia Serrata</option><option>Bacopa</option><option>Custom / Not listed</option>
               </select>
             </div>
           </div>
           <div class="field" style="display:flex; flex-direction:column; gap:8px;">
             <label for="message" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--ink-soft);">Requirement</label>
-            <textarea id="message" name="Message" placeholder="Tell us what you're looking to source, target purity/grade, volumes, and any specification details." required style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px; resize:vertical; min-height:110px;"></textarea>
+            <textarea id="message" name="message" placeholder="Tell us what you're looking to source, target purity/grade, volumes, and any specification details." required style="border:1px solid var(--line); background:var(--paper-raised); padding:12px 14px; font-family:var(--font-body); font-size:14px; color:var(--ink); border-radius:2px; resize:vertical; min-height:110px;"></textarea>
+          </div>
+          <div class="field" style="position:absolute; left:-9999px;" aria-hidden="true">
+            <label for="website">Leave this field empty</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
           </div>
           <div>
-            <button type="submit" class="btn btn-solid">Send Message</button>
+            <button type="submit" class="btn btn-solid" id="contactSubmit">Send Message</button>
+            <span id="contactStatus" role="status" style="display:block; margin-top:12px; font-family:var(--font-mono); font-size:13px;"></span>
           </div>
         </form>
       </div>
@@ -259,6 +263,54 @@
       var next = cur === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
       localStorage.setItem('incretuss-theme', next);
+    });
+  })();
+
+  // contact form submission (posts to /api/contact, served by server/src/server.js)
+  (function(){
+    var form = document.getElementById('contactForm');
+    if(!form) return;
+    var submitBtn = document.getElementById('contactSubmit');
+    var status = document.getElementById('contactStatus');
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var data = {
+        name: form.name.value.trim(),
+        company: form.company.value.trim(),
+        email: form.email.value.trim(),
+        product: form.product.value,
+        message: form.message.value.trim(),
+        website: form.website.value
+      };
+
+      submitBtn.disabled = true;
+      status.style.color = 'var(--ink-soft)';
+      status.textContent = 'Sending…';
+
+      fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      })
+        .then(function(res){ return res.json().then(function(body){ return { ok: res.ok && body.ok, error: body.error }; }); })
+        .then(function(result){
+          if(result.ok){
+            status.style.color = 'var(--accent, #386325)';
+            status.textContent = 'Thanks — your message has been sent. We\'ll be in touch shortly.';
+            form.reset();
+          } else {
+            status.style.color = '#B71C1C';
+            status.textContent = result.error || 'Something went wrong. Please try again or email us directly.';
+          }
+        })
+        .catch(function(){
+          status.style.color = '#B71C1C';
+          status.textContent = 'Could not reach the server. Please try again or email us directly.';
+        })
+        .finally(function(){
+          submitBtn.disabled = false;
+        });
     });
   })();
 
