@@ -111,17 +111,25 @@
           <rect x="0.5" y="0.5" width="499" height="379" stroke="#e4e1d6"/>
           <text x="24" y="34" font-family="IBM Plex Mono" font-size="11" fill="#565b56" letter-spacing="1">SUPPLY PATHWAY</text>
           <line x1="24" y1="50" x2="476" y2="50" stroke="#e4e1d6"/>
-          <circle cx="60" cy="110" r="22" fill="none" stroke="#3f5d47" stroke-width="1.4"/>
-          <text x="60" y="115" font-family="IBM Plex Mono" font-size="9" fill="#233428" text-anchor="middle">R&amp;D</text>
+          <g class="stage" data-stage="rd" data-label="R&amp;D">
+            <circle cx="60" cy="110" r="22" fill="none" stroke="#3f5d47" stroke-width="1.4"/>
+            <text x="60" y="115" font-family="IBM Plex Mono" font-size="9" fill="#233428" text-anchor="middle">R&amp;D</text>
+          </g>
           <line x1="82" y1="110" x2="158" y2="110" stroke="#c9c6ba" stroke-dasharray="2 3"/>
-          <circle cx="180" cy="110" r="22" fill="none" stroke="#3f5d47" stroke-width="1.4"/>
-          <text x="180" y="115" font-family="IBM Plex Mono" font-size="8.5" fill="#233428" text-anchor="middle">MFG</text>
+          <g class="stage" data-stage="mfg" data-label="Manufacturing">
+            <circle cx="180" cy="110" r="22" fill="none" stroke="#3f5d47" stroke-width="1.4"/>
+            <text x="180" y="115" font-family="IBM Plex Mono" font-size="8.5" fill="#233428" text-anchor="middle">MFG</text>
+          </g>
           <line x1="202" y1="110" x2="278" y2="110" stroke="#c9c6ba" stroke-dasharray="2 3"/>
-          <circle cx="300" cy="110" r="22" fill="none" stroke="#a9812f" stroke-width="1.4"/>
-          <text x="300" y="115" font-family="IBM Plex Mono" font-size="8.5" fill="#233428" text-anchor="middle">QC</text>
+          <g class="stage" data-stage="qc" data-label="Quality Control">
+            <circle cx="300" cy="110" r="22" fill="none" stroke="#a9812f" stroke-width="1.4"/>
+            <text x="300" y="115" font-family="IBM Plex Mono" font-size="8.5" fill="#233428" text-anchor="middle">QC</text>
+          </g>
           <line x1="322" y1="110" x2="398" y2="110" stroke="#c9c6ba" stroke-dasharray="2 3"/>
-          <circle cx="420" cy="110" r="22" fill="none" stroke="#14171a" stroke-width="1.4"/>
-          <text x="420" y="115" font-family="IBM Plex Mono" font-size="8.5" fill="#233428" text-anchor="middle">SHIP</text>
+          <g class="stage" data-stage="ship" data-label="Shipping &amp; Export">
+            <circle cx="420" cy="110" r="22" fill="none" stroke="#14171a" stroke-width="1.4"/>
+            <text x="420" y="115" font-family="IBM Plex Mono" font-size="8.5" fill="#233428" text-anchor="middle">SHIP</text>
+          </g>
           <line x1="24" y1="180" x2="476" y2="180" stroke="#e4e1d6"/>
           <text x="24" y="205" font-family="IBM Plex Mono" font-size="11" fill="#565b56" letter-spacing="1">PROCESS STAGES</text>
           <g font-family="IBM Plex Mono" font-size="10" fill="#565b56">
@@ -132,6 +140,7 @@
           <line x1="24" y1="352" x2="476" y2="352" stroke="#e4e1d6"/>
           <text x="24" y="368" font-family="IBM Plex Mono" font-size="9" fill="#8a8f89">INCRETUSS &middot; MANUFACTURING</text>
         </svg>
+        <div class="pipeline-detail" aria-live="polite"></div>
       </div>
     </div>
   </section>
@@ -233,6 +242,7 @@
   </div>
 </footer>
 
+<script src="js/product-store.js" defer></script>
 <script src="js/site.js" defer></script>
 </body>
 </html>

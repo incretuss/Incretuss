@@ -27,6 +27,11 @@ document.querySelectorAll(".nav a").forEach(link => {
 });
 
 // Reveal sections as they enter the viewport.
+// threshold is a fraction of the element's own height, not the viewport's — a
+// tall element (e.g. the portfolio table stacked on a narrow screen) can need
+// more visible height than a phone's viewport ever provides, so the ratio
+// never reaches 0.12 and it never reveals. threshold: 0 fires on any visible
+// pixel instead, independent of how tall the element is.
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -34,7 +39,7 @@ const observer = new IntersectionObserver(entries => {
       observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.12 });
+}, { threshold: 0, rootMargin: "0px 0px -10% 0px" });
 
 document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
 

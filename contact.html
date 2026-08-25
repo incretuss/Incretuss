@@ -102,6 +102,7 @@
           <li style="padding:16px 0; border-top:1px solid var(--line-soft);"><span class="label" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-soft); display:block; margin-bottom:4px;">Address</span><span class="value" style="font-size:15px;">Available on request &mdash; send us your location and we'll confirm the fastest shipping route.</span></li>
           <li style="padding:16px 0; border-top:1px solid var(--line-soft); border-bottom:1px solid var(--line-soft);"><span class="label" style="font-family:var(--font-mono); font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--ink-soft); display:block; margin-bottom:4px;">Hours</span><span class="value" style="font-size:15px;">Mon&ndash;Fri, 9:00&ndash;18:00 IST</span></li>
         </ul>
+        <div id="geoNote" class="geo-note" role="status"></div>
       </div>
 
       <div class="reveal">
@@ -235,6 +236,72 @@
 </footer>
 
 <script>
+  // Enquiry context bridge: pre-fill the product dropdown and requirement
+  // message from ?product=&form=&need= (set by product pages' Request
+  // links) or ?shortlist=slug1,slug2 (set by the selection tray). Purely
+  // additive — the form's own validation and submit logic are untouched.
+  //
+  // Runs on DOMContentLoaded rather than inline: js/product-store.js is
+  // loaded with `defer`, so it executes right before DOMContentLoaded —
+  // any earlier and window.ProductStore wouldn't exist yet for the
+  // shortlist branch below.
+  document.addEventListener('DOMContentLoaded', function () {
+    var params = new URLSearchParams(window.location.search);
+    var productParam = params.get('product');
+    var formParam = params.get('form');
+    var needParam = params.get('need');
+    var shortlistParam = params.get('shortlist');
+    if (!productParam && !shortlistParam) return;
+
+    var select = document.getElementById('product');
+    var message = document.getElementById('message');
+    var NEED_LABEL = { quote: 'a quote', brochure: 'the product brochure', tds: 'the Technical Data Sheet', sds: 'the Safety Data Sheet', coa: 'a Certificate of Analysis' };
+
+    function selectByVisibleText(text) {
+      if (!select) return false;
+      for (var i = 0; i < select.options.length; i++) {
+        if (select.options[i].text === text) { select.selectedIndex = i; return true; }
+      }
+      return false;
+    }
+
+    if (productParam) {
+      if (!selectByVisibleText(productParam) && select) {
+        selectByVisibleText('Custom / Not listed');
+      }
+      if (message && !message.value) {
+        var need = NEED_LABEL[needParam] || 'a quote';
+        var line = 'Requesting ' + need + ' — ' + productParam + (formParam ? ' (' + formParam + ')' : '') + '.\n\n';
+        message.value = line;
+      }
+    } else if (shortlistParam && window.ProductStore) {
+      var slugs = shortlistParam.split(',').filter(Boolean);
+      window.ProductStore.byslugs(slugs).then(function (products) {
+        if (!products.length) return;
+        if (select) selectByVisibleText('Custom / Not listed');
+        if (message && !message.value) {
+          message.value = 'Interested in:\n' + products.map(function (p) { return '- ' + p.name; }).join('\n') + '\n\n';
+        }
+      });
+    }
+  });
+
+  // Region-aware note: asks a Netlify Edge Function (the only thing that can
+  // see the visitor's real geo context) rather than an external IP-lookup
+  // service. Fails silently if the endpoint isn't available (e.g. local dev).
+  (function () {
+    var note = document.getElementById('geoNote');
+    if (!note) return;
+    fetch('/api/geo')
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (data) {
+        if (!data || !data.country) return;
+        note.textContent = 'Exporting to ' + data.country + '? We’ll confirm shipping and documentation for your destination.';
+        note.classList.add('visible');
+      })
+      .catch(function () { /* no geo data available — note simply stays hidden */ });
+  })();
+
   // contact form submission (posts to /api/contact -> netlify/functions/contact.js)
   (function(){
     var form = document.getElementById('contactForm');
@@ -283,6 +350,7 @@
     });
   })();
 </script>
+<script src="js/product-store.js" defer></script>
 <script src="js/site.js" defer></script>
 </body>
 </html>
