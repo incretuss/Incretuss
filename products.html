@@ -94,22 +94,45 @@
 
   <section class="product-in">
     <div class="wrap">
+      <div id="recentlyViewed" class="recently-viewed"></div>
+
+      <div class="facet-bar reveal">
+        <label class="facet-search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="search" id="productFilterSearch" placeholder="Filter by name, compound, or industry&hellip;" aria-label="Filter products">
+        </label>
+        <div class="facet-groups">
+          <div class="facet-group">
+            <span class="fg-label">Industry</span>
+            <div class="facet-chips" id="industryChips"></div>
+          </div>
+          <div class="facet-group">
+            <span class="fg-label">Form</span>
+            <div class="facet-chips" id="formChips"></div>
+          </div>
+        </div>
+        <span class="facet-status" id="facetStatus"></span>
+      </div>
+
       <div class="product-in-grid reveal">
-        <a href="ginger.html" class="p-card">
+        <a href="ginger.html" class="p-card" data-slug="ginger" data-industries="Food,Beverages,Nutraceuticals,Pharmaceuticals" data-forms="Essential Oil,CO2 Extract,Solvent Extract,Oleoresin,Ginger Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="ginger">+ Compare</span>
           <img class="product-thumb" src="images/gingerextract.jpg" alt="Ginger solvent extract" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;" loading="lazy" width="800" height="800">
           <span class="lat">Zingiber officinale</span>
           <h3>Ginger Extract</h3>
           <span class="forms">Solvent Extract</span>
         </a>
 
-        <a href="ginger.html" class="p-card">
+        <a href="ginger.html" class="p-card" data-slug="ginger" data-industries="Food,Beverages,Nutraceuticals,Pharmaceuticals" data-forms="Essential Oil,CO2 Extract,Solvent Extract,Oleoresin,Ginger Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="ginger">+ Compare</span>
           <img class="product-thumb" src="images/gingerco230zingiberene.jpg" alt="Ginger CO2 oil, high zingiberene content" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;" loading="lazy" width="800" height="800">
           <span class="lat">Zingiber officinale</span>
           <h3>Ginger CO2 Oil (&ge;30% Zingiberene)</h3>
           <span class="forms">CO2 Extract</span>
         </a>
 
-        <a href="ginger.html" class="p-card">
+        <a href="ginger.html" class="p-card" data-slug="ginger" data-industries="Food,Beverages,Nutraceuticals,Pharmaceuticals" data-forms="Essential Oil,CO2 Extract,Solvent Extract,Oleoresin,Ginger Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="ginger">+ Compare</span>
           <img class="product-thumb" src="images/gingerco230gingerol.jpg" alt="Ginger CO2 oil, 30% gingerols" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;" loading="lazy" width="800" height="800">
           <span class="lat">Zingiber officinale</span>
           <h3>Ginger CO2 Oil (&ge;30% Gingerols)</h3>
@@ -117,80 +140,93 @@
 
         </a>
 
-        <a href="ginger.html" class="p-card">
+        <a href="ginger.html" class="p-card" data-slug="ginger" data-industries="Food,Beverages,Nutraceuticals,Pharmaceuticals" data-forms="Essential Oil,CO2 Extract,Solvent Extract,Oleoresin,Ginger Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="ginger">+ Compare</span>
           <img class="product-thumb" src="images/ginger.png" alt="Ginger CO2 oil, 40% gingerols" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;" loading="lazy" width="383" height="266">
           <span class="lat">Zingiber officinale</span>
           <h3>Ginger CO2 Oil (40% Gingerols)</h3>
           <span class="forms">CO2 Extract</span>
         </a>
 
-        <a href="garcinia-cambogia.html" class="p-card">
+        <a href="garcinia-cambogia.html" class="p-card" data-slug="garcinia-cambogia" data-industries="Functional Foods,Nutraceuticals" data-forms="Water Soluble Extract,Water Insoluble Extract,USP Standard Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="garcinia-cambogia">+ Compare</span>
           <img class="product-thumb" src="images/garcinia-cambogia.png" alt="Garcinia Cambogia illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Garcinia gummi-gutta</span>
           <h3>Garcinia Cambogia</h3>
           <span class="forms">Water Soluble Extract, Water Insoluble Extract…</span>
         </a>
-        <a href="pepper.html" class="p-card">
+        <a href="pepper.html" class="p-card" data-slug="pepper" data-industries="Beverages,Food,Nutraceuticals" data-forms="Essential Oil,Oleoresin,Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="pepper">+ Compare</span>
           <img class="product-thumb" src="images/pepper.png" alt="Black pepper (Piper nigrum) peppercorns" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;" loading="lazy" width="383" height="266">
           <span class="lat">Piper nigrum</span>
           <h3>Pepper</h3>
           <span class="forms">Essential Oil, Oleoresin…</span>
         </a>
-        <a href="green-coffee.html" class="p-card">
+        <a href="green-coffee.html" class="p-card" data-slug="green-coffee" data-industries="Cosmetics,Functional Foods,Nutraceuticals" data-forms="Coffee Oil,Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="green-coffee">+ Compare</span>
           <img class="product-thumb" src="images/green-coffee.png" alt="Green Coffee illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Coffea arabica / robusta</span>
           <h3>Green Coffee</h3>
           <span class="forms">Coffee Oil, Extract</span>
         </a>
-        <a href="green-tea.html" class="p-card">
+        <a href="green-tea.html" class="p-card" data-slug="green-tea" data-industries="Beverages,Cosmetics,Nutraceuticals" data-forms="Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="green-tea">+ Compare</span>
           <img class="product-thumb" src="images/green-tea.png" alt="Green Tea illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Camellia sinensis</span>
           <h3>Green Tea</h3>
           <span class="forms">Extract</span>
         </a>
-        <a href="turmeric.html" class="p-card">
+        <a href="turmeric.html" class="p-card" data-slug="turmeric" data-industries="Cosmetics,Food,Nutraceuticals,Pharmaceuticals" data-forms="Essential Oil,Oleoresin,Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="turmeric">+ Compare</span>
           <img class="product-thumb" src="images/turmeric.png" alt="Turmeric illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Curcuma longa</span>
           <h3>Turmeric</h3>
           <span class="forms">Essential Oil, Oleoresin…</span>
         </a>
-        <a href="ashwagandha.html" class="p-card">
+        <a href="ashwagandha.html" class="p-card" data-slug="ashwagandha" data-industries="Functional Foods,Nutraceuticals" data-forms="Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="ashwagandha">+ Compare</span>
           <img class="product-thumb" src="images/ashwagandha.png" alt="Ashwagandha illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Withania somnifera</span>
           <h3>Ashwagandha</h3>
           <span class="forms">Extract</span>
         </a>
-        <a href="tulsi.html" class="p-card">
+        <a href="tulsi.html" class="p-card" data-slug="tulsi" data-industries="Functional Foods,Nutraceuticals" data-forms="Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="tulsi">+ Compare</span>
           <img class="product-thumb" src="images/tulsi.png" alt="Tulsi (Holy Basil) illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Ocimum tenuiflorum</span>
           <h3>Tulsi (Holy Basil)</h3>
           <span class="forms">Extract</span>
         </a>
-        <a href="nutmeg.html" class="p-card">
+        <a href="nutmeg.html" class="p-card" data-slug="nutmeg" data-industries="Beverages,Cosmetics,Food" data-forms="Essential Oil,Oleoresin">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="nutmeg">+ Compare</span>
           <img class="product-thumb" src="images/nutmeg.png" alt="Nutmeg illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Myristica fragrans</span>
           <h3>Nutmeg</h3>
           <span class="forms">Essential Oil, Oleoresin</span>
         </a>
-        <a href="cinnamon.html" class="p-card">
+        <a href="cinnamon.html" class="p-card" data-slug="cinnamon" data-industries="Beverages,Food,Nutraceuticals" data-forms="Essential Oil,Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="cinnamon">+ Compare</span>
           <img class="product-thumb" src="images/cinnamon.png" alt="Cinnamon illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Cinnamomum verum / cassia</span>
           <h3>Cinnamon</h3>
           <span class="forms">Essential Oil, Extract</span>
         </a>
-        <a href="boswellia-serrata.html" class="p-card">
+        <a href="boswellia-serrata.html" class="p-card" data-slug="boswellia-serrata" data-industries="Nutraceuticals,Pharmaceuticals" data-forms="Extract,Essential Oil">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="boswellia-serrata">+ Compare</span>
           <img class="product-thumb" src="images/boswellia-serrata.png" alt="Boswellia Serrata illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Boswellia serrata</span>
           <h3>Boswellia Serrata</h3>
           <span class="forms">Extract, Essential Oil</span>
         </a>
-        <a href="bacopa.html" class="p-card">
+        <a href="bacopa.html" class="p-card" data-slug="bacopa" data-industries="Functional Foods,Nutraceuticals" data-forms="Extract">
+          <span class="p-select" role="checkbox" aria-checked="false" tabindex="0" data-slug="bacopa">+ Compare</span>
           <img class="product-thumb" src="images/bacopa.png" alt="Bacopa illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;">
           <span class="lat">Bacopa monnieri</span>
           <h3>Bacopa</h3>
           <span class="forms">Extract</span>
         </a>
       </div>
+      <div class="facet-empty" id="facetEmpty">No products match your filters &mdash; try clearing a filter, or <a href="contact.html">tell us what you're looking for</a>.</div>
     </div>
   </section>
 
@@ -275,6 +311,8 @@
   </div>
 </footer>
 
+<script src="js/product-store.js" defer></script>
 <script src="js/site.js" defer></script>
+<script src="js/products-page.js" defer></script>
 </body>
 </html>
