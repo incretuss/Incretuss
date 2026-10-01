@@ -18,6 +18,14 @@
   }
 
   function rows(p) {
+    if (store.isCompound(p)) {
+      return [
+        ['CAS No.', p.cas || '\u2014'],
+        ['Group', p.listings.map(function (l) { return l.group; }).join('; ')],
+        ['Main opportunity', store.summary(p)],
+        ['Priority', p.listings.map(function (l) { return l.priority ? new Array(l.priority + 1).join('\u2605') : null; }).filter(Boolean).join('; ') || '\u2014'],
+      ];
+    }
     return [
       ['Latin name', p.latin],
       ['Part used', p.part],
@@ -54,8 +62,8 @@
         return (
           '<div class="compare-col">' +
           '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '">' +
-          '<h3><a href="' + p.slug + '.html">' + escapeHtml(p.name) + '</a></h3>' +
-          '<span class="lat">' + escapeHtml(p.latin) + '</span>' +
+          '<h3><a href="' + escapeHtml(store.url(p)) + '">' + escapeHtml(p.name) + '</a></h3>' +
+          '<span class="lat' + (store.isCompound(p) ? ' cas' : '') + '">' + escapeHtml(store.subtitle(p)) + '</span>' +
           rows(p)
             .map(function (r) {
               return '<div class="compare-row"><span class="cr-label">' + escapeHtml(r[0]) + '</span><span class="cr-value">' + escapeHtml(r[1]) + '</span></div>';

@@ -139,10 +139,10 @@
         .slice(0, 8)
         .map(function (p) {
           return (
-            '<li><a href="' + p.slug + '.html">' +
+            '<li><a href="' + escapeHtml(store.url(p)) + '">' +
             '<img src="' + escapeHtml(p.image) + '" alt="" loading="lazy">' +
             '<span><span class="r-name">' + escapeHtml(p.name) + '</span><br>' +
-            '<span class="r-meta">' + escapeHtml(p.forms.join(', ')) + '</span></span>' +
+            '<span class="r-meta">' + escapeHtml(store.summary(p)) + '</span></span>' +
             '</a></li>'
           );
         })
@@ -242,9 +242,9 @@
             return (
               '<div class="pi-card">' +
               '<img class="product-thumb" src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + ' illustration" style="width:100%;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line-soft);margin-bottom:8px;" loading="lazy">' +
-              '<span class="lat">' + escapeHtml(p.latin) + '</span>' +
-              '<h3><a href="' + p.slug + '.html">' + escapeHtml(p.name) + '</a></h3>' +
-              '<span class="forms">' + escapeHtml(p.forms.join(', ')) + '</span>' +
+              '<span class="lat' + (store.isCompound(p) ? ' cas' : '') + '">' + escapeHtml(store.subtitle(p)) + '</span>' +
+              '<h3><a href="' + escapeHtml(store.url(p)) + '">' + escapeHtml(p.name) + '</a></h3>' +
+              '<span class="forms">' + escapeHtml(store.summary(p)) + '</span>' +
               '</div>'
             );
           })
@@ -257,6 +257,16 @@
     // form) already known — the contact form itself is untouched.
     var heading = document.querySelector('.product-hero h1');
     var productName = heading ? heading.textContent.trim() : '';
+    // cosmetic.html renders its heading from data after load, so fall back to
+    // the product's name from the store when the heading is still empty.
+    if (!productName) {
+      store.get(slug).then(function (p) { if (p) bridgeEnquiryLinks(p.name); });
+    } else {
+      bridgeEnquiryLinks(productName);
+    }
+  })();
+
+  function bridgeEnquiryLinks(productName) {
     var NEED_MAP = {
       'Request a Quote': 'quote',
       'Request Product Brochure': 'brochure',
@@ -274,7 +284,7 @@
       params.set('need', need);
       a.setAttribute('href', 'contact.html?' + params.toString());
     });
-  })();
+  }
 
   /* ---------- products.html: recently-viewed strip ---------- */
   (function () {
@@ -290,7 +300,7 @@
         products
           .map(function (p) {
             return (
-              '<a class="rv-item" href="' + p.slug + '.html">' +
+              '<a class="rv-item" href="' + escapeHtml(store.url(p)) + '">' +
               '<img src="' + escapeHtml(p.image) + '" alt="" loading="lazy">' +
               '<span>' + escapeHtml(p.name) + '</span>' +
               '</a>'

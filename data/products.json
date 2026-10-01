@@ -1,6 +1,7 @@
 [
   {
     "slug": "ginger",
+    "category": "botanical-extracts",
     "name": "Ginger",
     "latin": "Zingiber officinale",
     "part": "Rhizome (root)",
@@ -13,6 +14,7 @@
   },
   {
     "slug": "turmeric",
+    "category": "botanical-extracts",
     "name": "Turmeric",
     "latin": "Curcuma longa",
     "part": "Rhizome (root)",
@@ -25,6 +27,7 @@
   },
   {
     "slug": "pepper",
+    "category": "botanical-extracts",
     "name": "Pepper",
     "latin": "Piper nigrum",
     "part": "Fruit (peppercorn)",
@@ -37,6 +40,7 @@
   },
   {
     "slug": "cinnamon",
+    "category": "botanical-extracts",
     "name": "Cinnamon",
     "latin": "Cinnamomum verum / cassia",
     "part": "Bark",
@@ -49,6 +53,7 @@
   },
   {
     "slug": "nutmeg",
+    "category": "botanical-extracts",
     "name": "Nutmeg",
     "latin": "Myristica fragrans",
     "part": "Seed",
@@ -61,6 +66,7 @@
   },
   {
     "slug": "garcinia-cambogia",
+    "category": "nutraceuticals",
     "name": "Garcinia Cambogia",
     "latin": "Garcinia gummi-gutta",
     "part": "Fruit rind",
@@ -73,6 +79,7 @@
   },
   {
     "slug": "green-coffee",
+    "category": "nutraceuticals",
     "name": "Green Coffee",
     "latin": "Coffea arabica / robusta",
     "part": "Unroasted bean",
@@ -85,6 +92,7 @@
   },
   {
     "slug": "green-tea",
+    "category": "botanical-extracts",
     "name": "Green Tea",
     "latin": "Camellia sinensis",
     "part": "Leaf",
@@ -97,6 +105,7 @@
   },
   {
     "slug": "ashwagandha",
+    "category": "nutraceuticals",
     "name": "Ashwagandha",
     "latin": "Withania somnifera",
     "part": "Root (root-only extraction)",
@@ -109,6 +118,7 @@
   },
   {
     "slug": "tulsi",
+    "category": "nutraceuticals",
     "name": "Tulsi (Holy Basil)",
     "latin": "Ocimum tenuiflorum",
     "part": "Leaf",
@@ -121,6 +131,7 @@
   },
   {
     "slug": "boswellia-serrata",
+    "category": "nutraceuticals",
     "name": "Boswellia Serrata",
     "latin": "Boswellia serrata",
     "part": "Gum resin",
@@ -133,6 +144,7 @@
   },
   {
     "slug": "bacopa",
+    "category": "nutraceuticals",
     "name": "Bacopa",
     "latin": "Bacopa monnieri",
     "part": "Whole herb",
@@ -142,5 +154,239 @@
     "industries": ["Functional Foods", "Nutraceuticals"],
     "image": "images/bacopa.png",
     "blurb": "Bacoside-standardized whole-herb extract, an anchor ingredient in nootropic formulations."
+  },
+  {
+    "slug": "6-undecanone",
+    "category": "cosmetics",
+    "name": "6-Undecanone",
+    "cas": "927-49-1",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Fragrance, flavor, specialty chemicals",
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "slug": "2-undecanone",
+    "category": "cosmetics",
+    "name": "2-Undecanone",
+    "cas": "112-12-9",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor, fragrance, specialty chemicals",
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "slug": "2-nonanone",
+    "category": "cosmetics",
+    "name": "2-Nonanone",
+    "cas": "821-55-6",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor, fragrance",
+        "priority": 4
+      }
+    ]
+  },
+  {
+    "slug": "2-decanone",
+    "category": "cosmetics",
+    "name": "2-Decanone",
+    "cas": "693-54-9",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor, fragrance",
+        "priority": 4
+      }
+    ]
+  },
+  {
+    "slug": "3-octanone",
+    "category": "cosmetics",
+    "name": "3-Octanone",
+    "cas": "106-68-3",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor, fragrance",
+        "priority": 4
+      }
+    ]
+  },
+  {
+    "slug": "2-octanone",
+    "category": "cosmetics",
+    "name": "2-Octanone",
+    "cas": "111-13-7",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor, fragrance",
+        "priority": 4
+      }
+    ]
+  },
+  {
+    "slug": "3-heptanone",
+    "category": "cosmetics",
+    "name": "3-Heptanone",
+    "cas": "106-35-4",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "slug": "4-heptanone",
+    "category": "cosmetics",
+    "name": "4-Heptanone",
+    "cas": "123-19-3",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor, specialty chemicals",
+        "priority": 3
+      },
+      {
+        "group": "Symmetric dialkyl ketones",
+        "opportunity": "Flavor, fragrance, solvent, specialty chemicals"
+      }
+    ]
+  },
+  {
+    "slug": "3-hexanone",
+    "category": "cosmetics",
+    "name": "3-Hexanone",
+    "cas": "589-38-8",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Fragrance / Flavor Candidates",
+        "opportunity": "Flavor",
+        "priority": 3
+      }
+    ]
+  },
+  {
+    "slug": "3-pentanone",
+    "category": "cosmetics",
+    "name": "3-Pentanone",
+    "cas": "96-22-0",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Symmetric dialkyl ketones",
+        "opportunity": "Intermediate, Flavor, fragrance, solvent, specialty chemicals"
+      }
+    ]
+  },
+  {
+    "slug": "5-nonanone",
+    "category": "cosmetics",
+    "name": "5-Nonanone",
+    "cas": "623-64-7",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Symmetric dialkyl ketones",
+        "opportunity": "Flavor, fragrance, specialty chemicals"
+      }
+    ]
+  },
+  {
+    "slug": "7-tridecanone",
+    "category": "cosmetics",
+    "name": "7-Tridecanone",
+    "cas": null,
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Symmetric dialkyl ketones",
+        "opportunity": "Fragrance, flavor, specialty chemicals"
+      }
+    ]
+  },
+  {
+    "slug": "acetophenone",
+    "category": "cosmetics",
+    "name": "Acetophenone",
+    "cas": "98-86-2",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Acetophenones",
+        "opportunity": "Flavor, fragrance, solvent, specialty chemicals, agrochem"
+      }
+    ]
+  },
+  {
+    "slug": "propiophenone",
+    "category": "cosmetics",
+    "name": "Propiophenone",
+    "cas": "93-55-0",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Acetophenones",
+        "opportunity": "Flavor, fragrance, solvent, specialty chemicals"
+      }
+    ]
+  },
+  {
+    "slug": "4-methylacetophenone",
+    "category": "cosmetics",
+    "name": "4-Methylacetophenone",
+    "cas": "122-00-9",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Acetophenones",
+        "opportunity": "Fragrance & flavor; pharmaceutical intermediate; organic synthesis"
+      }
+    ]
+  },
+  {
+    "slug": "4-bromoacetophenone",
+    "category": "cosmetics",
+    "name": "4-Bromoacetophenone",
+    "cas": "99-90-1",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Acetophenones",
+        "opportunity": "Pharmaceutical intermediate; agrochemical intermediate; heterocycle"
+      }
+    ]
+  },
+  {
+    "slug": "4-methoxyacetophenone",
+    "category": "cosmetics",
+    "name": "4-Methoxyacetophenone",
+    "cas": "100-06-1",
+    "image": "images/compound.svg",
+    "listings": [
+      {
+        "group": "Acetophenones",
+        "opportunity": "Fragrance; pharmaceutical intermediate; flavor chemistry; fine chemicals; organic synthesis"
+      }
+    ]
   }
 ]

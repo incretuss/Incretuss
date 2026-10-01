@@ -799,3 +799,41 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .selection-tray .st-actions{margin-left:0; width:100%; justify-content:center;}
   .back-to-top{right:12px; bottom:12px;}
 }
+
+/* ---------- 19. Product categories (products.html, cosmetic.html) ---------- */
+/* Category groups on products.html: Botanical Extracts / Nutraceuticals /
+   Cosmetics, each headed by the shared .section-head pattern. */
+.catalog-group + .catalog-group{margin-top:clamp(56px,7vw,88px); padding-top:clamp(40px,5vw,56px); border-top:1px solid var(--line-soft);}
+.catalog-group[hidden],.catalog-subgroup[hidden],.facet-group[hidden],.flow-chem[hidden]{display:none;}
+.catalog-group .section-head h2,.flow-chem .section-head h2{margin-top:12px; line-height:1.1;}
+/* Cosmetics sub-groups share one N° sequence across the category */
+.catalog-subgroups{counter-reset:catalog;}
+.catalog-subgroups .product-in-grid{counter-reset:none;}
+.catalog-subgroup + .catalog-subgroup{margin-top:40px;}
+.catalog-subhead{margin-bottom:16px;}
+
+/* Compound plate — stands in for product photography on Cosmetics cards */
+.p-card .compound-plate,.product-hero .compound-plate{
+  position:relative;
+  background:var(--sage-tint) url(images/compound.svg) center/cover no-repeat;
+}
+.compound-plate .cp-label{
+  position:absolute; left:14px; bottom:12px; right:14px;
+  font-family:var(--font-mono); font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+}
+.p-card .lat.cas,.pi-card .lat.cas,.compare-col .lat.cas{font-style:normal;}
+.product-hero .compound-plate{
+  width:min(250px, 55vw); aspect-ratio:250/180; margin:10px 0;
+  border:1px solid var(--line-soft); border-radius:var(--radius-sm);
+}
+
+/* Flow Chem Advantages (under Cosmetics) — reuses teaser / capability / industry components */
+.flow-chem .app-list,.flow-chem .capability-list{margin-top:4px;}
+.flow-chem .capability-list span:last-child{max-width:55%;}
+.flow-reactions{margin-top:44px;}
+.flow-reactions-lede{font-size:22px; line-height:1.35; max-width:640px;}
+.flow-reactions .industry-grid{margin-top:22px;}
+/* compound with two source listings (e.g. 4-Heptanone) → four spec columns */
+.spec-columns.cols-4{grid-template-columns:repeat(4,1fr);}
+@media (max-width:1180px){ .spec-columns.cols-4{grid-template-columns:repeat(2,1fr);} }
+@media (max-width:680px){ .spec-columns.cols-4{grid-template-columns:1fr;} }
