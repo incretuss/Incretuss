@@ -1,0 +1,276 @@
+{
+  "ashwagandha": {
+    "imageAlt": "Dried ashwagandha roots with leaves",
+    "overview": "Ashwagandha root extract is one of the most established adaptogens in Ayurvedic tradition and now one of the most commercially significant botanicals in the global supplement market. Its defining actives, withanolides, are steroidal lactones from the dried root; root-only extraction (vs. whole-plant) is the cleaner, better-tolerated basis most major branded ashwagandha ingredients use.",
+    "gradeNote": "Typical range 2.5–5% withanolides — confirm exact grade on request",
+    "applications": [
+      "<b>Nutraceuticals</b> — the leading category: stress, sleep, and vitality supplements.",
+      "<b>Sports nutrition</b> — recovery and strength-support formulations."
+    ],
+    "faqs": [
+      {
+        "q": "Is this root-only or whole-plant extract?",
+        "a": "Confirm with our team — root-only is available and is the preferred basis for most modern formulations."
+      },
+      {
+        "q": "What dose range should I formulate around?",
+        "a": "Most finished products fall in a 300–600mg/day range of standardized extract."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"bacopa.html\">Bacopa</a> and <a href=\"tulsi.html\">Tulsi</a> in adaptogen/stress-support blends."
+  },
+  "bacopa": {
+    "imageAlt": "Bacopa monnieri herb with flower",
+    "overview": "Bacopa monnieri is a creeping, wetland herb used in Ayurvedic tradition specifically for memory and cognitive support, and now an anchor ingredient in the nootropic supplement category. Its defining actives, bacosides, are nearly always sold as standardized extract — raw material is too low and variable in active content for reliable dosing.",
+    "gradeNote": "Typical range 20–50% bacosides — confirm exact grade on request",
+    "applications": [
+      "<b>Nutraceuticals</b> — cognitive-support and nootropic formulations, the primary use case.",
+      "<b>Sports &amp; student nutrition</b> — focus-support products for sustained mental performance."
+    ],
+    "faqs": [
+      {
+        "q": "What bacoside percentage do you supply?",
+        "a": "Market-standard grades run 20–50% total bacosides depending on extraction method; tell us your target."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"ashwagandha.html\">Ashwagandha</a> in cognitive/stress-support blends."
+  },
+  "boswellia-serrata": {
+    "imageAlt": "Boswellia serrata gum resin",
+    "overview": "Boswellia serrata — Indian frankincense — is tapped as a gum resin from trees native to central India, and is the most established botanical in the joint-comfort and mobility supplement category. Its defining actives are boswellic acids, with AKBA singled out as the most potent standardization marker.",
+    "gradeNote": "Typical range 65–70% boswellic acids, or AKBA-enriched — confirm exact grade on request",
+    "applications": [
+      "<b>Nutraceuticals</b> — joint-comfort and mobility-support, the dominant category.",
+      "<b>Aromatherapy &amp; fragrance</b> — the essential oil is a well-established frankincense note, independent of the extract's functional use."
+    ],
+    "faqs": [
+      {
+        "q": "Do you standardize to total boswellic acids or AKBA specifically?",
+        "a": "Both grades exist — total boswellic acid (commonly 65–70%) for general use, or AKBA-enriched where the formulation calls for the higher-potency marker."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": null
+  },
+  "cinnamon": {
+    "imageAlt": "Cinnamon bark quills",
+    "overview": "Cinnamon extract and oil come from the inner bark of either Cinnamomum verum (Ceylon) or Cinnamomum cassia, with cinnamaldehyde as the defining compound in both. The species differ meaningfully in coumarin content — Ceylon carries far less — which matters for daily-intake supplement formulations.",
+    "gradeNote": "Available on request — species (Ceylon or cassia) confirmed at order",
+    "applications": [
+      "<b>Food &amp; flavor</b> — baking, beverage, and confectionery flavoring.",
+      "<b>Nutraceuticals</b> — standardized extract in metabolic-wellness formulations."
+    ],
+    "faqs": [
+      {
+        "q": "Ceylon or cassia — which species do you supply?",
+        "a": "Confirm with our team — the two differ meaningfully in coumarin content, which matters for daily-intake formulations specifically."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": null
+  },
+  "garcinia-cambogia": {
+    "imageAlt": "Garcinia cambogia fruit",
+    "overview": "Garcinia cambogia extract is drawn from the dried rind of a small fruit native to South and Southeast Asia. Its commercial relevance comes almost entirely from hydroxycitric acid (HCA), supplied either as the free acid (water-insoluble, cheaper) or as a calcium/potassium salt (water-soluble, far more bioavailable and the form modern supplements almost always use).",
+    "gradeNote": "Typical range 50–60% HCA — confirm exact grade on request",
+    "applications": [
+      "<b>Weight management supplements</b> — the primary category, almost always as a standardized calcium/potassium salt.",
+      "<b>Functional beverages</b> — metabolic-support drinks, where the water-soluble salt dissolves cleanly."
+    ],
+    "faqs": [
+      {
+        "q": "What's the difference between the two forms you offer?",
+        "a": "Water-soluble is the calcium/potassium HCA salt, for capsules, tablets, and beverages. Water-insoluble is the free-acid form, used where cost matters more than solubility."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"green-coffee.html\">Green Coffee</a> in metabolic-support stacks."
+  },
+  "ginger": {
+    "imageAlt": "Fresh ginger rhizome, whole and sliced",
+    "overview": "Ginger rhizome extract is valued for two compound families — gingerols (pungent, dominant in fresh root) and shogaols (form as the root dries, more pungent still), plus zingiberene, which carries the warm, woody aroma. Extraction method genuinely changes the product here: CO2 extraction favors the aromatic fraction, solvent extraction pulls a broader-spectrum oleoresin, and steam distillation yields the pure essential oil.",
+    "gradeNote": "5% / 10% / 20% / 40% available",
+    "applications": [
+      "<b>Nutraceuticals</b> — digestive comfort and nausea-relief, the largest use category.",
+      "<b>Food &amp; beverage</b> — ginger ale, confectionery, and spice blends use the oleoresin or CO2 oil for consistent flavor."
+    ],
+    "faqs": [
+      {
+        "q": "Which ginger form should I use?",
+        "a": "CO2 oil for a clean aromatic profile with no residual solvent; solvent extract for the broadest-spectrum oleoresin at lower cost; essential oil for aroma only, no pungency compounds."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"pepper.html\">Pepper</a> for warming/digestive blends.",
+    "grades": [
+      {
+        "name": "Ginger Extract",
+        "form": "Solvent Extract",
+        "image": "images/web/ginger-solvent-extract.webp",
+        "alt": "Ginger solvent extract powder",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "name": "Ginger CO2 Oil (≥30% Zingiberene)",
+        "form": "CO2 Extract",
+        "image": "images/web/ginger-co2-zingiberene.webp",
+        "alt": "Ginger CO2 oil, high zingiberene content",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "name": "Ginger CO2 Oil (≥30% Gingerols)",
+        "form": "CO2 Extract",
+        "image": "images/web/ginger-co2-gingerols.webp",
+        "alt": "Ginger CO2 oil, 30% gingerols",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "name": "Ginger CO2 Oil (40% Gingerols)",
+        "form": "CO2 Extract",
+        "image": "images/web/ginger.webp",
+        "alt": "Ginger CO2 oil, 40% gingerols",
+        "w": 383,
+        "h": 266
+      }
+    ]
+  },
+  "green-coffee": {
+    "imageAlt": "Unroasted green coffee beans",
+    "overview": "Green coffee extract is drawn from unroasted beans, which retain far higher chlorogenic acid (CGA) levels than roasted beans — roasting degrades most of it. CGA is the defining active; natural caffeine is also present unless a decaffeinated grade is specified.",
+    "gradeNote": "Typical range 45–50% total CGA — confirm exact grade on request",
+    "applications": [
+      "<b>Weight management supplements</b> — the dominant use case for standardized CGA extract.",
+      "<b>Cosmetics</b> — green coffee oil (the bean's lipid fraction) in eye-care and firming skincare."
+    ],
+    "faqs": [
+      {
+        "q": "Is your green coffee extract caffeinated or decaffeinated?",
+        "a": "Standard grade is naturally caffeinated; a decaffeinated grade is available on request."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"garcinia-cambogia.html\">Garcinia Cambogia</a> in metabolic-support stacks."
+  },
+  "green-tea": {
+    "imageAlt": "Green tea leaves, fresh and dried",
+    "overview": "Green tea extract is made from unfermented Camellia sinensis leaves, preserving catechin content that oxidation destroys in black tea processing. EGCG is the most abundant and most-studied catechin; extracts are standardized either to total polyphenols or specifically to EGCG.",
+    "gradeNote": "Typical range 40–90% polyphenols, or 45–50% EGCG — confirm exact grade on request",
+    "applications": [
+      "<b>Antioxidant supplements</b> — the largest category for standardized polyphenol/EGCG extract.",
+      "<b>Cosmetics</b> — EGCG's antioxidant profile in anti-aging and soothing skincare."
+    ],
+    "faqs": [
+      {
+        "q": "Do you standardize to total polyphenols or EGCG specifically?",
+        "a": "Both grades exist — total polyphenol (commonly 40–90%) for general antioxidant use, or EGCG-specific (commonly 45–50%) where the formulation calls for it."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"green-coffee.html\">Green Coffee</a> in antioxidant and metabolic blends."
+  },
+  "nutmeg": {
+    "imageAlt": "Whole nutmeg seeds",
+    "overview": "Nutmeg is the dried seed kernel of an evergreen native to Indonesia's Banda Islands, prized for the warm aromatic profile carried by myristicin. Oleoresin captures both aroma and the heavier flavor compounds essential oil leaves behind, making it the preferred form for food manufacturing.",
+    "gradeNote": "Available on request",
+    "applications": [
+      "<b>Food &amp; flavor</b> — baking, beverage, and spice-blend flavoring, the dominant application.",
+      "<b>Fragrance</b> — the essential oil's warm, woody-spicy note in fine fragrance work."
+    ],
+    "faqs": [
+      {
+        "q": "Essential oil or oleoresin — which do I need?",
+        "a": "Essential oil for pure aroma with no residue (fragrance, aromatherapy); oleoresin for full flavor-and-aroma consistency in food manufacturing."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": null
+  },
+  "pepper": {
+    "imageAlt": "Black peppercorns (Piper nigrum)",
+    "overview": "Black pepper extract has a second identity beyond flavor: piperine, its principal pungent alkaloid, is one of the best-documented bioavailability enhancers in formulation, commonly added at low inclusion rates alongside curcumin, CoQ10, and other actives to improve absorption.",
+    "gradeNote": "Oleoresin typically 90–98% piperine — confirm exact grade on request",
+    "applications": [
+      "<b>Nutraceuticals</b> — standardized piperine extract to improve absorption of other actives in a formulation.",
+      "<b>Food &amp; flavor</b> — oleoresin and essential oil replace ground pepper where consistency matters."
+    ],
+    "faqs": [
+      {
+        "q": "What piperine percentage do you supply?",
+        "a": "Oleoresin grades commonly run 90–98% piperine for bioavailability-enhancer use; tell us your target inclusion rate."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"turmeric.html\">Turmeric</a> and <a href=\"ashwagandha.html\">Ashwagandha</a> for absorption-enhanced blends."
+  },
+  "tulsi": {
+    "imageAlt": "Tulsi (holy basil) leaves",
+    "overview": "Tulsi — \"the queen of herbs\" in Ayurveda — is a leaf extract long used as a daily adaptogenic tea across South Asia, and now a recognized global adaptogen ingredient. Its profile centers on eugenol (also found in clove) alongside ursolic acid.",
+    "gradeNote": "Available on request",
+    "applications": [
+      "<b>Nutraceuticals</b> — adaptogenic stress and immune-support, often positioned alongside ashwagandha.",
+      "<b>Functional beverages</b> — tulsi tea is one of the largest single applications for this leaf extract."
+    ],
+    "faqs": [
+      {
+        "q": "Do you supply loose-leaf/cut-and-sift material or extract only?",
+        "a": "Confirm with our team — both formats are commonly requested depending on whether you're formulating tea or a standardized extract."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"ashwagandha.html\">Ashwagandha</a> in stress-support blends."
+  },
+  "turmeric": {
+    "imageAlt": "Turmeric rhizome, sliced, with powder",
+    "overview": "Turmeric rhizome is the source of curcuminoids, which give the spice its color and its identity as a functional ingredient — and it's also an approved natural food colorant (curcumin/E100) alongside its nutraceutical use. Curcumin has notoriously poor oral bioavailability alone, which is why it's commonly paired with piperine or formulated as a lipid-complexed form.",
+    "gradeNote": "Nutra-grade typically 95% curcuminoids — confirm exact grade on request",
+    "applications": [
+      "<b>Food &amp; beverage</b> — natural yellow-orange colorant, standardized separately from the health-focused extract grade.",
+      "<b>Nutraceuticals</b> — standardized curcuminoid extract, often paired with a bioavailability enhancer."
+    ],
+    "faqs": [
+      {
+        "q": "What curcuminoid percentage do you supply?",
+        "a": "Standard nutraceutical-grade extract runs 95% curcuminoids; food-color-grade oleoresin is standardized differently — tell us which application you need."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch — this will be provided alongside your order."
+      }
+    ],
+    "relatedNote": "Pairs well with <a href=\"pepper.html\">Pepper</a> for bioavailability-enhanced formulations."
+  }
+}

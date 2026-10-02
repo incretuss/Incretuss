@@ -12,3 +12,21 @@
   to = "/.netlify/functions/contact"
   status = 200
   force = true
+
+# Compounds used to share one query-string page (cosmetic.html?p=<slug>);
+# each now has its own static page.
+[[redirects]]
+  from = "/cosmetic.html"
+  query = {p = ":p"}
+  to = "/:p.html"
+  status = 301
+
+[[redirects]]
+  from = "/cosmetic.html"
+  to = "/cosmetic-ingredients.html"
+  status = 301
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

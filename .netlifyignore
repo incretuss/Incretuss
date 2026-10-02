@@ -6,3 +6,4 @@ netlify/functions/
 package.json
 package-lock.json
 .env
+src/

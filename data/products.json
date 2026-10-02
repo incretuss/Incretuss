@@ -5,11 +5,26 @@
     "name": "Ginger",
     "latin": "Zingiber officinale",
     "part": "Rhizome (root)",
-    "forms": ["Essential Oil", "CO2 Extract", "Solvent Extract", "Oleoresin", "Ginger Extract"],
-    "markers": ["Zingiberene", "Gingerols", "Shogaols"],
+    "forms": [
+      "Essential Oil",
+      "CO2 Extract",
+      "Solvent Extract",
+      "Oleoresin",
+      "Ginger Extract"
+    ],
+    "markers": [
+      "Zingiberene",
+      "Gingerols",
+      "Shogaols"
+    ],
     "grade": "5% / 10% / 20% / 40% available",
-    "industries": ["Food", "Beverages", "Nutraceuticals", "Pharmaceuticals"],
-    "image": "images/ginger.png",
+    "industries": [
+      "Food",
+      "Beverages",
+      "Nutraceuticals",
+      "Pharmaceuticals"
+    ],
+    "image": "images/web/ginger.webp",
     "blurb": "CO2 and solvent extracts standardized on gingerols, shogaols, and zingiberene."
   },
   {
@@ -18,11 +33,22 @@
     "name": "Turmeric",
     "latin": "Curcuma longa",
     "part": "Rhizome (root)",
-    "forms": ["Essential Oil", "Oleoresin", "Extract"],
-    "markers": ["Curcumin"],
+    "forms": [
+      "Essential Oil",
+      "Oleoresin",
+      "Extract"
+    ],
+    "markers": [
+      "Curcumin"
+    ],
     "grade": "Nutra-grade typically 95% curcuminoids",
-    "industries": ["Cosmetics", "Food", "Nutraceuticals", "Pharmaceuticals"],
-    "image": "images/turmeric.png",
+    "industries": [
+      "Cosmetics",
+      "Food",
+      "Nutraceuticals",
+      "Pharmaceuticals"
+    ],
+    "image": "images/web/turmeric.webp",
     "blurb": "Curcuminoid-standardized extract and oleoresin, valued as both a functional ingredient and a natural colorant."
   },
   {
@@ -31,11 +57,21 @@
     "name": "Pepper",
     "latin": "Piper nigrum",
     "part": "Fruit (peppercorn)",
-    "forms": ["Essential Oil", "Oleoresin", "Extract"],
-    "markers": ["Piperine"],
+    "forms": [
+      "Essential Oil",
+      "Oleoresin",
+      "Extract"
+    ],
+    "markers": [
+      "Piperine"
+    ],
     "grade": "Oleoresin typically 90–98% piperine",
-    "industries": ["Beverages", "Food", "Nutraceuticals"],
-    "image": "images/pepper.png",
+    "industries": [
+      "Beverages",
+      "Food",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/pepper.webp",
     "blurb": "Piperine-standardized oleoresin, widely used as a bioavailability enhancer alongside actives like curcumin and CoQ10."
   },
   {
@@ -44,11 +80,20 @@
     "name": "Cinnamon",
     "latin": "Cinnamomum verum / cassia",
     "part": "Bark",
-    "forms": ["Essential Oil", "Extract"],
-    "markers": ["Cinnamaldehyde"],
+    "forms": [
+      "Essential Oil",
+      "Extract"
+    ],
+    "markers": [
+      "Cinnamaldehyde"
+    ],
     "grade": "Available on request — species (Ceylon or cassia) confirmed at order",
-    "industries": ["Beverages", "Food", "Nutraceuticals"],
-    "image": "images/cinnamon.png",
+    "industries": [
+      "Beverages",
+      "Food",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/cinnamon.webp",
     "blurb": "Cinnamaldehyde-defined bark extract and oil, sourced as Ceylon or cassia depending on coumarin tolerance."
   },
   {
@@ -57,11 +102,20 @@
     "name": "Nutmeg",
     "latin": "Myristica fragrans",
     "part": "Seed",
-    "forms": ["Essential Oil", "Oleoresin"],
-    "markers": ["Myristicin"],
+    "forms": [
+      "Essential Oil",
+      "Oleoresin"
+    ],
+    "markers": [
+      "Myristicin"
+    ],
     "grade": "Available on request",
-    "industries": ["Beverages", "Cosmetics", "Food"],
-    "image": "images/nutmeg.png",
+    "industries": [
+      "Beverages",
+      "Cosmetics",
+      "Food"
+    ],
+    "image": "images/web/nutmeg.webp",
     "blurb": "Myristicin-carrying seed oil and oleoresin prized for a warm aromatic profile in flavor and fragrance work."
   },
   {
@@ -70,11 +124,20 @@
     "name": "Garcinia Cambogia",
     "latin": "Garcinia gummi-gutta",
     "part": "Fruit rind",
-    "forms": ["Water Soluble Extract", "Water Insoluble Extract", "USP Standard Extract"],
-    "markers": ["Hydroxycitric Acid (HCA)"],
+    "forms": [
+      "Water Soluble Extract",
+      "Water Insoluble Extract",
+      "USP Standard Extract"
+    ],
+    "markers": [
+      "Hydroxycitric Acid (HCA)"
+    ],
     "grade": "Typical range 50–60% HCA",
-    "industries": ["Functional Foods", "Nutraceuticals"],
-    "image": "images/garcinia-cambogia.png",
+    "industries": [
+      "Functional Foods",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/garcinia-cambogia.webp",
     "blurb": "HCA-standardized fruit rind extract for weight-management formulations, available as free acid or calcium salt."
   },
   {
@@ -83,11 +146,20 @@
     "name": "Green Coffee",
     "latin": "Coffea arabica / robusta",
     "part": "Unroasted bean",
-    "forms": ["Coffee Oil", "Extract"],
-    "markers": ["Chlorogenic Acid"],
+    "forms": [
+      "Coffee Oil",
+      "Extract"
+    ],
+    "markers": [
+      "Chlorogenic Acid"
+    ],
     "grade": "Typical range 45–50% total CGA",
-    "industries": ["Cosmetics", "Functional Foods", "Nutraceuticals"],
-    "image": "images/green-coffee.png",
+    "industries": [
+      "Cosmetics",
+      "Functional Foods",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/green-coffee.webp",
     "blurb": "Chlorogenic-acid-rich unroasted bean extract, with caffeinated and decaffeinated grades available."
   },
   {
@@ -96,11 +168,21 @@
     "name": "Green Tea",
     "latin": "Camellia sinensis",
     "part": "Leaf",
-    "forms": ["Extract"],
-    "markers": ["EGCG", "Catechins", "Polyphenols"],
+    "forms": [
+      "Extract"
+    ],
+    "markers": [
+      "EGCG",
+      "Catechins",
+      "Polyphenols"
+    ],
     "grade": "Typical range 40–90% polyphenols, or 45–50% EGCG",
-    "industries": ["Beverages", "Cosmetics", "Nutraceuticals"],
-    "image": "images/green-tea.png",
+    "industries": [
+      "Beverages",
+      "Cosmetics",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/green-tea.webp",
     "blurb": "Unfermented-leaf extract standardized to total polyphenols or specific EGCG content."
   },
   {
@@ -109,11 +191,18 @@
     "name": "Ashwagandha",
     "latin": "Withania somnifera",
     "part": "Root (root-only extraction)",
-    "forms": ["Extract"],
-    "markers": ["Withanolides"],
+    "forms": [
+      "Extract"
+    ],
+    "markers": [
+      "Withanolides"
+    ],
     "grade": "Typical range 2.5–5% withanolides",
-    "industries": ["Functional Foods", "Nutraceuticals"],
-    "image": "images/ashwagandha.png",
+    "industries": [
+      "Functional Foods",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/ashwagandha.webp",
     "blurb": "Root-only adaptogen extract standardized on withanolide content, a leading category in global supplements."
   },
   {
@@ -122,11 +211,19 @@
     "name": "Tulsi (Holy Basil)",
     "latin": "Ocimum tenuiflorum",
     "part": "Leaf",
-    "forms": ["Extract"],
-    "markers": ["Eugenol", "Ursolic Acid"],
+    "forms": [
+      "Extract"
+    ],
+    "markers": [
+      "Eugenol",
+      "Ursolic Acid"
+    ],
     "grade": "Available on request",
-    "industries": ["Functional Foods", "Nutraceuticals"],
-    "image": "images/tulsi.png",
+    "industries": [
+      "Functional Foods",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/tulsi.webp",
     "blurb": "Leaf extract centered on eugenol and ursolic acid, drawn from a long-standing Ayurvedic adaptogen."
   },
   {
@@ -135,11 +232,20 @@
     "name": "Boswellia Serrata",
     "latin": "Boswellia serrata",
     "part": "Gum resin",
-    "forms": ["Extract", "Essential Oil"],
-    "markers": ["Boswellic Acids", "AKBA"],
+    "forms": [
+      "Extract",
+      "Essential Oil"
+    ],
+    "markers": [
+      "Boswellic Acids",
+      "AKBA"
+    ],
     "grade": "Typical range 65–70% boswellic acids, or AKBA-enriched",
-    "industries": ["Nutraceuticals", "Pharmaceuticals"],
-    "image": "images/boswellia-serrata.png",
+    "industries": [
+      "Nutraceuticals",
+      "Pharmaceuticals"
+    ],
+    "image": "images/web/boswellia-serrata.webp",
     "blurb": "Gum resin extract standardized on boswellic acids, the established botanical in the joint-comfort category."
   },
   {
@@ -148,11 +254,18 @@
     "name": "Bacopa",
     "latin": "Bacopa monnieri",
     "part": "Whole herb",
-    "forms": ["Extract"],
-    "markers": ["Bacosides"],
+    "forms": [
+      "Extract"
+    ],
+    "markers": [
+      "Bacosides"
+    ],
     "grade": "Typical range 20–50% bacosides",
-    "industries": ["Functional Foods", "Nutraceuticals"],
-    "image": "images/bacopa.png",
+    "industries": [
+      "Functional Foods",
+      "Nutraceuticals"
+    ],
+    "image": "images/web/bacopa.webp",
     "blurb": "Bacoside-standardized whole-herb extract, an anchor ingredient in nootropic formulations."
   },
   {
@@ -160,7 +273,6 @@
     "category": "cosmetics",
     "name": "6-Undecanone",
     "cas": "927-49-1",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -174,7 +286,6 @@
     "category": "cosmetics",
     "name": "2-Undecanone",
     "cas": "112-12-9",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -188,7 +299,6 @@
     "category": "cosmetics",
     "name": "2-Nonanone",
     "cas": "821-55-6",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -202,7 +312,6 @@
     "category": "cosmetics",
     "name": "2-Decanone",
     "cas": "693-54-9",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -216,7 +325,6 @@
     "category": "cosmetics",
     "name": "3-Octanone",
     "cas": "106-68-3",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -230,7 +338,6 @@
     "category": "cosmetics",
     "name": "2-Octanone",
     "cas": "111-13-7",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -244,7 +351,6 @@
     "category": "cosmetics",
     "name": "3-Heptanone",
     "cas": "106-35-4",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -258,7 +364,6 @@
     "category": "cosmetics",
     "name": "4-Heptanone",
     "cas": "123-19-3",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -276,7 +381,6 @@
     "category": "cosmetics",
     "name": "3-Hexanone",
     "cas": "589-38-8",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Fragrance / Flavor Candidates",
@@ -290,7 +394,6 @@
     "category": "cosmetics",
     "name": "3-Pentanone",
     "cas": "96-22-0",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Symmetric dialkyl ketones",
@@ -303,7 +406,6 @@
     "category": "cosmetics",
     "name": "5-Nonanone",
     "cas": "623-64-7",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Symmetric dialkyl ketones",
@@ -316,7 +418,6 @@
     "category": "cosmetics",
     "name": "7-Tridecanone",
     "cas": null,
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Symmetric dialkyl ketones",
@@ -329,7 +430,6 @@
     "category": "cosmetics",
     "name": "Acetophenone",
     "cas": "98-86-2",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Acetophenones",
@@ -342,7 +442,6 @@
     "category": "cosmetics",
     "name": "Propiophenone",
     "cas": "93-55-0",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Acetophenones",
@@ -355,7 +454,6 @@
     "category": "cosmetics",
     "name": "4-Methylacetophenone",
     "cas": "122-00-9",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Acetophenones",
@@ -368,7 +466,6 @@
     "category": "cosmetics",
     "name": "4-Bromoacetophenone",
     "cas": "99-90-1",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Acetophenones",
@@ -381,7 +478,6 @@
     "category": "cosmetics",
     "name": "4-Methoxyacetophenone",
     "cas": "100-06-1",
-    "image": "images/compound.svg",
     "listings": [
       {
         "group": "Acetophenones",
