@@ -154,7 +154,7 @@ function footer() {
     `<img src="/images/logo-light.svg" alt="${esc(SITE.name)}" width="190" height="55">` +
     '<p>Botanical extracts, nutraceutical ingredients and cosmetic ingredients, supplied in bulk to manufacturers.</p>' +
     '</div>' +
-    '<div class="footer-col"><h2>Products</h2><ul>' + cat + '<li><a href="/products.html">Full catalogue</a></li></ul></div>' +
+    '<div class="footer-col"><h2>Products</h2><ul>' + cat + '<li><a href="/products.html">Full catalogue</a></li><li><a href="/brochure.html">Product brochure</a></li></ul></div>' +
     '<div class="footer-col"><h2>Company</h2><ul>' +
     '<li><a href="/about.html">About Incretuss</a></li>' +
     '<li><a href="/quality.html">Quality &amp; Manufacturing</a></li>' +

@@ -861,3 +861,62 @@ body.nav-locked { overflow: hidden; }
   body { background: #fff; }
   .section, .product-head { padding-block: 16px; }
 }
+
+/* ---------- Brochure (brochure.html) ---------- */
+.b-event { margin-top: 18px; font-size: 16px; color: var(--ink-2); }
+.b-event strong { color: var(--green-700); font-weight: 600; }
+
+.b-tabs-bar {
+  position: sticky; top: var(--header-h); z-index: 50;
+  background: var(--paper); border-bottom: 1px solid var(--rule);
+}
+.b-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.b-tab {
+  display: flex; align-items: baseline; gap: 12px; padding: 18px 20px 16px 0;
+  border-bottom: 3px solid transparent; margin-bottom: -1px; color: var(--ink-2);
+  transition: color .15s, border-color .15s;
+}
+.b-tab + .b-tab { padding-left: 20px; border-left: 1px solid var(--rule-soft); }
+.b-tab-name { font-family: var(--serif); font-size: 1.2rem; }
+.b-tab .menu-count { margin-left: auto; font-size: 13px; color: var(--ink-3); }
+.b-tab:hover { color: var(--ink); }
+.b-tab[aria-selected='true'] { color: var(--ink); border-bottom-color: var(--tone); }
+.b-tab[aria-selected='true'] .b-tab-name { color: var(--tone); }
+
+/* without JS every section shows; with JS only the selected one */
+.b-panel + .b-panel { margin-top: var(--section); }
+.is-tabbed .b-panel:not(.is-active) { display: none; }
+.is-tabbed .b-panel + .b-panel { margin-top: 0; }
+.b-panel:focus-visible { outline-offset: 8px; }
+.b-panel-head {
+  display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 8px 24px; align-items: baseline;
+  padding-bottom: 20px; margin-bottom: 32px; border-bottom: 2px solid var(--tone);
+}
+.b-panel-head p { margin-top: 8px; color: var(--ink-2); max-width: 70ch; }
+
+.b-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 32px; }
+.b-card { display: flex; flex-direction: column; }
+.b-card-body { display: flex; flex-direction: column; flex: 1; margin-top: 16px; }
+.b-card h3 { font-size: 1.4rem; }
+.b-card h3 a:hover { color: var(--tone); }
+.b-card .entry-foot { gap: 20px; justify-content: flex-start; }
+.b-capability { margin-top: 48px; max-width: 760px; }
+.b-capability .tags { margin-top: 16px; }
+
+@media (max-width: 1024px) {
+  .b-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .b-tabs-bar { overflow-x: auto; }
+  .b-tab { padding: 14px 12px 12px 0; gap: 8px; flex-direction: column; }
+  .b-tab + .b-tab { padding-left: 12px; }
+  .b-tab-name { font-size: 1rem; line-height: 1.25; }
+  .b-tab .menu-count { margin-left: 0; }
+  .b-tab .menu-index { display: none; }
+  .b-panel-head { grid-template-columns: minmax(0, 1fr); }
+  .b-panel-head .cat-num { display: none; }
+  .b-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+}
+@media print {
+  .b-tabs-bar { display: none; }
+}

@@ -18,4 +18,23 @@ After changing anything in `src/` or `data/`, run:
 
 and commit the regenerated HTML and `sitemap.xml`.
 
+## Event brochure (`/brochure.html`)
+
+The brochure shows one section at a time — Botanical Extracts, Nutraceutical
+Ingredients or Cosmetic Ingredients — with tabs to switch. Before an event,
+edit `data/brochure.json`:
+
+    {
+      "defaultSection": "cosmetics",
+      "event": "Vitafoods Asia 2026"
+    }
+
+- `defaultSection`: `botanicals`, `nutraceuticals` or `cosmetics` — the section that opens first.
+- `event`: optional; shows "Meet us at …" on the brochure. Leave `""` to hide it.
+
+Commit and push; no rebuild is needed for these two settings (running
+`npm run build` as well keeps the HTML in step). A link can also open a
+specific section regardless of the default, e.g. for a QR code:
+`https://incretuss.com/brochure.html?section=nutraceuticals`.
+
 The contact form posts to `netlify/functions/contact.js` (Resend); see `.env.example`.

@@ -11,6 +11,7 @@ import { page } from './lib/layout.mjs';
 import { CATEGORIES } from './content/site.mjs';
 import { PRODUCTS, counts } from './lib/catalogue.mjs';
 import home from './pages/home.mjs';
+import brochurePage from './pages/brochure.mjs';
 import { productsIndex, categoryPage } from './pages/catalogue.mjs';
 import { productPage } from './pages/product.mjs';
 import { aboutPage, applicationsPage, comparePage, contactPage, notFoundPage, qualityPage } from './pages/company.mjs';
@@ -27,6 +28,7 @@ const pages = [
   aboutPage(),
   contactPage(),
   comparePage(),
+  brochurePage(),
   notFoundPage(),
 ];
 
@@ -38,7 +40,7 @@ for (const p of pages) {
 }
 
 // Superseded by one static page per compound (see netlify.toml redirect).
-for (const old of ['cosmetic.html', 'js/cosmetic-page.js', 'js/products-page.js']) {
+for (const old of ['cosmetic.html', 'js/cosmetic-page.js', 'js/products-page.js', 'brochure_styles.css', 'brochure_script.js']) {
   if (existsSync(new URL(old, root))) unlinkSync(new URL(old, root));
 }
 

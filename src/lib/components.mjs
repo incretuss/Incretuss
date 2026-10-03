@@ -88,7 +88,7 @@ export function catalogueRow(p) {
 }
 
 // Register-style table for the cosmetic compounds.
-export function compoundTable(groups, { caption } = {}) {
+export function compoundTable(groups, { caption, compare = true } = {}) {
   return groups
     .map(
       (g) =>
@@ -96,7 +96,9 @@ export function compoundTable(groups, { caption } = {}) {
         `<h3 class="register-title">${esc(g.label)}<span>${g.items.length} ${g.items.length === 1 ? 'compound' : 'compounds'}</span></h3>` +
         '<div class="table-scroll"><table class="register">' +
         (caption ? `<caption class="sr-only">${esc(g.label)}</caption>` : '') +
-        '<thead><tr><th scope="col">Compound</th><th scope="col">CAS No.</th><th scope="col">Main applications</th><th scope="col"><span class="sr-only">Actions</span></th></tr></thead><tbody>' +
+        '<thead><tr><th scope="col">Compound</th><th scope="col">CAS No.</th><th scope="col">Main applications</th>' +
+        (compare ? '<th scope="col"><span class="sr-only">Actions</span></th>' : '') +
+        '</tr></thead><tbody>' +
         g.items
           .map(
             ({ p, listing }) =>
@@ -104,7 +106,7 @@ export function compoundTable(groups, { caption } = {}) {
               `<th scope="row"><a href="/${url(p)}">${esc(p.name)}</a></th>` +
               `<td class="mono">${esc(p.cas || '—')}</td>` +
               `<td>${esc(sentenceCase(listing.opportunity))}</td>` +
-              `<td class="register-actions">${compareToggle(p)}</td>` +
+              (compare ? `<td class="register-actions">${compareToggle(p)}</td>` : '') +
               '</tr>'
           )
           .join('') +
