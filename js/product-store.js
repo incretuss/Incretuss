@@ -1,13 +1,31 @@
-// Shared product data layer, loaded on every page via
-// <script src="js/product-store.js" defer></script> before js/site.js.
+// Shared product data layer, loaded on every page before js/site.js.
 //
-// Everything below reads from the one hand-consolidated data/products.json —
-// the same fields already written into each product page's spec tables —
-// so search, filtering, related products, comparison and the shortlist all
-// stay consistent without duplicating data per page.
+// Reads data/products.json (the same data src/build.mjs renders the pages
+// from) for the header search, the compare table and the contact-form
+// shortlist, and keeps the visitor's compare selection and recently viewed
+// products in localStorage.
+//
+// Entries carry a `category` (botanical-extracts | nutraceuticals |
+// cosmetics). Cosmetics entries are compounds: they have `cas` and
+// `listings` ({group, opportunity}) instead of latin/part/forms/markers.
 window.ProductStore = (function () {
-  var DATA_URL = '/data/products.json';
+  var DATA_URL = document.currentScript
+    ? new URL('../data/products.json', document.currentScript.src).href
+    : '/data/products.json';
+  var CATEGORY_NAMES = {
+    'botanical-extracts': 'Botanical Extracts',
+    nutraceuticals: 'Nutraceutical Ingredients',
+    cosmetics: 'Cosmetic Ingredients',
+  };
   var cache = null;
+
+  function normalize(p) {
+    p.forms = p.forms || [];
+    p.markers = p.markers || [];
+    p.industries = p.industries || [];
+    p.listings = p.listings || [];
+    return p;
+  }
 
   function load() {
     if (!cache) {
@@ -16,6 +34,7 @@ window.ProductStore = (function () {
           if (!res.ok) throw new Error('products.json responded ' + res.status);
           return res.json();
         })
+        .then(function (list) { return list.map(normalize); })
         .catch(function (err) {
           console.error('ProductStore: failed to load product data', err);
           return [];
@@ -28,47 +47,39 @@ window.ProductStore = (function () {
     return list.filter(function (p) { return p.slug === slug; })[0];
   }
 
-  function matchesQuery(p, q) {
-    if (!q) return true;
-    var haystack = [p.name, p.latin, p.part]
-      .concat(p.forms, p.markers, p.industries)
-      .join(' ')
-      .toLowerCase();
-    return haystack.indexOf(q.toLowerCase()) !== -1;
+  function isCompound(p) { return p.category === 'cosmetics'; }
+
+  // Every product has its own static page at /<slug>.html.
+  function url(p) { return p.slug + '.html'; }
+
+  function categoryName(p) { return CATEGORY_NAMES[p.category] || ''; }
+
+  // Secondary line under a product name (botanical name / CAS number).
+  function subtitle(p) {
+    return isCompound(p) ? 'CAS ' + (p.cas || '—') : p.latin;
   }
 
-  function search(query, opts) {
-    opts = opts || {};
-    return load().then(function (list) {
-      return list.filter(function (p) {
-        if (!matchesQuery(p, query)) return false;
-        if (opts.industry && p.industries.indexOf(opts.industry) === -1) return false;
-        if (opts.form && p.forms.indexOf(opts.form) === -1) return false;
-        return true;
-      });
+  // One-line description of what's on offer (forms / main applications).
+  function summary(p) {
+    if (!isCompound(p)) return p.forms.join(', ');
+    return p.listings.map(function (l) { return l.opportunity; }).join('; ');
+  }
+
+  function matchesQuery(p, q) {
+    if (!q) return true;
+    var haystack = [p.name, p.latin, p.part, p.cas, categoryName(p)]
+      .concat(p.forms, p.markers, p.industries)
+      .concat(p.listings.map(function (l) { return l.group + ' ' + l.opportunity; }))
+      .join(' ')
+      .toLowerCase();
+    return q.toLowerCase().split(/\s+/).every(function (term) {
+      return haystack.indexOf(term) !== -1;
     });
   }
 
-  // Related-by-relevance: shared industries count more than shared forms or
-  // markers, since "who else buys this" is the strongest B2B signal here.
-  function related(slug, limit) {
-    limit = limit || 4;
+  function search(query) {
     return load().then(function (list) {
-      var target = bySlug(list, slug);
-      if (!target) return [];
-      return list
-        .filter(function (p) { return p.slug !== slug; })
-        .map(function (p) {
-          var score = 0;
-          p.industries.forEach(function (i) { if (target.industries.indexOf(i) !== -1) score += 2; });
-          p.forms.forEach(function (f) { if (target.forms.indexOf(f) !== -1) score += 1; });
-          p.markers.forEach(function (m) { if (target.markers.indexOf(m) !== -1) score += 1; });
-          return { product: p, score: score };
-        })
-        .filter(function (x) { return x.score > 0; })
-        .sort(function (a, b) { return b.score - a.score; })
-        .slice(0, limit)
-        .map(function (x) { return x.product; });
+      return list.filter(function (p) { return matchesQuery(p, query); });
     });
   }
 
@@ -82,23 +93,8 @@ window.ProductStore = (function () {
     });
   }
 
-  function facets() {
-    return load().then(function (list) {
-      var industries = {}, forms = {};
-      list.forEach(function (p) {
-        p.industries.forEach(function (i) { industries[i] = true; });
-        p.forms.forEach(function (f) { forms[f] = true; });
-      });
-      return {
-        industries: Object.keys(industries).sort(),
-        forms: Object.keys(forms).sort(),
-      };
-    });
-  }
-
   // ---- Selection: one shared set behind both "compare" and "shortlist to
-  // enquire" — a visitor picks products once, then chooses what to do with
-  // the picks, instead of two competing checkbox systems on the same cards.
+  // inquire" — a visitor picks products once, then chooses what to do.
   var SELECTION_KEY = 'incretuss:selection';
   var RECENT_KEY = 'incretuss:recentlyViewed';
 
@@ -136,8 +132,11 @@ window.ProductStore = (function () {
     get: get,
     byslugs: byslugs,
     search: search,
-    related: related,
-    facets: facets,
+    isCompound: isCompound,
+    url: url,
+    categoryName: categoryName,
+    subtitle: subtitle,
+    summary: summary,
     selection: { read: readSelection, toggle: toggleSelection, clear: clearSelection },
     recentlyViewed: { push: pushRecentlyViewed, read: readRecentlyViewed },
   };

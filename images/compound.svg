@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Generic plate for Cosmetics compounds (no product photography exists).
+       Same flask + molecule motif as images/chemicals.svg, recoloured to the
+       current palette tokens in style.css (sage-tint, sage, sage-deep, gold). -->
+  <defs>
+    <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="12.5" cy="12.5" r="1" fill="#14171a" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="#e7ede7"/>
+  <rect width="400" height="300" fill="url(#dots)"/>
+
+  <!-- flask -->
+  <g transform="translate(140,96)">
+    <path d="M28 0 L28 30 L4 78 A10 10 0 0 0 13 92 L67 92 A10 10 0 0 0 76 78 L52 30 L52 0" fill="#ffffff" stroke="#2d5037" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M12 68 L68 68 L 62 82 A6 6 0 0 1 57 85 L23 85 A6 6 0 0 1 18 82 Z" fill="#249643" opacity="0.85"/>
+    <line x1="20" y1="0" x2="60" y2="0" stroke="#2d5037" stroke-width="2"/>
+  </g>
+
+  <!-- molecule -->
+  <line x1="250" y1="120" x2="274" y2="142" stroke="#565b56" stroke-width="1.2"/>
+  <line x1="250" y1="120" x2="236" y2="152" stroke="#565b56" stroke-width="1.2"/>
+  <line x1="274" y1="142" x2="236" y2="152" stroke="#565b56" stroke-width="1.2"/>
+  <circle cx="250" cy="120" r="6" fill="#e03e3e"/>
+  <circle cx="274" cy="142" r="6" fill="#249643"/>
+  <circle cx="236" cy="152" r="6" fill="#2d5037"/>
+</svg>

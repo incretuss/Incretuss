@@ -1,116 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://incretuss.com/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/about.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/products.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/ashwagandha.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/bacopa.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/boswellia-serrata.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/cinnamon.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/garcinia-cambogia.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/ginger.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/green-coffee.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/green-tea.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/nutmeg.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/pepper.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/tulsi.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/turmeric.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://incretuss.com/contact.html</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
+  <url><loc>https://incretuss.com/</loc><lastmod>2026-10-03</lastmod><priority>1.0</priority></url>
+  <url><loc>https://incretuss.com/products.html</loc><lastmod>2026-10-03</lastmod><priority>0.9</priority></url>
+  <url><loc>https://incretuss.com/botanical-extracts.html</loc><lastmod>2026-10-03</lastmod><priority>0.9</priority></url>
+  <url><loc>https://incretuss.com/nutraceutical-ingredients.html</loc><lastmod>2026-10-03</lastmod><priority>0.9</priority></url>
+  <url><loc>https://incretuss.com/cosmetic-ingredients.html</loc><lastmod>2026-10-03</lastmod><priority>0.9</priority></url>
+  <url><loc>https://incretuss.com/ginger.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/turmeric.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/pepper.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/cinnamon.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/nutmeg.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/garcinia-cambogia.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/green-coffee.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/green-tea.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/ashwagandha.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/tulsi.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/boswellia-serrata.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/bacopa.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/6-undecanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/2-undecanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/2-nonanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/2-decanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/3-octanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/2-octanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/3-heptanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/4-heptanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/3-hexanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/3-pentanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/5-nonanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/7-tridecanone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/acetophenone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/propiophenone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/4-methylacetophenone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/4-bromoacetophenone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/4-methoxyacetophenone.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/applications.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/quality.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/about.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
+  <url><loc>https://incretuss.com/contact.html</loc><lastmod>2026-10-03</lastmod><priority>0.7</priority></url>
 </urlset>
