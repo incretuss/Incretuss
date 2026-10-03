@@ -151,7 +151,7 @@ function about() {
 <section class="section">
   <div class="wrap statement">
     <p class="label">About Incretuss</p>
-    <p class="statement-text">The name comes from the Latin <em>incrementum</em>, growth, and <em>rectus</em>, correct — growth that is precise, not just fast.</p>
+    <p class="statement-text">The name comes from the Latin <em>incrementum</em>, growth, and <em>rectus</em>, correct: growth that is precise, not just fast.</p>
     <div class="statement-body">
       <p>In practice that means a focused product range rather than an unfocused one, in-house manufacturing rather than resold stock, and documentation provided as standard rather than on demand.</p>
       <a class="link-arrow" href="/about.html">About the company ${icons.arrow}</a>
@@ -163,7 +163,7 @@ function about() {
 export default function home() {
   return {
     path: 'index.html',
-    title: 'Incretuss — Botanical Extracts, Nutraceutical & Cosmetic Ingredients',
+    title: 'Incretuss | Botanical Extracts, Nutraceutical & Cosmetic Ingredients',
     description:
       'Incretuss Private Limited supplies standardized botanical extracts, oleoresins, essential oils, nutraceutical ingredients and aroma chemicals in bulk to manufacturers. Bengaluru, India.',
     active: 'home',

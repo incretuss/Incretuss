@@ -89,7 +89,7 @@ export function botanicalPage(p) {
       rows: [
         ['Packaging', ON_REQUEST],
         ['Documentation', 'Certificate of Analysis per batch; specification sheet on request'],
-        ['Export', 'Available — confirm destination with our team'],
+        ['Export', 'Available; confirm destination with our team'],
       ],
     },
   ]);
@@ -177,7 +177,7 @@ export function botanicalPage(p) {
       secondary: { href: `/${c.page}`, label: `More ${c.name.toLowerCase()}` },
     });
 
-  const description = truncate(`${p.name} (${p.latin}) — ${text(p.blurb)} Forms: ${p.forms.join(', ')}. Bulk supply from Incretuss.`, 158);
+  const description = truncate(`${p.name} (${p.latin}): ${text(p.blurb)} Forms: ${p.forms.join(', ')}. Bulk supply from Incretuss.`, 158);
 
   return {
     path: url(p),
@@ -213,7 +213,7 @@ export function compoundPage(p) {
         <div class="compound-plate" aria-hidden="true">
           <span class="cp-top">${esc(groups[0])}</span>
           <span class="cp-name">${esc(p.name)}</span>
-          <span class="cp-cas">CAS ${esc(p.cas || '—')}</span>
+          <span class="cp-cas">CAS ${esc(p.cas || 'on request')}</span>
           <span class="cp-foot">Incretuss · ${esc(c.name)}</span>
         </div>
       </div>
@@ -248,7 +248,7 @@ export function compoundPage(p) {
           title: 'Identity',
           rows: [
             ['Compound', esc(p.name)],
-            ['CAS number', `<span class="mono">${esc(p.cas || '—')}</span>`],
+            ['CAS number', `<span class="mono">${esc(p.cas || 'On request')}</span>`],
             ['Chemical class', groups.map(esc).join('; ')],
           ],
         },
@@ -258,7 +258,7 @@ export function compoundPage(p) {
             ['Purity / grade', ON_REQUEST],
             ['Packaging', ON_REQUEST],
             ['Documentation', 'TDS and SDS on request; COA per batch'],
-            ['Export', 'Available — confirm destination with our team'],
+            ['Export', 'Available; confirm destination with our team'],
           ],
         },
       ])}
@@ -298,7 +298,7 @@ export function compoundPage(p) {
     });
 
   const description = truncate(
-    `${p.name}${p.cas ? ` (CAS ${p.cas})` : ''} — ${groups.join(', ').toLowerCase()} for ${ops.join(', ').toLowerCase()}. Bulk supply from Incretuss; TDS and SDS on request.`,
+    `${p.name}${p.cas ? ` (CAS ${p.cas})` : ''}: ${groups.join(', ').toLowerCase()} for ${ops.join(', ').toLowerCase()}. Bulk supply from Incretuss; TDS and SDS on request.`,
     158
   );
 

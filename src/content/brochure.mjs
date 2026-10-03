@@ -1,5 +1,5 @@
-// Brochure-only content (brochure.html). The switchable settings — which
-// section opens first and the event name — live in data/brochure.json so
+// Brochure-only content (brochure.html). The switchable settings (which
+// section opens first and the event name) live in data/brochure.json so
 // they can be changed without touching code; see README.md.
 
 // Section keys as used in data/brochure.json and ?section= links, mapped to

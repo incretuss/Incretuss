@@ -1,4 +1,4 @@
-// brochure.html — the event brochure. One catalogue section is shown at a
+// brochure.html: the event brochure. One catalogue section is shown at a
 // time, with tabs to switch; which section opens first is set in
 // data/brochure.json (read again at runtime by js/brochure.js, so changing
 // it does not need a rebuild) or per link with ?section=<name>.
@@ -126,7 +126,7 @@ export default function brochurePage() {
 ` +
     inquiryBand({
       title: 'Have a formulation in mind?',
-      text: 'Bring us your requirement — actives, purity, particle size, packaging and volume — and our team will follow up with specifications, pricing and lead times.',
+      text: 'Bring us your requirement (actives, purity, particle size, packaging and volume) and our team will follow up with specifications, pricing and lead times.',
       primaryLabel: 'Send an Inquiry',
       secondary: { href: '/products.html', label: 'Full product catalogue' },
     });

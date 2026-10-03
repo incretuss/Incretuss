@@ -32,7 +32,7 @@
     if (!selectByText(product)) selectByText('Custom / Not listed');
     if (!message.value) {
       var formName = params.get('form');
-      message.value = 'Requesting ' + (NEED_LABEL[params.get('need')] || 'information') + ' — ' + product +
+      message.value = 'Requesting ' + (NEED_LABEL[params.get('need')] || 'information') + ': ' + product +
         (formName ? ' (' + formName + ')' : '') + '.\n\n';
     }
   } else if (shortlist && window.ProductStore) {
@@ -54,7 +54,7 @@
         note.textContent = 'Shipping to ' + data.country + '? We will confirm export documentation and shipping options for your destination.';
         note.hidden = false;
       })
-      .catch(function () { /* no geo data (e.g. local preview) — note stays hidden */ });
+      .catch(function () { /* no geo data (e.g. local preview); note stays hidden */ });
   }
 
   var submitBtn = document.getElementById('contactSubmit');
@@ -88,7 +88,7 @@
       })
       .then(function (result) {
         if (result.ok) {
-          setStatus('Thank you — your inquiry has been sent. Our team will reply by email.', 'ok');
+          setStatus('Thank you. Your inquiry has been sent. Our team will reply by email.', 'ok');
           form.reset();
         } else {
           setStatus(result.error || 'Something went wrong. Please try again or email info@incretuss.com.', 'error');

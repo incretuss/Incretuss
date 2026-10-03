@@ -4,7 +4,7 @@ Static site for Incretuss Private Limited, deployed on Netlify (publish director
 
 ## Editing content
 
-The HTML pages in the repo root are **generated** — do not edit them directly.
+The HTML pages in the repo root are **generated**. Do not edit them directly.
 
 - Company facts, categories, navigation: `src/content/site.mjs`
 - Product data (all categories, used by pages and site search): `data/products.json`
@@ -20,8 +20,8 @@ and commit the regenerated HTML and `sitemap.xml`.
 
 ## Event brochure (`/brochure.html`)
 
-The brochure shows one section at a time — Botanical Extracts, Nutraceutical
-Ingredients or Cosmetic Ingredients — with tabs to switch. Before an event,
+The brochure shows one section at a time (Botanical Extracts, Nutraceutical
+Ingredients or Cosmetic Ingredients) with tabs to switch. Before an event,
 edit `data/brochure.json`:
 
     {
@@ -29,7 +29,7 @@ edit `data/brochure.json`:
       "event": "Vitafoods Asia 2026"
     }
 
-- `defaultSection`: `botanicals`, `nutraceuticals` or `cosmetics` — the section that opens first.
+- `defaultSection`: `botanicals`, `nutraceuticals` or `cosmetics`: the section that opens first.
 - `event`: optional; shows "Meet us at …" on the brochure. Leave `""` to hide it.
 
 Commit and push; no rebuild is needed for these two settings (running

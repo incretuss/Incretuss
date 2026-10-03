@@ -1,7 +1,7 @@
 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
   <rect width="400" height="300" fill="#faf9f4"/>
   <rect x="0.5" y="0.5" width="399" height="299" fill="none" stroke="#e3e1d8"/>
-  <text x="24" y="34" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#8f9389">DIV.05 — ESSENTIAL OILS</text>
+  <text x="24" y="34" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="1.5" fill="#8f9389">DIV.05 - ESSENTIAL OILS</text>
   <line x1="24" y1="46" x2="376" y2="46" stroke="#e3e1d8"/>
 
   <!-- dropper bottle -->

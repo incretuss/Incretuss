@@ -56,7 +56,7 @@ window.ProductStore = (function () {
 
   // Secondary line under a product name (botanical name / CAS number).
   function subtitle(p) {
-    return isCompound(p) ? 'CAS ' + (p.cas || '—') : p.latin;
+    return isCompound(p) ? 'CAS ' + (p.cas || 'on request') : p.latin;
   }
 
   // One-line description of what's on offer (forms / main applications).
@@ -94,7 +94,7 @@ window.ProductStore = (function () {
   }
 
   // ---- Selection: one shared set behind both "compare" and "shortlist to
-  // inquire" — a visitor picks products once, then chooses what to do.
+  // inquire"; a visitor picks products once, then chooses what to do.
   var SELECTION_KEY = 'incretuss:selection';
   var RECENT_KEY = 'incretuss:recentlyViewed';
 
