@@ -37,7 +37,7 @@ function otherCategories(current) {
             `<li data-tone="${c.tone}"><a href="/${c.page}"><span class="menu-index">${c.index}</span><span class="cat-links-name">${esc(c.name)}</span><span class="cat-links-lede">${esc(c.lede)}</span>${icons.arrow}</a></li>`
         )
         .join('')}
-      <li><a href="/products.html"><span class="menu-index">—</span><span class="cat-links-name">Full catalogue</span><span class="cat-links-lede">All products in one list, with search and filters.</span>${icons.arrow}</a></li>
+      <li><a href="/products.html"><span class="menu-index"></span><span class="cat-links-name">Full catalogue</span><span class="cat-links-lede">All products in one list, with search and filters.</span>${icons.arrow}</a></li>
     </ul>
   </div>
 </section>`;
@@ -113,7 +113,7 @@ export function productsIndex() {
 
   return {
     path: 'products.html',
-    title: 'Product Catalogue — Botanical, Nutraceutical & Cosmetic Ingredients | Incretuss',
+    title: 'Product Catalogue: Botanical, Nutraceutical & Cosmetic Ingredients | Incretuss',
     description:
       'Incretuss product catalogue: botanical extracts, oleoresins and essential oils; standardized nutraceutical ingredients; and aroma chemicals for cosmetic, fragrance and flavor use.',
     active: 'products',

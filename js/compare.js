@@ -60,7 +60,7 @@
       return products.some(function (p) { return r[1](p); });
     }).map(function (r) {
       return '<tr><th scope="row">' + esc(r[0]) + '</th>' +
-        products.map(function (p) { return '<td>' + (esc(r[1](p)) || '—') + '</td>'; }).join('') +
+        products.map(function (p) { return '<td>' + (esc(r[1](p)) || 'n/a') + '</td>'; }).join('') +
         '</tr>';
     }).join('');
     table.innerHTML = head + '<tbody>' + body + '</tbody>';

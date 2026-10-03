@@ -101,7 +101,7 @@ export function related(p, limit = 4) {
 
 // ---------- Applications (sectors), derived from the catalogue ----------
 // Each product's application notes start with a bold label
-// ("<b>Food &amp; flavor</b> — …"); map those labels onto sectors so the
+// ("<b>Food &amp; flavor</b>: …"); map those labels onto sectors so the
 // Applications page quotes the product's own copy.
 const LABEL_TO_SECTOR = {
   Nutraceuticals: 'nutraceuticals',

@@ -65,7 +65,7 @@ export function productEntry(p, alt) {
 // Compact row for the catalogue index (products.html) and filters.
 export function catalogueRow(p) {
   const compound = isCompound(p);
-  const sub = compound ? `CAS ${p.cas || '—'}` : `<i>${esc(p.latin)}</i>`;
+  const sub = compound ? `CAS ${p.cas || 'on request'}` : `<i>${esc(p.latin)}</i>`;
   const detail = compound
     ? esc(p.listings.map((l) => groupLabel(l.group)).join(' · '))
     : esc(p.markers.join(', '));
@@ -88,7 +88,7 @@ export function catalogueRow(p) {
 }
 
 // Register-style table for the cosmetic compounds.
-export function compoundTable(groups, { caption } = {}) {
+export function compoundTable(groups, { caption, compare = true } = {}) {
   return groups
     .map(
       (g) =>
@@ -96,15 +96,17 @@ export function compoundTable(groups, { caption } = {}) {
         `<h3 class="register-title">${esc(g.label)}<span>${g.items.length} ${g.items.length === 1 ? 'compound' : 'compounds'}</span></h3>` +
         '<div class="table-scroll"><table class="register">' +
         (caption ? `<caption class="sr-only">${esc(g.label)}</caption>` : '') +
-        '<thead><tr><th scope="col">Compound</th><th scope="col">CAS No.</th><th scope="col">Main applications</th><th scope="col"><span class="sr-only">Actions</span></th></tr></thead><tbody>' +
+        '<thead><tr><th scope="col">Compound</th><th scope="col">CAS No.</th><th scope="col">Main applications</th>' +
+        (compare ? '<th scope="col"><span class="sr-only">Actions</span></th>' : '') +
+        '</tr></thead><tbody>' +
         g.items
           .map(
             ({ p, listing }) =>
               `<tr data-slug="${esc(p.slug)}">` +
               `<th scope="row"><a href="/${url(p)}">${esc(p.name)}</a></th>` +
-              `<td class="mono">${esc(p.cas || '—')}</td>` +
+              `<td class="mono">${esc(p.cas || 'On request')}</td>` +
               `<td>${esc(sentenceCase(listing.opportunity))}</td>` +
-              `<td class="register-actions">${compareToggle(p)}</td>` +
+              (compare ? `<td class="register-actions">${compareToggle(p)}</td>` : '') +
               '</tr>'
           )
           .join('') +
@@ -188,7 +190,7 @@ export function relatedList(items) {
         join([
           `<li><a href="/${url(p)}">`,
           isCompound(p)
-            ? `<span class="related-cas mono">CAS ${esc(p.cas || '—')}</span>`
+            ? `<span class="related-cas mono">CAS ${esc(p.cas || 'on request')}</span>`
             : `<img src="/${p.image}" alt="" width="383" height="266" loading="lazy" decoding="async">`,
           `<span class="related-name">${esc(p.name)}</span>`,
           `<span class="related-sub">${isCompound(p) ? esc(groupLabel(p.listings[0].group)) : `<i>${esc(p.latin)}</i>`}</span>`,

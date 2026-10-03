@@ -1,5 +1,5 @@
 // Company facts used across every page. Everything here comes from the
-// existing site — do not add claims (certifications, years, capacities)
+// existing site; do not add claims (certifications, years, capacities)
 // that the company has not confirmed.
 export const SITE = {
   name: 'Incretuss',
@@ -20,7 +20,7 @@ export const SITE = {
   },
   ogImage: 'https://incretuss.com/images/og-image.png',
   description:
-    'Incretuss Private Limited supplies botanical extracts, nutraceutical ingredients and cosmetic ingredients — extracts, oleoresins, essential oils and aroma chemicals — to manufacturers in bulk.',
+    'Incretuss Private Limited supplies botanical extracts, nutraceutical ingredients and cosmetic ingredients (extracts, oleoresins, essential oils and aroma chemicals) to manufacturers in bulk.',
 };
 
 // The three catalogue categories. `key` matches `category` in
@@ -37,7 +37,7 @@ export const CATEGORIES = [
     tone: 'botanical',
     lede: 'Spice and aromatic botanicals supplied as extracts, oleoresins, CO₂ extracts and essential oils.',
     intro:
-      'Spice and aromatic botanicals — ginger, turmeric, pepper, cinnamon, nutmeg and green tea — supplied as standardized extracts, oleoresins, CO₂ extracts and essential oils for food, beverage, nutraceutical and pharmaceutical formulation.',
+      'Spice and aromatic botanicals (ginger, turmeric, pepper, cinnamon, nutmeg and green tea) supplied as standardized extracts, oleoresins, CO₂ extracts and essential oils for food, beverage, nutraceutical and pharmaceutical formulation.',
   },
   {
     key: 'nutraceuticals',
@@ -49,7 +49,7 @@ export const CATEGORIES = [
     tone: 'nutra',
     lede: 'Standardized botanical actives for supplement and functional-food formulations.',
     intro:
-      'Standardized botanical actives for supplement and functional-food manufacturers — each extract specified by its marker compound, from withanolides and bacosides to hydroxycitric acid and chlorogenic acid.',
+      'Standardized botanical actives for supplement and functional-food manufacturers, each extract specified by its marker compound, from withanolides and bacosides to hydroxycitric acid and chlorogenic acid.',
   },
   {
     key: 'cosmetics',
@@ -59,7 +59,7 @@ export const CATEGORIES = [
     name: 'Cosmetic Ingredients',
     short: 'Cosmetics',
     tone: 'cosmetic',
-    lede: 'Aroma chemicals — aliphatic ketones and acetophenones — for fragrance, flavor and specialty-chemical use.',
+    lede: 'Aroma chemicals (aliphatic ketones and acetophenones) for fragrance, flavor and specialty-chemical use.',
     intro:
       'Aroma chemicals for fragrance, flavor and specialty-chemical manufacturers: aliphatic and symmetric dialkyl ketones, and substituted acetophenones, listed by CAS number.',
   },
@@ -86,7 +86,7 @@ export const NAV = [
 export const FLOW_CHEM = {
   quote: 'flow processes can produce higher yields, and be safer, cleaner and cheaper to set up and operate',
   vapour:
-    'Vapour phase chemistry is especially suited for hazardous, exothermic, and high-temperature processes, offering better reaction control, faster kinetics, and minimized solvent usage — aligning with both economic and environmental goals.',
+    'Vapour phase chemistry is especially suited for hazardous, exothermic, and high-temperature processes, offering better reaction control, faster kinetics, and minimized solvent usage, aligning with both economic and environmental goals.',
   infrastructure: [
     ['High-pressure operations', 'up to 50 bar'],
     ['High-temperature reactions', 'up to 600 °C'],

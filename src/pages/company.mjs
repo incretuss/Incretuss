@@ -23,7 +23,7 @@ export function aboutPage() {
       trail,
       label: 'About',
       title: 'About Incretuss',
-      lede: `${SITE.legalName} manufactures botanical extracts, nutraceutical ingredients, essential oils and oleoresins, and supplies aroma chemicals, for pharmaceutical, nutraceutical, food, beverage, cosmetic and personal-care manufacturers. We do not sell to consumers — every order is bulk, B2B supply.`,
+      lede: `${SITE.legalName} manufactures botanical extracts, nutraceutical ingredients, essential oils and oleoresins, and supplies aroma chemicals, for pharmaceutical, nutraceutical, food, beverage, cosmetic and personal-care manufacturers. We do not sell to consumers; every order is bulk, B2B supply.`,
     }) +
     `
 <section class="section section-first">
@@ -47,7 +47,7 @@ export function aboutPage() {
 <section class="section section-tint">
   <div class="wrap statement">
     <p class="label">The name</p>
-    <p class="statement-text"><em>Incrementum</em> is Latin for growth. <em>Rectus</em> means natural, correct. Together: growth pursued the right way — scientifically precise, not just fast.</p>
+    <p class="statement-text"><em>Incrementum</em> is Latin for growth. <em>Rectus</em> means natural, correct. Together: growth pursued the right way: scientifically precise, not just fast.</p>
     <div class="statement-body">
       <p>That shows up in how we operate: a focused product range rather than an unfocused one, in-house manufacturing rather than resold stock, and documentation provided as standard rather than on demand.</p>
     </div>
@@ -128,7 +128,7 @@ export function qualityPage() {
     ['Safety Data Sheet (SDS)', 'Safety, storage and transport information', 'On request'],
   ];
   const faqs = [
-    { q: 'Can I get a Certificate of Analysis?', a: 'Yes — COAs are provided per batch alongside your order.' },
+    { q: 'Can I get a Certificate of Analysis?', a: 'Yes. COAs are provided per batch alongside your order.' },
     { q: 'Can you formulate to a custom purity or specification?', a: 'Yes. Share your specification or target application and we will scope a custom formulation or grade.' },
     { q: 'Do you provide samples?', a: 'Get in touch with the product you are interested in and we can discuss sample availability.' },
     { q: 'Do you ship internationally?', a: 'Yes. Let us know your destination when you reach out, and we will confirm shipping options and documentation.' },
@@ -156,7 +156,7 @@ export function qualityPage() {
     <div class="split-head">
       <p class="label">Process</p>
       <h2>Manufacturing sequence</h2>
-      <p>Run in-house from specification to finished product. The extraction route — solvent, supercritical CO₂ or steam distillation — depends on the product and the fraction required.</p>
+      <p>Run in-house from specification to finished product. The extraction route (solvent, supercritical CO₂ or steam distillation) depends on the product and the fraction required.</p>
     </div>
     <div class="split-body">
       <ol class="steps">
@@ -250,7 +250,7 @@ export function applicationsPage() {
             ({ p, notes }) =>
               `<li><div class="sp-head"><a href="/${url(p)}">${esc(p.name)}</a><i>${esc(p.latin)}</i></div>` +
               (notes.length
-                ? notes.map((n) => `<p>${capitalize(n.replace(/^<b>.*?<\/b>\s*(&mdash;|—)\s*/, ''))}</p>`).join('')
+                ? notes.map((n) => `<p>${capitalize(n.replace(/^<b>.*?<\/b>:?\s*/, ''))}</p>`).join('')
                 : `<p>${esc(p.blurb)}</p>`) +
               '</li>'
           )
@@ -291,7 +291,7 @@ export function applicationsPage() {
 
   return {
     path: 'applications.html',
-    title: 'Applications — Nutraceutical, Food, Cosmetic & Pharmaceutical | Incretuss',
+    title: 'Applications: Nutraceutical, Food, Cosmetic & Pharmaceutical | Incretuss',
     description:
       'Incretuss ingredients by application: nutraceuticals, food and beverage, pharmaceuticals, cosmetics and personal care, fragrance and flavor, and specialty chemicals.',
     active: 'applications',
@@ -309,7 +309,7 @@ export function contactPage() {
     { q: 'Can you formulate to a custom purity or specification?', a: 'Yes. Share your specification or target application and we will scope a custom formulation.' },
     { q: 'Do you provide samples?', a: 'Get in touch with the product you are interested in and we can discuss sample availability.' },
     { q: 'Do you ship internationally?', a: 'Yes. Let us know your destination when you reach out, and we will confirm shipping options and documentation.' },
-    { q: 'Can I get a Certificate of Analysis?', a: 'Yes — COAs are provided per batch alongside your order.' },
+    { q: 'Can I get a Certificate of Analysis?', a: 'Yes. COAs are provided per batch alongside your order.' },
   ];
   const options = CATEGORIES.map(
     (c) =>
@@ -378,7 +378,7 @@ export function contactPage() {
 
   return {
     path: 'contact.html',
-    title: 'Contact Incretuss — Send a Product Inquiry',
+    title: 'Contact Incretuss | Send a Product Inquiry',
     description:
       'Contact Incretuss Private Limited, Bengaluru, for specifications, pricing, samples and documentation on botanical extracts, nutraceutical and cosmetic ingredients.',
     active: 'contact',
@@ -438,8 +438,8 @@ export function notFoundPage() {
         <p class="page-lede">The link may be out of date, or the page may have moved.</p>
         <ul class="cat-links cat-links-compact">
           ${CATEGORIES.map((c) => `<li data-tone="${c.tone}"><a href="/${c.page}"><span class="menu-index">${c.index}</span><span class="cat-links-name">${esc(c.name)}</span>${icons.arrow}</a></li>`).join('')}
-          <li><a href="/products.html"><span class="menu-index">—</span><span class="cat-links-name">Full catalogue</span>${icons.arrow}</a></li>
-          <li><a href="/contact.html"><span class="menu-index">—</span><span class="cat-links-name">Contact Incretuss</span>${icons.arrow}</a></li>
+          <li><a href="/products.html"><span class="menu-index"></span><span class="cat-links-name">Full catalogue</span>${icons.arrow}</a></li>
+          <li><a href="/contact.html"><span class="menu-index"></span><span class="cat-links-name">Contact Incretuss</span>${icons.arrow}</a></li>
         </ul>
       </div>
     </div>

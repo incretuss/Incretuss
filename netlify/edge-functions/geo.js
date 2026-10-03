@@ -1,7 +1,7 @@
 // Netlify Edge Function: GET /api/geo
 //
 // Exposes just enough of the visitor's geo context (from Netlify's own edge
-// request data — no external IP-lookup service, no API key) for
+// request data; no external IP-lookup service, no API key) for
 // contact.html to show a small "exporting to <country>?" note. This is the
 // one piece of the region-aware note that genuinely can't be done in
 // browser JS: client-side code has no reliable way to see the visitor's

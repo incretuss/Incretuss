@@ -18,7 +18,6 @@ export function join(parts, sep = '') {
 export function text(markup) {
   return String(markup)
     .replace(/<[^>]+>/g, '')
-    .replace(/&mdash;/g, '—')
     .replace(/&ndash;/g, '–')
     .replace(/&amp;/g, '&')
     .replace(/\s+/g, ' ')
@@ -32,7 +31,7 @@ export function truncate(str, max) {
 }
 
 // Contact-form link that arrives with the product (and request type)
-// already filled in — read by js/contact.js.
+// already filled in; read by js/contact.js.
 export function inquiryHref(productName, need, form) {
   const params = new URLSearchParams();
   if (productName) params.set('product', productName);

@@ -1,7 +1,7 @@
-// Netlify Function: POST /api/contact (redirected from /.netlify/functions/contact — see netlify.toml)
+// Netlify Function: POST /api/contact (redirected from /.netlify/functions/contact; see netlify.toml)
 //
 // Validates and sanitizes a contact-form submission, then sends it as an email through
-// the Resend API. Nothing here trusts the frontend's own validation — every check below
+// the Resend API. Nothing here trusts the frontend's own validation; every check below
 // runs again server-side, because this endpoint is public and reachable directly.
 const { Resend } = require('resend');
 const { getStore } = require('@netlify/blobs');
@@ -14,7 +14,7 @@ const MAX_LENGTHS = {
   message: 5000,
 };
 
-// Deliberately simple/conservative — good enough to catch typos and junk without
+// Deliberately simple/conservative; good enough to catch typos and junk without
 // rejecting valid addresses. Real deliverability is enforced by Resend, not this regex.
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -67,16 +67,16 @@ function getClientIp(event) {
 // Serverless-appropriate rate limiting using Netlify Blobs.
 //
 // Why not the old express-rate-limit approach: that library keeps counters in the
-// process's memory, which works for a single long-running Express server but not here —
+// process's memory, which works for a single long-running Express server but not here ; 
 // each Netlify Function invocation can run in a fresh, isolated instance, so an in-memory
 // counter would reset constantly and provide no real protection.
 //
 // Why Netlify Blobs instead of an external service (e.g. Upstash Redis): Blobs is built
 // into Netlify, needs no extra account/service/API key, and is already durable and shared
-// across function instances — which is exactly what a fixed-window counter needs. For a
+// across function instances; which is exactly what a fixed-window counter needs. For a
 // low-volume business contact form this is sufficient. If this endpoint ever needs to
 // survive much higher abuse volumes or needs atomic increments under heavy concurrency,
-// Upstash Redis (via @upstash/ratelimit) is the standard upgrade path — it's purpose-built
+// Upstash Redis (via @upstash/ratelimit) is the standard upgrade path; it's purpose-built
 // for serverless rate limiting with atomic operations, has a generous free tier, and has a
 // first-class Netlify integration.
 async function checkRateLimit(ip) {
@@ -96,7 +96,7 @@ async function checkRateLimit(ip) {
 
     return record.count <= RATE_LIMIT_MAX;
   } catch (err) {
-    // Fail open rather than taking the contact form down if Blobs has an outage —
+    // Fail open rather than taking the contact form down if Blobs has an outage ; 
     // logged so it can be investigated, but a low-volume form staying reachable
     // matters more than a rare missed rate-limit window.
     console.error('Rate limit check failed, allowing request through:', err);
@@ -126,8 +126,8 @@ exports.handler = async (event) => {
   }
 
   // Honeypot field: real visitors never see or fill it in (hidden via CSS in contact.html).
-  // A bot that fills it gets an identical "success" response — never a signal that it was
-  // caught — while we silently drop the submission before it reaches Resend.
+  // A bot that fills it gets an identical "success" response (never a signal that it was
+  // caught) while we silently drop the submission before it reaches Resend.
   if (typeof payload.website === 'string' && payload.website.trim() !== '') {
     return jsonResponse(200, { ok: true });
   }
@@ -212,7 +212,7 @@ exports.handler = async (event) => {
       from: sender,
       to: receiver,
       replyTo: email,
-      subject: `New enquiry from ${name}${product ? ` — ${product}` : ''}`,
+      subject: `New enquiry from ${name}${product ? `: ${product}` : ''}`,
       text,
       html,
     });
