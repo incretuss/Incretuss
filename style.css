@@ -332,9 +332,9 @@ body.nav-locked { overflow: hidden; }
 }
 .hero-copy h1 { max-width: 19ch; font-size: clamp(2.1rem, 1.5rem + 1.9vw, 3.1rem); }
 .hero-lede { margin-top: 24px; font-size: 18px; color: var(--ink-2); max-width: 46ch; }
-.hero-media { margin-right: calc(-1 * var(--bleed, var(--gutter))); }
-@media (min-width: 1025px) { .hero-media { --bleed: max(var(--gutter), calc((100vw - var(--container)) / 2 + var(--gutter))); } }
-.hero-media img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 55% 50%; }
+.hero-media { min-width: 0; max-width: 100%; }
+.hero-media picture, .hero-media img { width: 100%; max-width: 100%; }
+.hero-media img { aspect-ratio: 4 / 3; object-fit: cover; object-position: 55% 50%; }
 .hero-media figcaption { padding-left: 2px; }
 
 .facts {
@@ -748,7 +748,6 @@ body.nav-locked { overflow: hidden; }
 
   .hero-grid, .page-head-grid, .product-grid, .detail, .contact-grid, .inquiry-grid, .split, .section-head, .statement { grid-template-columns: minmax(0, 1fr); }
   .statement-text, .statement-body, .statement .label { grid-column: 1; }
-  .hero-media { margin-right: calc(-1 * var(--gutter)); }
   .hero-media img { aspect-ratio: 16 / 9; }
   .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .facts > div:nth-child(3) { padding-left: 0; border-left: 0; }
@@ -779,6 +778,7 @@ body.nav-locked { overflow: hidden; }
   .row {
     grid-template-columns: 72px minmax(0, 1fr); gap: 4px 16px; padding: 16px 14px; align-items: start;
   }
+  .search-panel { position: fixed; left: var(--gutter); right: var(--gutter); top: calc(var(--menu-top, 64px) + 8px); width: auto; }
   .row-thumb { grid-row: 1 / span 3; width: 72px; height: 50px; }
   .row-thumb-blank { display: none; }
   .row[data-category='cosmetics'] { grid-template-columns: minmax(0, 1fr); }
