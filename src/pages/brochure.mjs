@@ -7,7 +7,7 @@ import { CATEGORIES, FLOW_CHEM, SITE } from '../content/site.mjs';
 import { EXTRACTION, ROUTES, SECTION_ALIASES } from '../content/brochure.mjs';
 import { esc, icons, inquiryHref } from '../lib/html.mjs';
 import { compoundGroups, content, inCategory, url } from '../lib/catalogue.mjs';
-import { compoundTable, inquiryBand, plate } from '../lib/components.mjs';
+import { compoundTable, inquiryBand, productMedia } from '../lib/components.mjs';
 
 const CONFIG = JSON.parse(readFileSync(new URL('../../data/brochure.json', import.meta.url), 'utf8'));
 const DEFAULT = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase()] || CATEGORIES[0].key;
@@ -26,7 +26,7 @@ function card(p) {
   ].filter(Boolean);
   return (
     '<article class="b-card">' +
-    plate(p.image, k.imageAlt || p.name, 383, 266) +
+    productMedia(p, k.imageAlt || p.name) +
     '<div class="b-card-body">' +
     `<h3><a href="/${url(p)}">${esc(p.name)}</a></h3>` +
     '<dl class="mini-spec">' +

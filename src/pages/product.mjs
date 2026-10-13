@@ -2,7 +2,7 @@ import { SITE } from '../content/site.mjs';
 import { esc, icons, inquiryHref, text, truncate } from '../lib/html.mjs';
 import { breadcrumb } from '../lib/layout.mjs';
 import { category, content, groupLabel, isCompound, opportunities, related, sentenceCase, url } from '../lib/catalogue.mjs';
-import { compareToggle, faqList, inquiryBand, plate, relatedList, sectionHead, specTable, tagList } from '../lib/components.mjs';
+import { compareToggle, faqList, inquiryBand, plate, productMedia, relatedList, sectionHead, specTable, tagList } from '../lib/components.mjs';
 
 const ON_REQUEST = '<span class="muted">Available on request</span>';
 
@@ -99,7 +99,7 @@ export function botanicalPage(p) {
   <div class="wrap">
     ${breadcrumb(trail)}
     <div class="product-grid">
-      <div class="product-media">${plate(p.image, k.imageAlt || p.name, 383, 266, { eager: true, cls: 'plate-lg' })}</div>
+      <div class="product-media">${productMedia(p, k.imageAlt || p.name, { eager: true, cls: 'plate-lg' })}</div>
       <div class="product-summary">
         <p class="label"><a href="/${c.page}">${esc(c.name)}</a></p>
         <h1>${esc(p.name)}</h1>
@@ -186,7 +186,7 @@ export function botanicalPage(p) {
     active: 'products',
     trail,
     ogType: 'product',
-    image: `${SITE.url}/${p.image}`,
+    image: p.image ? `${SITE.url}/${p.image}` : undefined,
     mainAttrs: `data-product-slug="${p.slug}"`,
     ld: [productLd(p, description)],
     body,

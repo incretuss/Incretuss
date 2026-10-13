@@ -186,6 +186,47 @@
     "blurb": "Unfermented-leaf extract standardized to total polyphenols or specific EGCG content."
   },
   {
+    "slug": "lavender-oil",
+    "category": "botanical-extracts",
+    "name": "Lavender Oil",
+    "latin": "Lavandula angustifolia",
+    "part": "Flowering tops",
+    "forms": [
+      "Essential Oil"
+    ],
+    "markers": [
+      "Linalool",
+      "Linalyl Acetate"
+    ],
+    "grade": "Available on request (cosmetic and fragrance grade)",
+    "industries": [
+      "Cosmetics",
+      "Fragrance"
+    ],
+    "blurb": "Cosmetic and fragrance grade lavender essential oil, defined by its linalool and linalyl acetate content."
+  },
+  {
+    "slug": "rosemary-oil",
+    "category": "botanical-extracts",
+    "name": "Rosemary Oil",
+    "latin": "Salvia rosmarinus",
+    "part": "Leaves and flowering tops",
+    "forms": [
+      "Essential Oil"
+    ],
+    "markers": [
+      "1,8-Cineole",
+      "Camphor",
+      "α-Pinene"
+    ],
+    "grade": "Available on request (cosmetic and fragrance grade)",
+    "industries": [
+      "Cosmetics",
+      "Fragrance"
+    ],
+    "blurb": "Cosmetic and fragrance grade rosemary essential oil with a fresh, camphoraceous herbal profile."
+  },
+  {
     "slug": "ashwagandha",
     "category": "nutraceuticals",
     "name": "Ashwagandha",

@@ -140,13 +140,14 @@ export const SECTORS = [
   {
     key: 'cosmetics',
     name: 'Cosmetics & personal care',
-    lede: 'Botanical extracts and oils used in skincare formulation.',
+    lede: 'Botanical extracts and essential oils used in skin-care, hair-care and personal-care formulation.',
     industries: ['Cosmetics'],
   },
   {
     key: 'fragrance',
     name: 'Fragrance & flavor',
-    lede: 'Aliphatic ketones and acetophenones used as aroma chemicals, alongside spice essential oils.',
+    lede: 'Botanical essential oils such as lavender and rosemary, alongside aliphatic ketones and acetophenones used as aroma chemicals.',
+    industries: ['Fragrance'],
     terms: ['fragrance', 'flavor', 'flavor chemistry'],
   },
   {

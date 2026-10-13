@@ -47,7 +47,7 @@ function categoryIndex() {
         sample.map((p) => `<span><b>${esc(p.name)}</b><i>${esc(p.cas || '')}</i></span>`).join('') +
         '</div>';
     } else {
-      const pick = items[0];
+      const pick = items.find((p) => p.image);
       media = `<div class="plate"><img src="/${pick.image}" alt="" width="383" height="266" loading="lazy" decoding="async"></div>`;
     }
     const names = c.key === 'cosmetics' ? compoundGroups().map((g) => g.label) : items.map((p) => p.name.replace(/ \(.*\)/, ''));

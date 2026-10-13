@@ -272,5 +272,45 @@
       }
     ],
     "relatedNote": "Pairs well with <a href=\"pepper.html\">Pepper</a> for bioavailability-enhanced formulations."
+  },
+  "lavender-oil": {
+    "imageAlt": "Lavender Oil",
+    "overview": "Lavender essential oil is steam-distilled from the flowering tops of <i>Lavandula angustifolia</i>. Its character comes mainly from linalool and linalyl acetate, which give the soft floral, herbaceous note used across fine fragrance, skin care, hair care and other personal-care products.",
+    "gradeNote": "Cosmetic and fragrance grade; full specification available on request",
+    "applications": [
+      "<b>Fragrance</b>: a floral, herbaceous middle note in fine fragrance and functional perfumery.",
+      "<b>Cosmetics</b>: skin-care, hair-care, bath and body products scented or formulated with lavender oil."
+    ],
+    "faqs": [
+      {
+        "q": "Which grades of lavender oil do you supply?",
+        "a": "Cosmetic and fragrance grade. Tell us your application and target scent profile and we will confirm the specification."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch and are provided alongside your order."
+      }
+    ],
+    "relatedNote": "Often used alongside <a href=\"rosemary-oil.html\">Rosemary Oil</a> in herbal fragrance and personal-care blends."
+  },
+  "rosemary-oil": {
+    "imageAlt": "Rosemary Oil",
+    "overview": "Rosemary essential oil is steam-distilled from the leaves and flowering tops of <i>Salvia rosmarinus</i> (formerly <i>Rosmarinus officinalis</i>). Its fresh, camphoraceous herbal character comes mainly from 1,8-cineole, camphor and α-pinene, and the balance between them varies with the chemotype of the plant.",
+    "gradeNote": "Cosmetic and fragrance grade; chemotype and full specification confirmed on request",
+    "applications": [
+      "<b>Fragrance</b>: a fresh, herbal top note in fragrance and aromatic blends.",
+      "<b>Cosmetics</b>: hair-care, scalp-care and skin-care products scented or formulated with rosemary oil."
+    ],
+    "faqs": [
+      {
+        "q": "Which chemotype do you supply?",
+        "a": "Confirm with our team. Cineole-type and camphor-type rosemary oils differ in scent profile, so tell us your application and we will confirm what fits."
+      },
+      {
+        "q": "Do you provide a Certificate of Analysis?",
+        "a": "Yes, COAs are available per batch and are provided alongside your order."
+      }
+    ],
+    "relatedNote": "Often used alongside <a href=\"lavender-oil.html\">Lavender Oil</a> in herbal fragrance and personal-care blends."
   }
 }

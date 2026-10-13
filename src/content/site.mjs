@@ -37,7 +37,7 @@ export const CATEGORIES = [
     tone: 'botanical',
     lede: 'Spice and aromatic botanicals supplied as extracts, oleoresins, CO₂ extracts and essential oils.',
     intro:
-      'Spice and aromatic botanicals (ginger, turmeric, pepper, cinnamon, nutmeg and green tea) supplied as standardized extracts, oleoresins, CO₂ extracts and essential oils for food, beverage, nutraceutical and pharmaceutical formulation.',
+      'Spice and aromatic botanicals (ginger, turmeric, pepper, cinnamon, nutmeg, green tea, lavender and rosemary) supplied as standardized extracts, oleoresins, CO₂ extracts and essential oils for food, beverage, nutraceutical, pharmaceutical, cosmetic and fragrance use.',
   },
   {
     key: 'nutraceuticals',

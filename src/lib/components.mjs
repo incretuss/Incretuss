@@ -35,6 +35,19 @@ export function plate(src, alt, w, h, { eager = false, cls = '' } = {}) {
   );
 }
 
+// Product photograph, or (for products without one yet) a typographic
+// label panel the same shape as the photo plates.
+export function productMedia(p, alt, { eager = false, cls = '' } = {}) {
+  if (p.image) return plate(p.image, alt, 383, 266, { eager, cls });
+  return (
+    `<div class="plate specimen ${cls}" aria-hidden="true">` +
+    `<span class="specimen-name">${esc(p.name)}</span>` +
+    `<span class="specimen-latin">${esc(p.latin)}</span>` +
+    `<span class="specimen-form">${esc(p.forms.join(' · '))}</span>` +
+    '</div>'
+  );
+}
+
 // Catalogue entry for the category pages (botanicals): photograph plus a
 // short specification list.
 export function productEntry(p, alt) {
@@ -46,7 +59,7 @@ export function productEntry(p, alt) {
   ];
   return (
     `<article class="entry" data-slug="${esc(p.slug)}">` +
-    `<a class="entry-media" href="/${url(p)}" tabindex="-1" aria-hidden="true">${plate(p.image, '', 383, 266)}</a>` +
+    `<a class="entry-media" href="/${url(p)}" tabindex="-1" aria-hidden="true">${productMedia(p, '')}</a>` +
     '<div class="entry-body">' +
     `<h3 class="entry-title"><a href="/${url(p)}">${esc(p.name)}</a></h3>` +
     `<p class="entry-blurb">${esc(p.blurb)}</p>` +
@@ -78,7 +91,9 @@ export function catalogueRow(p) {
     `<li class="row" data-slug="${esc(p.slug)}" data-category="${p.category}" data-industries="${esc((p.industries || []).join('|'))}" data-search="${esc(search)}">` +
     (compound
       ? '<span class="row-thumb row-thumb-blank" aria-hidden="true"></span>'
-      : `<img class="row-thumb" src="/${p.image}" alt="" width="96" height="67" loading="lazy" decoding="async">`) +
+      : p.image
+        ? `<img class="row-thumb" src="/${p.image}" alt="" width="96" height="67" loading="lazy" decoding="async">`
+        : '<span class="row-thumb row-thumb-blank" aria-hidden="true"></span>') +
     `<span class="row-name"><a href="/${url(p)}">${esc(p.name)}</a><span class="row-sub">${sub}</span></span>` +
     `<span class="row-detail"><span class="row-k">${compound ? 'Class' : 'Marker'}</span>${detail}</span>` +
     `<span class="row-forms"><span class="row-k">${compound ? 'Applications' : 'Forms'}</span>${forms}</span>` +
@@ -191,7 +206,9 @@ export function relatedList(items) {
           `<li><a href="/${url(p)}">`,
           isCompound(p)
             ? `<span class="related-cas mono">CAS ${esc(p.cas || 'on request')}</span>`
-            : `<img src="/${p.image}" alt="" width="383" height="266" loading="lazy" decoding="async">`,
+            : p.image
+              ? `<img src="/${p.image}" alt="" width="383" height="266" loading="lazy" decoding="async">`
+              : `<span class="related-cas related-specimen">${esc(p.forms.join(' · '))}</span>`,
           `<span class="related-name">${esc(p.name)}</span>`,
           `<span class="related-sub">${isCompound(p) ? esc(groupLabel(p.listings[0].group)) : `<i>${esc(p.latin)}</i>`}</span>`,
           '</a></li>',
