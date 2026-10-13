@@ -186,7 +186,7 @@ export function categoryPage(c) {
 
   const desc = {
     'botanical-extracts':
-      'Botanical extracts from Incretuss: ginger, turmeric, pepper, cinnamon, nutmeg and green tea as standardized extracts, oleoresins, CO₂ extracts and essential oils.',
+      'Botanical extracts from Incretuss: ginger, turmeric, pepper, cinnamon, nutmeg and green tea extracts, oleoresins and CO₂ extracts, plus lavender and rosemary essential oils.',
     nutraceuticals:
       'Nutraceutical ingredients from Incretuss: ashwagandha, bacopa, boswellia, garcinia cambogia, green coffee and tulsi extracts, standardized to marker compounds.',
     cosmetics:

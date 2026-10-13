@@ -920,3 +920,17 @@ body.nav-locked { overflow: hidden; }
 @media print {
   .b-tabs-bar { display: none; }
 }
+
+/* Label panel for products without a photograph yet (same shape as .plate) */
+.specimen {
+  aspect-ratio: 383 / 266; place-items: stretch; position: relative;
+  display: grid; grid-template-rows: 1fr auto auto; gap: 4px;
+  padding: clamp(16px, 2.4vw, 28px) clamp(16px, 2.4vw, 28px) clamp(14px, 2vw, 22px);
+  background: var(--white);
+}
+.specimen::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--tone, var(--green-700)); }
+.specimen-name { align-self: end; font-family: var(--serif); font-size: clamp(1.4rem, 1.1rem + 1vw, 2rem); line-height: 1.1; color: var(--ink); }
+.specimen-latin { font-family: var(--serif); font-style: italic; color: var(--ink-2); }
+.specimen-form { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--rule-soft); font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.plate-lg.specimen { padding: clamp(20px, 3vw, 40px); }
+.related-specimen { border-left-color: var(--tone-botanical); }
