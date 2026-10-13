@@ -24,8 +24,8 @@
     ['Marker compounds', function (p) { return p.markers.join(', '); }],
     ['Typical grade', function (p) { return p.grade; }],
     ['Industries', function (p) { return p.industries.join(', '); }],
-    ['Class', function (p) { return p.listings.map(function (l) { return l.group; }).join('; '); }],
-    ['Main applications', function (p) { return p.listings.map(function (l) { return l.opportunity; }).join('; '); }],
+    ['Common name', function (p) { return p.synonym; }],
+    ['Applications', function (p) { return p.applications.join(', '); }],
   ];
 
   if (clearBtn) {

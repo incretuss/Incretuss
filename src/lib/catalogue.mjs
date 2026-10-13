@@ -1,21 +1,25 @@
 import { readFileSync } from 'node:fs';
-import { CATEGORIES, GROUP_LABELS } from '../content/site.mjs';
+import { CATEGORIES, COMPOUND_GROUPS } from '../content/site.mjs';
 
 const root = new URL('../../', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 
-// Compound entries have no forms/markers/industries; default them so the
-// helpers below can treat every entry the same way.
+// Compound entries have no forms/markers/industries, and botanicals have no
+// applications; default them so the helpers below can treat every entry
+// the same way.
 export const PRODUCTS = read('data/products.json').map((p) => ({
   forms: [],
   markers: [],
   industries: [],
-  listings: [],
+  applications: [],
   ...p,
 }));
 const CONTENT = read('src/content/botanicals.json');
 
-export const isCompound = (p) => p.category === 'cosmetics';
+// Aroma Chemicals & Specialty Ketones: single compounds identified by CAS
+// number rather than by botanical source.
+export const AROMA = 'aroma-chemicals';
+export const isCompound = (p) => p.category === AROMA;
 
 // Botanical pages keep their existing URLs (ginger.html, …); compounds get
 // one static page each (acetophenone.html, …).
@@ -29,59 +33,31 @@ export const inCategory = (key) => PRODUCTS.filter((p) => p.category === key);
 
 export const counts = Object.fromEntries(CATEGORIES.map((c) => [c.key, inCategory(c.key).length]));
 
-export const groupLabel = (g) => GROUP_LABELS[g] || g;
+export const groupOf = (p) => COMPOUND_GROUPS.find((g) => g.key === p.group);
 
-// The source sheet capitalises opportunity terms inconsistently
-// ("Intermediate, Flavor, fragrance"); display them in sentence case.
-export function sentenceCase(list) {
-  let first = true;
-  return list.replace(/[^,;]+/g, (term) => {
-    const lead = term.match(/^\s*/)[0];
-    let t = term.trim();
-    t = first ? t.charAt(0).toUpperCase() + t.slice(1) : t.charAt(0).toLowerCase() + t.slice(1);
-    first = false;
-    return lead + t;
-  });
+// CAS number to display, or null when it is missing or still being
+// confirmed (casUnverified in data/products.json).
+export const shownCas = (p) => (p.cas && !p.casUnverified ? p.cas : null);
+export const casText = (p) => shownCas(p) || 'On request';
+
+// Compounds grouped by chemical structure, in COMPOUND_GROUPS order:
+// [{key, label, family, items:[p]}]
+export function compoundGroups(filter = () => true) {
+  return COMPOUND_GROUPS.map((g) => ({
+    ...g,
+    items: inCategory(AROMA).filter((p) => p.group === g.key && filter(p)),
+  })).filter((g) => g.items.length);
 }
 
-// Compound listing groups in source-sheet order: [{group, label, items:[{p, listing}]}]
-export function compoundGroups() {
-  const order = [];
-  const byGroup = {};
-  inCategory('cosmetics').forEach((p) => {
-    p.listings.forEach((l) => {
-      if (!byGroup[l.group]) {
-        byGroup[l.group] = [];
-        order.push(l.group);
-      }
-      byGroup[l.group].push({ p, listing: l });
-    });
-  });
-  return order.map((g) => ({ group: g, label: groupLabel(g), items: byGroup[g] }));
-}
-
-// Individual opportunity terms across a compound's listings, de-duplicated.
-export function opportunities(p) {
-  const seen = new Set();
-  const out = [];
-  (p.listings || []).forEach((l) =>
-    l.opportunity.split(/[,;]/).forEach((t) => {
-      t = t.trim();
-      if (!t || seen.has(t.toLowerCase())) return;
-      seen.add(t.toLowerCase());
-      out.push(t.charAt(0).toUpperCase() + t.slice(1));
-    })
-  );
-  return out;
-}
+// Compounds documented for fragrance use (a subset of "Flavor & fragrance").
+export const isFragranceMaterial = (p) => p.applications.includes('Flavor & fragrance');
 
 // Related products: shared industries weigh most, then forms/markers.
-// Compounds relate to compounds in the same listing group.
+// Compounds relate to compounds in the same structural group.
 export function related(p, limit = 4) {
   if (isCompound(p)) {
-    const groups = p.listings.map((l) => l.group);
-    return inCategory('cosmetics')
-      .filter((q) => q.slug !== p.slug && q.listings.some((l) => groups.includes(l.group)))
+    return inCategory(AROMA)
+      .filter((q) => q.slug !== p.slug && q.group === p.group)
       .slice(0, limit);
   }
   const named = (content(p).relatedNote || '').match(/href="([a-z0-9-]+)\.html"/g) || [];
@@ -135,7 +111,7 @@ export const SECTORS = [
     name: 'Pharmaceuticals',
     lede: 'Botanical extracts used in pharmaceutical formulation, and acetophenones used as pharmaceutical intermediates.',
     industries: ['Pharmaceuticals'],
-    terms: ['pharmaceutical intermediate'],
+    applications: ['Pharmaceutical intermediate'],
   },
   {
     key: 'cosmetics',
@@ -146,15 +122,15 @@ export const SECTORS = [
   {
     key: 'fragrance',
     name: 'Fragrance & flavor',
-    lede: 'Botanical essential oils such as lavender and rosemary, alongside aliphatic ketones and acetophenones used as aroma chemicals.',
+    lede: 'Botanical essential oils such as lavender and rosemary, alongside aliphatic and aromatic ketones used as aroma chemicals.',
     industries: ['Fragrance'],
-    terms: ['fragrance', 'flavor', 'flavor chemistry'],
+    applications: ['Flavor & fragrance', 'Flavor'],
   },
   {
     key: 'specialty',
     name: 'Specialty chemicals & synthesis',
-    lede: 'Ketones and acetophenones used as solvents, intermediates and building blocks in organic synthesis and agrochemicals.',
-    terms: ['specialty chemicals', 'solvent', 'intermediate', 'agrochem', 'agrochemical intermediate', 'organic synthesis', 'fine chemicals', 'heterocycle'],
+    lede: 'Ketones used as solvents and as intermediates in pharmaceutical, agrochemical and fine-chemical synthesis.',
+    applications: ['Solvent', 'Synthesis intermediate', 'Agrochemical intermediate'],
   },
 ];
 
@@ -169,10 +145,7 @@ export function sectorProducts(sector) {
   return PRODUCTS.map((p) => {
     let match = false;
     if (sector.industries && p.industries.some((i) => sector.industries.includes(i))) match = true;
-    if (sector.terms && isCompound(p)) {
-      const ops = opportunities(p).map((o) => o.toLowerCase());
-      if (ops.some((o) => sector.terms.includes(o))) match = true;
-    }
+    if (sector.applications && p.applications.some((a) => sector.applications.includes(a))) match = true;
     const notes = isCompound(p) ? [] : appNotes(p, sector.key);
     if (notes.length) match = true;
     return match ? { p, notes } : null;

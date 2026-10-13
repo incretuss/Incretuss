@@ -1,7 +1,7 @@
-import { CATEGORIES, FLOW_CHEM } from '../content/site.mjs';
+import { CATEGORIES } from '../content/site.mjs';
 import { esc, icons } from '../lib/html.mjs';
 import { breadcrumb } from '../lib/layout.mjs';
-import { PRODUCTS, compoundGroups, inCategory, isCompound, url } from '../lib/catalogue.mjs';
+import { AROMA, PRODUCTS, compoundGroups, inCategory, url } from '../lib/catalogue.mjs';
 import { catalogueRow, compoundTable, inquiryBand, productEntry, sectionHead } from '../lib/components.mjs';
 
 function pageHead({ trail, label, title, lede, tone, extra = '' }) {
@@ -71,7 +71,7 @@ export function productsIndex() {
       trail,
       label: 'Products',
       title: 'Product catalogue',
-      lede: 'Botanical extracts, nutraceutical ingredients and cosmetic ingredients. Open any product for its specification; specification sheets, TDS, SDS and COA are available on request.',
+      lede: 'Botanical extracts, nutraceutical ingredients and aroma chemicals. Open any product for its specification; specification sheets, TDS, SDS and COA are available on request.',
       extra:
         '<ul class="jump-links">' +
         CATEGORIES.map((c) => `<li data-tone="${c.tone}"><a href="#${c.anchor}"><span class="menu-index">${c.index}</span>${esc(c.name)}<span class="menu-count">${inCategory(c.key).length}</span></a></li>`).join('') +
@@ -113,9 +113,9 @@ export function productsIndex() {
 
   return {
     path: 'products.html',
-    title: 'Product Catalogue: Botanical, Nutraceutical & Cosmetic Ingredients | Incretuss',
+    title: 'Product Catalogue: Botanical Extracts, Nutraceuticals & Aroma Chemicals | Incretuss',
     description:
-      'Incretuss product catalogue: botanical extracts, oleoresins and essential oils; standardized nutraceutical ingredients; and aroma chemicals for cosmetic, fragrance and flavor use.',
+      'Incretuss product catalogue: botanical extracts, oleoresins and essential oils; standardized nutraceutical ingredients; and aroma chemicals and specialty ketones for flavor, fragrance, solvent and synthesis use.',
     active: 'products',
     trail,
     scripts: ['/js/catalogue.js'],
@@ -137,42 +137,21 @@ export function categoryPage(c) {
     label: `Category ${c.index}`,
     title: esc(c.name),
     lede: esc(c.intro),
-    extra: `<p class="page-meta">${items.length} ${c.key === 'cosmetics' ? 'compounds' : 'products'} · <a href="/contact.html">Request a specification sheet</a></p>`,
+    extra: `<p class="page-meta">${items.length} ${c.key === AROMA ? 'compounds' : 'products'} · <a href="/contact.html">Request a specification sheet</a></p>`,
   });
 
   let main;
-  if (c.key === 'cosmetics') {
-    const crossover = PRODUCTS.filter((p) => !isCompound(p) && p.industries.includes('Cosmetics'));
+  if (c.key === AROMA) {
+    const groups = compoundGroups();
+    const families = [...new Set(groups.map((g) => g.family))];
     main = `
 <section class="section section-first">
   <div class="wrap">
-    ${compoundTable(compoundGroups(), { caption: true })}
-    <p class="table-note">Purity, grade and packaging are confirmed per order. TDS and SDS are available on request for every compound.</p>
-  </div>
-</section>
-<section class="section section-tint" id="flow-chem">
-  <div class="wrap split">
-    <div class="split-head">
-      <p class="label">Process capability</p>
-      <h2>Flow and vapour-phase chemistry</h2>
-      <blockquote class="pull">“${esc(FLOW_CHEM.quote)}.”</blockquote>
-    </div>
-    <div class="split-body">
-      <p>${esc(FLOW_CHEM.vapour)}</p>
-      <h3 class="h-small">Our infrastructure supports</h3>
-      <dl class="ruled-list ruled-list-2">
-        ${FLOW_CHEM.infrastructure.map(([a, b]) => `<div><dt>${esc(a)}</dt><dd>${esc(b.charAt(0).toUpperCase() + b.slice(1))}</dd></div>`).join('')}
-      </dl>
-      <h3 class="h-small">Reaction types</h3>
-      <p class="muted">Our systems are engineered for versatility, enabling scale-up and optimization of a wide range of reaction types, including:</p>
-      <ul class="tags">${FLOW_CHEM.reactions.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="wrap">
-    ${sectionHead({ label: 'Also for cosmetic formulation', title: 'Botanicals supplied for cosmetic use', lede: 'Extracts and oils from our botanical range that customers use in skincare and personal-care products.' })}
-    <div class="entries">${crossover.map((p) => productEntry(p)).join('')}</div>
+    ${families
+      .map((f) => `<h2 class="register-family">${esc(f)}</h2>` + compoundTable(groups.filter((g) => g.family === f), { caption: true }))
+      .join('')}
+    <p class="table-note">Applications listed are the documented uses of each compound. Grade, purity, packaging and documentation are confirmed per order. Use in fragrance, flavor or cosmetic products is subject to the regulations of the destination market and is confirmed with our team before supply.</p>
+    <p class="table-note">Looking for ingredients for cosmetic and personal-care formulation? See our <a href="/botanical-extracts.html">botanical extracts and essential oils</a> and <a href="/applications.html#cosmetics">cosmetics &amp; personal care applications</a>.</p>
   </div>
 </section>`;
   } else {
@@ -189,8 +168,8 @@ export function categoryPage(c) {
       'Botanical extracts from Incretuss: ginger, turmeric, pepper, cinnamon, nutmeg and green tea extracts, oleoresins and CO₂ extracts, plus lavender and rosemary essential oils.',
     nutraceuticals:
       'Nutraceutical ingredients from Incretuss: ashwagandha, bacopa, boswellia, garcinia cambogia, green coffee and tulsi extracts, standardized to marker compounds.',
-    cosmetics:
-      'Cosmetic ingredients from Incretuss: aliphatic ketones and acetophenones for fragrance, flavor and specialty-chemical use, listed by CAS number.',
+    [AROMA]:
+      'Aroma chemicals and specialty ketones from Incretuss: methyl, ethyl and symmetric dialkyl ketones and acetophenones for flavor, fragrance, solvent and synthesis use, listed by CAS number.',
   }[c.key];
 
   return {
@@ -212,7 +191,7 @@ export function categoryPage(c) {
       main +
       otherCategories(c.key) +
       inquiryBand({
-        title: c.key === 'cosmetics' ? 'Request compound information' : 'Request product information',
+        title: c.key === AROMA ? 'Request compound information' : 'Request product information',
         text: 'Tell us the product, form, target grade, volume and destination. We will reply with the specification, pricing, lead time and documentation.',
       }),
   };

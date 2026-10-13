@@ -870,7 +870,7 @@ body.nav-locked { overflow: hidden; }
   position: sticky; top: var(--header-h); z-index: 50;
   background: var(--paper); border-bottom: 1px solid var(--rule);
 }
-.b-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.b-tabs { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); }
 .b-tab {
   display: flex; align-items: baseline; gap: 12px; padding: 18px 20px 16px 0;
   border-bottom: 3px solid transparent; margin-bottom: -1px; color: var(--ink-2);
@@ -934,3 +934,10 @@ body.nav-locked { overflow: hidden; }
 .specimen-form { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--rule-soft); font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
 .plate-lg.specimen { padding: clamp(20px, 3vw, 40px); }
 .related-specimen { border-left-color: var(--tone-botanical); }
+.register-syn { display: block; font-size: 13px; font-weight: 400; color: var(--ink-3); margin-top: 2px; }
+.register-family { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 16px; }
+.register-family:not(:first-child) { margin-top: 56px; }
+.aside-note { font-size: 15px; color: var(--ink-2); }
+.aside-note a { color: var(--green-700); text-decoration: underline; text-underline-offset: 3px; }
+.b-subsection { margin-top: 56px; }
+.b-sub-lede { color: var(--ink-2); max-width: 70ch; margin: -4px 0 24px; font-size: 15px; }

@@ -1,7 +1,7 @@
 import { SITE } from '../content/site.mjs';
 import { esc, icons, inquiryHref, text, truncate } from '../lib/html.mjs';
 import { breadcrumb } from '../lib/layout.mjs';
-import { category, content, groupLabel, isCompound, opportunities, related, sentenceCase, url } from '../lib/catalogue.mjs';
+import { casText, category, content, groupOf, isCompound, related, shownCas, url } from '../lib/catalogue.mjs';
 import { compareToggle, faqList, inquiryBand, plate, productMedia, relatedList, sectionHead, specTable, tagList } from '../lib/components.mjs';
 
 const ON_REQUEST = '<span class="muted">Available on request</span>';
@@ -41,7 +41,7 @@ function productLd(p, description) {
     manufacturer: { '@type': 'Organization', name: SITE.legalName, url: SITE.url + '/' },
   };
   if (p.image) ld.image = `${SITE.url}/${p.image}`;
-  if (p.cas) ld.additionalProperty = [{ '@type': 'PropertyValue', name: 'CAS number', value: p.cas }];
+  if (shownCas(p)) ld.additionalProperty = [{ '@type': 'PropertyValue', name: 'CAS number', value: shownCas(p) }];
   return ld;
 }
 
@@ -193,16 +193,24 @@ export function botanicalPage(p) {
   };
 }
 
-// ---------- cosmetic compound ----------
+// ---------- aroma chemical / specialty ketone ----------
+// Only verified fields are shown: name, common name, CAS number (when
+// confirmed), structural class and documented application tags. Grade,
+// purity, documentation and suitability for any end use are confirmed per
+// order; no cosmetic or regulatory status is claimed.
 export function compoundPage(p) {
   const c = category(p.category);
+  const g = groupOf(p);
   const trail = trailFor(p);
-  const groups = p.listings.map((l) => groupLabel(l.group));
-  const ops = opportunities(p);
+  const cas = shownCas(p);
+  const family = g.family.toLowerCase().replace(/s$/, '');
+  const apps = p.applications;
+  const casNote = p.casUnverified ? 'Being confirmed; available on request' : 'On request';
   const overview =
-    `${esc(p.name)}${p.cas ? ` (CAS ${esc(p.cas)})` : ''} is supplied as part of our cosmetic ingredients range, in the ` +
-    `${groups.map(esc).join(' and ')} ${groups.length > 1 ? 'groups' : 'group'}. Main applications: ` +
-    `${esc(sentenceCase(p.listings.map((l) => l.opportunity).join('; ')))}.`;
+    `${esc(p.name)}${p.synonym ? ` (${esc(p.synonym)})` : ''} is ${/^[aeiou]/.test(family) ? 'an' : 'a'} ${esc(family)}` +
+    `${cas ? `, CAS ${esc(cas)}` : ''}, listed in our ${esc(g.label.toLowerCase())} group. ` +
+    `Documented applications: ${esc(apps.join(', ').toLowerCase())}. ` +
+    'Grade, purity, packaging and documentation are confirmed per order, and suitability for a specific end use, including any regulatory requirements in your market, is confirmed with our team before supply.';
 
   const body = `
 <section class="product-head" data-tone="${c.tone}">
@@ -211,26 +219,26 @@ export function compoundPage(p) {
     <div class="product-grid">
       <div class="product-media">
         <div class="compound-plate" aria-hidden="true">
-          <span class="cp-top">${esc(groups[0])}</span>
+          <span class="cp-top">${esc(g.label)}</span>
           <span class="cp-name">${esc(p.name)}</span>
-          <span class="cp-cas">CAS ${esc(p.cas || 'on request')}</span>
-          <span class="cp-foot">Incretuss · ${esc(c.name)}</span>
+          <span class="cp-cas">CAS ${esc(casText(p))}</span>
+          <span class="cp-foot">Incretuss · ${esc(c.short)}</span>
         </div>
       </div>
       <div class="product-summary">
         <p class="label"><a href="/${c.page}">${esc(c.name)}</a></p>
         <h1>${esc(p.name)}</h1>
-        <p class="latin mono">CAS No. ${esc(p.cas || 'on request')}</p>
+        <p class="latin mono">CAS No. ${esc(cas || casNote)}</p>
         ${keySpec([
-          ['Chemical class', groups.map(esc).join('; ')],
-          ['Main applications', esc(sentenceCase(ops.join(', ')))],
-          ['Purity / grade', 'Confirmed per order'],
+          ['Common name', esc(p.synonym || '')],
+          ['Chemical class', esc(g.label)],
+          ['Applications', esc(apps.join(', '))],
+          ['Grade / purity', 'Confirmed per order'],
         ])}
         <div class="actions">
           <a class="btn btn-primary" href="/${inquiryHref(p.name, 'quote')}">Request a Quote</a>
-          <a class="btn btn-secondary" href="/${inquiryHref(p.name, 'tds')}">Request Technical Data Sheet</a>
+          <a class="btn btn-secondary" href="/${inquiryHref(p.name, 'spec')}">Request Specification</a>
         </div>
-        ${docLinks(p.name, [['sds', 'Safety Data Sheet'], ['coa', 'COA']])}
         ${compareToggle(p)}
       </div>
     </div>
@@ -248,35 +256,30 @@ export function compoundPage(p) {
           title: 'Identity',
           rows: [
             ['Compound', esc(p.name)],
-            ['CAS number', `<span class="mono">${esc(p.cas || 'On request')}</span>`],
-            ['Chemical class', groups.map(esc).join('; ')],
+            ['Common name', esc(p.synonym || '')],
+            ['CAS number', cas ? `<span class="mono">${esc(cas)}</span>` : `<span class="muted">${esc(casNote)}</span>`],
+            ['Chemical class', `${esc(g.family)}: ${esc(g.label.toLowerCase())}`],
           ],
         },
         {
           title: 'Supply & documentation',
           rows: [
-            ['Purity / grade', ON_REQUEST],
+            ['Grade / purity', ON_REQUEST],
             ['Packaging', ON_REQUEST],
-            ['Documentation', 'TDS and SDS on request; COA per batch'],
+            ['Documentation', '<span class="muted">Confirmed per order</span>'],
             ['Export', 'Available; confirm destination with our team'],
           ],
         },
       ])}
-      <h2 class="h-detail">Process capability</h2>
-      <p class="prose">Our flow and vapour-phase chemistry infrastructure supports high-pressure operation up to 50 bar, reactions up to 600 °C and flexible reactor configurations for scale-up from pilot to commercial scale. <a href="/cosmetic-ingredients.html#flow-chem">Flow chemistry capability</a></p>
     </div>
     <aside class="detail-aside">
       <div class="aside-block">
         <h2 class="h-small">Applications</h2>
-        ${tagList(ops)}
+        ${tagList(apps)}
       </div>
       <div class="aside-block">
-        <h2 class="h-small">Documents on request</h2>
-        <ul class="doc-list">
-          <li><a href="/${inquiryHref(p.name, 'tds')}">Technical Data Sheet</a></li>
-          <li><a href="/${inquiryHref(p.name, 'sds')}">Safety Data Sheet</a></li>
-          <li><a href="/${inquiryHref(p.name, 'coa')}">Certificate of Analysis</a></li>
-        </ul>
+        <h2 class="h-small">Documentation</h2>
+        <p class="aside-note">Specification, safety data and batch documentation are confirmed per order. <a href="/${inquiryHref(p.name, 'spec')}">Ask our team</a>.</p>
       </div>
     </aside>
   </div>
@@ -284,27 +287,27 @@ export function compoundPage(p) {
 
 <section class="section section-tint">
   <div class="wrap">
-    ${sectionHead({ title: 'Related compounds', lede: `More from the ${esc(groups[0])} group.` })}
+    ${sectionHead({ title: 'Related compounds', lede: `More ${esc(g.label.toLowerCase())}.` })}
     ${relatedList(related(p))}
   </div>
 </section>
 ` +
     inquiryBand({
       title: `Request information on ${esc(p.name)}`,
-      text: 'Send the required purity, volume, packaging and destination. We will reply with the specification, pricing, lead time and documentation.',
+      text: 'Send the required purity, volume, packaging, destination and intended application. We will reply with the specification, pricing, lead time and available documentation.',
       product: p.name,
       primaryLabel: 'Request a Quote',
-      secondary: { href: '/cosmetic-ingredients.html', label: 'All cosmetic ingredients' },
+      secondary: { href: `/${c.page}`, label: `All ${c.short.toLowerCase()}` },
     });
 
   const description = truncate(
-    `${p.name}${p.cas ? ` (CAS ${p.cas})` : ''}: ${groups.join(', ').toLowerCase()} for ${ops.join(', ').toLowerCase()}. Bulk supply from Incretuss; TDS and SDS on request.`,
+    `${p.name}${cas ? ` (CAS ${cas})` : ''}: ${family} for ${apps.join(', ').toLowerCase()}. Bulk supply from Incretuss; grade and documentation confirmed per order.`,
     158
   );
 
   return {
     path: url(p),
-    title: `${p.name}${p.cas ? ` (CAS ${p.cas})` : ''} | Cosmetic Ingredients | Incretuss`,
+    title: `${p.name}${cas ? ` (CAS ${cas})` : ''} | ${c.short} | Incretuss`,
     description,
     active: 'products',
     trail,

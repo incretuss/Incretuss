@@ -40,7 +40,7 @@ for (const p of pages) {
 }
 
 // Superseded by one static page per compound (see netlify.toml redirect).
-for (const old of ['cosmetic.html', 'js/cosmetic-page.js', 'js/products-page.js', 'brochure_styles.css', 'brochure_script.js']) {
+for (const old of ['cosmetic.html', 'cosmetic-ingredients.html', 'js/cosmetic-page.js', 'js/products-page.js', 'brochure_styles.css', 'brochure_script.js']) {
   if (existsSync(new URL(old, root))) unlinkSync(new URL(old, root));
 }
 

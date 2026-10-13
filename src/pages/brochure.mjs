@@ -1,19 +1,27 @@
-// brochure.html: the event brochure. One catalogue section is shown at a
-// time, with tabs to switch; which section opens first is set in
-// data/brochure.json (read again at runtime by js/brochure.js, so changing
-// it does not need a rebuild) or per link with ?section=<name>.
+// brochure.html: the event brochure. One section is shown at a time, with
+// tabs to switch; which section opens first is set in data/brochure.json
+// (read again at runtime by js/brochure.js, so changing it does not need a
+// rebuild) or per link with ?section=<name>.
 import { readFileSync } from 'node:fs';
-import { CATEGORIES, FLOW_CHEM, SITE } from '../content/site.mjs';
-import { EXTRACTION, ROUTES, SECTION_ALIASES } from '../content/brochure.mjs';
+import { SITE } from '../content/site.mjs';
+import { EXTRACTION, ROUTES, SECTIONS, SECTION_ALIASES } from '../content/brochure.mjs';
 import { esc, icons, inquiryHref } from '../lib/html.mjs';
-import { compoundGroups, content, inCategory, url } from '../lib/catalogue.mjs';
+import { AROMA, PRODUCTS, category, compoundGroups, content, inCategory, isCompound, isFragranceMaterial, url } from '../lib/catalogue.mjs';
 import { compoundTable, inquiryBand, productMedia } from '../lib/components.mjs';
 
 const CONFIG = JSON.parse(readFileSync(new URL('../../data/brochure.json', import.meta.url), 'utf8'));
-const DEFAULT = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase()] || CATEGORIES[0].key;
+const DEFAULT = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase()] || SECTIONS[0].key;
 
-// Short tab keys shown in ?section= links.
-const TAB_KEY = { 'botanical-extracts': 'botanicals', nutraceuticals: 'nutraceuticals', cosmetics: 'cosmetics' };
+// Resolve each tab's name, tone, intro, link and products.
+const TABS = SECTIONS.map((s, i) => {
+  if (s.category) {
+    const c = category(s.category);
+    return { ...s, index: c.index, name: c.name, tone: c.tone, intro: c.intro, page: c.page, count: inCategory(c.key).length };
+  }
+  const botanicals = PRODUCTS.filter((p) => !isCompound(p) && p.industries.includes('Cosmetics'));
+  const fragrance = inCategory(AROMA).filter(isFragranceMaterial);
+  return { ...s, index: '', page: 'applications.html#cosmetics', botanicals, fragrance, count: botanicals.length + fragrance.length };
+});
 
 function card(p) {
   const k = content(p);
@@ -39,29 +47,30 @@ function card(p) {
   );
 }
 
-function panel(c) {
-  const items = inCategory(c.key);
-  const active = c.key === DEFAULT;
+const COMPOUND_NOTE =
+  'Applications listed are the documented uses of each compound. Grade, purity, packaging and documentation are confirmed per order.';
+
+function panel(t) {
   let body;
-  if (c.key === 'cosmetics') {
+  if (t.key === 'cosmetics') {
     body =
-      compoundTable(compoundGroups(), { caption: true, compare: false }) +
-      '<div class="b-capability">' +
-      '<h3 class="h-small">Flow &amp; vapour-phase chemistry</h3>' +
-      '<dl class="ruled-list ruled-list-2">' +
-      FLOW_CHEM.infrastructure.map(([a, b]) => `<div><dt>${esc(a)}</dt><dd>${esc(b.charAt(0).toUpperCase() + b.slice(1))}</dd></div>`).join('') +
-      '</dl>' +
-      `<ul class="tags">${FLOW_CHEM.reactions.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` +
+      `<div class="b-grid">${t.botanicals.map(card).join('')}</div>` +
+      '<div class="b-subsection">' +
+      '<h3 class="h-small">Fragrance materials</h3>' +
+      '<p class="b-sub-lede">Aroma chemicals supplied for fragrance compounding. They are fragrance materials, not cosmetic actives; IFRA and regulatory status for your application is confirmed per order.</p>' +
+      compoundTable(compoundGroups(isFragranceMaterial), { caption: true, compare: false }) +
       '</div>';
+  } else if (t.category === AROMA) {
+    body = compoundTable(compoundGroups(), { caption: true, compare: false }) + `<p class="table-note">${COMPOUND_NOTE}</p>`;
   } else {
-    body = `<div class="b-grid">${items.map(card).join('')}</div>`;
+    body = `<div class="b-grid">${inCategory(t.category).map(card).join('')}</div>`;
   }
   return (
-    `<section class="b-panel${active ? ' is-active' : ''}" id="panel-${TAB_KEY[c.key]}" data-section="${TAB_KEY[c.key]}" data-tone="${c.tone}" role="tabpanel" aria-labelledby="tab-${TAB_KEY[c.key]}" tabindex="0">` +
+    `<section class="b-panel${t.key === DEFAULT ? ' is-active' : ''}" id="panel-${t.key}" data-section="${t.key}" data-tone="${t.tone}" role="tabpanel" aria-labelledby="tab-${t.key}" tabindex="0">` +
     '<div class="b-panel-head">' +
-    `<span class="cat-num">${c.index}</span>` +
-    `<div><h2>${esc(c.name)}</h2><p>${esc(c.intro)}</p></div>` +
-    `<a class="link-arrow" href="/${c.page}">On the website ${icons.arrow}</a>` +
+    `<span class="cat-num">${t.index}</span>` +
+    `<div><h2>${esc(t.name)}</h2><p>${esc(t.intro)}</p></div>` +
+    `<a class="link-arrow" href="/${t.page}">On the website ${icons.arrow}</a>` +
     '</div>' +
     body +
     '</section>'
@@ -70,13 +79,12 @@ function panel(c) {
 
 export default function brochurePage() {
   const event = String(CONFIG.event || '').trim();
-  const tabs = CATEGORIES.map((c) => {
-    const key = TAB_KEY[c.key];
-    const active = c.key === DEFAULT;
+  const tabs = TABS.map((t) => {
+    const active = t.key === DEFAULT;
     return (
-      `<a class="b-tab" href="?section=${key}" id="tab-${key}" data-section="${key}" data-tone="${c.tone}" role="tab" aria-controls="panel-${key}" aria-selected="${active}"${active ? '' : ' tabindex="-1"'}>` +
-      `<span class="menu-index">${c.index}</span><span class="b-tab-name">${esc(c.name)}</span>` +
-      `<span class="menu-count">${inCategory(c.key).length}</span></a>`
+      `<a class="b-tab" href="?section=${t.key}" id="tab-${t.key}" data-section="${t.key}" data-tone="${t.tone}" role="tab" aria-controls="panel-${t.key}" aria-selected="${active}"${active ? '' : ' tabindex="-1"'}>` +
+      `<span class="menu-index">${t.index}</span><span class="b-tab-name">${esc(t.name)}</span>` +
+      `<span class="menu-count">${t.count}</span></a>`
     );
   }).join('');
 
@@ -86,11 +94,11 @@ export default function brochurePage() {
     <div class="page-head-grid">
       <div>
         <p class="label">Product brochure</p>
-        <h1>Botanical, nutraceutical and cosmetic ingredients</h1>
+        <h1>Botanical extracts, nutraceutical ingredients and aroma chemicals</h1>
         <p class="b-event" data-event${event ? '' : ' hidden'}>Meet us at <strong>${esc(event)}</strong></p>
       </div>
       <div class="page-head-aside">
-        <p class="page-lede">We supply formulators, brand owners and distributors with consistent, well-documented ingredients for flavor and fragrance, nutraceutical, pharmaceutical and cosmetic applications. Extraction choices are made product by product, matching the method to the actives, so buyers get a specification they can build a formulation around.</p>
+        <p class="page-lede">We supply formulators, brand owners and distributors with consistent, well-documented ingredients for flavor and fragrance, nutraceutical, pharmaceutical and personal-care applications. Extraction choices are made product by product, matching the method to the actives, so buyers get a specification they can build a formulation around.</p>
       </div>
     </div>
   </div>
@@ -104,7 +112,7 @@ export default function brochurePage() {
 
 <div class="section section-first b-panels">
   <div class="wrap">
-    ${CATEGORIES.map(panel).join('')}
+    ${TABS.map(panel).join('')}
   </div>
 </div>
 
@@ -113,7 +121,7 @@ export default function brochurePage() {
     <div class="split-head">
       <p class="label">How we work</p>
       <h2>Two extraction routes, one standard</h2>
-      <p>Every product ships with a Certificate of Analysis and batch documentation, with flexible MOQs.</p>
+      <p>Botanical products ship with a Certificate of Analysis and batch documentation, with flexible MOQs.</p>
     </div>
     <div class="split-body">
       <dl class="ruled-list ruled-list-2">
@@ -134,11 +142,11 @@ export default function brochurePage() {
   return {
     path: 'brochure.html',
     title: 'Product Brochure | Incretuss',
-    description: `${SITE.legalName} product brochure: botanical extracts, nutraceutical ingredients and cosmetic ingredients.`,
+    description: `${SITE.legalName} product brochure: botanical extracts, nutraceutical ingredients and aroma chemicals.`,
     active: 'products',
     noindex: true,
     scripts: ['/js/brochure.js'],
-    mainAttrs: `class="brochure" data-default-section="${TAB_KEY[DEFAULT]}"`,
+    mainAttrs: `class="brochure" data-default-section="${DEFAULT}"`,
     body,
   };
 }

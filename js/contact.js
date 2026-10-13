@@ -12,6 +12,7 @@
 
   var NEED_LABEL = {
     quote: 'a quote',
+    spec: 'the specification',
     brochure: 'the product brochure',
     tds: 'the Technical Data Sheet',
     sds: 'the Safety Data Sheet',

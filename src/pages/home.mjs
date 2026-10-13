@@ -1,6 +1,6 @@
 import { CATEGORIES, PROCESS, QUALITY, SITE } from '../content/site.mjs';
 import { esc, icons } from '../lib/html.mjs';
-import { PRODUCTS, SECTORS, compoundGroups, counts, inCategory, isCompound, sectorProducts, url } from '../lib/catalogue.mjs';
+import { AROMA, PRODUCTS, SECTORS, compoundGroups, counts, inCategory, isCompound, sectorProducts, shownCas, url } from '../lib/catalogue.mjs';
 import { inquiryBand, sectionHead } from '../lib/components.mjs';
 
 function hero() {
@@ -10,7 +10,7 @@ function hero() {
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <p class="label">${esc(SITE.legalName)} · Bengaluru, India</p>
-      <h1>Botanical extracts, nutraceutical and cosmetic ingredients for manufacturers.</h1>
+      <h1>Botanical extracts, nutraceutical ingredients and aroma chemicals for manufacturers.</h1>
       <p class="hero-lede">Standardized extracts, oleoresins, CO₂ extracts, essential oils and aroma chemicals, supplied in bulk. Each product is specified by its marker compound or CAS number and documented batch by batch.</p>
       <div class="actions">
         <a class="btn btn-primary" href="/products.html">View the product range</a>
@@ -28,7 +28,7 @@ function hero() {
   <div class="wrap">
     <dl class="facts">
       <div><dt>Product forms</dt><dd>Extracts, oleoresins, CO₂ extracts, essential oils, aroma chemicals</dd></div>
-      <div><dt>Catalogue</dt><dd>${botanicals} botanicals and ${counts.cosmetics} cosmetic compounds across three categories</dd></div>
+      <div><dt>Catalogue</dt><dd>${botanicals} botanicals and ${counts[AROMA]} aroma chemicals and specialty ketones across three categories</dd></div>
       <div><dt>Documentation</dt><dd>Certificate of Analysis with every batch; TDS, SDS and specification sheets on request</dd></div>
       <div><dt>Supply</dt><dd>Bulk supply to manufacturers, for domestic and export orders</dd></div>
     </dl>
@@ -40,17 +40,17 @@ function categoryIndex() {
   const rows = CATEGORIES.map((c) => {
     const items = inCategory(c.key);
     let media;
-    if (c.key === 'cosmetics') {
-      const sample = compoundGroups().map((g) => g.items[0].p);
+    if (c.key === AROMA) {
+      const sample = compoundGroups().map((g) => g.items[0]);
       media =
         '<div class="cat-register" aria-hidden="true">' +
-        sample.map((p) => `<span><b>${esc(p.name)}</b><i>${esc(p.cas || '')}</i></span>`).join('') +
+        sample.map((p) => `<span><b>${esc(p.name)}</b><i>${esc(shownCas(p) || '')}</i></span>`).join('') +
         '</div>';
     } else {
       const pick = items.find((p) => p.image);
       media = `<div class="plate"><img src="/${pick.image}" alt="" width="383" height="266" loading="lazy" decoding="async"></div>`;
     }
-    const names = c.key === 'cosmetics' ? compoundGroups().map((g) => g.label) : items.map((p) => p.name.replace(/ \(.*\)/, ''));
+    const names = c.key === AROMA ? compoundGroups().map((g) => g.label) : items.map((p) => p.name.replace(/ \(.*\)/, ''));
     return `
       <li class="cat-row" data-tone="${c.tone}">
         <span class="cat-num">${c.index}</span>
@@ -60,7 +60,7 @@ function categoryIndex() {
           <p class="cat-items">${names.map(esc).join('<span aria-hidden="true"> · </span>')}</p>
         </div>
         <div class="cat-media">${media}</div>
-        <a class="cat-link link-arrow" href="/${c.page}" aria-label="${esc(c.name)}: view ${items.length} ${c.key === 'cosmetics' ? 'compounds' : 'products'}">${items.length} ${c.key === 'cosmetics' ? 'compounds' : 'products'} ${icons.arrow}</a>
+        <a class="cat-link link-arrow" href="/${c.page}" aria-label="${esc(c.name)}: view ${items.length} ${c.key === AROMA ? 'compounds' : 'products'}">${items.length} ${c.key === AROMA ? 'compounds' : 'products'} ${icons.arrow}</a>
       </li>`;
   }).join('');
   return `
@@ -95,7 +95,7 @@ function markerTable() {
         <tbody>${rows}</tbody>
       </table>
     </div>
-    <p class="table-note"><a class="link-arrow" href="/products.html">Full catalogue, including forms and cosmetic compounds ${icons.arrow}</a></p>
+    <p class="table-note"><a class="link-arrow" href="/products.html">Full catalogue, including forms and aroma chemicals ${icons.arrow}</a></p>
   </div>
 </section>`;
 }
@@ -129,7 +129,7 @@ function applications() {
     const names = items.filter((x) => !isCompound(x.p)).map((x) => x.p);
     const compounds = items.filter((x) => isCompound(x.p)).length;
     const parts = names.map((p) => `<a href="/${url(p)}">${esc(p.name.replace(/ \(.*\)/, ''))}</a>`);
-    if (compounds) parts.push(`<a href="/cosmetic-ingredients.html">${compounds} aroma chemicals</a>`);
+    if (compounds) parts.push(`<a href="/aroma-chemicals.html">${compounds} specialty ketones</a>`);
     return `<div><dt><a href="/applications.html#${s.key}">${esc(s.name)}</a></dt><dd>${parts.join(', ')}</dd></div>`;
   }).join('');
   return `
@@ -163,7 +163,7 @@ function about() {
 export default function home() {
   return {
     path: 'index.html',
-    title: 'Incretuss | Botanical Extracts, Nutraceutical & Cosmetic Ingredients',
+    title: 'Incretuss | Botanical Extracts, Nutraceutical Ingredients & Aroma Chemicals',
     description:
       'Incretuss Private Limited supplies standardized botanical extracts, oleoresins, essential oils, nutraceutical ingredients and aroma chemicals in bulk to manufacturers. Bengaluru, India.',
     active: 'home',

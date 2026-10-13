@@ -20,7 +20,7 @@ export const SITE = {
   },
   ogImage: 'https://incretuss.com/images/og-image.png',
   description:
-    'Incretuss Private Limited supplies botanical extracts, nutraceutical ingredients and cosmetic ingredients (extracts, oleoresins, essential oils and aroma chemicals) to manufacturers in bulk.',
+    'Incretuss Private Limited supplies botanical extracts, nutraceutical ingredients and aroma chemicals (extracts, oleoresins, essential oils and specialty ketones) to manufacturers in bulk.',
 };
 
 // The three catalogue categories. `key` matches `category` in
@@ -52,26 +52,30 @@ export const CATEGORIES = [
       'Standardized botanical actives for supplement and functional-food manufacturers, each extract specified by its marker compound, from withanolides and bacosides to hydroxycitric acid and chlorogenic acid.',
   },
   {
-    key: 'cosmetics',
-    anchor: 'cosmetics',
-    page: 'cosmetic-ingredients.html',
+    // Formerly "Cosmetic Ingredients" (cosmetic-ingredients.html, which now
+    // redirects here). These are aroma chemicals, solvents and synthesis
+    // intermediates; cosmetic suitability is not claimed for any of them.
+    key: 'aroma-chemicals',
+    anchor: 'aroma-chemicals',
+    page: 'aroma-chemicals.html',
     index: '03',
-    name: 'Cosmetic Ingredients',
-    short: 'Cosmetics',
+    name: 'Aroma Chemicals & Specialty Ketones',
+    short: 'Aroma Chemicals',
     tone: 'cosmetic',
-    lede: 'Aroma chemicals (aliphatic ketones and acetophenones) for fragrance, flavor and specialty-chemical use.',
+    lede: 'Aliphatic and aromatic ketones for fragrance and flavor formulation, and as solvents and synthesis intermediates.',
     intro:
-      'Aroma chemicals for fragrance, flavor and specialty-chemical manufacturers: aliphatic and symmetric dialkyl ketones, and substituted acetophenones, listed by CAS number.',
+      'Aliphatic and aromatic ketones supplied as aroma chemicals for fragrance and flavor formulation, and as solvents and intermediates for chemical synthesis. Each compound is listed by CAS number; grade, purity and regulatory documentation are confirmed per order.',
   },
 ];
 
-// Buyer-facing labels for the listing groups that came from the source
-// sheet (data/products.json keeps the original group names).
-export const GROUP_LABELS = {
-  'Fragrance / Flavor Candidates': 'Fragrance & flavor ketones',
-  'Symmetric dialkyl ketones': 'Symmetric dialkyl ketones',
-  Acetophenones: 'Acetophenones',
-};
+// Groups within Aroma Chemicals & Specialty Ketones, by chemical structure.
+// `group` on each compound in data/products.json is one of these keys.
+export const COMPOUND_GROUPS = [
+  { key: 'methyl', label: 'Methyl ketones', family: 'Aliphatic ketones' },
+  { key: 'ethyl', label: 'Ethyl ketones', family: 'Aliphatic ketones' },
+  { key: 'symmetric', label: 'Symmetric dialkyl ketones', family: 'Aliphatic ketones' },
+  { key: 'aryl', label: 'Acetophenone and related aryl ketones', family: 'Aromatic ketones' },
+];
 
 export const NAV = [
   { href: 'products.html', label: 'Products', key: 'products', menu: true },
@@ -81,8 +85,10 @@ export const NAV = [
   { href: 'contact.html', label: 'Contact', key: 'contact' },
 ];
 
-// Flow / vapour-phase chemistry capability statement (from the Cosmetics
-// "Flow Chem Advantages" content). Quoted text kept verbatim.
+// Flow / vapour-phase chemistry capability statement (from the original
+// "Flow Chem Advantages" content). Quoted text kept verbatim. Shown on the
+// Quality page as a general capability; it is not presented as the
+// manufacturing route for any particular product.
 export const FLOW_CHEM = {
   quote: 'flow processes can produce higher yields, and be safer, cleaner and cheaper to set up and operate',
   vapour:

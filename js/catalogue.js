@@ -1,6 +1,7 @@
 // products.html only: filters the statically rendered catalogue rows by
 // free text, category and industry. Category deep links (#botanical-extracts,
-// #nutraceuticals, #cosmetics, and the old #flow-chem) keep working.
+// #nutraceuticals, #aroma-chemicals, and the older #cosmetics and #flow-chem)
+// keep working.
 (function () {
   var rows = Array.prototype.slice.call(document.querySelectorAll('.catalogue .row'));
   var sections = Array.prototype.slice.call(document.querySelectorAll('.cat-section'));
@@ -42,11 +43,16 @@
     });
   }
 
-  // Old links pointed at #flow-chem on this page; that content now lives on
-  // the cosmetic ingredients page.
+  // Older links: #flow-chem (now on the Quality page) and #cosmetics (the
+  // category is now Aroma Chemicals & Specialty Ketones).
   if (window.location.hash === '#flow-chem') {
-    window.location.replace('/cosmetic-ingredients.html#flow-chem');
+    window.location.replace('/quality.html#flow-chemistry');
     return;
+  }
+  if (window.location.hash === '#cosmetics') {
+    history.replaceState(null, '', '#aroma-chemicals');
+    var target = document.getElementById('aroma-chemicals');
+    if (target) target.scrollIntoView();
   }
   apply();
 })();
