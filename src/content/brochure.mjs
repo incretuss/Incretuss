@@ -2,17 +2,38 @@
 // section opens first and the event name) live in data/brochure.json so
 // they can be changed without touching code; see README.md.
 
-// Section keys as used in data/brochure.json and ?section= links, mapped to
-// catalogue categories. Several spellings are accepted for convenience.
+// Brochure tabs, in order. The first three are the catalogue categories;
+// "cosmetics" is a view across them for cosmetics and personal-care events.
+// `key` is what data/brochure.json "defaultSection" and ?section= links use.
+export const SECTIONS = [
+  { key: 'botanicals', category: 'botanical-extracts' },
+  { key: 'nutraceuticals', category: 'nutraceuticals' },
+  { key: 'aroma', category: 'aroma-chemicals' },
+  {
+    key: 'cosmetics',
+    name: 'Cosmetics & Personal Care',
+    tone: 'botanical',
+    intro:
+      'Products from our range used in skin-care, hair-care and fragrance work: botanical extracts and essential oils, and aroma chemicals supplied as fragrance materials. Suitability for a specific cosmetic formulation, including IFRA and local regulatory requirements, is confirmed per order.',
+  },
+];
+
+// Accepted spellings for defaultSection and ?section= (keep in step with
+// ALIASES in js/brochure.js).
 export const SECTION_ALIASES = {
-  botanicals: 'botanical-extracts',
-  botanical: 'botanical-extracts',
-  'botanical-extracts': 'botanical-extracts',
+  botanicals: 'botanicals',
+  botanical: 'botanicals',
+  'botanical-extracts': 'botanicals',
   nutraceuticals: 'nutraceuticals',
   nutraceutical: 'nutraceuticals',
   nutra: 'nutraceuticals',
+  aroma: 'aroma',
+  'aroma-chemicals': 'aroma',
+  chemicals: 'aroma',
+  ketones: 'aroma',
   cosmetics: 'cosmetics',
   cosmetic: 'cosmetics',
+  'personal-care': 'cosmetics',
 };
 
 // Extraction route per botanical, from the previous printed brochure.

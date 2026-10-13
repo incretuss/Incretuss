@@ -6,8 +6,9 @@
 // products in localStorage.
 //
 // Entries carry a `category` (botanical-extracts | nutraceuticals |
-// cosmetics). Cosmetics entries are compounds: they have `cas` and
-// `listings` ({group, opportunity}) instead of latin/part/forms/markers.
+// aroma-chemicals). Aroma chemicals are compounds: they have `cas`,
+// `synonym`, `group` and `applications` instead of latin/part/forms/markers.
+// A CAS number flagged `casUnverified` is not shown or searched.
 window.ProductStore = (function () {
   var DATA_URL = document.currentScript
     ? new URL('../data/products.json', document.currentScript.src).href
@@ -15,7 +16,7 @@ window.ProductStore = (function () {
   var CATEGORY_NAMES = {
     'botanical-extracts': 'Botanical Extracts',
     nutraceuticals: 'Nutraceutical Ingredients',
-    cosmetics: 'Cosmetic Ingredients',
+    'aroma-chemicals': 'Aroma Chemicals & Specialty Ketones',
   };
   var cache = null;
 
@@ -23,7 +24,7 @@ window.ProductStore = (function () {
     p.forms = p.forms || [];
     p.markers = p.markers || [];
     p.industries = p.industries || [];
-    p.listings = p.listings || [];
+    p.applications = p.applications || [];
     return p;
   }
 
@@ -47,7 +48,9 @@ window.ProductStore = (function () {
     return list.filter(function (p) { return p.slug === slug; })[0];
   }
 
-  function isCompound(p) { return p.category === 'cosmetics'; }
+  function isCompound(p) { return p.category === 'aroma-chemicals'; }
+
+  function shownCas(p) { return p.cas && !p.casUnverified ? p.cas : null; }
 
   // Every product has its own static page at /<slug>.html.
   function url(p) { return p.slug + '.html'; }
@@ -56,20 +59,20 @@ window.ProductStore = (function () {
 
   // Secondary line under a product name (botanical name / CAS number).
   function subtitle(p) {
-    return isCompound(p) ? 'CAS ' + (p.cas || 'on request') : p.latin;
+    return isCompound(p) ? 'CAS ' + (shownCas(p) || 'on request') : p.latin;
   }
 
   // One-line description of what's on offer (forms / main applications).
   function summary(p) {
     if (!isCompound(p)) return p.forms.join(', ');
-    return p.listings.map(function (l) { return l.opportunity; }).join('; ');
+    return p.applications.join(', ');
   }
 
   function matchesQuery(p, q) {
     if (!q) return true;
-    var haystack = [p.name, p.latin, p.part, p.cas, categoryName(p)]
+    var haystack = [p.name, p.synonym, p.latin, p.part, shownCas(p), categoryName(p)]
       .concat(p.forms, p.markers, p.industries)
-      .concat(p.listings.map(function (l) { return l.group + ' ' + l.opportunity; }))
+      .concat(p.applications)
       .join(' ')
       .toLowerCase();
     return q.toLowerCase().split(/\s+/).every(function (term) {

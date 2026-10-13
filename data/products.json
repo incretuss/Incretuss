@@ -312,220 +312,202 @@
     "blurb": "Bacoside-standardized whole-herb extract, an anchor ingredient in nootropic formulations."
   },
   {
-    "slug": "6-undecanone",
-    "category": "cosmetics",
-    "name": "6-Undecanone",
-    "cas": "927-49-1",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Fragrance, flavor, specialty chemicals",
-        "priority": 5
-      }
-    ]
-  },
-  {
-    "slug": "2-undecanone",
-    "category": "cosmetics",
-    "name": "2-Undecanone",
-    "cas": "112-12-9",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor, fragrance, specialty chemicals",
-        "priority": 5
-      }
+    "slug": "2-octanone",
+    "category": "aroma-chemicals",
+    "name": "2-Octanone",
+    "synonym": "Methyl hexyl ketone",
+    "cas": "111-13-7",
+    "group": "methyl",
+    "applications": [
+      "Flavor & fragrance"
     ]
   },
   {
     "slug": "2-nonanone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "2-Nonanone",
+    "synonym": "Methyl heptyl ketone",
     "cas": "821-55-6",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor, fragrance",
-        "priority": 4
-      }
+    "group": "methyl",
+    "applications": [
+      "Flavor & fragrance"
     ]
   },
   {
     "slug": "2-decanone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "2-Decanone",
+    "synonym": "Methyl octyl ketone",
     "cas": "693-54-9",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor, fragrance",
-        "priority": 4
-      }
+    "group": "methyl",
+    "applications": [
+      "Flavor & fragrance"
     ]
   },
   {
-    "slug": "3-octanone",
-    "category": "cosmetics",
-    "name": "3-Octanone",
-    "cas": "106-68-3",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor, fragrance",
-        "priority": 4
-      }
-    ]
-  },
-  {
-    "slug": "2-octanone",
-    "category": "cosmetics",
-    "name": "2-Octanone",
-    "cas": "111-13-7",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor, fragrance",
-        "priority": 4
-      }
-    ]
-  },
-  {
-    "slug": "3-heptanone",
-    "category": "cosmetics",
-    "name": "3-Heptanone",
-    "cas": "106-35-4",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor",
-        "priority": 3
-      }
-    ]
-  },
-  {
-    "slug": "4-heptanone",
-    "category": "cosmetics",
-    "name": "4-Heptanone",
-    "cas": "123-19-3",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor, specialty chemicals",
-        "priority": 3
-      },
-      {
-        "group": "Symmetric dialkyl ketones",
-        "opportunity": "Flavor, fragrance, solvent, specialty chemicals"
-      }
+    "slug": "2-undecanone",
+    "category": "aroma-chemicals",
+    "name": "2-Undecanone",
+    "synonym": "Methyl nonyl ketone",
+    "cas": "112-12-9",
+    "group": "methyl",
+    "applications": [
+      "Flavor & fragrance"
     ]
   },
   {
     "slug": "3-hexanone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "3-Hexanone",
+    "synonym": "Ethyl propyl ketone",
     "cas": "589-38-8",
-    "listings": [
-      {
-        "group": "Fragrance / Flavor Candidates",
-        "opportunity": "Flavor",
-        "priority": 3
-      }
+    "group": "ethyl",
+    "applications": [
+      "Flavor"
+    ]
+  },
+  {
+    "slug": "3-heptanone",
+    "category": "aroma-chemicals",
+    "name": "3-Heptanone",
+    "synonym": "Ethyl butyl ketone",
+    "cas": "106-35-4",
+    "group": "ethyl",
+    "applications": [
+      "Flavor",
+      "Solvent"
+    ]
+  },
+  {
+    "slug": "3-octanone",
+    "category": "aroma-chemicals",
+    "name": "3-Octanone",
+    "synonym": "Ethyl pentyl ketone",
+    "cas": "106-68-3",
+    "group": "ethyl",
+    "applications": [
+      "Flavor & fragrance"
     ]
   },
   {
     "slug": "3-pentanone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "3-Pentanone",
+    "synonym": "Diethyl ketone",
     "cas": "96-22-0",
-    "listings": [
-      {
-        "group": "Symmetric dialkyl ketones",
-        "opportunity": "Intermediate, Flavor, fragrance, solvent, specialty chemicals"
-      }
+    "group": "symmetric",
+    "applications": [
+      "Solvent",
+      "Synthesis intermediate"
+    ]
+  },
+  {
+    "slug": "4-heptanone",
+    "category": "aroma-chemicals",
+    "name": "4-Heptanone",
+    "synonym": "Dipropyl ketone",
+    "cas": "123-19-3",
+    "group": "symmetric",
+    "applications": [
+      "Flavor",
+      "Solvent"
     ]
   },
   {
     "slug": "5-nonanone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "5-Nonanone",
+    "synonym": "Dibutyl ketone",
     "cas": "623-64-7",
-    "listings": [
-      {
-        "group": "Symmetric dialkyl ketones",
-        "opportunity": "Flavor, fragrance, specialty chemicals"
-      }
+    "group": "symmetric",
+    "applications": [
+      "Solvent",
+      "Synthesis intermediate"
+    ],
+    "casUnverified": true
+  },
+  {
+    "slug": "6-undecanone",
+    "category": "aroma-chemicals",
+    "name": "6-Undecanone",
+    "synonym": "Dipentyl ketone",
+    "cas": "927-49-1",
+    "group": "symmetric",
+    "applications": [
+      "Synthesis intermediate"
     ]
   },
   {
     "slug": "7-tridecanone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "7-Tridecanone",
+    "synonym": "Dihexyl ketone",
     "cas": null,
-    "listings": [
-      {
-        "group": "Symmetric dialkyl ketones",
-        "opportunity": "Fragrance, flavor, specialty chemicals"
-      }
+    "group": "symmetric",
+    "applications": [
+      "Synthesis intermediate"
     ]
   },
   {
     "slug": "acetophenone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "Acetophenone",
+    "synonym": "Methyl phenyl ketone",
     "cas": "98-86-2",
-    "listings": [
-      {
-        "group": "Acetophenones",
-        "opportunity": "Flavor, fragrance, solvent, specialty chemicals, agrochem"
-      }
+    "group": "aryl",
+    "applications": [
+      "Flavor & fragrance",
+      "Solvent",
+      "Synthesis intermediate"
     ]
   },
   {
     "slug": "propiophenone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "Propiophenone",
+    "synonym": "Ethyl phenyl ketone",
     "cas": "93-55-0",
-    "listings": [
-      {
-        "group": "Acetophenones",
-        "opportunity": "Flavor, fragrance, solvent, specialty chemicals"
-      }
+    "group": "aryl",
+    "applications": [
+      "Pharmaceutical intermediate",
+      "Synthesis intermediate"
     ]
   },
   {
     "slug": "4-methylacetophenone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "4-Methylacetophenone",
+    "synonym": "p-Methylacetophenone",
     "cas": "122-00-9",
-    "listings": [
-      {
-        "group": "Acetophenones",
-        "opportunity": "Fragrance & flavor; pharmaceutical intermediate; organic synthesis"
-      }
-    ]
-  },
-  {
-    "slug": "4-bromoacetophenone",
-    "category": "cosmetics",
-    "name": "4-Bromoacetophenone",
-    "cas": "99-90-1",
-    "listings": [
-      {
-        "group": "Acetophenones",
-        "opportunity": "Pharmaceutical intermediate; agrochemical intermediate; heterocycle"
-      }
+    "group": "aryl",
+    "applications": [
+      "Flavor & fragrance",
+      "Synthesis intermediate"
     ]
   },
   {
     "slug": "4-methoxyacetophenone",
-    "category": "cosmetics",
+    "category": "aroma-chemicals",
     "name": "4-Methoxyacetophenone",
+    "synonym": "Acetanisole",
     "cas": "100-06-1",
-    "listings": [
-      {
-        "group": "Acetophenones",
-        "opportunity": "Fragrance; pharmaceutical intermediate; flavor chemistry; fine chemicals; organic synthesis"
-      }
+    "group": "aryl",
+    "applications": [
+      "Flavor & fragrance",
+      "Synthesis intermediate"
+    ]
+  },
+  {
+    "slug": "4-bromoacetophenone",
+    "category": "aroma-chemicals",
+    "name": "4-Bromoacetophenone",
+    "synonym": "p-Bromoacetophenone",
+    "cas": "99-90-1",
+    "group": "aryl",
+    "applications": [
+      "Pharmaceutical intermediate",
+      "Agrochemical intermediate",
+      "Synthesis intermediate"
     ]
   }
 ]

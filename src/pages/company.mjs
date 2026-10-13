@@ -37,7 +37,7 @@ export function aboutPage() {
       <dl class="ruled-list">
         ${CATEGORIES.map(
           (c) =>
-            `<div data-tone="${c.tone}"><dt><a href="/${c.page}">${esc(c.name)}</a></dt><dd>${esc(c.intro)} <span class="muted">${inCategory(c.key).length} ${c.key === 'cosmetics' ? 'compounds' : 'products'}.</span></dd></div>`
+            `<div data-tone="${c.tone}"><dt><a href="/${c.page}">${esc(c.name)}</a></dt><dd>${esc(c.intro)} <span class="muted">${inCategory(c.key).length} ${c.key === 'aroma-chemicals' ? 'compounds' : 'products'}.</span></dd></div>`
         ).join('')}
       </dl>
     </div>
@@ -198,7 +198,6 @@ export function qualityPage() {
     <div class="split-head">
       <p class="label">Process capability</p>
       <h2>Flow and vapour-phase chemistry</h2>
-      <p>Used for our <a href="/cosmetic-ingredients.html">cosmetic ingredients</a> range of ketones and acetophenones.</p>
     </div>
     <div class="split-body">
       <p class="prose">${esc(FLOW_CHEM.vapour)}</p>
@@ -258,9 +257,9 @@ export function applicationsPage() {
         '</ul>'
       : '';
     const table = compounds.length
-      ? `<p class="sector-compounds"><span class="row-k">${compounds.length} aroma chemicals</span>` +
+      ? `<p class="sector-compounds"><span class="row-k">${compounds.length} specialty ketones</span>` +
         compounds.map((p) => `<a href="/${url(p)}">${esc(p.name)}</a>`).join(', ') +
-        ` <a class="link-arrow" href="/cosmetic-ingredients.html">Register with CAS numbers ${icons.arrow}</a></p>`
+        ` <a class="link-arrow" href="/aroma-chemicals.html">Register with CAS numbers ${icons.arrow}</a></p>`
       : '';
     return `
 <section class="sector${i % 2 ? ' section-tint' : ''}" id="${s.key}" aria-labelledby="h-${s.key}">
@@ -380,7 +379,7 @@ export function contactPage() {
     path: 'contact.html',
     title: 'Contact Incretuss | Send a Product Inquiry',
     description:
-      'Contact Incretuss Private Limited, Bengaluru, for specifications, pricing, samples and documentation on botanical extracts, nutraceutical and cosmetic ingredients.',
+      'Contact Incretuss Private Limited, Bengaluru, for specifications, pricing, samples and documentation on botanical extracts, nutraceutical ingredients and aroma chemicals.',
     active: 'contact',
     trail,
     scripts: ['/js/contact.js'],

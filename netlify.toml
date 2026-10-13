@@ -23,7 +23,18 @@
 
 [[redirects]]
   from = "/cosmetic.html"
-  to = "/cosmetic-ingredients.html"
+  to = "/aroma-chemicals.html"
+  status = 301
+
+# "Cosmetic Ingredients" was renamed "Aroma Chemicals & Specialty Ketones".
+[[redirects]]
+  from = "/cosmetic-ingredients.html"
+  to = "/aroma-chemicals.html"
+  status = 301
+
+[[redirects]]
+  from = "/cosmetic-ingredients"
+  to = "/aroma-chemicals"
   status = 301
 
 [[headers]]

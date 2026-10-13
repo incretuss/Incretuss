@@ -2,7 +2,7 @@
 // defined once here.
 import { SITE } from '../content/site.mjs';
 import { esc, icons, inquiryHref, join } from './html.mjs';
-import { category, groupLabel, isCompound, sentenceCase, url } from './catalogue.mjs';
+import { casText, category, groupOf, isCompound, shownCas, url } from './catalogue.mjs';
 
 export function sectionHead({ label, title, lede, id, level = 2, aside }) {
   const h = `h${level}`;
@@ -78,12 +78,10 @@ export function productEntry(p, alt) {
 // Compact row for the catalogue index (products.html) and filters.
 export function catalogueRow(p) {
   const compound = isCompound(p);
-  const sub = compound ? `CAS ${p.cas || 'on request'}` : `<i>${esc(p.latin)}</i>`;
-  const detail = compound
-    ? esc(p.listings.map((l) => groupLabel(l.group)).join(' · '))
-    : esc(p.markers.join(', '));
-  const forms = compound ? esc(sentenceCase(p.listings.map((l) => l.opportunity).join('; '))) : esc(p.forms.join(', '));
-  const search = [p.name, p.latin, p.cas, p.part, ...(p.forms || []), ...(p.markers || []), ...(p.industries || []), ...(p.listings || []).map((l) => l.group + ' ' + l.opportunity)]
+  const sub = compound ? `CAS ${esc(casText(p))}` : `<i>${esc(p.latin)}</i>`;
+  const detail = compound ? esc(groupOf(p).label) : esc(p.markers.join(', '));
+  const forms = compound ? esc(p.applications.join(', ')) : esc(p.forms.join(', '));
+  const search = [p.name, p.synonym, p.latin, shownCas(p), p.part, compound && groupOf(p).label, ...p.forms, ...p.markers, ...p.industries, ...p.applications]
     .filter(Boolean)
     .join(' ')
     .toLowerCase();
@@ -102,7 +100,8 @@ export function catalogueRow(p) {
   );
 }
 
-// Register-style table for the cosmetic compounds.
+// Register-style table for the aroma chemicals, one table per structural
+// group (see compoundGroups()). Each compound appears exactly once.
 export function compoundTable(groups, { caption, compare = true } = {}) {
   return groups
     .map(
@@ -111,16 +110,16 @@ export function compoundTable(groups, { caption, compare = true } = {}) {
         `<h3 class="register-title">${esc(g.label)}<span>${g.items.length} ${g.items.length === 1 ? 'compound' : 'compounds'}</span></h3>` +
         '<div class="table-scroll"><table class="register">' +
         (caption ? `<caption class="sr-only">${esc(g.label)}</caption>` : '') +
-        '<thead><tr><th scope="col">Compound</th><th scope="col">CAS No.</th><th scope="col">Main applications</th>' +
+        '<thead><tr><th scope="col">Compound</th><th scope="col">CAS No.</th><th scope="col">Applications</th>' +
         (compare ? '<th scope="col"><span class="sr-only">Actions</span></th>' : '') +
         '</tr></thead><tbody>' +
         g.items
           .map(
-            ({ p, listing }) =>
+            (p) =>
               `<tr data-slug="${esc(p.slug)}">` +
-              `<th scope="row"><a href="/${url(p)}">${esc(p.name)}</a></th>` +
-              `<td class="mono">${esc(p.cas || 'On request')}</td>` +
-              `<td>${esc(sentenceCase(listing.opportunity))}</td>` +
+              `<th scope="row"><a href="/${url(p)}">${esc(p.name)}</a><span class="register-syn">${esc(p.synonym || '')}</span></th>` +
+              `<td class="mono">${esc(casText(p))}</td>` +
+              `<td>${esc(p.applications.join(', '))}</td>` +
               (compare ? `<td class="register-actions">${compareToggle(p)}</td>` : '') +
               '</tr>'
           )
@@ -205,12 +204,12 @@ export function relatedList(items) {
         join([
           `<li><a href="/${url(p)}">`,
           isCompound(p)
-            ? `<span class="related-cas mono">CAS ${esc(p.cas || 'on request')}</span>`
+            ? `<span class="related-cas mono">CAS ${esc(casText(p))}</span>`
             : p.image
               ? `<img src="/${p.image}" alt="" width="383" height="266" loading="lazy" decoding="async">`
               : `<span class="related-cas related-specimen">${esc(p.forms.join(' · '))}</span>`,
           `<span class="related-name">${esc(p.name)}</span>`,
-          `<span class="related-sub">${isCompound(p) ? esc(groupLabel(p.listings[0].group)) : `<i>${esc(p.latin)}</i>`}</span>`,
+          `<span class="related-sub">${isCompound(p) ? esc(groupOf(p).label) : `<i>${esc(p.latin)}</i>`}</span>`,
           '</a></li>',
         ])
       )
