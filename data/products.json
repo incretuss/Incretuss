@@ -203,6 +203,7 @@
       "Cosmetics",
       "Fragrance"
     ],
+    "image": "images/web/lavender-oil.webp",
     "blurb": "Cosmetic and fragrance grade lavender essential oil, defined by its linalool and linalyl acetate content."
   },
   {
@@ -224,6 +225,7 @@
       "Cosmetics",
       "Fragrance"
     ],
+    "image": "images/web/rosemary-oil.webp",
     "blurb": "Cosmetic and fragrance grade rosemary essential oil with a fresh, camphoraceous herbal profile."
   },
   {
