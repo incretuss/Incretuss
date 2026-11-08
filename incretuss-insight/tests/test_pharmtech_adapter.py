@@ -92,3 +92,19 @@ def test_new_products_tab_is_not_a_product_listing(settings):
         ProfileContext(company_id="x", name="ANWIK RESEARCH LABS", profile_url=url))
     assert r.company.new_products_text.startswith("Anwik Research Labs is advancing")
     assert len(r.products) == 1
+
+
+def test_exhibitors_without_profile_page_get_distinct_keys(settings):
+    from database.connection import connect
+    from database.repository import Repository
+    html = "".join(f'<div class="card"><h5 class="card-title"><a href="javascript:void(0)">{n}</a></h5>'
+                   f'<h6 class="card-subtitle">Stand No - {b}</h6><p class="card-text">India</p></div>'
+                   for n, b in (("Hindavi", "B1"), ("Murli Krishna Pharma Pvt. Ltd.", "B2")))
+    stubs = ExhibitorOnlineManualAdapter._parse_cards(html, DIR)
+    assert all(s.extra.get("no_profile") for s in stubs)
+    repo = Repository(connect(settings.db_path))
+    ev = repo.get_or_create_event(DIR, None, None, "exhibitoronlinemanual")["event_id"]
+    ids = {repo.add_stub(ev, s)[0] for s in stubs}
+    assert len(ids) == 2
+    row = repo.get_company(sorted(ids)[1])
+    assert row["booth"] == "B2"

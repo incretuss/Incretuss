@@ -1,0 +1,564 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12106/HeatMap_Builder_Technical_Description_v1_4_EN.pdf
+
+HeatMap Builder · Technical Description · Revision 1.4
+T E C H N I C A L D E S C R I P T I O N
+HeatMap Builder
+Temperature Mapping Data Processing
+Software version 5.2 · Document revision 1.4 of 2 October 2026
+Unified Register of Russian Computer Programs and Databases, entry No. 12148 of 30 November 2021
+HeatMap Builder performs the calculation stage of temperature mapping and 
+qualification of storage areas, chambers and temperature-controlled 
+equipment. The software merges files from BEREG and TR series data loggers, 
+calculates metrics for each point, assesses the risk level relative to the range 
+limits, builds charts and temperature and humidity maps on the room plan, 
+and exports the results for the mapping report – including a single combined 
+Excel table for calculations under the customer’s own methodology. The 
+customer defines the methodology and acceptance criteria; analysis, 
+conclusions and the report are prepared by the customer’s specialist.
+Loading
+up to 1000 BEREG and 
+CSV files
+→
+Model
+minimum, maximum, 
+mean, variation
+→
+Risk
+H, M, L levels and 
+critical points
+→
+Visualisation
+charts and maps by 
+level
+→
+Export
+Excel, CSV, PNG for the 
+report
+Figure 1 – Calculation stage of mapping in HeatMap Builder
+Key characteristics
+Parameter
+Value
+Purpose
+Processing of temperature and temperature-humidity mapping data and qualification 
+data for storage areas, chambers and temperature-controlled equipment
+Data sources
+BEREG data loggers of all versions and TR series data loggers (TR-2V, TR-2L) 
+manufactured by Inzhenernye Tekhnologii LLC
+Input files
+BEREG – binary memory image of a BEREG data logger; CSV – reports of BEREG and TR 
+series data loggers
+Processing volume
+Up to 1000 files per run
+Metrics per point
+Minimum, maximum, mean, maximum variation, date and time of the extreme value, H, 
+M, L risk level for temperature and humidity
+Visualisation
+General temperature and humidity charts, histograms, temperature and humidity maps 
+on the room plan, up to 4 levels per logger string
+Export
+Combined table of all loggers’ data – XLSX and CSV; temperature data, humidity data 
+and temperature and humidity summary table – CSV and XLSX; critical points – CSV; 
+charts and maps – PNG
+Remote data collection
+BEREG logger reports in BEREG, CSV and PDF formats via the Bereg-Online gateway – 
+for remote qualification of small chambers and refrigerated truck bodies
+Workstation
+Windows 7, 8, 10, 11; the software runs locally
+Licence
+One workstation, 10 years, updates during the term; included in the delivery of BEREG 
+and TR series data loggers in any quantity
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 1 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+Parameter
+Value
+Register
+Unified Register of Russian Computer Programs and Databases, entry No. 12148 of 30 
+November 2021
+1. Purpose and scope
+The software processes the data recorded by stand-alone data loggers during mapping and prepares the 
+calculation part of the report. Its users are specialists of quality assurance and quality control departments, 
+validation teams and warehouses.
+Object
+Procedure
+What the software provides
+Warehouses: storage, receiving 
+and dispatch areas
+Initial, seasonal and repeat 
+mapping
+Maps by level of rack and pallet storage, cold and 
+hot spots, high- and medium-risk points
+Cold rooms, freezer rooms, 
+pharmaceutical refrigerators
+Qualification, repeat mapping 
+after repairs and changes
+Map for each shelf level, summary table by point 
+for the protocol, separate calculation of tests 
+within one mission
+Refrigerated truck bodies
+Body qualification, including 
+remotely via the Bereg-Online 
+gateway
+Metrics at load points, maps by level, summary 
+table for the protocol
+QC laboratory equipment: 
+refrigerators for reference 
+standards and samples, 
+stability chambers, incubators, 
+thermostatic cabinets
+Qualification and requalification
+Uniform algorithms and export formats – results 
+from different years are comparable
+Cleanrooms
+Measurement of temperature 
+and relative humidity during 
+qualification (clause 4.25 of 
+Annex 1 to the EAEU GMP Rules)
+Metrics by point and maps of temperature and 
+humidity distribution
+Multiple sites of one company
+Mapping under a single 
+methodology, including remotely
+Identical calculation and result format at all sites
+2. Place of the software in the mapping procedure
+The Guideline on Temperature Mapping of Medicinal Product Storage Areas (EEC Board Recommendation No. 8 of 
+20 April 2026) divides the procedure into four stages: preparation of the protocol, performance of mapping, 
+preparation of the report, and corrective and other actions based on the report’s recommendations (clause 8). 
+HeatMap Builder works between the second and third stages: it receives logger data after the study and prepares 
+the calculation part of the report.
+Stage
+Performed by
+Content
+Protocol and 
+methodology
+Customer
+Logger placement scheme, study duration, range limits, 
+acceptance criteria
+Performance
+Customer’s specialists
+Mission programming, installation and removal of loggers, file 
+download – on site or via the Bereg-Online gateway
+Calculation stage
+HeatMap Builder
+File merging, metrics by point, risk level, critical points, charts, 
+maps, exports
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 2 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+Stage
+Performed by
+Content
+Analysis and report
+Customer’s specialist
+Conclusions on the suitability of the zone, recommendations, 
+locations of routine monitoring sensors; report based on the 
+MS Word template included in the delivery
+2.1 Data analysis under the Guideline and the software outputs
+The Guideline describes requirements for data loggers (clause 9), data analysis (clause 19) and report content 
+(clause 20). The software outputs map to these sections as follows:
+What the Guideline provides for
+HeatMap Builder output
+Transfer of accumulated logger data into an 
+information system for subsequent analysis 
+(clause 9(g))
+Batch loading of BEREG and CSV files – up to 1000 per run
+Overall temperature stability, fluctuation range, 
+comparison with acceptance criteria (clause 19(a))
+General charts of all points with range limits; risk level of each 
+point relative to the limits
+Minimum and maximum for each logger in a table per 
+Annex 2, cold and hot spots, trends (clause 19(b))
+Minimum, maximum and mean for each point with the logger 
+identification number, date and time of the extreme value; 
+values outside the range limits highlighted in colour; histogram; 
+general charts for trend assessment
+Arithmetic mean for each point to identify the true 
+cold and hot spots (clause 19(c))
+Mean for each point over the selected interval
+Points with the most significant temperature 
+fluctuations – critical points (clause 3)
+Maximum variation for each point, variation histogram
+Recommended storage areas and locations of routine 
+monitoring sensors (clause 19(d), clause 20)
+Maps by string level, list of high- and medium-risk points
+Logger location details: identification number, number 
+on the placement scheme (Annex 1 form)
+Point number table: logger identification number and point 
+number; installation height is recorded on the as-installed field 
+scheme
+Raw data and per-logger information in tabular form 
+(clause 20(i), (j))
+Combined Excel table of all loggers’ data; original logger files 
+remain in the customer’s archive
+In the software, critical points are the points with a high or medium risk of exceeding the range limits. Points with 
+the largest temperature fluctuations – critical points in the Guideline’s terms – are identified by the maximum 
+variation and the variation histogram.
+Mapping results are used to determine the locations of routine monitoring sensors (clause 19). For continuous 
+monitoring at these points the manufacturer produces the GIGROTERMON system.
+3. Software functions
+3.1 Loading and merging data
+In a single run the software accepts up to 1000 files and merges them into one model. BEREG logger files are read 
+in the binary BEREG format – a byte-for-byte image of the instrument memory – or in CSV format; TR series logger 
+data are read in CSV format. From files of the multichannel Bereg-RP and Bereg-RK data loggers the temperature 
+and relative humidity channels are processed; files with a single temperature channel are processed as standard.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 3 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+3.2 Point identification
+Each data row is linked to the logger identification number and to a point number of up to 3 characters, in digits or 
+Latin characters. The point number labels the point on charts, maps and in exports. The software takes the label 
+that the user has assigned to a BEREG data logger as the point number, so one label carries through from the 
+instrument to the map and the report. For HeatMap Builder a label of no more than 3 characters is recommended; 
+a numeric “level – line – position” code is convenient: 235 means level 2, line 3, position 5. The software also 
+generates the point number table automatically from the loaded files – numbers from 1 up to the number of 
+files – and exports it for editing: the numbers can be changed while keeping the file structure, and the table loaded 
+back.
+Figure 2 – Automatic generation of the point number table
+3.3 Metrics by point
+The specialist sets the temperature and humidity range limits according to the acceptance criteria of their 
+methodology. For each point the software calculates over the selected interval:
+• minimum, maximum and mean values;
+• maximum variation – the difference between the maximum and the minimum;
+• date and time of the recorded extreme value;
+• risk level of exceeding the upper and the lower range limit.
+In the model table, values above the upper limit are highlighted in red and values below the lower limit in blue.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 4 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+Figure 3 – Main window: model with metrics by point and the export menu
+3.4 Separate periods, zones and seasons
+The calculation interval is set by date and time; by default it covers the whole data period. This allows separate 
+segments to be taken from one mission: stable operation after reaching the set point, door-opening, power-failure 
+or defrost tests during chamber qualification. Each segment is calculated as its own model, with its own statistics, 
+risk levels and maps.
+Zones with different conditions, for example +15…+25 °C and +2…+8 °C, are processed as separate models: each 
+model takes the files of its own zone, and the range limits are set for that zone.
+The Guideline recommends at least two seasonal studies (clause 14). With an unchanged placement scheme and 
+labels, exports from seasonal and repeat studies are compared point by point.
+3.5 Risk level
+The risk level takes into account both exceeding a range limit and proximity to it.
+Risk level
+Temperature
+Relative humidity
+H – high
+less than 1 °C to the range limit or beyond it
+less than 5 % to the range limit or beyond it
+M – medium
+1 to 2 °C to the range limit
+5 to 10 % to the range limit
+L – low
+middle of the range
+middle of the range
+The calculation formulas are given in the operating manual and can be included in validation documentation.
+3.6 Critical points
+The software identifies high- and medium-risk points and exports them as a separate table with critical 
+temperature and humidity values. The table feeds the results section of the report, corrective action records and 
+the justification of routine monitoring sensor locations.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 5 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+3.7 Charts
+The software builds four types of chart:
+• general temperature chart – all points on one plot;
+• general relative humidity chart;
+• histogram of minimum, mean and maximum values by point;
+• histogram of maximum variations.
+Range limits can be shown on the charts as an option. Selecting a curve displays the logger number, date, time and 
+value – this is how the moment of an excursion is found. The chart settings define the axis range and auto-scaling, 
+axis labels, histogram bar width, legend, colours and style. Charts are saved as PNG; the general chart and its 
+legend are saved as separate files, which simplifies report layout.
+Figure 4 – General temperature chart: all points and range limits
+Figure 5 – Histogram of maximum, mean and minimum values with the chart settings window
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 6 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+3.8 Temperature and humidity maps
+The map background is a room plan in PNG format. The specialist outlines the modelling zone and places logger 
+strings – vertical lines of points with up to four levels; levels are numbered from the bottom up. Each point number 
+is placed on the map once: used numbers are removed from the list. For the selected level the software builds a 
+colour field of temperature or humidity based on maximum, mean or minimum values, with an adjustable scale 
+and legend. For rack storage and chambers with shelves a separate map is built for each level. Maps are saved as 
+PNG and can be printed.
+Figure 6 – Warehouse map with racks: string numbers, point numbers on two levels, lower-level values
+3.9 Exporting results
+Data and calculations are available outside the software. The combined table with data from all loggers in the 
+project is exported to Excel (XLSX) or CSV: in it the customer performs its own calculations under its 
+methodology – the metrics and criteria required by its SOP – and transfers data to corporate systems.
+Mode
+Content
+Format
+Use
+Combined data
+Combined table: data from all project 
+loggers for temperature and humidity 
+and the calculated metrics
+XLSX, CSV
+Own calculations under the 
+customer’s methodology, archive, 
+corporate systems
+Temperature data
+Temperature part of the combined 
+data
+CSV, XLSX
+Analysis of temperature conditions
+Humidity data
+Humidity part of the combined data
+CSV, XLSX
+Analysis of humidity conditions
+Temperature and 
+humidity summary 
+table
+Maximum, minimum, maximum 
+variation, risk level for the upper and 
+the lower limit for each point
+CSV, XLSX
+Results table of the report, basis for 
+building maps
+Critical points 
+(temperature)
+High- and medium-risk points with 
+critical temperature values
+CSV
+Results section, corrective actions, 
+monitoring sensor locations
+Critical points 
+(humidity)
+High- and medium-risk points with 
+critical humidity values
+CSV
+Results section, corrective actions, 
+monitoring sensor locations
+Charts, legends and maps are saved as PNG. The point number table is exported separately. The export menu is 
+shown in Figure 3.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 7 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+4. Data sources
+HeatMap Builder works with data loggers manufactured by Inzhenernye Tekhnologii LLC.
+Data loggers
+Versions
+Files
+Download from the instrument
+BEREG
+All versions, including 
+multichannel Bereg-RP and Bereg-
+RK with external IPM and TGM 
+sensors
+BEREG, CSV
+Bereg Auditor app (Android, Bluetooth, NFC), 
+Bereg USB Service software (Windows, USB 
+Type-C) or remotely via the Bereg-Online 
+gateway (Bluetooth)
+TR series
+TR-2V – temperature and 
+humidity; TR-2L – temperature
+CSV
+TR_Complex software via the TRKP adapter
+The missions of all data loggers in one study are started synchronously with the same recording interval; the 
+preparation procedure is given in the methodological materials included in the delivery.
+5. Remote qualification via the Bereg-Online gateway
+The Bereg-Online gateway brings BEREG data loggers into a web interface: the customer’s specialist prepares 
+missions, monitors the study and retrieves logger reports in any format – BEREG, CSV, PDF – from a workstation at 
+the head office. Physical operations remain on site: installing and removing loggers according to the scheme 
+provided. The gateway is ordered as a separate item.
+The gateway communicates with the data loggers via Bluetooth, so it is placed close to the object. In permanent 
+connection mode up to 20 loggers are bound to the gateway – the complete set for a small cold room or a 
+refrigerated truck body stays connected from placement to removal. The gateway installation point for a specific 
+chamber or truck body is determined together with the manufacturer’s engineers.
+5.1 Remote qualification stages
+Stage
+On site
+Remotely, via the gateway web interface
+Preparation
+Receipt of loggers and gateway against the 
+packing list, connection of the gateway to 
+the network
+Mission setup; placement scheme with logger 
+labels
+Placement
+Installation of loggers according to the 
+scheme with label check, photo record of 
+each point
+Photo review; two-way light verification – the LED 
+of each logger is lit and its point confirmed before 
+the mission starts
+Study
+Normal operation of the object according to 
+the protocol
+Current logger readings; interim reports while the 
+mission continues
+Completion
+Removal and packing of loggers
+Final reports in BEREG or CSV format, processing in 
+HeatMap Builder, qualification report
+In warehouses and other zones where loggers are spread beyond the communication range, the gateway works at 
+the preparation and completion stages: loggers are gathered near the gateway for mission setup and report 
+download, and the study runs autonomously.
+The gateway connects to the network via Wi-Fi or a cellular connection with a SIM card. The scheme for accessing 
+the web interface from the head office is agreed with the manufacturer’s engineers before ordering.
+The remote approach suits periodic requalification of objects in stable operation. Initial qualification of a new 
+object is usually performed with a specialist on site.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 8 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+6. Data integrity and validation
+The software is designed to operate within the customer’s quality system: raw data are kept in their original form, 
+the calculation logic is documented and the result is reproducible.
+• Original source. The software opens logger files read-only: the original BEREG and CSV files remain in their 
+original form and are available for independent re-checking. BEREG logger data are processed directly from 
+the binary memory image of the instrument.
+• Reproducibility. Reprocessing the same files with the same range limits gives an identical result on any 
+workstation with the software.
+• Traceability. The logger identification number and the point number accompany the data from the original 
+file to tables, charts and maps. The BEREG logger label is shown in reports, in the Bereg-Online gateway web 
+interface and over Bluetooth – next to the MAC address when a smartphone connects; during mapping it is 
+usually also written on the logger tag. In remote qualification each installation point is confirmed by lighting 
+the logger LED before the mission starts.
+• Documented calculation logic. The risk level formulas are given in the operating manual; calculation 
+algorithms are provided to the customer on request for software validation.
+• Final record. The final record is the mapping report approved in the customer’s quality system; the 
+evidence base is the archive of original logger files and software exports.
+6.1 Allocation of ALCOA+ principles
+Element
+What it ensures
+Data loggers
+Linking each record to the instrument serial number and time stamp; original data 
+source; metrological reliability of measurements
+HeatMap Builder
+Accuracy and consistency of the calculation stage: uniform algorithms, automatic 
+data merging, reproducible result
+Customer’s quality system
+Storage of original files and exports, preparation and approval of the report, access to 
+the archive
+6.2 Software validation
+The software is subject to validation within the customer’s quality system as a computerised system processing 
+GxP data. The GAMP 5 category – 3 or 4 – is determined by the customer according to its own procedure. Typical 
+scope: installation qualification (IQ) – installation on the workstation, recording of the software version and 
+licence; operational qualification (OQ) – processing of a reference data set and comparison with an independent 
+calculation. The combined Excel table is convenient for such a comparison.
+7. Metrological basis
+The metrological basis of mapping is formed by the data loggers – measuring instruments of approved type: the 
+specialist selects a version whose error meets the criteria of their methodology; the software performs 
+calculations on the logger data. Verification details of the loggers are stated in the report (clauses 16(a) and 20(l) of 
+the Guideline). The Guideline recommends data loggers with a recording interval from 1 to 15 min or more, an 
+absolute error not exceeding ±0.5 °C, with a verification mark and/or a verification certificate (clause 9).
+Parameter
+Value
+State Register of Measuring 
+Instruments of the Russian 
+Federation
+BEREG data loggers – No. 91203-24; TR series data loggers – No. 73311-18; IPM 
+sensors – No. 83449-21; TGM thermohygrometers – No. 72434-18
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 9 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+Parameter
+Value
+Temperature error
+BEREG – ±0.3 or ±0.5 °C depending on version; TR-2V, TR-2L – ±0.5 °C in the range 
+−10…+65 °C
+Humidity error
+BEREG with a built-in humidity sensor – ±3 or ±5 % depending on version; TR-2V – 
+±5 %
+BEREG recording interval
+From 5 s to 12 h
+BEREG memory
+From 5,376 to 24,240 readings per channel depending on version and number of 
+channels
+BEREG embedded software 
+protection
+“High” level according to R 50.2.077-2014 (Russian metrology recommendation on 
+software protection)
+Verification
+By accredited organisations, with an entry in the FGIS Arshin federal information 
+system; confirmed by a verification certificate, which clause 9(f) of the Guideline 
+accepts
+7.1 Verification interval
+The verification interval depends on the sensor.
+Sensor
+Verification interval
+Built-in temperature channel of BEREG data loggers
+2 years
+Built-in humidity channel of BEREG data loggers
+1 year
+External IPM and TGM sensors (temperature and humidity)
+2 years
+TR-2V (temperature and humidity) and TR-2L (temperature) data loggers
+4 years
+8. Workstation requirements
+Parameter
+Up to 20 files per run
+100 files per run and more
+Processor
+Intel, from 1.6 GHz
+Intel Core i5 or higher
+RAM
+From 4 GB
+From 16 GB
+Storage
+From 256 GB, SSD recommended
+From 256 GB, SSD recommended
+Graphics card
+Any
+Any
+Operating system
+Windows 7, 8, 10, 11
+Windows 7, 8, 10, 11
+For regular processing of large data sets – up to 1000 files per run – the right-hand configuration is suitable. The 
+software runs with administrator rights; the antivirus and firewall must allow it to start. The interface language is 
+Russian.
+9. Delivery set and terms of supply
+HeatMap Builder is included in the delivery of BEREG and TR series data loggers in any quantity. The licence is valid 
+for 10 years for one workstation; software updates during the licence term are included. Each licence key is bound 
+to one computer, so the number of workstations is agreed when ordering.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 10 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+9.1 Delivery set
+• software distribution package – available at gigrotermon.ru;
+• licence key for one workstation;
+• operating manual;
+• MS Word template of the temperature mapping report;
+• methodological materials: instructions for calculating the logger placement scheme and for installing and 
+removing loggers;
+• technical support by e-mail during the licence term.
+9.2 On request
+• calculation algorithms for software validation;
+• demo access: a one-month key and a BEREG data logger data set – the full cycle from loading files to maps 
+and exports can be tried before purchase;
+• online demonstration of the software on demo data.
+9.3 Licence key
+On first start the software displays the computer code. The customer sends the code to the manufacturer together 
+with the company name and taxpayer ID (INN), city, full name of the responsible person, phone number and work 
+e-mail address. In return the customer receives a key file, which is placed in the software folder; at start-up the 
+software displays the licence status and its validity period. When the computer is replaced, the key is reissued on 
+request to the manufacturer.
+10. Regulatory context
+HeatMap Builder is used in procedures provided for by the documents below. Compliance of the mapping and 
+qualification procedure with the requirements is confirmed by the customer.
+• EEC Council Decision No. 80 of 3 November 2016 – Rules of Good Distribution Practice within the Eurasian 
+Economic Union: mapping of storage areas and placement of monitoring equipment based on its results.
+• Order of the Ministry of Health of the Russian Federation No. 260n of 29 April 2025 – storage of medicinal 
+products: placement of temperature and humidity measuring instruments based on mapping results.
+• EEC Board Recommendation No. 8 of 20 April 2026 – Guideline on Temperature Mapping of Medicinal 
+Product Storage Areas.
+• EEC Council Decision No. 77 of 3 November 2016 – Rules of Good Manufacturing Practice of the Eurasian 
+Economic Union: Annex 15 on qualification and validation; Annex 1 as amended by EEC Council Decision 
+No. 67 of 20 May 2026 – separation of cleanroom qualification and environmental monitoring, 
+measurement of temperature and humidity during qualification (clauses 4.24, 4.25).
+• EEC Board Recommendation No. 25 of 19 September 2023 – Guideline on Ensuring Data Integrity and 
+Validation of Computerised Systems.
+• GAMP 5 – risk-based approach to the validation of computerised systems.
+EEC Board Recommendations are advisory in nature. EEC – Eurasian Economic Commission; EAEU – Eurasian 
+Economic Union.
+Contacts
+Inzhenernye Tekhnologii LLC
+9th floor, 2 Komsomolsky Prospekt, Chelyabinsk, 454008, Russia
+8 (800) 700-18-70 – toll-free within Russia · +7 (351) 242-07-45 – office · +7 (961) 787-50-00 – sales
+sales@gigrotermon.ru – sales · info@gigrotermon.ru – general and technical enquiries
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 11 of 12
+
+HeatMap Builder · Technical Description · Revision 1.4
+gigrotermon.ru/catalog/programmnoye-obespecheniye/heatmap-builder
+Online demonstration of the software and demo access – on request from the sales department.
+Inzhenernye Tekhnologii LLC • gigrotermon.ru · page 12 of 12

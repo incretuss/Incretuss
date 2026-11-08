@@ -1,0 +1,73 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12571/Trans_293_Kit_pro_-EN.pdf
+
+▪CD 293 01⸺Chemically defined and compatible with multiple HEK293 subtypes; supports stable, high-quality suspension culture 
+ at high cell density.
+▪ALLY 293 Feed⸺An upgraded formulation that significantly improves protein yield and product quality.
+▪293 PEI Plus⸺ Enables consistent, rapid plasmid delivery that leads to high transfection efficiency.
+Power Your Transient Expression
+——Trans 293 Kit Pro
+The upgraded Trans 293 Kit Pro includes 3 components: CD 293 01 basal medium, ALLY 293 feed medium, and 293 PEI Plus transfec-
+tion reagent, all of which are chemically defined and free of serum, animal-origin components, or hydrolysates. The kit is well suited for 
+high density suspension culture and is experimentally proven to deliver high transfection efficiency and protein yield for multiple HEK293 
+cell lines.
+Key Features
+2. Upgraded PEI transfection component
+Significantly improves transfection efficiency and protein yield.
+Case Studies
+Case 1: Expression of 7 Proteins in HEK293 Cells
+Figure 1. Transient expression of 7 
+difficult-to-express proteins in HEK293 cells: 
+Trans 293 Kit Pro versus control
+Trans 293 Kit Pro delivered markedly higher 
+expression for all 7 proteins, with several 
+molecules showing more than a twofold 
+increase, underscoring its excellent perfor-
+mance on the transient transfection of 
+difficult-to-express proteins.
+Key Improvements
+Enhancer incorporated in 
+feed medium
+a
+No need for temperature shift
+b
+Single-feeding strategy
+c
+No need for additional glucose supplementation
+d
+1. Simplified
+ workflow
+Product Information
+ALLY 293 Feed
+293 PEI Plus
+Transient transfection feed
+CD 293 01
+Basal medium
+PEI transfection reagent
+Trans 293 Kit Pro
+ Upgraded 
+
+Case 2: Monoclonal Antibody (mAb) Titer in High-Expression Process
+Figure 2. Transient mAb expression in a high-express-
+ing HEK293 culture: Trans 293 Kit Pro versus control
+Trans 293 Kit Pro consistently achieved higher titers 
+over a 7-day culture period. At Day 7, mAb titer almost 
+reached 2 g/L, representing a 45% increase over the 
+control.
+Case 3: Transient mAb Expression Across Different Processes in HEK293F Culture
+A comparative transient-expression study of an antibody in HEK293F cells was performed under the following four process conditions:
+Figure 3. Transient mAb expression 
+across different processes: Trans 293 
+Kit Pro versus control.
+Trans 293 Kit Pro consistently delivered higher titers than the control, with more than 29% improvement on Day 7. No significant differ-
+ence was observed between single and dual feeding during the first five days, indicating that a simplified single-feed strategy can maintain 
+expression performance while reducing process complexity.
+With optimized feeding strategy and pre-transfection centrifugation, titer on Day 7 exceeded 2 g/L—110% higher than the control—sug-
+gesting robust expression performance and broad process adaptability.
+▪ Single feeding on Day 1
+▪ Dual feeding on Day 1 and Day 4
+▪ Centrifugation before transfection 
+ + single feeding on Day 1
+▪ Centrifugation before transfection
+ + dual feeding on Day 1 and Day 4
+Power Your Transient Expression
+——Trans 293 Kit Pro

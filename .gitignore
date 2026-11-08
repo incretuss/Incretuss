@@ -6,6 +6,8 @@ __pycache__/
 .pytest_cache/
 incretuss-insight/data/raw/**
 !incretuss-insight/data/raw/.gitkeep
+!incretuss-insight/data/raw/pdf_text/
+!incretuss-insight/data/raw/pdf_text/*.txt
 incretuss-insight/data/database/*.db-wal
 incretuss-insight/data/database/*.db-shm
 incretuss-insight/data/database/*.db-journal

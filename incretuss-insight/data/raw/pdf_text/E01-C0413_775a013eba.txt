@@ -1,0 +1,533 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12190/Heat_Exchanger_R20.pdf
+
+SHELL AND TUBE GLASS LINED 
+HEAT EXCHANGER
+A STANDARD GROUP COMPANY
+Your Benefits
+• Extended Equipment Longevity
+• Optimised Design to Other Glass Lined, 
+Graphite Heat Exchanger and High Alloy 
+Equipment
+• Multiple Applications
+• Particle Free Application / Process
+• Work at 6 kg / cm2 Pressure
+Inside
+Technology
+Conductive Glass and Heat Exchanger Technology.
+Customer Inspired Excellence
+Standard 
+Engineering
+TM
+
+02
+Standard 
+Engineering
+TM
+Structure:
+• Tubes are completely welded to the tube-
+sheets to make a mono-block structure
+• The entire surface coming in contact with 
+corrosive fluids is completely glass-lined 
+• It can be installed both vertically and 
+horizontally
+• Thoroughly inspected for pinhole and hydraulic 
+tests as required
+Characteristics:
+• Excellent Corrosion Resistance
+• No Contamination of Media
+• Free from Fouling Deposits and Easy for 
+Cleaning Work
+• Space-saving construction
+Application:
+• The condensation of the stream
+• Evaporation of the liquid
+• Heating of the liquid
+• Cooling of the liquid
+Option:
+Various types are fabricated according to the 
+process and maintenance requirement.
+• Polymer construction type
+• Easy to clean
+• Davit arm installation type
+• Smart Seal on nozzle
+Polymer construction
+Easy to clean
+43
+43
+OD 33.4
+Davit
+Davit
+①,② : Additional Accessory
+Opening
+Maximum Design 
+Pressure
+Shell Side
+6 Kg / cm2
+Tube Side
+FV ~ 6 Kg / cm2
+Maximum Design 
+Temperature
+Shell Side
+180 °C
+Tube Side
+180 °C
+Allowable Temperature Difference 
+Against Thermal Shock
+ t = 100 °C 
+However, depending on the conditions, t = 80 °C
+Overall Heat-Transfer Co-Efficient
+150 ~ 350 kcal / m² h °C (170 ~ 400 W / m² K)
+Pinhole Test
+D.C. 10,000 V Electric test
+Hydro Test
+6 Kg / cm²
+Available Sizes
+Ranging from 2 to 40 m2
+
+03
+Standard 
+Engineering
+TM
+STANDARD DIMENSIONS
+Model No
+Heat 
+Transfer 
+area 
+(m²) 
+Approx.
+Tube 
+Sheet 
+OD 
+(mm)
+Shell 
+Diameter 
+(mm) ØD 
+(D)
+Length 
+of Heat 
+Exchanger 
+without end 
+covers (mm) 
+A
+No of 
+Tubes
+Length 
+of end 
+cover 
+(mm) 
+B
+Total length 
+of Heat 
+Exchanger 
+with end 
+covers 
+(mm) L
+Vapour 
+Volume (L) 
+Approx.
+Jacket 
+Volume (L) 
+Approx.
+Horizontal 
+Net Wt. 
+(approx. 
+kg)
+Vertical 
+Net Wt. 
+(approx. 
+kg)
+SHEH / STV - 2
+2
+406
+324
+1390
+16
+375
+2164
+81
+138.0
+700
+655
+SHEH / STV - 4
+4
+488
+406
+1390
+32
+530
+2226
+110
+152.0
+841
+724
+SHEH / STV - 6
+6
+488
+406
+1390
+44
+530
+2226
+110
+152.0
+841
+724
+SHEH / STV - 8
+8
+590
+508
+1390
+60
+550
+2514
+218
+262.0
+1025
+865
+SHEH / STV - 10
+10
+590
+508
+1390
+72
+550
+2514
+218
+255.0
+1145
+945
+SHEH / STV - 12
+12
+590
+508
+1990
+60
+550
+3114
+218
+326.0
+1532
+1318
+SHEH / STV - 14
+14
+590
+508
+1990
+72
+550
+3114
+218
+326.0
+1585
+1318
+SHEH / STV - 16
+16
+692
+610
+1990
+80
+580
+3174
+324
+344.0
+1614
+1488
+SHEH / STV - 18
+18
+692
+610
+1990
+92
+580
+3174
+324
+344.0
+1648
+1486
+SHEH / STV - 20
+20
+692
+610
+1990
+100
+580
+3174
+324
+344.0
+1648
+1531
+SHEH / STV - 22
+22
+692
+610
+2740
+80
+580
+3924
+324
+566.0
+2318
+2106
+SHEH / STV - 24
+24
+692
+610
+2740
+88
+580
+3924
+324
+566.0
+2334
+2118
+SHEH / STV - 26
+26
+692
+610
+2740
+96
+580
+3924
+324
+566.0
+2362
+2244
+SHEH / STV - 28
+28
+692
+610
+2740
+100
+580
+3924
+324
+566.0
+2404
+2263
+SHEH / STV - 30
+30
+692
+610
+2740
+108
+580
+3924
+324
+566.0
+2418
+2368
+SHEH / STV - 32
+32
+795
+711
+2740
+116
+630
+4024
+407
+822.0
+2534
+2368
+SHEH / STV - 34
+34
+795
+711
+2740
+124
+630
+4024
+407
+822.0
+2585
+2392
+SHEH / STV - 36
+36
+795
+711
+2740
+128
+630
+4024
+407
+822.0
+2634
+2392
+SHEH / STV - 38
+38
+795
+711
+2740
+136
+630
+4024
+407
+822.0
+2684
+2415
+SHEH / STV - 40
+40
+795
+711
+2740
+144
+630
+4024
+407
+822.0
+2814
+2467
+A
+B
+B
+D
+L
+3°
+B
+B
+A
+L
+D
+Process 
+Vapor Inlet
+Water Outlet
+Inspection
+Vent
+Process 
+Condensate 
+Outlet
+Water 
+Inlet
+Inspection
+Drain
+Heat Exchanger
+Tube
+
+Scan to
+Scan to
+Know more
+Standard Engineering Technology Ltd
+2nd Floor 16-2-23/2, PNR HighNest NH65,
+Dharma Reddy Colony Phase II,
+Hydernagar, KPHB Colony,
+Hyderabad - 500072, India.
+Standard Engineering Technology Ltd
+Survey No: 42A Alinagar, Chetlapotharam Village,
+Gaddapotharam, Grampanchayat, 
+Jinnaram Mandal, Sangareddy Dist - 502319
+Telangana, India.
+Corporate Headquarters:
+Manufacturing Division Headquarters:
+Tel: +91 8978 580 684 Email: sales@standardengtech.com Web: www.standardengtech.com
+South 
+Name: T. Shiva Kumar
+Tel: +91 89785 06464 / 89782 88200
+Email: sales@standardengtech.com
+Mumbai
+Name: George John Rosario
+Tel: +91 73306 07558
+Email: sales@standardengtech.com
+Gujarat
+Name: Tejas R Mehta
+Tel: +91 91000 46797
+Email: sales@standardengtech.com
+Delhi
+Name: Praveen Pandey
+Tel: +91 90597 14896
+Email: sales@standardengtech.com
+Regional Sales Oces:
+Copyright © Standard Engineering Technology Ltd. All rights reserved. The information contained in this brochure is believed to be reliable general guidelines for consideration of the products and services described 
+herein. The information is general in nature and should not be considered applicable to any speciﬁc process or application. Standard Engineering Technology Ltd. expressly disclaims any warranty, expressed or implied 
+of ﬁtness for any speciﬁc purpose in connection with the information contained herein.
+Qua
+lity
+Ser
+vic
+e
+Deli
+very
+Co
+mp
+etit
+ive
+Pric
+e
+Cus
+tom
+er
+Rel
+atio
+nsh
+ip
+Ma
+nag
+em
+ent
+Our company serves:
+• Pharmaceuticals 
+• API
+• Chemical
+• Agrochemical
+ 
+• Biotechnology
+• Life Sciences
+• Food and Beverages
+Certiﬁcation available:
+c
+D
+E
+E
+R
+T
+I
+I
+F
+D
+E
+E
+R
+T
+I
+I
+F
+c
+c
+D
+E
+E
+R
+T
+I
+I
+F
+D
+E
+E
+R
+T
+I
+I
+F
+c
+c
+D
+E
+E
+R
+T
+I
+I
+F
+D
+E
+E
+R
+T
+I
+I
+F
+c
+Customer Inspired Excellence
+Standard 
+Engineering
+TM
+LIT-SETL-HEAT EXCHANGER-APR 2026

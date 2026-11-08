@@ -1,0 +1,462 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/13963/__Brochure_eng.pdf
+
+BIOTECHNOLOGY 
+TRANSFER CENTER 
+• О k 8Biotech 
+
+ACADESINE 
+• 
+Acadesine (or AICAR) is 5-aminoimidazol-4-carboxamide ribofurano­
+side, an intermediate with а wide spectrum of Ьiological effects 
+involved in the metabolism of all living organisms. Acadesine 
+activates а key enzyme of energy metabolism, 
+AMP-activated 
+protein kinase (АМРК). 
+This 
+enzyme 
+plays 
+the 
+most 
+important 
+role 
+in 
+numerous 
+Ьiological processes. The activated АМРК switches оп the catabolic 
+processes that ensure the АТР regeneration and at the same 
+time switches off Ьiosynthetic processes, cell cycle development 
+and other ATP-consuming reactions thereby causing the resto­
+ration of energy homeostasis. 
+ln more than 200 years of research of acadesine its applicaЬility 
+has been demonstrated in various fields of medicine including 
+cardiology, diabetes and cancer therapy. 
+The proven effect of acadesine оп fatty and muscle tissues 
+is of significant interest. ln test animals, the compound induces 
+а decrease in the ratio of fatty tissue and whole body mass, 
+and the growth of oxygen consumption without changing body 
+weight. 
+ln addition, а consideraЫe increase in the endurance 
+of aeroЬic exercise in test animals was observed. 
+The effect of 
+acadesine оп 
+energy 
+metabolism 
+underlies 
+its 
+capacity to neutralize ischemia of various etiologies and loca­
+tions. 
+For instance, 
+acadesine поtаЫу increases the duration 
+of the so-called golden hour during which intensive therapy is 
+still successful in patients with massive Ыооd loss. The aЬility 
+of acadesine to reduce the oxygen demand of cells makes it 
+promising for use in anti-aging cosmetics. 
+Until recently, the high cost of chemically synthesized acadesine 
+was а major obstacle to its widespread use. This ргоЫеm was solved 
+Ьу the construction of acadesine-producing Bacillus strains in 
+GosNIIGenetika. Оп their basis, more efficient industrial strains were 
+obtained and а technology for high­quality acadesine manufacturing 
+was developed in OKA-Biotech. 
+The scaling-up of technology and study оп the possiЫe acade­
+sine 
+use 
+for 
+various 
+purposes 
+аге 
+currently 
+being 
+perfor­
+med in OKA-Alpha, а subsidiary company of OKA-Biotech and "Skolkovo" 
+Technopark resident. 
+C,ю!U<DIO:I 
+• 
+AKADESINE 
+а metabolic intermediate of the de novo purine synthesis pathway 
+R-5- Р ---+-+-е AICAR ---- FAI CAR ---- 1 М Р
+Akadesine-AICAR 
+5-aminoimidazo/e-4-carboxamide ribonuc/eoside 
+АМР 
+GMP 
+•
+
+ACADESINE 
+) 
+• 
+812 
+POSSIBLE APPLICATIONS 
+HYPOXIA 
+Reduces the oxygen demand of cells. Prolongates the 
+"Golden 
+Hour", 
+lschemia 
+of 
+various 
+etiologies, 
+facilitates heavy аегоЬiс activities. 
+MEТABOLIC SYNDROME 
+lnhiЬits synthesis of fatty acids and activates degra­
+dation of lipids; acadesine stimulates glucose con­
+sumption and reduces insulin resistance. 
+CANCER 
+Activates specific apoptosis of tumor cells, increases 
+effects of anti-cancer drugs. 
+RAW MAТERIAL 
+1s а promising raw material for the synthesis of 
+MizoriЬin - effective immune suppressor for organ 
+transplantation in children. The annual demand for 
+mizoriЬin is hundrends of kg. 
+COSMEТICS 
+According to the mechanism of action, the drug 
+should Ье effective as an active ingredient of anti­
+aging cosmetics. 
+DEVELOPMENT OF AN AICAR -
+Маге 
+than 
+1 О mutations 
+aftecting the metabolism, re­
+gulation 
+and 
+transportation 
+of purines and their interme­
+diates were introduced into 
+the original strain. 
+R-5-P - PRPP 
+producing strain of Bacillus suЬtilis 
+The resulting 
+strain produces 
+16 g/1 acadesine for 48 h.
+Developed technology for 
+the isolation and purifi­
+cation of acadesine. 
+IMP 
+18
+r 
+purH 
+PRA 
+FAICAR 
+1 purD 
+t8 
+• 
+►
+GAR
+AICAR·P-
+AICAR 
+Genetic control and regulation of 
+Ьiochemical reactions leading to the 
+formation of AICAR in the pathway 
+of de novo purine nucleotide Ьio­
+synthesis. 
+1 purN 
+r 
+purB 
+FGAR 
+SAICAR 
+1 purQL 
+r 
+purC 
+FGAM - AIR - CAIR 
+purM 
+purEK 
+8 - The genes subjected 
+to modification. 
+•
+
+SPIDROINS 
+814 
+Spidroins, spider net proteins, produced Ьу yeast, like their natural 
+counterparts, have unique properties: 
+8 Biocompatibllity, lack of immunogenicity. 
+8 Lack of allergenicity. 
+8 Biodegradabllity from several weeks to а few months with 
+preservation of medical and technical properties of product. 
+8 Pore-forming abllity. 
+8 Multifunctionality (abllity to serve as both frame and nutrient 
+medium for ce/1s). 
+8 High elasticity and mechanical strength. 
+These characteristics make the application of spidroins possiЫe 
+as а matrix for adherence and multiplication of mammalian cells 
+including human. ln the body, spidroin is degraded over а time 
+period sufficient to form new tissues and does not produce any 
+toxic compounds. 
+Such pharmaceuticals as hydrogels for tissue engineering, films 
+for wound healing including burns, artificial vessels and stent 
+coatings сап Ье prepared from spidroins. The use of spidroins 
+in 
+drugs 
+development 
+(production 
+of 
+nano-containers 
+for 
+targeted delivery of drugs) and in cosmetology (as additives 
+to cosmetics) is also promising. 
+Since the beginning of the 2000s, some strains of the yeast 
+Saccharomyses cerevisiae, producers of recomblnant analogues 
+of 
+spidroins, 
+spider 
+web 
+proteins, 
+have 
+been 
+developed 
+in GosNllgenetika. 
+Based 
+оп 
+the 
+license 
+agreement 
+with 
+GosNllgenetika, 
+OKA-Biotech 
+is 
+developing 
+and 
+scaling-up 
+the 
+technology 
+for 
+producing 
+spidroins, 
+manufacturing 
+needed 
+volumes 
+of experimental samples and carrying out the necessary trials 
+and registration procedures. 
+Some 
+new areas 
+of 
+the 
+use of 
+spidroins 
+аге 
+being 
+deve 
+loped Ьу OKA-Sigma, а subsidiary company of OKA-Biotech and 
+"Skolkovo" resident. 
+(
+Amino acid 
+sequences of "monomers" 
+used in spidroins 
+1 F9 (А) and 2Е12 (В) 
+genes construction and 
+recomblnant 
+spidroin in yeast. ) 
+А 
+AGQGGYGGLGSQG 
+AGRGGLGGQGAGAAAAAAAGGAGQ---GGLGGQG 
+AGQGAGASAAAA-GGAGQGGYGGLGSQG 
+AGRGGLGGQGAGAVAAAAAGGAGQGGYGGLGSQG 
+AGR---GGQGAGAAAAAA-GGAGQRGYGGLGNQG 
+• 
+в 
+GPGGYGPGQQGPGAAAAASA 
+GRGPGGYGPGQQGPGGSGAAAAAA 
+SGPGGYGPGQQGPGGPGAAAAAAA 
+GRGPGGYGPGQQGPGGSGAAAAAA 
+GRGPGGYGPGQQGPGGPGAAAAAA 
+Saccharomyces cerevisiae ce/1s 
+with spidroin 1 gene 
+The thread and hydrogel of recomblnant spidroin 
+Pic. provided Ьу V. Bogush, Genetika 
+•
+
+SPIDROINS 
+Culture of ЗТЗ ce/1s inside the rS1/9 scaffolds 
+1: 
+1:: 
+о.. 
+М.М Moisenovich et о!., 
+} Biomed Moter Res А 2011; 125-131 
+4500 
+4000 
+3500 
+3000 
+2500 
+60 
+40 
+20 
+о 
+19±2 
+53±5 
+::::::::::: 
+::::::::::: 
+........... 
+::::::::::: 
+........... 
+1 DAY 
+2 DAY 
+lncubation time 
+3800±304 
+::::::::::: 
+::::::::::: 
+........... 
+::::::::::: 
+::::::::::: 
+........... 
+........... 
+........... 
+........... 
+........... 
+........... 
+::::::::::: 
+::::::::::: 
+........... 
+::::::::::: 
+........... 
+3 DAY 
+lmplantation of the r51/9-based scaffo/d resulted in faster Ьопе regeneration 
+in mice compared to regeneration with the fibroin scaffold. 
+2 
+1.9 
+с:: 
+1.8 
+о 
+·.:, 
+1. 7
+с:: 
+о.. 
+1.6 
+1.5 
+о 
+о..  
+1.4 
+1.3 
+" 
+1.2 
+°' 
+1 .1 
+"-§ 
+1 
+"' 
+CONTROL 
+FIBROIN 
+r51 /9 
+., 
+• 
+Matrix based оп the recomblnant spidroin with growing fibroьtasts 
+r51/9 scaffolds were implanted subcutaneously in BALB/c mice for 8 
+weeks. The white arrow denotes а new vesse/, Ь/асk arrows denote a 
+new nerve fibers. 
+М.М. Moisenovich 
+et о/. / Biomoterio/s 
+v.33, 3887- 3898, 
+2012 
+М.М Moisenovichet 
+et о!.,} Biomed Mater 
+ResA 2011; 125-131 
+• 7
+
+HYALURONIC ACID 
+Ьiologica/ characteristics 
+АЫе to retain moisture ensu­
+ring the preservation of skin 
+turgor and filing volume 
+As part of the cartilage, joint 
+lubricant (synovial fluid repla­
+cement) 
+Orally administered НА has 
+а positive effect оп the con­
+dition of 
+the joints, 
+bones 
+and skin 
+820 
+applications 
+Dermal 
+fillers 
+in 
+aesthetic 
+medicine 
+(plastic 
+surgery, 
+elimination of wrinkles and 
+other skin imperfections) 
+lntra-articular injections 
+in arthritis therapy 
+Food 
+additives 
+ingredient. 
+Nutricosmetics is сараЫе of 
+improving skin appearance 
+• 
+Bacillus subtilis 
+-
+«hay bacil/us» - Ьу the strictest criteria, а safe (GRASJ
+microorganism 
+1 
+Ап HA-producing recomblnant 
+strain of Bacil/us sublilis was 
+developed 
+gfcK 
+Glucose 
+-- Glc-6-P - Fru-6-P 
+уЬЬТ l
+l 
+gfmST 
+Glc-1-P 
+GlcN-6-P 
+gtaB l
+l 
+уЬЬТ 
+UDP-Glc 
+GlcN-1-P 
+tuaD l
+l 
+gcaD 
+UDP-GlcUA 
+GlcNAC-1-P 
+1 
+!
+gcaD 
+hasA I
+UDP-ClcNAc 
+Hyaluronic acid 
+Recomblnant Bacillus 
+subtilis strain 
+8 
+Heterologous HasA gene was cloned 
+8 
+А new hybrid promoter providing the 
+maximal level of transcription of needed 
+genes was developed 
+The heterologous HasA and the Bacil/us 
+8 
+subtilis own tuaD, gtaB и gcaC genes 
+were put under control of the created 
+promoter 
+2 
+А technology for the producer 
+fermentation and НА isolation 
+and purification was developed 
+8 
+Fermentation conditions were opti­
+mized. The strain productivity is more than
+7 g/1 
+8 
+An effective method for isolation 
+and purification of НА was developed. 
+The purity of the obtained НА is 
+98% 
+•
+
+HYALURONIC ACID 
+822 
+Reduction 
+of capital and 
+operating expenses 
+in the production of НА 
+significantly 
+reduces its cost 
+Advantages of НА production from safe microorganisms 
+@ Less expensive nutrient media
+@ Less expensive environmental protection
+@ Less expensive ensurance of staff safety
+@ Less expensive product decontamination from pathogens
+• 
+CONTACTS 
+Biotechnology Transfer Center 
+«OKA-Biotech» 
+Moscow 117545, 1-st Dorozhny proezd 1 
+E-mail: okaЬiotech@yandex.ru 
+Те/.: +7 (985) 210 5914

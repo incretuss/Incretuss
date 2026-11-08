@@ -1,0 +1,518 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12541/Lactiplantibacillus__plantarum_J26_Science_Evidenced_Probiotic_and_Postbiotic.pdf
+
+Lactiplantibacillus 
+plantarum
+J26
+Science-Evidenced 
+Probiotic & Postbiotic
+
+1.9 billion adults worldwide will live with 
+overweight & obesity in 2035[1]
+Childhood obesity expected to increase by 100% 
+between 2020 and 2035[1]
+Scientific Rationale
+Gut microbiota directly regulates: appetite & satiety, chronic 
+low-grade inflammation, glucose/lipid metabolism, brown 
+adipose tissue activity, energy harvest & fat storage[4]. 
+A systematic review shows 60.87% of trials confirm probiotics 
+reduce BMI, weight, waist/hip circumference[5].
+Probiotics for weight management market has grown 
+rapidly, sustained strong expansion projected from 2023 to 
+2031[3] . 
+[1]World Obesity Federation, World Obesity Atlas 2025; World Obesity Day
+[2]Institute for Health Metrics 2024, WHO Global Health Observatory 2024, World Obesity Federation 2024
+[3]Market Research Intellect, Probiotics for Weight Management Market Size and Forecast
+[4]Boscaini S et al., Mol Metab, 2022
+[5]Tomé-Castro XM et al., Benef Microbes, 2021
+The Global 
+Obesity Crisis 
+& Surging 
+Weight Management 
+Market
+1.9
+1/4
+Billion
+100%
+1 in 4 people will be living with obesity by 2035[1]
+Overweight/obesity 
+closely linked to a 
+higher risk of 
+non-communicable 
+diseases (NCDs)[2]
+
+30+
+8
+1
+Scientific 
+Strength:
+Multiple Scientific Studies 
+You Can Trust
+Papers
+Patents
+RCT Clinical trail
+
+Deposit Number: GDMCC NO: 62988
+Lactiplantibacillus plantarum J26
+2026 Best Business Innovation Award
+FBIF WOW FOOD AWARDS
+ZL 2023 1 0965095.X
+ZL 2023 1 0013365.7
+ZL 2022 1 1674861.9
+ZL 2024 1 0040113.8
+ZL 2024 1 0039999.4
+ZL 2022 1 1279263.1
+ZL 2012 1 0009973.2
+ZL 2012 1 0552498.3
+8 Granted Patents
+
+Animal Study
+• Inhibits weight gain comparable to Orlistat[6] (Chart A)
+• White adipocyte size reduced by ~53%, from 7782.43 um² to 3638.16 um² (p<0.001)[6] (Chart B)
+• Induces browning of white adipose tissue[6]
+[6] A) A Preparation Method of Encapsulated Lactobacillus plantarum J26 and Its Application in Weight-Loss Products. Patent No.: ZL 2024 1 0039999.4
+B) Orlistat is a prescription weight-loss drug that reduces dietary fat absorption by inhibiting gastrointestinal lipase.
+(12 weeks, 5 billion CFU/day, no diet control)
+Net BMI reduction: 0.31 kg/m²
+Net waist reduction: 1.84 cm
+Net hip reduction: 1.77 cm
+Net body fat percentage reduction: 0.92%
+Net fat mass loss: 0.89 kg
+Muscle mass increase: 0.66 kg
+Human RCT Clinical Study
+Compared with the control group:
+ND
+20
+15
+10
+5
+0
+***
+***
+***
+HFD
+PC
+J26
+Weight gain (g)
+Weight Management 
+( Live )
+ND
+10,000
+8,000
+6,000
+4,000
+2,000
+0
+7,782
+3,638
+***
+***
+***
+HFD
+PC
+J26
+White adipose tissue size 
+(μm2)
+53%
+A
+B
+Core Efficacy
+
+[7] Miao C, Wang L, Wang H, et al. Lactobacillus plantarum postbiotics prepared by the combined technique of pasteurization and ultrasound: effective measures 
+to alleviate obesity based on the SCFAs-GPR41/GPR43 signaling pathway. Food Funct. 2024;15(22):11005-11019. Published 2024 Nov 11. 
+doi:10.1039/d4fo03591g
+[8] Patent Name: A Lactiplantibacillus plantarum J26 Postbiotic Freeze-Dried Powder with Weight-Loss and Lipid-Lowering Effects, and Its Preparation Method 
+and Application. Patent No.: ZL 2024 1 0040113.8
+ND
+5
+4
+3
+2
+1
+0
+1.00
+0.75
+0.50
+0.25
+0
+HFD
+L-HFD
+M-HFD
+H-HFD
+***
+***
+GLP-1(pmol/L)
+Weight Management 
+( Postbiotic )
+H
+ND
+5
+4
+3
+2
+1
+0
+HFD
+L-HFD
+M-HFD
+H-HFD
+***
+LEP(ng/mL)
+D
+ND
+2.5
+2.0
+1.5
+1.0
+0.5
+0
+HFD
+L-HFD
+M-HFD
+H-HFD
+***
+ADPN(mg/L)
+***
+***
+E
+Mechanism
+Acts via SCFAs-GPR41/GPR43 pathway[7]:
+• Acetic acid ↑14.95% | Propionic acid ↑23.89% | Butyric acid ↑8.31%
+• Elevates GLP-1 → enhances satiety (Chart H)
+• Reduces Leptin → improves resistance (Chart D)
+• Increases Adiponectin → boosts metabolism (Chart E)
+Animal Study
+• Reduces fat accumulation[8]
+• Significantly suppresses high-fat diet-induced obesity[8]
+• Lowers abundance of obesity-related bacteria[7]
+A: Normal Diet Group (ND)
+B: High-Fat Diet Group (HFD)
+C: Low-Dose Lactobacillus plantarum J26 Postbiotics Group (L-HFD)
+D: Medium-Dose Lactobacillus plantarum J26 Postbiotics Group (M-HFD)
+E: High-Dose Lactobacillus plantarum J26 Postbiotics Group (H-HFD)
+Erysipelotrichaceae_Clostridium
+Bifidobacterium
+Allobaculum
+Ruminococcaceae_Ruminococcus
+Bacteroides
+Ruminococcus
+Oscillospira
+Desulfovibrio
+Adlercreutzia
+Lactobacillus
+Samples
+titlleasdfasdas
+Abundance
+A
+B
+C
+D
+E
+Core Efficacy
+
+Efficacy (Animal Study)
+• Reduces serum TC, TG, LDL-C, increases 
+HDL-C[10-12]
+[Live J26] Serum LDL-C significantly 
+decreased, Serum HDL-C significantly 
+increased
+[Postbiotic] H-J26P Serum total cholesterol↓
+28.17%, Serum triglycerides↓38.84%, Serum 
+LDL-C significantly decreased, Serum HDL-C 
+significantly increased
+• Reduces liver lipid accumulation[11]: 
+[Live J26] Liver TC, TG, LDL-C significantly 
+decreased, Liver HDL-C↑34.78%
+[Postbiotic] H-J26P liver total cholesterol↓
+19.69%, liver total triglycerides↓37.72%, liver 
+high-density lipoprotein cholesterol↑36.96%, 
+liver low-density lipoprotein cholesterol↓
+42.88%
+Metabolic Regulation 
+(Live & Postbiotic)
+[9] Screening of a cholesterol-lowering lactic acid bacterium and study of its activity in a simulated digestive environment [J] 1001-2230 (2018) 09-0004-04
+[10] Patent Name: Lactiplantibacillus plantarum J26 Composition, Preparation Method and Use in Weight Loss Products. Patent No.: ZL 2023 1 0013365.7
+[11] Zheng M, Ma M, Wang L, Yang X, Zhang Y, Man C, Zhao Q, Jiang Y. Lactobacillus plantarum J26 postbiotics alleviate high-fat and high-cholesterol diet-induced 
+hypercholesterolemia via regulating the LXRα-CYP7A1-bile acid-excretion pathway. Food Frontiers. 2023;1(1):1–13.
+[12] Patent Name: Lactiplantibacillus plantarum J26 Postbiotic Freeze-Dried Powder with Weight Loss and Hypolipidemic Efficacy, Its Preparation Method and Use. Patent No.: 
+ZL 2024 1 0040113.8
+ND
+7
+6
+5
+4
+3
+2
+1
+0
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+**
+****
+****
+****
+**** ****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+1.5
+1.0
+0.5
+0
+Liver HDL(mmol/L)
+Liver TC(mmol/L)
+Liver LDL(mmol/L)
+Liver TG(mmol/L)
+Serum TC(mmol/L)
+Serum HDL-C(mmol/L)
+Serum TG(mmol/L)
+Serum LDL-C(mmol/L)
+1.5
+1.0
+0.5
+0
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+***
+***
+**
+**
+*
+***
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+****
+****
+**** ****
+****
+****
+**** **** ****
+****
+****
+**** ****
+****
+****
+****
+*
+***
+***
+****
+2.0
+1.5
+1.0
+0.5
+0
+1.0
+0.8
+0.6
+0.4
+0.2
+0
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+ND
+HFD
+M-J26P
+BB536
+L-J26P
+H-J26P
+Atorvastatin
+J26
+**
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0
+In Vitro Advantage
+Highest cholesterol removal rate among 25 tested 
+lactic acid bacteria strains[9].
+Core Efficacy
+Mechanism
+Promotes cholesterol conversion to bile acids and 
+excretion[11]
+
+Efficacy (Animal Study)
+• Improves Alcohol-Induced Liver Injury[13]
+Compared with the Alcohol group, J26 reduce alcohol-induced lipid accumulation
+LLP group: ALT↓10.4%, AST↓13.1%, ALP↓3.7%
+MLP group: ALT↓16.7%, AST↓27.6%, ALP↓8.31%
+HLP group: ALT↓44.61%, AST↓58.8%, ALP↓16.8%
+• Antioxidant & Anti-Inflammatory[13]
+Compared with the Alcohol group, J26 reduce MPO-positive cells
+MPO-positive cells: LLP↓19.2%, MLP↓30.1%, HLP↓36.2%
+• TNF-α, IL-1β, IL-6 significantly decreased, IL-10 increased[13-14]
+• Protects liver mitochondria & ATP production[14]
+[13]Li, H.; Cheng, S.; Huo, J.; Dong, K.; Ding, Y.; Man, C.; Zhang, Y.; Jiang, Y. Lactobacillus plantarum J26 Alleviating Alcohol-Induced Liver 
+Inflammation by Maintaining the Intestinal Barrier and Regulating MAPK Signaling Pathways. Nutrients 2023, 15, 190.
+[14]Patent Name: Lactobacillus plantarum J26 and Its Composition for Use in Alleviating Chronic and Acute Alcohol-Induced Liver Injury. Patent No.: ZL 2022 1 1674861.9
+Liver Health 
+(Live)
+NC
+200
+150
+100
+50
+0
+Alcohol
+LLP
+MLP
+HLP
+NC
+Alcohol
+LLP
+MLP
+HLP
+NC
+Alcohol
+LLP
+MLP
+HLP
+*
+***
+Serum ALT(U/L)
+***
+*
+***
+**
+***
+**
+***
+***
+***
+A
+500
+400
+300
+200
+100
+0
+Serum AST(U/L)
+B
+200
+180
+160
+140
+120
+100
+***
+Serum ALP(U/L)
+***
+C
+NC
+40
+30
+20
+10
+0
+Alcohol
+LLP
+MLP
+HLP
+***
+MPO+ cells/field
+B
+ALT: Alanine Aminotransferase; AST: Aspartate Aminotransferase; ALP: Alkaline Phosphatase
+Core Efficacy
+
+High-Yield GABA: 138 mg/L[15]
+Benefits
+• Improves sleep quality
+• Relieves anxiety & relaxes mood
+• Regulates the gut-brain axis
+• Reduces stress-induced overeating
+[15]Patent Name: A Strain with High γ-Aminobutyric Acid Producing Capacity. Patent No.: 
+ZL2012 1 0552498.3
+Mood & Sleep 
+(Live J26)
+Core Efficacy
+
+• High activity & colonization
+• Suitable for: chilled yogurt, probiotic drinks, powders, capsules
+• Focus: weight management, metabolic control, liver health, mental health
+• Heat-resistant, processing-stable
+• Suitable for: baking, ambient drinks, hot drinks, snacks
+• Focus: weight management, metabolic control
+(Live & Postbiotic)
+Full-Scenario 
+Coverage
+Live J26
+J26 Postbiotic
+
+BioGrowing Co., Ltd.
+No.10666 Songze Avenue, Qingpu District, Shanghai, P.R. China
+T: + 86 21 3920 5777 
+E: cs@biogrowing.com 
+W: www.biogrowing.com

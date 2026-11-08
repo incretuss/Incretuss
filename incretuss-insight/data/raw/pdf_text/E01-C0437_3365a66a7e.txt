@@ -1,0 +1,180 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12241/API_List.pdf
+
+Commercial Products
+*
+Product Name
+Grade
+Drug Category
+Alcohol AbsƟnence
+AnƟvirals
+AnƟ-coagulant
+AnƟemeƟc
+AnƟhyperlipidemic
+AnƟconvulsant
+MucolyƟc
+AnƟ-psychoƟc
+AnƟ DiabeƟc
+Proton Pump Inhibitor (GERD)
+AnƟ-coagulant
+AnƟ Thrombocytopenia
+AnƟ DiabeƟc
+NSAID
+AnƟ Gout
+AnƟlipemic agent
+HemaƟnic, AnƟanemics
+PsychosƟmulant (ADHD)
+AnƟcholinergic
+AnƟ-psychoƟc
+AnƟ-coagulant
+AnƟulcerant / GERD Treatment
+* Planned in 2026-27, FI : Finland, PL : Poland, DE : Germany, UK : United Kingdom, AU : Australia, LU : Luxembourg, WC : WriƩen ConﬁrmaƟon, KDMF : Korea DMF, CADIFA : Brazil DMF
+All products are supported with DMF and Technical Package
+Acamprosate Calcium
+Aciclovir
+Apixaban
+Aprepitant
+Bempedoic Acid
+Brivaracetam
+Carbocisteine
+Cariprazine
+Dapagliﬂozin Propanediol
+Dexlansoprazole
+Edoxaban Tosylate Monohydrate
+Eltrombopag Olamine
+Empagliﬂozin
+Etoricoxib
+Febuxostat
+Fenoﬁbrate
+Iron Polymaltose
+Lisdexamfetamine Dimesylate
+Mirabegron
+QueƟapine Fumarate
+Rivaroxaban
+Vonoprazan Fumarate
+BP/EP/USP
+BP/EP/USP
+IH
+USP
+IH
+IH/EP
+EP
+IH
+EP/IH/USP
+IH
+IH
+IH
+IH
+IH
+IH
+EP/USP
+IH
+IH
+IH/EP
+EP/USP
+USP/EP
+IH
+CEP 2026-166-P01
+*
+*
+*
+CEP 2025-156 - Rev 00
+FI/PL: DRL-RLE.4003.
+69.2026,
+UK : 100984679
+*
+DE/LU : 2473647,
+UK : 2474440
+*
+UK : 100984652
+*
+*
+*
+CEP 2026-417-P01
+CEP 2025-326-P01
+CEP 2025-240-Rev 00
+KDMF*
+KDMF, WC
+KDMF*, CADIFA*
+WC
+AU*, WC
+WC
+KDMF*
+WC
+AU*, WC
+KDMF*, WC
+CADIFA*
+KDMF, CADIFA*
+Regulatory Filings
+CEP / EDMF
+DMF / WC
+
+Product Name
+Finerenone
+Minoxidil
+Rimegepant Sulphate
+Avatrombopag
+VorƟoxeƟne Hbr
+Grade
+IH
+EP/USP
+IH
+IH
+IH
+Drug Category
+MineralocorƟcoid receptor
+AnƟhypertensive/ Vasodilator
+ AnƟmigraine agent
+AnƟ Thrombocytopenia
+AnƟdepressant
+Status
+Lab Samples Available
+Lab Samples Available
+Lab Samples Available
+Lab Samples by Q3 26
+Lab Samples Available
+Product Name
+Belumosudil
+Daridorexant
+Elinzanetant
+Fezolinetant
+Fexuprazan
+Lemborexant
+Saﬁnamide
+Sodium Zirconium Cyclosilicate
+Tenapanor Hcl
+Xanomeline Tartrate
+Chronic graŌ versus host disease (cGvHD) treatment
+Treatment of Insomnia
+Women's Health
+Women's Health
+AnƟulcerant / GERD Treatment
+Treatment of Insomnia
+AnƟ Parkinson's
+Potassium Binder
+Treatment of Irritable Bowel Syndrome
+AnƟ-psychoƟc
+Product Name
+Grade
+IH
+IH
+IH
+IH
+Drug Category
+IH
+Cenobamate
+ResmeƟrom
+TofaciƟnib
+UpadaciƟnib
+Rimegepant NS
+AnƟconvulsant
+Treatment of NASH
+AnƟrheumaƟc (Janus Kinase Inhibitor)
+AnƟrheumaƟc (Janus Kinase Inhibitor)
+ AnƟmigraine agent
+Status
+Lab Samples by Q2 27
+Lab Samples by Q2 27
+Lab Samples by Q2 27
+Lab Samples by Q2 27
+Lab Samples Q4 26
+Drug Category

@@ -95,3 +95,22 @@ def test_ingredient_name_with_systems_word_is_not_equipment():
     info = Categorizer().classify_product(ProductData(name="Excipients for drug delivery systems",
                                                       source_url="https://e.com/p"))
     assert info["product_category"] == "Excipients" and info["product_type"] == "Ingredient"
+
+
+def test_explicit_api_evidence():
+    c = Categorizer()
+    info = c.classify_product(ProductData(name="Benzocaine", description="A local anaesthetic active ingredient.",
+                                          source_url="https://e.com/p"))
+    assert info["product_category"] == "APIs"
+    info = c.classify_product(ProductData(name="Abemaciclib", description="USDMF 41480", source_url="https://e.com/p"))
+    assert info["product_category"] == "APIs"
+    # a bare drug name with no stated role stays unclassified
+    assert c.classify_product(ProductData(name="Ribavirin", source_url="https://e.com/p"))["product_category"] \
+        == "Unclassified"
+
+
+def test_packaging_material_not_api_from_description():
+    info = Categorizer().classify_product(ProductData(
+        name="Desiccant Foil", description="Pharmaceutical active ingredients are sensitive to moisture.",
+        source_url="https://e.com/p"))
+    assert info["product_category"] == "Other" and info["product_type"] == "Packaging material"

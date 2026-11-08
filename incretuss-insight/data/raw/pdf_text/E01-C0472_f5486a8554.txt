@@ -1,0 +1,511 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/13041/FineTest_Antibody_Drugs_ELISA_Kits.pdf
+
+Advantages
+ELISA Kits for therapeutic mAbs and ADAs
+FineTest® ELISA kits are used for the detection and quantification of therapeutic monoclonal antibodies 
+such as Bevacizumab® and biosimilars including rituximab® and adalimumab®, as well as the immu-
+nogenicity detection of Anti-Drug Antibodies (ADAs).
+Monoclonal antibody drugs are exogenous proteins. Most of them have been modified via humanized 
+heavychain, because Fab region is still immunogenic. Allergic and immune reactions often occur in 
+large quantities or long-term injections. FineTest® has developed some ELISA Kits to help scientific 
+researchers and medical workers to determine the metabolism of drugs during drug treatment.
+ELISA Kits
+Antibody Drugs
+High specificity
+No cross-reactivity with non-
+target human serum protein 
+or immunoglobulin
+High sensitivity
+High sensitivity and wide 
+detection range
+High accuracy
+Low intra and inter assay 
+variations
+
+0.938ng/ml
+0.938ng/ml
+Qualitative
+0.469ng/ml
+0.188ng/ml
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.938ng/ml
+0.938ng/ml
+0.188ng/ml
+0.188ng/ml
+0.469ng/ml
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.069ng/ml
+0.938ng/ml
+Qualitative
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.469ng/ml
+0.188ng/ml
+0.938ng/ml
+0.094ng/ml
+0.469ng/ml
+0.469ng/ml
+0.938ng/ml
+0.375ng/ml
+0.188ng/ml
+0.469ng/ml
+0.938ng/ml
+0.188ng/ml
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.469ng/ml
+0.469ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+Qualitative
+0.781-50ng/ml
+0.313-20ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.313-20ng/ml
+0.313-20ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.137-100ng/ml
+1.563-100ng/ml
+Qualitative
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+0.313-20ng/ml
+1.563-100ng/ml
+0.156-10ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+0.625-40ng/ml
+0.313-20ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+0.313-20ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+Human Adalimumab ELISA Kit
+Human Anti-Adalimumab antibody ELISA kit
+Human Anti-Adalimumab antibody ELISA kit
+Human Aflibercept ELISA Kit
+Human Anti-Aflibercept ELISA Kit
+Anti-Atezolizumab antibody ELISA Kit
+Anti-Atezolizumab Neutralizing antibody ELISA Kit
+Belimumab ELISA kit
+Anti-Benralizumab antibody ELISA Kit
+Anti-Benralizumab Neutralizing antibody ELISA Kit
+Bevacizumab (Avastin) ELISA Kit
+Human Anti-Bevacizumab(Avastin) antibody ELISA Kit
+Burosumab ELISA Kit
+Anti-Burosumab antibody ELISA Kit
+Anti-Daratumumab antibody ELISA Kit
+Datopotamab deruxtecan (anti-TROP2) ELISA Kit
+Human Denosumab ELISA Kit
+Human Anti-Denosumab antibody ELISA kit
+Human Anti-Denosumab antibody ELISA kit
+Human Anti-Donanemab antibody ELISA Kit
+Human Dupilumab ELISA Kit
+Human Anti-Dupilumab antibody ELISA Kit
+Elotuzumab ELISA kit
+Enfortumab (Anti-NECTIN4) ELISA Kit
+Human Anti-Enfortumab antibody ELISA Kit
+Faricimab (Human VEGF/ang-2 antibody) ELISA Kit
+Human Anti-Faricimab antibody ELISA Kit
+Human Anti-Glargine antibody ELISA Kit
+Human Anti-Glargine Neutralizing antibody ELISA Kit
+Human Golimumab ELISA Kit
+Human Anti-Golimumab antibody ELISA Kit
+Guselkumab ELISA Kit
+Anti-Guselkumab Antibody ELISA Kit
+Infliximab ELISA Kit
+Anti-Infliximab antibody ELISA Kit
+Human Anti-Insulin Degludec antibody ELISA Kit
+Human Anti-ITG αvβ6 Antibody ELISA Kit
+Human Anti-Isatuximab antibody ELISA kit
+Levilimab (Anti-IL-6Ra) ELISA Kit
+EH5106
+EH5107
+EH5126
+EH5134
+EH5135
+EU2709
+EU2713
+EU7006
+EU2707
+EU2708
+EU2594
+EH5110
+EU2704
+EU2705
+EU6013
+EU6985
+EH4515
+EH5125
+EH5127
+EH5289
+EH5290
+EH5291
+EU6729
+EU2636
+EH5294
+EU2639
+EH5293
+EH5242
+EH5243
+EH5122
+EH5109
+EU2694
+EU2695
+EU3589
+EU3590
+EH5324
+EH5534
+EH5327
+EU2683
+Adalimumab
+Drug
+Product Name
+Cat.No
+Sensitivity
+Range
+Aflibercept
+Atezolizumab
+Belimumab
+Benralizumab
+Bevacizumab
+Burosumab
+Daratumumab
+Datopotamab
+Denosumab
+Donanemab
+Dupilumab
+Elotuzumab
+Enfortumab
+Faricimab
+Glargine
+Golimumab
+Guselkumab
+Infliximab
+Insulin Degludec
+Integrin alpha V beta 6
+Isatuximab
+Levilimab
+
+1.875ng/ml
+0.94ng/ml
+0.469ng/ml
+0.94ng/ml
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.469ng/ml
+0.938ng/ml
+0.938ng/ml
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.938ng/ml
+4.688ng/ml
+0.938ng/ml
+0.281ng/ml
+0.188ng/ml
+0.469ng/ml
+0.188ng/ml
+0.469ng/ml
+0.938ng/ml
+0.469ng/ml
+0.469ng/ml
+0.469ng/ml
+0.938ng/ml
+56.25pg/ml
+0.938ng/ml
+0.469ng/ml
+0.469ng/ml
+0.469ng/ml
+0.94ng/ml
+0.469ng/ml
+6ng/ml
+0.938ng/ml
+0.938ng/ml
+0.469ng/ml
+0.188ng/ml
+3.125-200ng/ml
+1.56-100ng/ml
+0.781-50ng/ml
+1.56-100ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+7.813-500ng/ml
+1.563-100ng/ml
+0.469-30ng/ml
+0.313-20ng/ml
+0.781-50ng/ml
+0.313-20ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+1.563-100ng/ml
+93.75-6000pg/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+0.781-50ng/ml
+1.56-100ng/ml
+0.781-50ng/ml
+10-640ng/ml
+1.563-100ng/ml
+1.563-100ng/ml
+0.781-50ng/ml
+0.313-20ng/ml
+LRT (Liraglutide) ELISA Kit
+Human Anti-Natalizumab antibody ELISA Kit
+Human Nivolumab ELISA Kit
+Human Anti-Nivolumab antibody ELISA Kit
+Human Nivolumab ELISA Kit
+Anti-Ocrelizumab antibody ELISA Kit
+Omalizumab ELISA Kit
+Panitumumab ELISA Kit
+Anti-Panitumumab antibody ELISA Kit
+Pembrolizumab ELISA Kit
+Anti-Pembrolizumab antibody ELISA Kit
+Anti-Pembrolizumab Neutralizing antibody ELISA Kit
+Human Pertuzumab ELISA Kit
+Human Anti-Pertuzumab antibody ELISA kit
+Anti-Pertuzumab Neutralizing Antibody ELISA kit
+Human Ramucirumab ELISA kit
+Recombinant Anti-Human CD28 mAb ELISA Kit
+Recombinant Anti-Human CD3ε mAb ELISA Kit
+Human Anti-Rituximab antibody ELISA Kit
+Rituximab ELISA Kit
+Human Romosozumab ELISA Kit
+Human Anti-Romosozumab antibody ELISA Kit
+Sacituzumab govitecan (Anti-TROP2) ELISA Kit
+Human Anti-Semaglutide antibody ELISA Kit
+Human Anti-Semaglutide Neutralizing antibody ELISA Kit
+Human Semaglutide Immunoglobulin E ELISA Kit
+Semaglutide QuickTest ELISA Kit
+Human Anti-Teduglutide antibody ELISA kit
+Human Tocilizumab ELISA kit
+Human Trastuzumab ELISA Kit
+Human Anti-Trastuzumab antibody ELISA Kit
+Human Anti-T-DXd antibody ELISA Kit
+Trastuzumab Emtansine ELISA Kit
+Human Anti-Trastuzumab antibody ELISA Kit
+Human Anti-Ustekinumab antibody ELISA Kit
+Human Ustekinumab ELISA kit
+Human Anti-Vedolizumab antibody ELISA Kit
+Anti-Human VEGF (Humanized Antibody)ELISA Kit
+EU2691
+EH5355
+EH5349
+EH5348
+EH5349-CM
+EU6141
+EU2648
+EU2667
+EU2668
+EU2647
+EU2671
+EU2712
+EH5145
+EH5146
+EU2693
+EH5310
+EH5113
+EH5114
+EH5295
+EU2616
+EH5131
+EH5292
+EU6794
+EH5240
+EH5241
+EH5258
+EU2706
+EH5335
+EH5315
+EH5144
+EH5252
+EH5357
+EU2672
+EH5252-CM
+EH5321
+EH5320
+EH5322
+EH5142
+Drug
+Product Name
+Cat.No
+Sensitivity Range
+Liraglutide
+Natalizumab
+Nivolumab
+Ocrelizumab
+Omalizumab
+Panitumumab 
+Pembrolizumab
+Pertuzumab
+Ramucirumab
+Recombinant
+Rituximab
+Romosozumab
+Sacituzumab
+Semaglutide
+Teduglutide
+Tocilizumab
+Trastuzumab
+Trastuzumab
+Ustekinumab
+Vedolizumab
+VEGF
+
+Anti-PEG Antibody ELISA Kits
+FineTest® has developed a series of ELISA Kits for studying of the immune response induced by 
+PEG-modified proteins or drugs. The anti-PEG IgM and IgG antibodies produced in human, monkey, 
+rat and rabbit were quantitatively tested.
+0.375ng/ml
+0.188ng/ml
+0.469ng/ml
+0.188ng/ml
+0.75ng/ml
+0.094ng/ml
+0.375ng/ml
+0.094ng/ml
+0.375ng/ml
+0.188ng/ml
+0.625-40ng/ml
+0.313-20ng/ml
+0.781-50ng/ml
+0.313-20ng/ml
+1.25-80ng/ml
+0.156-10ng/ml
+0.625-40ng/ml
+0.156-10ng/ml
+0.625-40ng/ml
+0.313-20ng/ml
+Human anti-PEG IgG ELISA Kit
+Human anti-PEG IgM ELISA Kit
+Mouse anti-PEG lgG ELISA Kit
+Mouse anti-PEG lgM ELISA Kit
+Rat anti-PEG lgG ELISAKit
+Rat anti-PEG lgM ELISA Kit
+Rabbit anti-PEG IgG ELISA Kit
+Rabbit anti-PEG lgM ELISA Kit
+Monkey anti-PEG lgG ELISA Kit
+Monkey anti-PEG lgM ELISA Kit
+Product Name
+PEG
+PEG
+PEG
+PEG
+PEG
+PEG
+PEG
+PEG
+PEG
+PEG
+Target
+EH5111
+EH5112
+EM2149
+EM2150
+ER2094
+ER2095
+ERB0231
+ERB0232
+EMK0221
+EMK0222
+Cat.No
+Sensitivity
+Range
+Host Cell Proteins(HCPs)ELISA Kits
+HCPs residue must be strictly controlled during the production of antibody drugs. FineTest® has 
+developed the following HCPS ELISA Kits to support your research.
+46.875ng/ml
+0.188ng/ml
+1.875ng/ml
+0.188ng/ml
+0.469ng/ml
+18.75pg/ml
+0.188ug/ml
+0.938ng/ml
+0.094ug/ml
+46.875pg/ml
+9.375ng/ml
+0.938ng/ml
+Qualitative
+78.125-5000ng/ml
+0.313-20ng/ml
+3.125-200ng/ml
+0.313-20ng/ml
+0.781-50ng/ml
+31.25-2000pg/ml
+0.313-20ug/ml
+1.563-100ng/ml
+0.156-10ug/ml
+78.125-5000pg/ml
+15.625-1000ng/ml
+1.563-100ng/ml
+Qualitative
+HEK 293 HCPs(HEK 293 host cell proteins) ELISA Kit
+VERO HCPs(VERO host cell proteins) ELISA Kit
+E.coli HCPs(E.coli host cell proteins) ELISA Kit
+CHO HCPs ELISA Kit
+OVA(Ovalbumin) ELISA Kit
+PEA(Pseudomonas Exotoxin A) ELISA Kit
+LPS(Lipopolysaccharides) ELISA Kit
+Pig TRY (Trypsin) ELISA Kit
+Bovine serum albumin(BSA) ELISA Kit
+Protein A ELISA Kit
+FLAG-Tag (DYKDDDDK-Tag Protein ) ELISA Kit
+Human anti-cell free DNA ELISA Kit
+Human DS-DNA-IgG ELISA Kit
+Product Name
+EH4435-CM
+EMK0179
+EU2624
+EU2614
+EU3135
+EU3133
+EU3126
+EP0253
+EB0148
+EU2662
+EU2607
+EH4983
+EH4955
+Cat.No
+Sensitivity
+Range
+Wuhan Fine Biotech Co., Ltd
+1-2 Floor, BLD 22, Optics Valley Biopharmaceutical Accelerator,No.388 
+Gaoxin 2nd Road, East Lake High Tech Development Zone,Wuhan, 
+430074, Hubei, China
+www.fn-test.com
+fine@fn-test.com

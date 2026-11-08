@@ -1,0 +1,687 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12473/pharmaceutical_intermediate_Product_list_.pdf
+
+杭州鸿沁医药科技有限公司
+HANGZHOU HONGQIN PHARMTECH CO.,LTD.
+TEL NO. :WHATSAPP NO.: 008613675855990 (Ida Zhang) 
+E-MAIL: zhangjunling0916@126.com info@hqpharmtech.cn
+S/N
+CAS NO
+PRODUCT NAME
+API
+1
+ 61-82-5
+3-AMINO-1,2,4-TRIAZOLE (AMITROLE) 
+Trapidil 
+2
+461432-25-7 
+Dapagliflozin Impurity 41
+Dapagliflozin Tetraacetate 
+3
+863127-76-8 
+(E)-N-(2-Chloro-6-methylphenyl)-3-ethoxyacrylamide
+Dasatinib 
+4
+302964-24-5
+2-Amino-N-(2-chloro-6-methylphenyl)thiazole-5-
+carboxamide
+Dasatinib 
+5
+302964-08-5
+N-(2-Chloro-6-methylphenyl)-2-[(6-chloro-2-methyl-
+4-pyrimidinyl)amino]-5-thiazolecarboxamide
+Dasatinib
+6
+154026-95-6 
+tert-Butyl (4R-cis)-6-[(acetyloxy)methyl]-2,2-
+dimethyl-1,3-dioxane-4-acetate 
+Rosuvastatin 
+7
+125971-94-0 
+(4R,6R)-tert-Butyl-6-cyanomethyl-2,2-dimethyl-1,3-
+dioxane-4-acetate
+Atorvastatin 
+8
+145783-15-9
+4,6-dichloro-2-propylthiopyrimidine-5-amine
+Ticagrelor 
+9
+76855-69-1 
+ (3S,4R)-4-Acetoxy-3-[(R)-1-(tert-
+butyldimethylsilyloxy)ethyl]azetidin-2-one
+Carbapenems 
+10
+63095-51-2 
+(R)-4-Propyldihydrofuran-2(3H)-one
+Brivaracetam 
+11
+1121-22-8
+Trans-1,2-Diaminocyclohexane
+Oxaliplatin
+12
+20439-47-8
+(1R,2R)-(-)-1,2-diaminocyclohexane
+Oxaliplatin
+13
+21436-03-3
+(1S2S)-(+)-1, 2-Cyclohexanediamine
+Oxaliplatin 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+14
+16921-30-5
+Potassium Hexachloroplatinate(IV)
+Oxaliplatin 
+15
+10025-99-7
+Potassium Tetrachloroplatinate
+Oxaliplatin
+16
+15978-93-5
+Diiododiammine Platinum
+Carboplatin
+17
+5445-51-2
+1,1-Cyclobutanedicarboxylic acid
+Carboplatin 
+18
+161599-46-8
+2',3'-Di-O-acetyl-5'-deoxy-5-fluorocytidine
+Capecitabine
+19
+1118-89-4
+L-Glutamic Acid Diethyl Ester Hydrochloride
+Pemetrexed Disodium
+20
+155405-80-4
+4-[2-(2-Amino-4,7-dihydro-4-oxo-1H-pymol[2,3-
+d]pyrimodin-5-yl)ethyl]benzoic Acid Methyl Ester
+Pemetrexed Disodium 
+21
+137281-39-1
+4-[2-(2-Amino-4,7-dihydro-4-oxo-1H-pyrrolo[2,3-
+d]pyrimidin-5-yl)ethyl]benzoic Acid
+Pemetrexed Disodium 
+22
+123910-88-3
+4-(4-Hydroxybutyl)benzoic acid Methyl ester
+Pemetrexed Disodium 
+23
+571189-16-7
+4-(6-Nitro-3-pyridyl)-piperazine-1-carboxylate
+Palbociclib 
+24
+571188-59-5
+tert-Butyl 4-(6-aminopyridin-3-yl)piperazine-1-
+carboxylate
+Palbociclib 
+25
+733039-20-8
+5-broMo-2-chloro-N-cyclopentylpyriMidin-4-aMine
+Palbociclib 
+26
+1016636-76-2
+6-Bromo-2-chloro-8-cyclopentyl-5-methylpyrido-
+[2,3-d]pyrimidin-7(8H)-one
+Palbociclib 
+27
+866084-31-3
+tert-butyl 4-(6-(8-cyclopentyl-5-Methyl-7-oxo-6-(1-
+propoxyvinyl)-7,8-dihydropyrido[2,3-d]pyriMidin-2-
+ylaMino)pyridin-3-yl)piperazine-1-carboxylate
+Palbociclib 
+28
+143782-23-4
+4-Isothiocyanato-2-(trifluoromethyl)benzonitrile
+Palbociclib 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+29
+1289942-66-0
+N-[3-Fluoro-4-[(methylamino)carbonyl]phenyl]-2-
+methylalanine
+Enzalutamide 
+30
+14489-75-9
+N-methyl-1-naphthalenemethylamine
+Terbinafine Hydrochloride 
+31
+65473-13-4
+N-Methyl-1-Naphthalenemethylamine Hydrochloride
+Terbinafine Hydrochloride 
+32
+917-92-0
+3,3-Dimethyl-1-Butyne
+Terbinafine Hydrochloride 
+33
+126764-17-8
+1-chloro-6,6-dimethyl-2-hepten-4-yne
+Terbinafine Hydrochloride 
+34
+898543-06-1
+4-{4-[(5S)-5-(Aminomethyl)-2-oxo-1,3-oxazolidin-3-
+yl]phenyl}morpholin-3-one hydrochloride
+Rivaroxaban 
+35
+161829-92-1
+Cis-Hexahydroisoindoline Hydrochloride
+Mitiglinide Calcium 
+36
+3972-36-9
+(S)-2-Benzylsuccinic Acid
+Mitiglinide Calcium 
+37
+5669-19-2
+2-BenzylAcrylic Acid
+Racecadotril 
+38
+1738-76-7
+Benzyl glycinate p-toluenesulfonate
+Racecadotril 
+39
+881674-56-2
+5-(2-Fluorophenyl)-1H-pyrrole-3-carboxaldehyde
+Vonoprazan 
+40
+16133-25-8
+3-pyridylsulfonyl chloride
+Vonoprazan 
+41
+881677-11-8
+1H-Pyrrole-3-carboxaldehyde, 5-(2-fluorophenyl)-1-
+(3-pyridinylsulfonyl)-
+Vonoprazan 
+42
+312307-38-3
+[2-(2-fluorophenyl)-2-oxoethyl]propanedinitrile
+Vonoprazan 
+43
+1240948-77-9
+5-(2-Fluorophenyl)-1H-pyrrole-3-carbonitrile
+Vonoprazan 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+44
+119670-13-2
+3-(2-Chloroacetyl)-2-[(2-
+chloroethyl)amino]tetrahydro-2H-1,3,2-
+oxazaphosphorine-2-oxide
+Ifosfamide 
+45
+202197-26-0
+3-Chloro-4-(3-fluorobenzyloxy)aniline
+Lapatinib 
+46
+231278-20-9
+N-[3-Chloro-4-(3-fluorobenzyloxy)phenyl]-6-
+iodoquinazolin-4-amine
+Lapatinib 
+47
+231278-84-5
+5-[4-[3-Chloro-4-[(3-
+fluorophenyl)methoxy]anilino]quinazolin-6-yl]furan-
+2-carbaldehyde
+Lapatinib 
+48
+16064-08-7
+6-Iodoquinazolin-4-one
+Lapatinib 
+49
+98556-31-1
+4-Chloro-6-iodoquinazoline
+Lapatinib 
+50
+27329-70-0
+5-Formylfuran-2-boronic acid
+Lapatinib 
+51
+104458-24-4
+2-(Methylsulfonyl)ethylamine Hydrochloride
+Lapatinib 
+52
+1211443-58-1
+2-chloro-7-cyclopentyl-7H-pyrrolo[2,3-d]pyriMidine-
+6-carboxylic acid
+Ribociclib 
+53
+1211443-61-6
+2-Chloro-7-cyclopentyl-7H-cyclopentyl[d]pyrimidin-
+6-carboxamide
+Ribociclib 
+54
+1374639-76-5
+3-(2-Chloro-4-(cyclopentylamino)pyrimidin-5-
+yl)prop-2-yn-1-ol
+Ribociclib 
+55
+1180132-17-5
+5-[(4-ethylpiperazin-1-yl)methyl]pyridin-2-amine
+Abemaciclib 
+56
+1231930-33-8
+6-Bromo-4-fluoro-1-isopropyl-2-methyl-1H-
+benzo[d]imidazole
+Abemaciclib 
+57
+2927-71-1
+2,4-Dichloro-5-fluoropyrimidine
+Abemaciclib 
+58
+1231930-37-2
+4-Fluoro-2-methyl-1-(1-methylethyl)-6-(4,4,5,5-
+tetramethyl-1,3,2-dioxaborolan-2-yl)-1H-
+benzimidazole
+Abemaciclib 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+59
+149806-06-4
+2-Bromopyridine-5-carbaldehyde
+Abemaciclib 
+60
+22264-50-2
+1-Aminocyclobutanecarboxylic acid
+Apalutamide 
+61
+573762-62-6
+5-Amino-3-(trifluoromethyl)picolinonitrile
+Apalutamide 
+62
+951753-87-0
+5-isothiocyanato-3-(trifluoromethyl)picolinonitrile
+Apalutamide 
+63
+2227589-22-0
+1-((3-fluoro-4-
+(methylcarbamoyl)phenyl)amino)cyclobutanecarbox
+ylic acid
+Apalutamide 
+64
+59878-57-8
+1-(Cyclopropylcarbonyl)piperazine
+Olaparib 
+65
+1021298-67-8
+1-(cyclopropylcarbonyl)piperazine hydrochloride
+Olaparib 
+66
+61260-15-9
+3-oxo-1,3-dihydroisobenzofuran-1-ylphosphonic acid
+Olaparib 
+67
+763114-25-6
+2-Fluoro-5-[(3-oxo-1(3H)-
+isobenzofuranylidene)methyl]-benzonitrile
+Olaparib 
+68
+763114-26-7
+2-Fluoro-5-[(4-oxo-3,4-dihydrophthalazin-1-
+yl)Methyl]benzoic acid
+Olaparib 
+69
+218301-22-5
+2-Fluoro-5-formylbenzonitrile
+Olaparib 
+70
+1075705-01-9
+4-Fluoro-2-Methoxy-5-nitroaniline
+Osimertinib 
+71
+1032452-86-0
+3-(2-chloropyriMidin-4-yl)-1-Methylindole
+Osimertinib 
+72
+142-25-6
+N,N,N'-Trimethylethylenediamine
+Osimertinib 
+73
+1421372-94-2
+N-(4-fluoro-2-Methoxy-5-nitrophenyl)-4-(1-
+Methylindol-3-yl)pyriMidin-2-aMine
+Osimertinib 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+74
+1421372-67-9
+N-(2-dimethylamino-ethyl)-2-methoxy-n-methyl-n-
+[4-(1-methyl-1h-indol-3-yl)-pyrimidin-2-yl]-5-nitro-
+benzene-1,4-diamine
+Osimertinib 
+75
+1421372-66-8
+N1-[2-(diMethylaMino)ethyl]-5-Methoxy-N1-Methyl-
+N4-[4-(1-Methyl-1H-indol-3-yl)-2-
+pyriMidinyl]benzene-1,2,4-triamine
+Osimertinib 
+76
+15883-20-2
+N-(2',6'-Dimethylphenyl)-2-Piperidinecarboxamide
+Ropivacaine 
+77
+27262-40-4
+(S)-N-(2',6'-Dimethylphenyl)-2-
+Piperidinecarboxamide
+Ropivacaine 
+78
+5000-66-8
+2-Bromo-2'-chloroacetophenone
+Cenobamate 
+79
+1259059-71-6
+1-(2-chlorophenyl)-2-(1,2,3,4-tetrazol-2-yl)ethan-1-
+one
+Cenobamate 
+80
+1259059-77-2
+(R)-1-(2-chlorophenyl)-2-(2H-tetrazol-2-yl)ethan-1-ol
+Cenobamate 
+81
+54417-53-7
+(R)-Tetrahydropapaverine hydrochloride
+Cisatracurium Besylate 
+82
+865304-71-8
+5-(2-Isopropyl-4-methoxyphenoxy)pyrimidine-2,4-
+diamine
+Gefapixant 
+83
+13522-86-6
+2-isopropyl-4-methoxyphenol
+Gefapixant 
+84
+927872-64-8
+2-(2-isopropyl-4-Methoxyphenoxy)acetonitrile
+Gefapixant 
+85
+19962-37-9
+N- 2 - Acetylguanine
+Ganciclovir 
+86
+194154-40-0
+CBZ-valganciclovir
+Ganciclovir 
+87
+88110-89-8
+Mono-o-acetate Ganciclovir
+Ganciclovir 
+88
+86357-14-4
+Triacetylganciclovir
+Ganciclovir 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+89
+89281-73-2
+1, 3-Dichloro-2-(acetoxymethoxy)propane
+Ganciclovir 
+90
+86357-13-3
+1, 3-Diacetoxy-2-(acetoxymethoxy)propane
+Ganciclovir 
+91
+486460-32-6
+Sitagliptin Base
+Sitagliptin phosphate 
+92
+ 762240-92-6
+3-(Trifluoromethyl)-5 , 6, 7, 8-tetrahydro-[1 , 2, 
+4]triazolo[4 , 3-a]pyr 
+Sitagliptin phosphate 
+93
+486460-00-8
+Boc-(R)-3-Amino-4-(2 , 4 , 5-trifluorophenyl)butanoic 
+acid
+Sitagliptin phosphate 
+94
+764667-65-4
+(2Z)-4-Oxo-4-[3-(trifluoromethyl)-5, 6-dihydro-[1, 
+2,4]triazolo[4,
+Sitagliptin phosphate 
+95
+486460-23-5
+Boc-Sitagliptin
+Sitagliptin phosphate 
+96
+209995-38-0
+2, 4, 5-Trifluorophenylacetic acid
+Sitagliptin phosphate 
+97
+207557-35-5
+(2S)-1-(Chloroacetyl)-2-pyrrolidinecarbonitrile
+Vildagliptin 
+98
+702-82-9
+3-AMINO-1-ADAMANTANOL
+Vildagliptin 
+99
+99469-99-5
+3 - Ethoxy-4 - ethoxycarbonyl phenylacetic acid
+Repaglinide 
+100
+219921-94-5
+(S ) - 3 - METHYL-1 - ( 2 - PIPERIDINOPHENYL) 
+BUTYLAMINE, N - ACETYL-GLUTAMATE SALT
+Repaglinide 
+101
+334618-23-4
+R-3 - Aminopiperidine Dihydrochloride
+Alogliptin benzoate 
+102
+865758-95-8
+2-[(6-Chloro-2 , 4- dioxo-3 , 4- dihydropyrimidin -
+1(2H)-yl) methyl]benzonitrile
+Alogliptin benzoate 
+103
+22115-41-9
+2- Cyanobenzyl bromide
+Alogliptin benzoate 
+
+S/N
+CAS NO
+PRODUCT NAME
+API
+104
+4318-56-3
+6-Chloro-3-methyluracil
+Alogliptin benzoate 
+105
+309956-78-3
+(R) - 3- ( Boc-Amino)Piperidine 
+Linagliptin 
+106
+461432-26-8
+Dapagliflozin base
+Teneligliptin Hydrobromide Hydrate
+107
+461432-25-7
+(2R, 3R,4R, 5S, 6S)-2-(AcetoxyMethyl)-6-(4-chloro-3-
+(4 - ethoxybenzyl)phenyl)tetrahydro -2H-pyran-3,4, 
+5-triyl
+Teneligliptin Hydrobromide Hydrate
+108
+461432-23-5
+5-bromo-2-chloro-4 ’-ethoxydiphenyl methane
+Teneligliptin Hydrobromide Hydrate
+109
+915095-99-7
+(1S)-1, 5-Anhydro-1-C-[4-chloro-3-[[4-[[(3S)-
+tetrahydro-3 - furanyl]oxy]phenyl] methyl]phenyl] -
+D- glucito tetraacetate
+Empagliflozin
+110
+915095-94-2
+(3S)-3-[4-[(2-Chloro-5-
+iodophenyl)methyl]phenoxy]tetrahydro -furan
+Empagliflozin
+111
+1279691-36-9
+(2S, 3R,4S, 5S, 6R)-2-(3-(4-((S)-tetrahydrofuran-3-
+yloxy)benzyl) - 4-chlorophenyl)-tetrahydro-6-( 
+hydroxyMethyl) -2-Methoxy-
+Empagliflozin
+112
+915095-89-5
+3S-{4-[Benzyloxy-(5-bromo-2-chloro-phenyl)-methyl] 
+-phenoxy}-tetrahydro-furan
+Empagliflozin
+113
+775351-65-0
+Imeglimin Base
+Ertugliflozin L-pyroglutamic acid
+114
+757178-57-7
+N2, N2, 6-trimethyl-1, 6-dihydro-1, 3, 5-triazine-2, 4-
+diamine
+Ertugliflozin L-pyroglutamic acid
+115
+1016979-78-4
+intemediate
+Ertugliflozin L-pyroglutamic acid
+116
+53-19-0
+Mitotane
+Ertugliflozin L-pyroglutamic acid
+117
+920509-32-6
+Resmetirom
+Ertugliflozin L-pyroglutamic acid
+118
+503612-47-3
+apixaban
+Ertugliflozin L-pyroglutamic acid
+
+119
+1642288-47-8
+MYK-461
+Ertugliflozin L-pyroglutamic acid
+120
+887581-47-7
+6-CHLORO-3-(1-METHYLETHYL)-2,4-(1H,3H)-
+PYRIMIDINEDIONE
+Ertugliflozin L-pyroglutamic acid
+121
+69998-14-7
+1-isopropylpyrimidine-2,4,6(1H,3H,5H)-trione
+Ertugliflozin L-pyroglutamic acid
+122
+691-60-1
+ISOPROPYLUREA
+Ertugliflozin L-pyroglutamic acid
+123
+5332-96-7
+4-NITROPHENYLACETONE
+Ertugliflozin L-pyroglutamic acid
+124
+1240948-77-9
+5-(2-fluorophenyl)-1H-pyrrole-3-carbonitrile
+Vonoprazan Fumarate 
+125
+881674-56-2
+5-(2-fluorophenyl)-1H-Pyrrole-3-carboxaldehyde
+Vonoprazan Fumarate 
+126
+16133-25-8
+Pyridine-3-sulfonyl chloride hydrochloride
+Vonoprazan Fumarate 
+127
+461432-22-4
+(5-bromo-2-chlorophenyl)(4-
+ethoxyphenyl)methanone
+Dapagliflozin 
+128
+461432-23-5
+5-bromo-2-chloro-4’-ethoxydiphenylmethane
+Dapagliflozin 
+129
+461432-25-7
+[(2R,3R,4R,5S,6S)-3,4,5-triacetyloxy-6-[4-chloro-3-[(4-
+ethoxyphenyl)methyl]phenyl]oxan-2-yl]methyl 
+acetate
+Dapagliflozin 
+130
+1370250-39-7
+7-(Benzyloxy)-3,4,12,12a-tetrahydro-1H-
+[1,4]oxazino[3,4-c]pyrido[2,1-f][1,2,4]triazine-6,8-
+dione
+Baloxavir Marboxil 
+131
+1985607-70-2
+(R)-7-(benzyloxy)- 3,4,12,12a-tetrahydro- 1H-
+[1,4]oxazino[3,4- c]pyrido[2,1-f][1,2,4]- triazine-6,8-
+dione
+Baloxavir Marboxil 
+132
+119736-16-2
+3-(Benzyloxy)-4-oxo-4h-pyran-2-carboxylic acid
+Baloxavir Marboxil 
+133
+1985607-83-7
+7,8-difluoro-6,11-dihydro-Dibenzo[b,e]thiepin-11-ol
+Baloxavir Marboxil 
+134
+21962-45-8
+4-formyl-3-methoxybenzonitrile
+Finerenone 
+
+135
+95306-64-2
+4-amino-5-methylpyridone
+Finerenone 
+136
+65193-87-5
+2-cyanoethylacetoacetate
+Finerenone 
+137
+1029716-44-6
+1-(1-ethoxyethyl)-4-(4,4,5,5-tetramethyl-1,3,2-
+dioxaborolan-2-yl)-1H-pyrazole
+Ruxolitinib Phosphate 
+138
+591769-05-0
+3-Cyclopentylacrylonitrile
+Ruxolitinib Phosphate 
+139
+1236033-05-8
+(4-(1-(2-Cyano-1-cyclopentylethyl)-1h-pyrazol-4-yl)-7h-
+pyrrolo[2,3-d]pyrimidin-7-yl)methyl pivalate
+Ruxolitinib Phosphate 
+140
+1146629-75-5
+(4-Chloro-7H-pyrrolo[2,3-d]pyrimidin-7-yl)methyl 
+pivalate
+Ruxolitinib Phosphate 
+141
+945950-37-8
+4-Methyl-7H-pyrrolo[2,3-d]pyrimidine
+Ruxolitinib Phosphate 
+142
+1428243-26-8
+(3R,4S)-3-(2-Bromoacetyl)-4-ethyl-1-pyrrolidinecarboxylic 
+acid phenylmethyl ester
+Upadacitinib 
+143
+1201187-44-1
+tert-butyl 5-tosyl-5H-pyrrolo[2,3-b]pyrazin-2-ylcarbamate
+Upadacitinib 
+144
+103877-51-6
+ethyl 7-chloro-8-methyl-4-oxo-1,4-dihydroquinoline-3-
+carboxylate
+Upadacitinib

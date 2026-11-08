@@ -1,0 +1,589 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12190/Glass_Lined_Agitated_Nutsche_Filter_Dryers_R10.pdf
+
+GLASS LINED AGITATED 
+NUTSCHE FILTER DRYERS
+Your Benefits
+• Easy Cleaning of Internals 
+• Better Filtration and Drying
+• Glass Lined ANFD Gives Better Corrosion 
+Resistance
+• Hydraulic System Provides Easy Opening 
+of Lower Part and Discharge Valve
+A STANDARD GROUP COMPANY
+Customer Inspired Excellence
+Standard 
+Engineering
+TM
+Inside
+Technology
+Conductive Glass and Heat Exchanger Technology.
+
+2
+Standard 
+Engineering
+TM
+Dimensions
+Nominal 
+Capacity 
+in Liters
+Full 
+Volume 
+in Liters
+Jacket Heat 
+Transfer Area 
+in Sq.m
+Filter 
+Area in 
+Sq.m
+Max Cake 
+Volume in 
+Liters
+D
+D1
+H
+H1
+H2
+H3
+H4
+L1 
+L2
+Motor 
+Power 
+in HP
+Agitator 
+Speed 
+RPM
+500
+650
+2.6
+0.78
+157
+1000
+1104
+1144
+950
+328
+3224
+300
+2656
+1578
+5.0
+11
+1000
+1360
+4.5
+1.13
+396
+1200
+1304
+1533
+950
+328
+3843
+400
+2856
+1680
+7.5
+11
+2000
+2520
+5.3
+2.00
+804
+1600
+1708
+1610
+950
+328
+3914
+400
+3254
+1866
+10.0
+11
+3000
+4097
+7.5
+3.10
+1256
+2000
+2116
+1700
+950
+410
+4239
+400
+3677
+2070
+12.5
+12
+4000
+5577
+8.6
+4.10
+1660
+2300
+2426
+1746
+950
+410
+4314
+400
+3922
+2174
+12.5
+12
+5000
+6715
+9.4
+4.90
+2200
+2500
+2626
+1794
+950
+410
+4314
+400
+4174
+2274
+15.0
+10
+All dimensions are in MM and volume is in liters
+D
+D1
+H2
+L1
+ 
+L2
+H1
+ 
+H
+H3
+H4
+Agitated Nuthce Filter Dryer (ANFD) is a 
+multifunctional system used for solid liquid 
+separation, filtration, washing and drying of 
+various materials in pharma, chemical and food 
+industries. Glass lined ANFD gives high corrosion 
+resistance.
+Vessel: Glass lined Upper part having cylindrical 
+shell, dished end on top, flange joint on bottom 
+and Jacket, which gives better heating and 
+Vacuum. Lower part having flat bed support for 
+PTFE filter media, cloth and jacket gives better 
+heating and Vacuum.
+Agitator: Agitator with bellow seal allows better 
+sealing, heating and mixing in centre of the 
+Vessel.
+Filter: ANFD filter system that separates solids 
+from liquids.
+Drying: Upper part and lower part provided with 
+jacket and connected to external heating source 
+which dries the filtered cake.
+Discharge: Discharge valve provided to discharge 
+cake from Vessel.
+Vacuum: ANFD operates under Vacuum which 
+gives faster drying of materials.
+Working principle of ANFD
+• Loading: Slurry or wet material loaded into 
+the ANFD.
+• Filtration: Agitating and heating to be done 
+under vacuum. Filtration shall be carried out 
+and filtered media collected. 
+• Washing: After filtration the solid cake is 
+washed with suitable solution to remove 
+impurities and residues.
+• Drying: After washing agitator is used by 
+rotating to dry solid cake by heating and 
+vacuum.
+• Discharge: After Drying cake is discharged 
+from vessel through discharge valve.
+Design Conditions:
+• Design Pressure: FV/4.5Kg/Cm2 (g)
+• Design Temperature: 200 °C
+
+3
+Standard 
+Engineering
+TM
+Nozzle Orientation
+N1
+B
+N11
+N12
+N4
+N5
+N6
+N10
+b
+N10
+c
+N7
+N8
+N9
+N2
+N3
+L
+K
+N15
+N16
+N10
+a
+N20
+b
+N20
+a
+N17
+N19
+A
+A
+90v
+0v
+N18
+Nominal 
+Capacity 
+in Liters
+Agitator 
+B
+Outlet 
+K
+Manhole 
+N1
+Sight 
+Glass 
+L
+Safety 
+N2
+Spray 
+Nozzle 
+N3
+Vapour 
+N4
+Pressure 
+Gauge 
+N5
+Manifold 
+N6
+Inlet 
+N7
+Spray 
+Nozzle 
+N8
+Light 
+Glass 
+N9
+500
+150
+80
+300 x 400
+100
+50
+50
+80
+50
+50
+65
+50
+80
+1000
+150
+80
+300 x 400 
+100
+65
+50
+80
+50
+50
+100
+65
+100
+2000
+200
+80
+350 x 450
+100
+80
+80
+100
+80
+80
+150
+80
+150
+3000
+200
+80
+500
+100
+100
+100
+200
+100
+100
+150
+100
+150
+4000
+200
+80
+500
+100
+100
+100
+300
+100
+100
+150
+100
+150
+5000
+250
+80
+500
+100
+100
+100
+300
+100
+100
+150
+100
+150
+Nominal 
+Capacity 
+in Liters
+Thermowell 
+N10a
+Discharge 
+N10b
+Sampling 
+N10c
+Inlet 
+N11
+Outlet 
+N12
+Air Vent 
+N15
+Drain 
+N16
+Inlet 
+N17 
+Outlet 
+N18
+Air Vent 
+N19
+Drain 
+N20a
+Drain 
+N20b
+500
+80
+200
+50
+50
+50
+1/2”
+1/2”
+80
+50
+1/4”
+1/2”
+1/2”
+1000
+80
+200
+80
+80
+50
+1/2”
+1/2”
+80
+50
+1/4"
+1/2”
+1/2”
+2000
+80
+200
+80
+80
+50
+1/2”
+1/2”
+80
+50
+1/4”
+1/2”
+1/2”
+3000
+100
+300
+100
+80
+50
+1/2”
+1/2”
+80
+50
+1/4”
+1/2”
+1/2”
+4000
+100
+300
+100
+80
+50
+1/2”
+1/2”
+80
+50
+1/4”
+1/2”
+1/2”
+5000
+100
+300
+100
+80
+50
+1/2”
+1/2”
+80
+50
+1/4”
+1/2”
+1/2”
+All dimensions are in MM, Nozzle sizes are in NB
+
+Scan to
+Scan to
+Know more
+Standard Engineering Technology Ltd
+2nd Floor 16-2-23/2, PNR HighNest NH65,
+Dharma Reddy Colony Phase II,
+Hydernagar, KPHB Colony,
+Hyderabad - 500072, India.
+Standard Engineering Technology Ltd
+Survey No: 42A Alinagar, Chetlapotharam Village,
+Gaddapotharam, Grampanchayat, 
+Jinnaram Mandal, Sangareddy Dist - 502319
+Telangana, India.
+Corporate Headquarters:
+Manufacturing Division Headquarters:
+Tel: +91 8978 580 684 Email: sales@standardengtech.com Web: www.standardengtech.com
+South 
+Name: T. Shiva Kumar
+Tel: +91 89785 06464 / 89782 88200
+Email: sales@standardengtech.com
+Mumbai
+Name: George John Rosario
+Tel: +91 73306 07558
+Email: sales@standardengtech.com
+Gujarat
+Name: Tejas R Mehta
+Tel: +91 91000 46797
+Email: sales@standardengtech.com
+Delhi
+Name: Praveen Pandey
+Tel: +91 90597 14896
+Email: sales@standardengtech.com
+Regional Sales Oces:
+Copyright © Standard Engineering Technology Ltd. All rights reserved. The information contained in this brochure is believed to be reliable general guidelines for consideration of the products and services described 
+herein. The information is general in nature and should not be considered applicable to any speciﬁc process or application. Standard Engineering Technology Ltd. expressly disclaims any warranty, expressed or implied 
+of ﬁtness for any speciﬁc purpose in connection with the information contained herein.
+Qua
+lity
+Ser
+vic
+e
+Deli
+very
+Co
+mp
+etit
+ive
+Pric
+e
+Cus
+tom
+er
+Rel
+atio
+nsh
+ip
+Ma
+nag
+em
+ent
+Our company serves:
+• Pharmaceuticals 
+• API
+• Chemical
+• Agrochemical
+ 
+• Biotechnology
+• Life Sciences
+• Food and Beverages
+Certiﬁcation available:
+c
+D
+E
+E
+R
+T
+I
+I
+F
+D
+E
+E
+R
+T
+I
+I
+F
+c
+c
+D
+E
+E
+R
+T
+I
+I
+F
+D
+E
+E
+R
+T
+I
+I
+F
+c
+c
+D
+E
+E
+R
+T
+I
+I
+F
+D
+E
+E
+R
+T
+I
+I
+F
+c
+Customer Inspired Excellence
+Standard 
+Engineering
+TM
+LIT-SETL-GLASS LINED ANFD-APR 2026

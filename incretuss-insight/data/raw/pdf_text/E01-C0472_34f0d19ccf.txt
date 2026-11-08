@@ -1,0 +1,325 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/13041/FineTest_Flow_Cytometry_Antibody.pdf
+
+Flow Cytometry
+Antibodies
+An efficient assistant for immune cell identification and a convenient tool 
+for cell status identification.
+FineTest® provides better experience with high-quality flow cytometry antibodies.
+The products cover human, mouse, rat and so on, with rich targets.FineTest® 
+offers you an integrative flow cytometry solution including free colour matching, 
+assay guidance and data analysis services etc.
+Advantages
+01
+High Quality
+Derived from classically cloned and 
+excellently labelling technology
+02
+Various Dyes
+high-performance in multicolour
+flow cytometry
+03
+Complete Solution
+free colour matching, assay guidance and 
+data analysis services
+Validated by multiple citations 
+◑
+Use antibody raw materials with the "Clone ID" identical to imported brands, showing high affinity and specificity.
+Species
+Target
+Clone ID
+Human
+Human
+Human
+Human
+Human
+Human
+CD45
+CD3
+CD4
+CD8
+CD56
+CD19
+HI30
+OKT-3
+RPA-T4
+OKT-8
+5.1H11/B-A19
+CB19/HI19a
+Species
+Target
+Clone ID
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+CD45
+CD3
+CD4
+CD8
+NK1.1
+CD19
+30-F11
+17A2/145-2C11
+GK1.5/RM4-5
+53-6.7
+PK136
+1D3
+◑
+
+Various Fluorescent Dyes
+◑
+Over 18 fluorescence labelings, covering various multicolour flow cytometry experiments required by customers. 
+Use imported fluorescent dyes with better fluorescent brightness.
+Validated Data
+◑
+Titration Data
+Thermostability
+Compatibility of Fixation/
+Permeabilization Buﬀer Kit (K082R)
+Treg Cell Detection in Mouse Spleen
+FITC-anti-mouse cd19-1:100/E1/P2
+pe-anti-mouse-cd8a-
+Stored at 37℃ for 7 days/E1/P2
+Advanced Labeling Technique
+◑
+Advanced labeling methods, showing better antibody grouping and inter(intra)-assay reproducibility. Some products were 
+repurchased in bulk by an IVD customer.Mouse Spleen Detection Comparison between FineTest® APC 
+anti-mouse CD3(Catalogue No.: APC-30127) and Vendor B Similar Product:
+APC-30127 APC anti-mouse CD3
+Vendor B
+Log Fluorescence Intensity
+Relative Cell Number
+Stored at 37℃ 
+for 7 days
+Stored at 4℃
+
+◑
+◑
+Histogram
+Scatter diagram
+Results
+Application Of Cell Grouping
+Cells
+Cells
+Cells
+Cells
+Cells
+Cells
+Macrophage
+cells
+Stem
+cells
+Species
+Human
+T/B/NK Cells
+Human
+Th1/Th2 Cells
+Mouse
+Th1/Th2 Cells
+Cell types
+Recommendation
+Cat.NO
+CD45-PerCP
+PCP-30039
+CD3-FITC
+FITC-30004
+CD16-PE
+PE-30061
+CD56-PE
+PE-30008
+CD19-APC
+APC-30066
+CD3-PerCP-Cy5.5
+PCP55-30004
+CD4-FITC
+FITC-30005
+IFN-γ-PE
+PE-30053
+IL4-APC
+APC-30043
+CD3-PerCP-Cy5.5
+PCP55-30002
+CD4-FITC
+FITC-30128
+IFN-γ-PE
+PE-30074
+IL4-APC
+APC-30026
+Flow Cytometry Colour Matching Recommendation
+Human
+Treg Cells
+Mouse
+Treg Cells
+CD4-FITC
+FITC-30005
+CD25-PE
+PE-30035
+CD127-FineTest®647
+F647-30033
+CD3-PerCP-Cy5.5
+PCP55-30004
+CD4-FITC
+FITC-30128
+CD25-APC
+APC-30017
+FOXP3-PE
+PE-30111
+
+FC Auxiliary Reagents
+Product Category 
+Product Name 
+Size
+Cat.No
+Erythrocyte Lysis Buffer 
+Buffer
+Nuclear Staining
+Nuclear Staining
+Nuclear Staining
+Stimulating and Blocking 
+Fixation/Permeabilization
+Fixation/Permeabilization
+FcR Blocking
+FcR Blocking
+Dead Double Staining
+Dead Double Staining
+Dead Double Staining
+Dead Double Staining
+K080
+K079
+K116
+K115
+K117
+K083
+K081
+K082R
+FNab30106
+K128
+FNCK022
+K121
+K124
+K129
+10x ACK Lysis Buffer(without fixative)
+Cell Staining Buffer
+PI Reagent
+7-AAD Reagent
+DAPI Reagent
+Cell Stimulation and Protein Transport Inhibitor Kit
+Foxp3/Transcription Factor Staining Kit
+Intracellular Fixation/Permeabilization Buffer Kit (Ready To Use)
+Purified Anti-Mouse CD16/32 Antibody
+Purified Anti-Human CD16 Antibody
+Calcein AM/PI Live/Dead Double Staining Kit
+FineTest® Red 780(Viability Dye)
+FineTest®Violet 510(Viability Dye)
+FineTest®Blue 516(Viability Dye)
+100mL/200mL/500mL
+100mL/200mL/500mL
+50T/100T/200T/500T
+50T/100T/200T/500T
+50T/100T/200T/500T
+50T/100T/200T 
+20T 
+50T/100T/500T 
+100μg 
+50T
+100T/500T
+100T
+100T
+100T 
+ 
+FITC-30073
+PE-30073
+APC-30073
+FITC-30075
+PE-30075
+APC-30075
+FITC-30076
+PE-30076
+APC-30076
+PCP-30076
+FITC-30077
+PE-30077
+APC-30077
+FITC-30078
+PE-30078
+APC-30078
+FITC Rat IgG2a,κ Isotype Control(2A3)
+PE Rat IgG2a,κ Isotype Control(2A3)
+APC Rat IgG2a,κ Isotype Control(2A3)
+FITC Rat IgG1,κ Isotype Control(HRPN)
+PE Rat IgG1,κ Isotype Control(HRPN)
+APC Rat IgG1,κ Isotype Control(HRPN)
+FITC Mouse IgG1,κ Isotype Control(MOPC-21)
+PE Mouse IgG1,κ Isotype Control(MOPC-21)
+APC Mouse IgG1,κ Isotype Control(MOPC-21)
+PerCP Mouse IgG1,κ Isotype Control(MOPC-21)
+FITC Mouse IgG2a,κ Isotype Control(C1.18.4)
+PE Mouse IgG2a,κ Isotype Control(C1.18.4)
+APC Mouse IgG2a,κ Isotype Control(C1.18.4)
+FITC Mouse IgG2b,κ Isotype Control(MPC-11)
+PE Mouse IgG2b,κ Isotype Control(MPC-11)
+APC Mouse IgG2b,κ Isotype Control(MPC-11)
+Rat
+Rat
+Rat
+Rat
+Rat
+Rat
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+Mouse
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+20T/100T
+FITC
+PE
+APC
+FITC
+PE
+APC
+FITC
+PE
+APC
+PerCP
+FITC
+PE
+APC
+FITC
+PE
+APC
+◑
+◑
+Isotype Control Antibodies
+Cat.No
+Product Name
+Host
+Marker
+Size
+Wuhan Fine Biotech Co., Ltd
+1-2 Floor, BLD 22, Optics Valley Biopharmaceutical Accelerator,No.388 
+Gaoxin 2nd Road, East Lake High Tech Development Zone,Wuhan, 
+430074, Hubei, China
+www.fn-test.com
+fine@fn-test.com

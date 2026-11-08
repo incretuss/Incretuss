@@ -1,0 +1,867 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/14065/Hongsen_Biopharma_Profile.pdf
+
+原料药
+API
+1
+Cas No.
+English Name
+Status
+PEG系列
+1-(9H-芴-9-基)-3,6-二氧代-2,9-
+二氧杂-4,7-二氮杂癸烷-11-酸
+3,10-Dioxa-5,8-diazaundecanoic acid, 11-
+(9H-fluoren-9-yl)-6,9-dioxo-
+1599440-08-0
+lab-scale
+Fmoc-NH-PEG12-CH2CH2COOH
+1952360-91-6
+(FMOC-氨基)-PEG12-C2-羧酸
+lab-scale
+Cas No.
+English Name
+Status
+定制多肽
+β-丙氨酸-L-组氨酸甲酯二盐酸盐
+L-Histidine, β-alanyl-, methyl ester
+21611-49-4
+commercial scale 
+D-Carnosine
+5853-00-9
+D-肌肽
+commercial scale 
+N-(三苯甲基)-L-组氨酸
+H-His(Trt)-OH
+35146-32-8
+commercial scale 
+L-缬氨酸甲酯盐酸盐
+L-Valine methyl ester hydrochloride
+6306-52-1
+commercial scale 
+甘氨酸甲酯盐酸盐
+Glycine methyl ester hydrochloride
+5680-79-5
+commercial scale 
+N6-Cbz-L-赖氨酸苄酯盐酸盐
+N6-Cbz-L-Lysine benzyl ester hydrochloride
+6366-70-7
+commercial scale 
+其他多肽
+3
+Cas No.
+English Name
+Status
+中文名称
+AHK-CU
+682809-81-0
+铜肽
+commercial scale
+蓝铜肽
+GHK-Cu
+89030-95-5
+commercial scale
+Copper Peptide
+49557-75-7
+三肽-1 铜
+commercial scale
+三肽-1
+Tripeptide-1
+72957-37-0
+commercial scale
+Polaprezinc
+107667-60-7
+肌肽锌
+commercial scale
+KPV三肽
+Lys-Pro - Val-OH
+67727-97-3
+commercial scale
+Argireline
+616204-22-9
+乙酰基六肽-8
+commercial scale
+乙酰基六肽-38
+Acetyl hexapeptide 38
+1400634-44-7
+commercial scale
+Biotinoyl tipeptide-1
+299157-54-3
+生物素三肽-1
+commercial scale
+乙酰基四肽-3
+Acetyl tetrapeptide-3
+827306-88-7
+commercial scale
+Carcinine dihydrochloride
+57022-38-5
+脱羧肌肽
+commercial scale
+寡肽-68
+Oligopeptide-68/beta-white
+1206525-47-4
+lab-scale
+L-Carnosine
+305-84-0
+L-肌肽
+commercial scale
+4-丙基间苯二酚
+4-Propylresorcinol
+18979-60-7
+USDMF-044424
+4-Butylresorcinol
+18979-61-8
+4-丁基间苯二酚
+commercial scale
+N-乙酰肌肽
+N-Acetyl carnosine
+56353-15-2
+pre‑validation
+Acetyl Octapeptide-3
+868844-74-0
+乙酰基八肽-3
+commercial scale
+焦谷氨酸铜
+bis(5-oxo-L-prolinato-N1,O2)copper
+15454-74-7
+commercial scale
+Nonapeptide-1
+158563-45-2
+九肽-1
+commercial scale
+肉豆蔻酰五肽-4
+Myristoyl Pentapeptide-4
+1392416-25-9
+lab-scale
+Myristoyl Tetrapeptide-12
+959610-24-3
+肉豆蔻酰四肽-12
+lab-scale
+棕榈酰三肽-8
+Palmitoyl Tripeptide-8
+936544-53-5
+commercial scale
+L.-Alanyl-L-proline
+13485-59-1
+L-丙氨酸-L-脯氨酸
+commercial scale
+Other Peptide 
+Cas No.
+English Name
+中文名称
+Status
+替古索司他
+Tigulixostat
+1287766-55-5
+USDMF ready
+恩格列净
+Empagliflozin
+864070-44-0
+commercial scale 
+奥格列龙
+Orforglipron
+2212020-52-3
+pre‑validation
+瑞他鲁肽
+Retatrutide
+2381089-83-2
+lab-scale
+替度鲁肽
+Teduglutide
+197922-42-2
+lab-scale
+Ambroxol hydrochloride
+23828-92-4
+盐酸氨溴索
+DMF ready
+匹多莫德
+Pidotimod
+121808-62-6
+USDMF 042167
+阿塔鲁伦
+Ataluren(PTC124)
+775304-57-9
+DMF ready
+非布司他
+Febuxostat
+144060-53-7
+commercial scale 
+阿伐那非
+Avanafil
+330784-47-9
+commercial scale 
+替尔泊肽
+Tirzepatide
+2023788-19-2
+commercial scale 
+司美格鲁肽
+Semaglutide
+910463-68-2
+commercial scale 
+达格列净
+Dapagliflozin
+461432-26-8
+commercial scale 
+司拉德帕
+Seladelpar
+851528-79-5
+pre‑validation
+富马酸沃诺拉赞
+Vonoprazan fumarate
+1260141-27-2
+USDMF 042977
+定制系列
+Custom R&D
+2
+数据仅用于产品选型参考，实际指标以批次COA为准；产品仅供合规工业用途，非直接药用；所列产品仅在无专利保护的国家/地区商业销售，仅供科研⽤途
+Cas No.
+English Name
+公共片段
+Status
+Common Fragments
+18-(tert-Butoxy)-18-oxooxtadecanoic Acid
+843666-40-0
+18-(叔丁氧基)-18氧代十八烷酸
+USDMF-042512
+1-叔丁基L-谷氨酸
+L-Glutamic acid α-tert.butyl ester
+45120-30-7
+commercial scale
+2-(2-(2-Aminoethoxy)ethoxy)acetic acid
+134978-97-5
+2-(2-(2-氨基乙氧基)乙氧基)乙酸
+commercial scale
+叠氮-二聚乙二醇-乙酸
+Azido-PEG2-CH2COH
+882518-90-3
+commercial scale
+瑞他鲁肽侧链
+Fmoc-L-Lys[C20-OtBu-Glu(OtBu)-AEEA]-OH
+2612237-97-3
+DMF ready
+Fmoc-L-脯氨酸
+Fmoc-Pro-OH
+71989-31-6
+commercial scale
+Fmoc-Tyr(tBu)-OH
+71989-38-3
+Fmoc-O-叔丁基-L-酪氨酸
+commercial scale
+Fmoc-O-叔丁基-L-谷氨酸
+Fmoc-L-glutamic acid 5-tert-butyl ester
+71989-18-9
+commercial scale
+Fmoc-L-天冬氨酸- β-叔丁酯
+Fmoc-Asp(OtBu)-OH
+71989-14-5
+commercial scale
+17-氨基-10-氧代-3.6.12,15
+-四氧杂-9-氨杂十 七烷酸
+AEEA-AEEA
+1143516-05-5
+USDMF-044399
+Cas No.
+English Name
+司美格鲁肽片段
+Status
+Semaglutide Fragments
+Fmoc-Glu(OtBu)-Gly-OH
+866044-63-5
+索玛鲁肽片段
+commercial scale
+十八烷二酸-叔丁酯-谷氨酸-叔丁酯
+Octa(OtBu)-Glu-OtBu
+1188328-39-3
+commercial scale
+Fmoc-Lys[γ-Glu
+(OtBu)-C18-OtBu)]-OH
+1931109-48-6
+Fmoc-Lys[γ-Glu(OtBu)
+-C18-OtBu)]-OH
+commercial scale
+18-(2.5-二氧代吡咯烷-1-基)
+十八烷二羧酸叔丁酯
+Octadecanedioic acid, 1-(1.1-dimethylethyl)
+18-(2.5-dioxo-1-pyrrolidinyl) ester
+843666-34-2
+commercial scale
+Cas No.
+English Name
+多肽片段
+Status
+Peptide fragments
+C20-OtBu-Glu(OtBu)-AEEA-OH
+2645421-68-5
+C20-OtBu-Glu(OtBu)-AEEA-OH
+commercial scale
+十六碳二酸单苄酯
+16-(Benzyloxy)-16-Oxohexadecanoic Acid
+146004-98-0
+commercial scale
+十六碳二酸
+Hexadecanedioic Acid
+505-54-4
+commercial scale
+Fmoc-L-色氨酸(Boc)-OH
+Fmoc-Trp(Boc)-OH
+143824-78-6
+commercial scale
+索玛鲁肽侧链
+tBuO-Ste-Glu(AEEA-AEEA-OH)-OtBu
+1118767-16-0
+commercial scale
+Cas No.
+English Name
+Status
+中文名称
+L-Leucine
+61-90-5
+L-亮氨酸
+commercial scale
+L-半胱氨酸
+L-Cysteine
+52-90-4
+commercial scale
+L-Glutamine
+56-85-9
+L-谷氨酰胺
+commercial scale
+L-脯氨酸
+L-Proline
+147-85-3
+commercial scale
+L(+)-Arginine
+74-79-3
+L-精氨酸
+commercial scale
+甘氨酸
+Glycine
+56-40-6
+commercial scale
+L-(+)-Ergothioneine
+497-30-3
+麦角硫因
+commercial scale
+姜黄素
+Curcumin
+458-37-7
+commercial scale
+Salidroside
+10338-51-9
+红景天苷
+commercial scale
+肌醇
+Inositol
+87-89-8
+commercial scale
+4-Aminobutyric acid
+56-12-2
+γ-氨基丁酸
+commercial scale
+Food Additives
+食品添加剂
+5
+Cas No.
+English Name
+替尔泊肽片段
+Status
+Tirzepatide Fragments
+EICOSANEDIOIC ACID
+2424-92-2
+二十烷二酸
+DMF ready
+二十烷二酸单叔丁酯
+20-(tert-Butoxy)-20-oxoicosanoic acid
+683239-16-9
+DMF ready
+Fmoc-L-Lys[C20-OtBu-Glu(OtBu)-AEEA-AEEA]-OH
+2915356-76-0
+替尔泊肽侧链
+commercial scale
+替尔泊肽C20脂肪酸侧链
+C20-OtBu-Glu(OtBu)-AEEA-AEEA-OH
+1188328-37-1
+commercial scale
+Fmoc-L-赖氨酸(ALLoc)-OH
+Fmoc-LyS(Alloc)-OH
+146982-27-6
+commercial scale
+TIRZEPATIDE替尔泊肽侧链
+Eicosanedioic acid,1-(1.1-dimethylethyl)
+ 20-(2.5-dioxo-1-pyrrolidinyl) ester
+1119061-69-6
+commercial scale
+多肽片段
+Peptide Fragments
+5
+4
+Cas No.
+English Name
+BOC氨基酸
+Status
+BOC Amino acids
+Boc-L-赖氨酸
+Boc-Lys-OH
+13734-28-6
+commercial scale
+Boc-LTyrosine methyl ester
+4326-36-7
+Boc-L-酪氨酸甲酯
+commercial scale
+Boc-L-酪氨酸乙酯
+Boc-L-Tyrosine ethyl ester
+72594-77-5
+commercial scale
+Boc-L-焦谷氨酸甲酯
+Boc-L-Pyroglutanic acid methyl ester
+108963-96-8
+commercial scale
+Boc-L-焦谷氨酸乙酯
+Boc-L-Pyroglutanic acid ethyl estel
+144978-12-1
+commercial scale
+Boc-D-Pyroglutanic acid ethyl estel
+144978-35-8
+Boc-D-焦谷氨酸乙酯
+commercial scale
+Cas No.
+English Name
+FMOC氨基酸
+Status
+Fmoc Amino acids
+Fmoc-Gly-OH
+29022-11-5
+Fmoc-甘氨酸
+commercial scale
+Fmoc-L-丙氨酸
+Fmoc-Ala-OH
+35661-39-3
+commercial scale
+Fmoc-Leu-OH
+35661-60-0
+Fmoc-L-亮氨酸
+commercial scale
+Fmoc-L-天冬氨酸
+Fmoc-L-aspartic acid
+119062-05-4
+commercial scale
+Fmoc-D-亮氨酸
+Fmoc-D-leucine
+114360-54-2
+commercial scale
+Fmoc-苯丙氨酰-甘氨酸
+Fmoc-Phe-Gly
+169624-67-3
+commercial scale
+Cas No.
+English Name
+GLU氨基酸
+Status
+GLU Amino acids
+L-Glutamic acid 5-methyl ester
+1499-55-4
+L-谷氨酸-5-甲酯
+commercial scale
+L-谷氨酸-5-乙酯
+L-Glutamic acid 5-ethyl ester
+1119-33-1
+commercial scale
+L-Glutamic acid 5-benzyl ester
+1676-73-9
+L-谷氨酸-5-苄酯
+commercial scale
+Cas No.
+English Name
+ADC Linker
+Status
+Boc-Val-Cit-OH
+870487-08-4
+Boc-L-缬氨酰基-L-瓜氨酸
+pre‑validation
+L-苯丙氨酰-L-赖氨酸
+L-Phe-L-Lys-OH
+6456-72-0
+lab-scale
+L-Valyl-L-alanine
+27493-61-4
+L-缬氨酰-L-丙氨酸
+commercial scale
+(叔丁氧基羰基)-L-缬氨酰-L-丙氨酸
+Boc-Val-Ala-OH
+70396-18-8
+pre‑validation
+Cas No.
+English Name
+PROTAC 功能分子
+Status
+3-Acetylcoumarin
+3949-36-8
+3-乙酰基香豆素
+commercial scale
+7-甲氧基香豆素-3-羧酸
+7-Methoxycoumarin-3-carboxylic acid
+20300-59-8
+pre‑validation
+Phenol, 4-[6-[[4-(trifluoromethoxy)
+phenyl]amino]-4-pyrimidinyl]-
+2489876-34-6
+4-(6-((4-(三氟甲氧基)苯基)
+氨基)嘧啶-4-基)苯酚
+lab-scale
+2-(吡啶-2-基)-6-(三氟甲氧基)
+-1H-苯并[d]咪唑
+1H-Benzimidazole, 2-(2-pyridinyl)
+-6-(trifluoromethoxy)-
+1256094-31-1
+lab-scale
+PROTAC Functional molecules
+Cas No.
+English Name
+PROTAC Linker
+Status
+4-(4-Piperidyl)-1-butanol
+57614-92-3
+4-(4-哌啶基)-1-丁醇
+lab-scale
+P-氰基苯乙酸甲酯
+Methyl 4-cyanophenylacetate
+52798-01-3
+pre‑validation
+3-(Piperazin-1-yl)-propionic acid
+27245-31-4
+3-(哌嗪-1-基)-丙酸
+lab-scale
+3-氨基环丁烷甲酸甲酯盐酸盐
+Methyl 3-aminocyclobutanecarboxylate hydrochloride 1354940-69-4
+lab-scale
+(4-甲氧基苯甲酰基氨基)-乙酸
+2-[(4-Methoxybenzamido]acetic acid
+13214-64-7
+lab-scale
+2-(4-((叔丁氧基羰基)氨基)环己基)乙酸
+2-(4-((tert-Butoxycarbonyl)amino)
+cyclohexyl)acetic acid
+344933-31-9
+lab-scale
+{3-[(3-AMino-propyl)-Methyl-aMino]-
+propyl}-carbaMicacid tert-butyl ester
+87530-14-1
+N-(3-[(3-氨基丙基)(甲基)氨基]
+丙基)氨基甲酸叔丁基酯
+lab-scale
+2-(反式-4-氨基环己基)乙酸乙酯
+Cyclohexaneacetic acid.4-aino-,ethyl ester,trans
+76308-28-6
+lab-scale
+4-Piperidin-4-ylmethyl-benzoic 
+acid methyl ester hydrochloride
+333986-70-2
+4-(哌啶-4-基甲基)苯甲酸甲酯盐酸盐
+lab-scale
+FMOC-11-氨基-3,6,9-三氧杂十一酸
+Fmoc-NH-PEG3-CH2COOH
+139338-72-0
+lab-scale
+保护氨基酸
+Protected Amino Acids
+6
+5-Bromo-3-cyanoindole
+90271-86-6
+5-溴-3-氰基吲哚
+commercial scale
+5-溴-1-丙-2-烯基吲哚-3-腈
+5-bromo-1-isopropyl-1H-indole-3-carbonitrile
+1508372-50-6
+commercial scale
+Cas No.
+English Name
+替古索司他中间体
+Status
+Tigulixostat Intermediate
+Cas No.
+English Name
+阿格/曲格列汀中间体
+Status
+Tragliptin & Alogliptin Intermediates
+2-Cyanobenzyl bromide
+22115-41-9
+2-氰基溴苄
+DMF ready
+2-氰基-5-氟溴苄
+2-cyano-5-fluorobenzylbroMide
+421552-12-7
+DMF ready
+6-Chloro-3-methyluracil
+4318-56-3
+6-氯-3-甲基尿嘧啶
+DMF ready
+(R)-3-氨基哌啶双盐酸盐
+(R)-3-Piperidinamine dihydrochloride
+334618-23-4
+DMF ready
+L(-)-Thiazolidine-4-carboxylic acid
+34592-47-7
+L-硫代脯氨酸
+commercial scale
+L-硫代脯氨酸乙酯盐酸盐
+Ethyl L-thiazolidine-4-carboxylate hydrochloride
+86028-91-3
+commercial scale
+Cas No.
+English Name
+匹多莫德中间体
+Status
+Pidotimod Intermediates
+Cas No.
+English Name
+利格列汀中间体
+Status
+Linagliptin Intermediates
+1-Bromo-2-butyne
+3355-28-0
+1-溴-2-丁炔
+commercial scale
+8-溴-3-甲基黄嘌呤
+8-Bromo-3-methyl-xanthine
+93703-24-3
+commercial scale
+(R)-3-(Boc-Amino)piperidine
+309956-78-3
+(R)-3-Boc-氨基哌啶
+USDMF
+2-氯甲基-4-甲基喹唑啉
+2-(chloromethyl)-4-methylquinazoline
+109113-72-6
+commercial scale
+8-溴-7-(2-丁炔基)-3-甲基黄嘌呤
+8-bromo-7-(but-2-ynyl)-3-
+methyl-lH-purime-2,6(3H,7H)-dione
+666816-98-4
+commercial scale
+Cas No.
+English Name
+阿伐那非中间体
+Status
+Avanafil Intermediates
+3-Chloro-4-methoxybenzylamine hydrochloride
+41965-95-1
+3-氯-4-甲氧基苄胺盐酸
+commercial scale
+4-氯-2-甲硫基嘧啶-5-羧酸乙酯
+Ethyl 4-chloro-2-methylthio-5-
+pyrimidinecarboxylate
+5909-24-0
+commercial scale
+2-Aminomethylpyrimidine hydrochloride
+372118-67-7
+2-氨基甲基嘧啶盐酸盐
+commercial scale
+2-甲硫基-4-(3-氯-4-甲氧基
+苄胺基)嘧啶-5-羧酸乙酯
+(5-PyriMidinecarboxylicacid, 4-[[(3-chloro-4-
+Methoxyphenyl)Methyl]aMino]-2-
+(Methylthio)-,ethyl ester)
+330785-81-4
+commercial scale
+Cas No.
+English Name
+奥格列龙中间体
+Status
+Orforglipron Intermediates
+5-Bromo-4-fluoro-1-methyl-1H-indazole
+1784678-61-0
+5-溴-4-氟-1-甲基-1H-吲唑
+commercial scale
+N-(2,2-二甲氧基乙基)-
+1H-咪唑-1-甲酰胺
+1H-Imidazole-1-carboxamide, 
+N-(2,2-dimethoxyethyl)-
+183660-46-0
+commercial scale
+5H-Pyrazolo[4,3-c]pyridine-5-carboxylic acid, 3-
+amino-2-(4-fluoro-3,5-dimethylphenyl)-2,4,6,7-
+tetrahydro-4-methyl-, 1,1-dimethylethyl ester, (4S)-
+2212021-59-3
+(S)-3-氨基-2-(4-氟-3,5-二甲基苯
+基)-4-甲基-2,4,6,7-四氢-5H-吡唑并
+[4,3-C]吡啶-5-羧酸叔丁酯
+commercial scale
+(S)-2-(4-氟-3,5-二甲基苯基)-4-甲
+基-3-(2-氧代-2,3-二氢-1H-咪唑-1-
+基)-2,4,6,7-四氢-5H-吡唑并[4,3-C]吡
+啶-5-羧酸叔丁酯
+5H-Pyrazolo[4,3-c]pyridine-5-carboxylic acid,
+3-(2,3-dihydro-2-oxo-1H-imidazol-1-yl)-2-(4-
+fluoro-3,5-dimethylphenyl)-2,4,6,7-tetrahydro-
+4-methyl-, 1,1-dimethylethyl ester, (4S)-
+2212021-61-7
+commercial scale
+5-[(S)-2,2-二甲基四氢-2H-吡喃-4-
+基]-1-[(1S,2S)-2-甲基-1-(5-氧
+代-4,5-二氢-1,2,4-噁二唑-3-基)环丙
+基]-1H-吲哚-2-甲酸
+5-[(S)-2,2-Dimethyltetrahydro-2H-pyran-4-
+yl]-1-[(1S,2S)-2-methyl-1-(5-oxo-4,5-dihydro-
+1,2,4-oxadiazol-3-yl)cyclopropyl]-1H-indole-2-
+carboxylic Acid
+2212021-83-3
+commercial scale
+医药中间体
+Pharmaceutical Intermediates
+7
+
+电话：0833-6186278
+网址：www.hongsenbiopharm.com
+地址：四川省峨眉山市工业集中区红星东路102号
+邮箱：info@hongsenbiopharm.com
+化学小分子药物CDMO服务
+Chemical small Molecules CDMO Services
+原料药及中间体工艺路
+线探索、路线设计、
+开发和优化
+原料药及中间体
+临床前到商业化生产
+质量研究
+及分析报告
+Peptides and Oligonucleotides CDMO Services
+多肽药物
+线性多肽(<50aa)
+环状多肽(<50aa)
+多肽修饰
+起始物料(非天然氨基
+酸等)和片段中间体
+Protein and coupling Reaction covo services
+多肽与寡核苷酸药物COMO服务
+蛋白与偶联药物CDMO服务
+寡核苷酸
+ASO、SiRNA
+PMO
+Aptamer
+SgRNA
+小核酸修饰
+药物递送物料
+可电离启质/阳离子脂
+药物递送聚合物
+复杂、偶联多糖
+其他脂质
+靶向配体
+抗体
+多肽
+小分子
+连接子
+半胱氨酸(-SH):S-S、马来
+酰亚胺基团(MC、MCC等)
+赖氨酸(-NH2):活性酯
+(CO-0su 等)
+短肽(VC、GFGG等)
+913+
+全球服务客户（CMO/CDMO）
+Serving Clients Worldwide
+公司年产能
+1413
+吨
+Yearly Production Capacity
+不同规格反应釜
+Reactors in Various Specifications
+78
+台
+资质认证/Certifications
+ISO认证
+FDA认证
+GMP认证
+邓白氏认证
+服务客户
+总资产（万元）
+专利
+16786
+19141
+31
+峨眉山鸿森生物医药股份有限公司是一家专注于多肽片段、保护氨基酸、医药中
+间体、原料药、CMO/CDMO领域的生产制造商。公司通过了美国FEI认证（FEI
+NO.3017125134 ），邓白氏认证（D-U-N-S NO ：417773775 ），ISO
+9001：2015质量管理体系认证，ISO 45001：2018职业健康安全管理体系认
+证，ISO 14001：2015环境管理体系认证，执行GMP管理。同时，我们的产品
+通过了四川省医药行业协会GMP审计评估，拥有发明专利26余项。
+Emeishan Hongsen Biopharmaceutical Co., Ltd. is a manufacturer specializing in
+Cosmetics Raw Materials, Polypeptide Fragments, Protected Amino Acids. Active
+Phamaceutical Ingredientsl API,and CMO/CDMO services. Our company has obtained
+several certifications,including FDA certification(FEI NO .3017125134), Dun & Bradstreet
+certification(D-U-N-S NO.417773775). ISO 9001:2005 Quality Management System
+Certification, and ISO 14001:2015 Environmental Management System Certification. We
+opera under GMP managment. Additionally， our products have passed the GMP audit
+and evaluation by the Sichuan Pharmaceutical Industry Association,and we hold over 26
+invention patents.
+产品&服务范围 PRODUCTS
+多肽片段
+Peptide I ragments
+叠氮化、炔基化、甲基化等
+Azidation、Alkynylation、Methylation
+保护氨基酸
+Protected Amino Acids
+定制研发
+Custom R&D
+化妆品原料
+Cosmetic Ingredients
+CMO
+CDMO
+关于我们 ABOUT US
+A
+免责声明
+DISCLAIMER
+本手册数据仅用于产品选型参考，实际指标以批次COA为准；
+产品仅供合规工业用途，非直接药用
+所列产品仅在无专利保护的国家/地区商业销售，仅供科研用途
+The data in this manual is for product selection reference
+only. 
+Actual 
+specifications 
+are 
+subject 
+to 
+the 
+batch
+Certificate of Analysis (COA).Products are for compliant
+industrial use only，not for direct pharmaceutical use.
+The 
+listed 
+products 
+are 
+commercially 
+sold 
+only 
+in
+countries/regions 
+without 
+patent 
+protection 
+and 
+for
+research purposes only.
+偶联物
+AOC
+ADC
+PDC
+PRC
+SMDC
+峨眉山鸿森生物医药
+以客户为中心
+提供创新可靠的解决方案
+从OEB1到OEB5
+从克级到吨位级
+从临床前到商业化
+化学小分子
+寡核苷酸
+保护氨基酸
+多肽
+偶联药物
+医药中间体
+intermediates
+注册研发原料药
+Registered R&D API
+食品添加剂
+Food Additives
+IND/NDA申报
+CMC整体解决方案
+负载
+细胞毒素
+小核酸
+核素
+荧光素

@@ -1,0 +1,507 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12571/JSBio_Product_Guide-Human_and_Veterinary_Vaccines.pdf
+
+JSBio Product Guide—
+Human and Veterinary Vaccines
+
+JSBio stands as a forefront player in the high-tech sector, specializing in cell culture technologies, product development, 
+manufacture, and distribution. Our premium-quality cell culture media find broad application across domains including 
+biopharmaceuticals, biochemical reagents, human and veterinary vaccines. In terms of manufacturing prowess, we oper-
+ate three state-of-the-art facilities, each adhering to cGMP standards, strategically situated in Lanzhou, Nantong in 
+China, and Busan, South Korea. Collectively, these sites harness the capability to produce thousands of tons annually. 
+Our commitment to excellence extends deeply into our quality assurance systems, where we enforce the industry's most 
+stringent international benchmarks. This dedication has earned us accreditations under ISO13485 and ISO9001, along-
+side completing registrations for Class I Medical Devices and DMF. Regarding raw material sourcing, we employ a metic-
+ulous, science-driven process for selecting both materials and suppliers. This ensures that our media, particularly those 
+intended for human biological product manufacturing, are crafted from ingredients that fully comply with the specifica-
+tions outlined in the Chinese Pharmacopoeia, the United States Pharmacopeia, the European Pharmacopoeia, and the 
+Japanese Pharmacopoeia, thereby upholding the utmost in product integrity and safety.
+About
+Strengths
+TSE/BSE Declaration Available
+Compliant with cGMP Manufacturing Standards
+Consistent Batch-to-Batch Performance
+Versatile Packaging Options
+Marked Enhancement in Product Yield
+Three Global Manufacturing Facilities
+Ensuring Swift and Reliable Supply
+Customizable Catalog Culture Media Components
+
+Aluminum foil bag, PP bucket
+Dry powder
+Liquid
+PET Bottle
+Package
+Form
+Package materials
+2 L, 10 L, 50 L, 100 L, Customized
+250 mL, 500 mL, 1000 mL
+Content
+This guide is designed to assist in the selection of JSBio's cell culture media tailored for human and veterinary vaccine 
+production, encompassing media for BHK-21 cells, insect cells, LMH cells, MDCK cells, PK-15 cells, ST cells, F81 cells, 
+and Vero cells. Each of these media formulations has been validated through extensive customer usage, demonstrating 
+exceptional performance in facilitating high-density and high-viability growth of host cells, which in turn leads to a substan-
+tial increase in vaccine yields.
+For your personalized needs, we offer the following regular packaging options for each product:
+Packaging specifications
+BHK-21 Cell Culture Media
+Insect Cell Culture Media
+LMH Cell Culture Media
+MDCK Cell Culture Media
+PK-15 Cell Culture Media
+ST Cell Culture Media
+F81 Cell Culture Media
+Vero Cell Culture Media
+
+Designed for BHK-21 cells, JSBio BHK Cell Culture Media support high-density suspension culture of BHK-21 cells and 
+enable efficient production of viruses such as foot-and-mouth disease and pseudorabies, including low-serum media, 
+serum-free media, and virus production enhancers.
+BHK 21 Cell Culture
+Media
+Product Catalog
+77013-228 
+Dry powder
+VM09
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+77020-361
+10302-363
+Dry powder
+Dry powder
+BHK LSM 361
+BHK SFM 363
+2 L, 10 L, 50 L, 100 L, Customized
+2 L, 10 L, 50 L, 100 L, Customized
+Low-serum culture medium, 
+used in combination with 1% 
+serum
+Low-serum culture medium, 
+used in combination with 3% 
+serum
+Serum-free medium
+10302-1385
+Dry powder
+BHK SFM 1385
+BHK PM 835
+2 L, 10 L, 50 L, 100 L, Customized
+Serum-free medium
+10304-835.1
+Dry powder
+2 L, 10 L, 50 L, 100 L, Customized
+Maintenance solution
+Feed F (10000X)
+99154-23010
+Liquid
+100 mL, 500 mL
+Virus Enhancer
+Feed V (10000X)
+99154-23009
+Liquid
+100 mL, 500 mL
+Virus Enhancer
+Case Study
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+Control
+BHK LSM 361
+BHK LSM 361+ Feed V
+BHK SFM 1385
+BHK SFM 1396
+Normalized 146S titer
+Production of FDMV 146S in different media
+Growth of BHK-21 Cell
+（a）
+（b）
+Passage of BHK-21 cells in different series of culture media
+Passage of BHK-21 cells in different series of culture
+media and their growth curve analysis
+ Case Study on Virus Production
+
+Insect cells, esteemed for their proficiency in post-translational modifications, adaptability to a wide array of proteins, remarkable expres-
+sion yields, facile scalability, and safety for vertebrates, are paramount among recombinant protein expression systems. Our insect cell 
+culture media, meticulously fabricated under cGMP standards, embody serum-free formulations, entirely free from animal-derived compo-
+nents. These media are meticulously formulated to foster the robust proliferation of insect cells like Sf9, Sf21, and H5, while concurrently 
+enabling elevated levels of product expression, thereby epitomizing the pinnacle of support for intensive bioprocessing and research 
+endeavors in this vital sector.
+Insect Cell Culture Media
+Product Catalog
+Case Study
+11009 - 1353
+11009 - 23027
+Dry Powder
+Liquid
+IT SFM 03
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+500 mL, 1000 mL
+Description
+99156 - 1329
+99156 - 23015
+Dry powder
+Liquid
+TE030
+2 L, 10 L, 50 L, 100 L, Customized
+500 mL, 1000 mL
+Serum-free medium
+Serum-free medium
+Feed, designed for use in 
+conjunction with IT SFM 03
+11003 - 1407
+Dry powder
+Insect SFM 1407
+2 L, 10 L, 50 L, 100 L, Customized
+Animal component-free, serum-free
+Figure 3.（a）Use IT SFM 03 and control medium to subculture Sf9 cells, with an seeding density of 1.0 × 106 cells/mL, 
+and subculture every 3 days.（b）Batch culture of Sf9 cells using IT SFM 03 and control medium, with an inoculation 
+density of 1.0 × 106 cells/mL.
+（a）
+（b）
+Sf9 cells
+IT SFM 03 medium can maintain high viability and density of Sf9 cell growth, and the highest cell density in batch culture
+medium can reach 15.0 × 106 cells/mL.
+
+Figure 4.（a）H5 cells were passaged using IT SFM 03 and control medium, with an seeding density of 1.0 × 106 
+cells/mL and passaged every 2 days.（b）Batch culture of H5 cells using IT SFM 03 and control medium, with an 
+seeding density of 1.0 × 106 cells/mL.
+Figure 5. (a）Prepare seed toxins using Sf9 cells in IT SFM 03 and control media, respectively.（b）Prepare 
+swine fever E2 protein using H5 cells in IT SFM 03 and control medium, respectively.
+H5 cells
+Product expression related cases
+（a）
+（b）
+（a）
+（b）
+IT SFM 03 medium can maintain high viability and density of H5 cell growth, and the highest cell density in batch culture
+medium can reach 7 × 106 cells/mL.
+IT SFM 03 can improve the preparation efficiency of seed virus and the yield of target proteins, which has certain
+advantages compared to the control culture medium.
+
+LMH Cell Culture Media 
+The LMH cell culture medium is highly effective in supporting the growth and proliferation of LMH adherent cells, facilitat-
+ing efficient intracellular expression of avian adenovirus. This serum-free, protein-free and animal component-free 
+medium, significantly reduces downstream purification costs. It has been widely utilized in various avian adenovirus 
+vaccine production projects.
+Adaptation of Adherent Cells
+LMH adherent cells can be successfully adapted to the LMH SFM 777 medium, which is serum-free. These cells 
+exhibit effective proliferation in the first generation and quickly adapt to the suspension culture system.
+Growth of LMH Suspension Cells
+Suspension adaptation of adherent LMH cells using LMH SFM 777 medium, with daily monitoring of viable cell density 
+and viability.
+Stable passaging of LMH suspension cells is achievable in LMH SFM 1516 medium, wherein cell densities reach 
+6.0-7.0 × 106 cells/mL within 72 hours, demonstrating a notable advantage in both density and viability over compet-
+ing media formulations. LMH suspension cells were seeded at a density of 1.0 × 106 cells/mL in the LMH series 
+medium. The peak viable cell density in the LMH SFM 1516 medium reached 12.0 × 106 cells/mL, with a consistent-
+ly maintained cell viability rate of over 95%. This favorable condition is conducive to subsequent virus infection and 
+expression processes.
+Animal component-free, serum-free
+Product Catalog
+11301-777
+11301-1516
+Dry powder
+LMH SFM 777
+LMH SFM 1516
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Dry powder
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+Serum Free Media
+Serum Free Media
+Cases
+
+(a) Serial passage of successfully adapted suspended LMH cells in LMH SFM 1516 medium, initiated at a density of 
+1.0 × 106 cells/mL with passages performed every 3 days. (b) Batch culture of LMH suspension cells in LMH SFM 
+1516 medium, starting at a density of 1.0 × 106 cells/mL.
+Following infection of LMH cells with avian adenovirus (serotype 4), the LMH series medium was used for culture, 
+resulting in the highest titer of approximately 1010.0 TCID50/mL. This titer is significantly higher than that achieved 
+through adherent serum culture (approximately 108.0 TCID50/mL), leading to greatly improved viral protein production 
+efficiency.
+Production of avian adenovirus (serotype 4) using LMH cells in different culture media, with viral titers sampled and 
+tested at 48, 72, 96, and 120 hours. 
+Virus Production
+（a）
+（b）
+Control
+
+MDCK Cell Culture
+Media 
+The MDCK SFM 1415 medium facilitates rapid adaptation of adherent MDCK cells to suspension culture, while 
+supporting serum-free, high-density growth of MDCK suspension cells, and enhancing the efficient expression of avian 
+influenza viruses. This serum-free and animal -origin component free medium, significantly reduces costs of down-
+stream purification processes.
+The MDCK SFM 1607 medium enables the stable passaging of MDCK cells, with a doubling time of approximately 16 
+± 1 hours. In batch culture, the MDCK SFM 1607 medium promotes high-density growth of MDCK cells, achieving a 
+maximum viable cell density of 22.0 × 106 cells/mL.
+Animal component-free, serum-free
+Product Catalog
+MDCK SFM 1607 is a serum-free, animal-component-free medium that supports the rapid adaptation of adherent 
+MDCK cells to suspension culture. It enables high-density growth of MDCK suspension cells in a serum-free environ-
+ment and enhances the efficient expression of various subtypes of influenza viruses (e.g., human, avian, swine, etc.). 
+By eliminating serum and animal-derived components, this medium significantly reduces downstream purification 
+costs in bioprocessing.
+Cases
+10405-1607
+Dry powder
+MDCK SFM 1607
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+Serum Free Media
+
+PK-15 Cell Culture
+Media 
+PK15 SFM 1464 medium facilitates rapid adaptation of adherent PK15 cells to suspension culture, enabling serum-free, 
+high-density growth of PK15 suspension cells, and enhancing efficient expression of porcine viruses. This medium is 
+serum-free and animal- component free.
+Animal component-free, serum-free
+Product Catalog
+Cases
+10702-1464
+Dry powder
+PK15 SFM 1464
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+Serum Free Media
+10701-259
+Dry powder
+CD PK15 259
+2 L, 10 L, 50 L, 100 L, Customized
+Serum Free Media
+（a）
+（b）
+（c）
+0
+2
+4
+6
+8
+10
+12
+RV
+PRV
+TGEV
+PEDV
+log10TCID50/mL 
+Virus titer of PK-15 cells
+≥7.0
+≥9.0
+≥9.0
+≥8.0
+(a) Stable passage of PK-15 cells can be achieved in CD PK15 259 and PK15 SFM 1464 media. The doubling time for 
+CD PK15 259 is approximately 18 ± 1 hours, while for PK15 SFM 1464 it is about 17 ± 1 hours.
+(b) In batch culture, both media promote high-density growth of PK-15 cells, with a maximum viable cell density reach-
+ing 11.0 × 106 cells/mL. The maintenance period of PK15 SFM 1464 medium is longer compared to CD PK15 259 
+medium.
+(c) Both media support the efficient replication of various viruses, including rotavirus, pseudorabies virus, gastroenteritis 
+virus, and diarrhea-causing viruses.
+
+ST Cell Culture Media 
+The CD ST 323 medium facilitates rapid adaptation of adherent ST cells to suspension culture, enabling serum-free and 
+high-density growth of ST suspension cells, and enhancing the efficient expression of porcine viruses. This chemically 
+defined medium is protein-free and free from animal-origin components.
+Chemical-defined, Animal component-free
+Product Catalog
+(a) In the CD ST 258 medium, stable passage of ST cells can be achieved, with a doubling time of approximately 20 ± 
+1 hours.
+ (b) In batch culture, CD ST 258 can promote high-density growth of ST cells. Without feeding, the maximum viable cell 
+density can reach 12.5 × 10⁶ cells/mL. With feeding added on Day 3, the maximum viable cell density reaches 16.5 × 
+10⁶ cells/mL, and the maintenance period is longer. 
+c) The CD ST 258 medium can promote efficient replication of viruses such as pseudorabies, diarrhea, gastroenteritis, 
+and swine fever.
+Cases
+10604-258
+Dry powder
+CD ST 258
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+Chemically Defined Medium
+（a）
+（b）
+（c）
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Viability (%)
+Viable Cell Density (× 106 cells/mL)
+Culture Duration (Day)
+Cell Growth versus Time
+不含Feed -VCD
+含Feed -VCD
+不含Feed -Via
+含Feed -Via
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+0
+2
+4
+6
+8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
+Viability (%)
+Viable Cell Density (× 106 cells/mL)
+Culture DuraƟon (Day)
+Cell Growth versus Time
+DP258-VCD
+DP258-Via
+
+F81 Cell Culture Media 
+F81 LSM 801 is a low serum medium specifically formulated to support the suspension growth of F81 cells, enabling a 
+reduction in serum usage to 3.0% during the cell passage and growth phase. This not only facilitates process scaling 
+but also shortens cell doubling time, thereby reducing production and purification costs. Applied to F81 cell adaptation, 
+passaging, expansion, scale-up, and virus production.
+(a) Serial subculture of adherent F81 cells in MEM medium containing 5% NBCS, with a split ratio of 1:8 to 1:6, 
+performed every three days. (b) Adaptation of adherent F81 cells to suspension culture in F81 LSM 801 medium 
+supplemented with 3% NBCS, initiated at a seeding density of 1.5 × 106 cells/mL, and passaged every three days.
+Product Catalog
+After a long period of acclimation in F81 LSM 801 + 3%NBCS medium, F81 suspension cells with stable passage were 
+obtained.
+Cases
+11401-801
+Dry powder
+F81 LSM 801
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+Low-serum culture media
+99166-22039
+Liquid
+ExpVirus A
+500 mL, 1000 mL
+Feed
+99167-22040
+Liquid
+ExpVirus B
+500 mL, 1000 mL
+Feed
+Adaptation of Adherent Cells to Suspension Culture
+（a）
+（b）
+
+Growth of F81 Suspension Cells
+The F81 LSM 801 medium facilitates stable passaging of F81 cells with a doubling time of approximately 35 hours. In 
+batch culture, this medium sustains high-density growth of F81 cells, achieving a maximum viable cell density of 14.0 × 
+106 cells/mL.
+Figure 13. (a) Serial subculture of F81 cells in F81 LSM 801 medium supplemented with 3% NBCS, starting at a densi-
+ty of 1.5 × 106 cells/mL, with passages conducted every three days. (b) Batch culture of F81 cells in F81 LSM 801 
+medium plus 3% NBCS, initiated at a density of 1.5 × 106 cells/mL. (c) F81 cells observed in a suspended state.
+Compared to competing products, the F81 cell-based viral production system developed by JSBio yields 
+significantly higher virus titers.
+Production of the feline Parvovirus virus was conducted using F81 LSM 801 medium supplemented with 3% NBCS, 
+incorporating ExpVirus A and ExpVirus B feeding strategies, and leveraging self-adapted F81 suspension cells.
+Virus Production
+（a）
+（b）
+（c）
+Control group
+Titer of Feline Parvovirus
+
+Vero Cell Culture Media 
+Vero cells originate from normal adult African green monkey kidney tissue. Renowned for their susceptibility to a wide 
+range of viruses and amenability to adaptation on microcarriers, they are extensively employed in the production of viral 
+vaccines. CD VM 01 is a serum-free medium, devoid of any animal-origin components, designed to ensure excellent 
+lot-to-lot consistency. It is specifically formulated to facilitate serum-free attachment culture of Vero cells and to enhance 
+the efficient production of viruses.
+In comparison to the control, CD VM 01 medium promotes the growth of Vero cells to higher densities while maintaining 
+increased viability.
+(a) Documentation of Vero cell growth in both control and CD VM 01 media as observed under an inverted microscope. 
+(b) Serial subculturing of Vero cells in both control and CD VM 01 media.
+Serum-free, Animal component-free
+Product Catalog
+Cases
+11501-1253
+Dry powder
+CD VM 01
+Package
+Form
+Product
+Catalog No.
+2 L, 10 L, 50 L, 100 L, Customized
+Description
+Serum-Free Medium, 
+Anchorage-Dependent Growth
+Day 5
+Control 
+CD VM 01
+
+Together，
+We Culture Growth

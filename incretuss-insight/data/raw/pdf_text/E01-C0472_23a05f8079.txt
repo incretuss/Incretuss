@@ -1,0 +1,304 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/13041/FineTest_Cell_Function_Assay_Kit.pdf
+
+1
+④Safety
+①High sensitivity, reliable data
+⑤Ready-to-use
+Cell viability can be tested even if cell density is very low
+radioisotope and organic 
+solvent not required, low 
+cytotoxicity
+only one reagent without 
+preparation in advance.
+②High reproducibility
+③Easy operation, 
+saving time and effort
+CCK8 products are more stable. 
+It's easier to keep the consistency 
+and accuracy
+The produced formazan is water-soluble without 
+dissolving steps and interference of anthropic 
+factors. Especially suitable for suspension cell
+Wuhan Fine Biotech Co., Ltd.
+Cell Function 
+Assay Kit
+Cell Proliferation/Viability/Cytotoxicity Apoptosis Cell Cycle
+Cell Proliferation/Viability/Cytotoxicity Assay Kit
+CCK8 is the common assay kit for testing cell viability and cytotoxicity, 
+including indirect detection for cell proliferation as well.
+Enhanced Cell Counting Kit 8 (CCK8/WST-8)
+Enhanced Cell Counting Kit 8 (CCK8/WST-8)
+Advantages
+www.fn-test.com
+fine@fn-test.com
+
+TUNEL Apoptosis Kits
+Cat.No
+Product Name
+Size
+FNCK100
+FNCK101
+FNCK102
+FNCK103
+FNCK104
+FNCK105
+20T/50T/100T
+20T/50T/100T
+20T/50T/100T
+20T/50T/100T
+20T/50T/100T
+20T/50T/100T
+One-step TUNEL In Situ Apoptosis Kit (Green, FITC) 
+One-step TUNEL In Situ Apoptosis Kit (Green, FineTest®488) 
+One-step TUNEL In Situ Apoptosis Kit (Red, FineTest®594) 
+One-step TUNEL In Situ Apoptosis Kit (Red, FineTest®647) 
+One-step TUNEL In Situ Apoptosis Kit (Red, FineTest®555) 
+TUNEL In Situ Apoptosis Kit (HRP-DAB Method) 
+Cat.No
+Product Name
+Size
+FNCK113
+Cell Cycle Assay Kit (Red Fluorescence)
+20T, 50T, 100T
+Various
+Dyes
+Easy 
+Operation
+High
+Sensitivity
+Cost-
+eﬀective
+Safe and
+Non-toxic
+Wide
+Applications
+Negative
+Positive
+FITC
+DAPI
+Merge
+Cat.No：FNCK100
+FineTest®488
+DAPI
+Merge
+Negative
+Positive
+Cat.No：FNCK101
+FineTest®594
+DAPI
+Merge
+Negative
+Positive
+Cat.No：FNCK102
+2
+During late apoptosis, DNA is broken, using TUNEL apoptosis kits.
+one step, saving 
+time and effort
+detect apoptosis 
+at single-cell level
+self-developed 
+core component, 
+stable quality
+free of potassium 
+dimethylasinate, safe and 
+non-toxic to humans and 
+the environment
+cell sample(cell smears, cell 
+slides, suspension cell),
+tissue sample(paraffin and 
+frozen section)
+FITC/ FineTest®
+488/555/594/647
+Cell Cycle Assay Kit
+Common cell cycle assay method aims to detect DNA content. DNA can bind to fluorescence dyes(e.g. PI). 
+Analyse the proportion of cells in each phase according to the fluorescence intensity detected by flow cytometer, 
+depending on DNA content in different phases of cell cycle.
+Advantages
+Wide
+applica-
+tions
+High 
+accuracy
+suitable for various 
+cell samples.
+accurately 
+recognize cells 
+in diﬀerent phases.
+www.fn-test.com
+fine@fn-test.com
+
+Annexin V is a common reagent for detecting apoptosis. The 
+probe is a calcium dependent phospholipids binding protein with 
+35kDa molecular weight, which can bind to phosphatidylserine
+(PS) in the cell membrane with high specificity and affinity. 
+The nuclear dye(PI/7-AAD)assists to perform the apoptosis assay and eﬃciently distinguishes early and late apoptosis.
+Annexin V Apoptosis Kits
+Cat.No Product Name
+Size
+Cat.No Product Name
+Size
+K018
+Annexin V-EGFP/PI Apoptosis Kit
+20T, 50T, 100T
+K019
+Annexin V-FITC/PI Apoptosis Kit
+20T, 50T, 100T
+K070
+Annexin V-EGFP/7-AAD Apoptosis Kit
+20T, 50T, 100T
+K071
+Annexin V-FITC/7-AAD Apoptosis Kit
+20T, 50T, 100T
+K072
+Annexin V-APC/7-AAD Apoptosis Kit
+20T, 50T, 100T
+K073
+Annexin V-PE/7-AAD Apoptosis Kit
+20T, 50T, 100T
+K074
+Annexin V-FineTest®488/PI Apoptosis Kit
+20T, 50T, 100T
+K075
+Annexin V-FineTest®488/7-AAD Apoptosis Kit
+20T, 50T, 100T
+K076
+Annexin V-FineTest®647/PI Apoptosis Kit
+20T, 50T, 100T
+K077
+Annexin V-FineTest®647/7-AAD Apoptosis Kit
+20T, 50T, 100T
+K078
+Annexin V-APC/PI Apoptosis Kit
+20T, 50T, 100T
+High accuracy
+01
+fixation not required,
+Detection results are shown in figures below: Jurkat cell 
+treated with 5μM camptothecin for 4h. Take 1x10 cell 
+and stain with 1 assay and 0.5 assay respectively. 
+Perform fluorescence detection with flow cytometry.
+less than 2% decrease 
+of activity, even stored 
+at 2-8℃ for over one year.
+efficiently avoid false-
+positive, obvious positive
+and negative grouping.
+02
+High stability
+03
+Easy operation
+ (1 assay is equivalent to 2 assays)
+05
+Cost-effective
+04
+Competitive price
+6
+1
+one or two step assay, 
+about 15min staining.
+self-developed, 
+in-stock product, fast 
+delivery.
+Jurkat cells treated(figure1,2) or untreated(figure3,4) with 5μM camptothecin for 4h. After staining 
+with FineTest® kit, perform fluorescence detection with flow cytometry.
+Figure 1
+Figure 3
+Figure 2
+Figure 4
+Cell Apoptosis Assay Kits
+www.fn-test.com
+fine@fn-test.com
+
+FineTest® EdU cell proliferation assay kit is updated based on 
+Brdu method, and helps you detect the proliferation of single 
+cell more rapidly, easily and accurately.
+Cat.No
+Product Name
+Size
+FNCK064
+Enhanced Cell Counting Kit 8 (CCK8/WST-8)
+100T, 500T, 500T*5
+K017
+MTT-Cell Based Proliferation/Toxicity Assay Kit
+500T
+EdU Cell Proliferation Assay Kit
+EdU Cell Proliferation Assay Kit
+ Test: HL-60 cells were treated with 10 μM EdU for 4 hours.
+ Negative: HL-60 cells without EdU.
+ Test: Hela cells were treated with 10 μM EdU for 3 hours.
+ Negative: Hela cells without EdU.
+FineTest®488
+DAPI
+Merge
+Negative
+Test group
+FineTest®594
+DAPI
+Merge
+Negative
+Test group
+2
+FNCK107
+FN-Click EdU Cell Proliferation Flow Cytometry Assay Kit (Green, FineTest®488)
+50T, 200T
+FNCK108
+FN-Click EdU Cell Proliferation Flow Cytometry Assay Kit (Red, FineTest®647)
+50T, 200T
+FNCK110
+FN-Click EdU Cell Proliferation Imaging Assay Kit (Green, FineTest®488)
+50T, 200T
+FNCK111
+FN-Click EdU Cell Proliferation Imaging Assay Kit (Red, FineTest®594)
+50T, 200T
+FNCK112
+FN-Click EdU Cell Proliferation Imaging Assay Kit (Red, FineTest®647)
+50T, 200T
+01
+02
+03
+04
+05
+Rapid
+Reaction
+Sensitive
+Detection
+Simple
+Use
+Accurate
+Results
+Strong
+Compatibility
+Antigen-antibody reaction 
+not required, Easily 
+binding with EdU, only 
+2.5h reaction duration;
+Accurate detection
+for single proliferating cell 
+with high sensitivity;
+A full set of 
+components for 
+simple use;
+EdU is more easily diﬀused in 
+cells without DNA denaturation, 
+and can eﬃciently avoid 
+sample damage caused by 
+denaturation to keep nucleus 
+edge clear and complete;
+Simultaneously 
+labelled with multiple 
+antibodies or 
+ﬂuorescent proteins, 
+and detect other 
+characteristics of cells.
+Results
+Flow cytometry assay kit
+Fluorescence imaging assay kit
+FNCK107 Result 
+FNCK108 Result 
+FNCK110 Result 
+FNCK111 Result 
+Cat.No
+Product Name
+Size
+www.fn-test.com
+fine@fn-test.com

@@ -183,7 +183,10 @@ class ExhibitorOnlineManualAdapter(BaseAdapter):
                 continue
             if profile is None:
                 # Listed without a profile page: keep the listing data, keyed by name.
-                profile = f"{page_url.split('#')[0]}#no-profile:{quote(name)}"
+                # (A query parameter, not a #fragment: URL normalisation drops
+                # fragments, which would collapse all such exhibitors into one.)
+                base = page_url.split("#")[0]
+                profile = f"{base}{'&' if '?' in base else '?'}no_profile={quote(name)}"
                 extra["no_profile"] = True
             stubs.append(ExhibitorStub(name=name, profile_url=profile, country=country, hall=hall,
                                        booth=booth, listing_url=page_url, extra=extra))

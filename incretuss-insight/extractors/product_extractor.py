@@ -77,6 +77,7 @@ RULES: list[Rule] = [
                                           r"\braw materials?( and ingredients)? for (manufacturing )?medicines\b|"
                                           r"\bfine chemicals?\b|\bpharma(ceutical)?[- ]grade\b")),
     Rule("APIs", re.compile(r"\bAPIs?\b|\b[Aa]ctive [Pp]harmaceutical [Ii]ngredients?\b|\b[Dd]rug [Ss]ubstances?\b|"
+                            r"\b[Aa]ctive [Ii]ngredients?\b|\b(US|EU|CEP/)?DMF\b|\bCEP\b|"
                             r"\bфармсубстанци|\bсубстанци")),
     Rule("Pharmaceutical Intermediates", _r(r"\bintermediates?\b|\bbuilding blocks?\b")),
     Rule("Excipients", _r(r"\bexcipients?\b|\bemulsif(ying|iers?)\b|\bsolubili[sz](ing|ers?)\b|"
@@ -173,7 +174,11 @@ EQUIPMENT_NAME = re.compile(
     r"filters?|columns?|centrifuges?|autoclaves?|steril[iy][sz]ers?|chambers?|lines?|units?|robots?|conveyors?|"
     r"fillers?|cappers?|labell?ers?|cartoners?|incubators?|freezers?|homogeni[sz]ers?|evaporators?|tanks?|vessels?)\b",
     re.I)
-SERVICE_NAME = re.compile(r"\b(qualification|validation|calibration|consult\w*|services?|training|audits?|"
+PACKAGING_MATERIAL_NAME = re.compile(
+    r"\b(ampoules?|ampuls?|vials?|(blister|strip|alu(minium|minum)?|cold[- ]formed?|desiccant|lidding) ?foils?|foils?|"
+    r"bottles?|closures?|stoppers?|containers?|cartons?|labels?|tubes? for packaging|packaging materials?|"
+    r"laminates?|pouch(es)?|sachets?|jars?|cans?)\b", re.I)
+SERVICE_NAME = re.compile(r"\b(qualification|validation|calibration|inspection|consult\w*|services?|training|audits?|"
                           r"registration|outsourcing|maintenance|engineering|design works|certification)\b", re.I)
 
 
@@ -234,6 +239,14 @@ class Categorizer:
         desc_hits = self.classifier.classify(p.description or "")
         is_service = bool(SERVICE_NAME.search(_fold(p.name)))
         name_cats = {c for c, _ in name_hits}
+        if (PACKAGING_MATERIAL_NAME.search(_fold(p.name)) and not SERVICE_NAME.search(_fold(p.name))
+                and not name_cats & (INGREDIENT_CATS | EQUIPMENT_CATS)
+                and not EQUIPMENT_NAME.search(_fold(p.name))):
+            # Packaging materials: no normalised category of their own. Their
+            # descriptions talk about the drugs they protect - never use that.
+            return {"product_category": "Other", "category_basis": BASIS_PRODUCT,
+                    "product_type": p.product_type or "Packaging material",
+                    "hits": [("Other", f"packaging material named in product: {p.name}")]}
         is_equipment = not is_service and (bool(name_cats & EQUIPMENT_CATS) or (
             bool(EQUIPMENT_NAME.search(_fold(p.name))) and not name_cats & INGREDIENT_CATS))
         hits = dict(name_hits)

@@ -1,0 +1,130 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12568/RE__API_LIST_HARVEST.pdf
+
+SHAN DONG JUNHAO BIOTECH CO.,LTD
+Name
+CAS NO.
+Certificate
+Paracetamol
+103-90-2
+GMP /CEP/DMF
+Pregabalin
+148553-50-8
+GMP/DMF/CEP
+Mildronate Hcl
+86426-17-7
+DMF
+Fosfomvcin Sodium
+26016-99-9
+GMP /DMF
+Lanreotide Acetate
+108736-35-2
+USDMF
+Octreotide Acetate
+83150-76-9
+USDMF
+Terlipressin Acetate
+14636-12-5
+USDMF
+Liraglutide
+204656-20-2
+USDMF
+Semaglutide
+910463-68-2
+USDMF
+Oseltamivir Phosphate
+204255-11-8
+USDMF
+Fulvestrant
+129453-61-8
+USDMF
+Epinephrine
+51-42-3
+EUGMP/DMF
+Ferric carboxymaltose
+9007-72-1
+DMF
+Irinotecan Hcl
+100286-90-6
+GMP/CEP
+Granisetron HCl
+107007-99-8
+GMP/CEP
+Bortezomib
+179324-69-7
+GMP/DMF/CEP
+Mesna
+19767-45-4
+DMF/GMP/CEP
+Bendamustine
+3543-75-7
+GMP/DMF/CEP
+Ropivacaine
+132112-35-7
+GMP/CEP/DMF
+Pramipexole
+637-58-1
+GMP/DMF
+Levetiracetam
+102767-28-2
+GMP/CEP
+Adenosine
+58-61 -7
+USDMF
+Vinorelbine tartrate
+125317-39-7
+CEP /FDA/GMP
+Gemcitabine Hcl
+122111-03-9
+CEP / D M F
+Doxorubicin Hydrochloride
+25316-40-9
+CEP /GMP / D M F
+Paclitaxel
+33069-62-4
+CEP / G M P / D M F
+Fluorouraci
+51-21-8
+CEP/FDA/DMF
+Tacrolimus
+104987-11-3
+GMP/CEP/DMF
+Alprazolam
+28981-97-7
+GMP/DMF/CEP
+Vancomycin
+1404-90-6
+GMP/CEP/FDA
+Fondaparinux Sodium
+114870-03-0
+DMF
+Entecavir Monohydrate
+209216-23-9
+DMF
+Argatroban
+141396-28-3
+DMF
+Caspofungin Acetate
+179463-17-3
+DMF
+Micafungin Sodium
+208538-73-2
+DMF
+Anidulafungin
+166663-25-8
+DMF
+Posaconazole
+171228-49-2
+DMF
+Posaconazole(Form Ⅰ)
+171228-49-2
+DMF
+Everolimus(2.0% BHT)
+159351-69-6
+DMF
+Pimecrolimus
+137071-32-0
+DMF
+Fidaxomicin
+873857-62-6
+DMF
+API LIST

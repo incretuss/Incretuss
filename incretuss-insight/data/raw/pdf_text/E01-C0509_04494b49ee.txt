@@ -1,0 +1,351 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12978/Cell_Culture_Media_Catalog_2025-.pdf
+
+30
+
+293 Transfection Kit
+.
+nsion Media
+Media
+ND
+(N
+Media
+MDCK Cell
+edia
+Immune Cell Serum-Free Media
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+CHOTransfection Kit
+.
+a
+a
+
+The StarTrans CHO Transfection Kit is specifically designed for 
+transient transfection of high-density Chinese Hamster Ovary 
+(CHO) cells. It consists of a universal serum-free CHO transient 
+transfection medium with optimized culture feed, enhancer, and 
+PEI transfection reagent. CHOБT1 basal medium is specifically 
+designed for CHO cells, supporting high-density suspension 
+culture and efficient transient expression. Whether in R&D or 
+large-scale production, the StarTrans CHO Transfection Kit 
+provides satisfactory yields and reliable results.
+CHO Transfection Kit
+High density, high efficiency, high yield
+Suitable for CHO cell suspension culture and transient transfection
+Ready-to-use kit, including basal medium, feed medium, enhancer, PEI
+Serum-free, Animal Component-Free, Chemically Defined
+Better cell growth
+
+7
+High-efficiency antigens and antibodies expression
+Order Information
+Product Name
+Cat. No.
+Contents
+Form
+Amount
+NOTE
+·Serum-Free
+·Animal-derived component free
+·Chemically Defined
+StarTrans CHO
+Transfection Kit
+E1004
+CHOБT1
+Liɾuid
+1000mL
+CHO NF606d-part1
+Liɾuid
+200mL
+CHO NF606d-part2
+Liɾuid
+20mL
+Star Trans Diluent
+Liɾuid
+100mL
+StarTrans CHO Enhancer
+Liɾuid
+20mL
+StarTrans PEI
+Liɾuid
+1mL
+·Significantly increase 
+protein expression
+·Use with CHOБT1 medium
+
+8
+The StarTrans 293 Transfection Kit is specially designed for 
+transient transfection of high-density culture of HEK 293 cells. 
+It consists of a universal serum-free 293 transient transfection 
+medium with feed, enhancer and PEI transfection reagent. 293 
+KT02h6 medium is designed for 293 cells, supports high-density 
+suspension culture and efficient transient expression, and is 
+widely used in the research and development of antibodies, 
+recombinant proteins and viruses, and can ɾuickly produce 
+milligram to gram products with stable ɾuality.
+293 Transfection Kit
+High density, high efficiency, high yield
+Suitable for 293 cell suspension culture and transient transfection
+Ready-to-use kit, including basal medium, feed medium, enhancer, PEI
+Serum-free, Animal Component-Free, Chemically Defined
+High transfection efficiency, reaching over 85%
+
+9
+High-efficiency protein expression
+Order Information
+Product Name
+Cat. No.
+Contents
+Form
+Amount
+NOTE
+·Serum-Free
+·Animal-derived component free
+·Chemically Defined
+StarTrans 293
+Transfection Kit
+E1003
+293KT02h6
+Liɾuid
+1000mL
+Aplo293 Feed
+Liɾuid
+100mL
+StarTrans 293 Enhancer
+Liɾuid
+1mL
+StarTrans PEI
+Liɾuid
+1mL
+·Significantly increase 
+protein expression
+·Use with CHOБT1 medium
+High-density growth
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+IB907g2
+Y1047g2
+L11007g2
+Powder
+Liɾuid
+1L 5L 10L 50L 100L Bulk
+500mL 1L
+·Animal-derived component free
+·Serum-free and Protein-free 
+·Designed for virus-free Sf9 cells
+16
+
+Stem-Ex hPSC maintenance medium is a maintenance medium for human pluripotent 
+stem cells (hPSC, i.e. hESC, hiPSC, etc.) that is Animal Component-Free and Chemically 
+Defined. This product is suitable for the feeder-free culture system of hPSC. hPSC cells 
+can proliferate rapidly in this product and show a typical clonal morphology: uniform, 
+with clear boundaries and dense cells. And after multiple passages, the pluripotency of 
+hPSC cells can still be maintained.
+Animal Component-Free, Chemically Defined, stable product performance
+Cultured cells have typical pluripotent stem cell morphology
+Maintain long-term growth of hPSCs and maintain good differentiation 
+and pluripotency
+17
+a
+Figure 1. hESC cell culture morphol-
+ogy. In Stem-Ex hPSC maintenance 
+medium, hESC cells (P25) grow to 
+form compact clones.
+The cells are flat and dense, and the 
+edges of the clones are clear and 
+smooth. The picture shows the fourth 
+day after passage.
+Figure 2, hESC cell surface marker detection. In Stem-Ex hPSC maintenance medium, hESC cells (P30) showed good differentiation and 
+pluripotency markers, SSEA4: 99.9%, Tra-1-60: 99.3%.
+·Animal-derived component free
+·Serum-free
+·Chemically Defined
+·A maintenance medium for human pluripotent 
+stem cells (hPSC, i.e. hESC, hiPSC, etc.)
+
+a
+18
+
+Stem-Ex hMSC Expansion Medium is a serum-free medium used for the expansion and 
+culture of human mesenchymal stem cells (hMSC). hMSC cells cultured in Stem-Ex 
+hMSC expansion medium grow adherently. The cells are spindle-shaped or irregular 
+triangular in shape, arranged in a spiral shape, and have typical mesenchymal stem cell 
+surface markers (high expression of CD73/CD90/CD105, CD34/CD45/CD14 or 
+CD11b/CD19 or CD79a/HLAБDR are not expressed), and maintain good three-lineage 
+differentiation ability (osteogenic differentiation, adipogenic differentiation, chondro-
+genic differentiation).
+a
+Serum-Free, Animal Component-Free, good safety
+No need to coat the culture container, easy to use
+The cells amplify ɾuickly and cultured to the P10 generation, the
+number of cells is more than 3 times higher than other brands
+Compared with other brands, Stem-Ex hMSC expansion medium has stronger cell expansion
+capacity
+19
+
+Umbilical cord MSCs cultured in Stem-Ex hMSC expansion medium maintain good three-lineage
+differentiation ability
+Osteogenic 
+differentiation, 
+P5 
+umbilical cord MSC cells, Alizarin 
+Red S staining, the calcium salt 
+formed by osteogenic differentiation 
+forms an orange-red complex with 
+AlizarinRed S.
+P5 generation umbilical cord MSC cells cultured in Stem-Ex hMSC expansion medium have 
+typical mesenchymal stem cell characteristics. Among them, the proportion of positive 
+markers (CD73/CD90/CD105) is higher than 99%, and the proportion of negative markers 
+(CD34/CD45/HLAБDR) is less than 1%
+Adipogenic differentiation, P5 umbili-
+cal cord MSC cells, Oil Red Ostaining, 
+lipid droplets formed by adipogenic 
+differentiation are stained orange.
+Chondrogenic 
+differentiation, 
+P7 
+umbilical cord MSC cells, stained with 
+toluidine blue , acidic substances are 
+stained blue.
+25mL
+·Chemically defined
+20
+
+Immun-Ex Immune Cell Serum-Free Medium is a serum-free 
+medium developed specifically for the growth of immune cells(-
+Animal Component-Free and Chemically Defined. ). It supports 
+the expansion and culture oɿ T, NK and other immune cells from 
+fresh and frozen PBMC, UBMC and other tissues.
+Immune Cell Serum-Free Media
+Independent research and development, stable supply, GMP level
+Also supports in vitro amplification of other immune cells such as T cells
+Highly efficient amplification of NK cells from various tissue sources, 
+high purity and good activity of harvested cells
+Serum-Free, Animal Component-Free, Chemically Defined
+NK cell culture: Using frozen UBMC as the starting cells, after two weeks of expansion, the 
+NK cell expansion multiple was as high as 1023 times, the viability was 96.32%, the NK cell 
+purity reached 99.5%, and the activity of NK cells in killing NK-sensitive blood (K562) and 
+solid (A1847) tumor cell lines was high.
+21
+
+T cell culture: Using frozen PBMCs as starting cells, the expansion capacity of Immun-Ex 
+immune cell serum-free culture medium is comparable to that of imported products.
+Order Information
+Product Name
+Cat. No.
+Form
+Pack Size
+NOTE
+·Animal-derived component free 
+·Serum-free 
+·Chemically Defined
+·For the culture of immune cells
+Immun-Ex Immune cell serum-free medium
+K1006
+Liɾuid
+1kit
+K1006-A
+Liɾuid
+1000mL
+K1006-B
+Liɾuid
+2mL
+Fold Expansion
+Culture length (days)
+Immune cell serum-free medium
+Immun-Ex Immune cell Basal Medium
+Immun-Ex Immune cell Supplement
+22
+
+MDCKS05
+Y1075
+L10405
+Powder
+Liɾuid
+1L 5L 10L 50L 100L Bulk
+500mL 1L
+Basal medium
+.Animal-derived component free
+.Serum-free
+.Designed for production of human 
+influenza vaccines
+23
+
+Y1807s
+L18007s
+Y1808b
+L18008b
+24
+
+Y1005s
+L10015s
+LMH105Vs-Virus 
+amplification
+Y1005m
+L10015m
+Powder
+Liɾuid
+1L 5L 10L 50L 100L Bulk
+500mL 1L
+Virus Amplification medium
+ .Serum-free
+25
+
+26
+
+27
+EV71 vaccine, rotavirus vaccine, and COVID-19 vaccine.
+
+28
+
+BHK705g
+Y1705g
+L17005g
+Powder
+Liɾuid
+1L 5L 10L 50L 100L Bulk
+500mL 1L
+.Serum-free
+.Designed for production oɿ Veterinary
+vaccines
+29
+
+31
+
+In conjunction with YSK culture media, recombinant protein expression levels can reach up to 1 g/L, and 
+antibody expression levels up to 7-10g/L.
+32
+
+ndards.
+Custom
+gulatory Support
+Offers per
+H
+Real-t
+n expression.
+Re
+-Nine months
+Eight weeks
+Twelve weeks
+33
+
+34

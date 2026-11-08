@@ -1,0 +1,73 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12571/CHO_Kit_Plus-EN.pdf
+
+▪ Trans Plus： An upgraded, chemically defined basal medium compatible with multiple CHO cell subtypes, supporting
+high-quality, high-density suspension culture.
+▪ ALLY Feed 100 Pro： An upgraded feed medium designed to work in tandem with Trans Plus, significantly increasing protein
+titer and product quality.
+▪ CHO Enhancer: Promotes rapid, high-level expression of target proteins and is fully compatible with the upgraded media system.
+▪ Trans 1： Enables efficient gene delivery and robust protein expression with consistent performance.
+Product Information
+Trans CHO Kit Plus is an upgraded transient expression system. Its basal and feed media are chemically defined and free of serum, 
+hydrolysates, or animal-derived components. The system delivers high transfection rates and protein yields, is compatible with 
+multiple CHO cell lines, requires no incubation step, and supports automated workflows.
+Key Benefits
+Key Features
+▪Simplified Workflow： A streamlined workflow with an optimized glucose formulation eliminates the need for additional glucose 
+supplementation, reduces contamination risk and improves batch-to-batch consistency.
+▪Enhanced Expression Efficiency：Protein yield improved by 30%, making the system suitable for a wide range of recombinant 
+protein transient expression applications.
+▪Improved Product Quality：Supports proper intracellular protein folding and reduces mispairing in complex proteins.
+Case 1: mAb Expression in CHO-K1 with a Simple Process
+Cells were seeded at 2 × 10⁶ cells/mL one day before transfection and reached 6 × 10⁶ cells/mL on the day of transfection; 
+plasmid concentration was adjusted to 3 µg/mL.
+Figure 1. Antibody titer over 7 days in CHO-K1 cells using 
+Trans CHO Kit Plus versus control under a simple process.
+Trans CHO Kit Plus delivered significantly higher expres-
+sion over the 7-day culture, with a 30% improvement in 
+expression level. Titer exceeded 1000 mg/L on Day 5, 
+demonstrating superior transient transfection efficiency 
+and productivity.
+Trans Plus
+ALLY Feed 100 Pro
+CHO Enhancer
+Trans 1
+Basal medium
+Feed medium
+Transient transfection enhancer
+Transfection reagent
+Trans CHO Kit Plus
+ Upgraded 
+Case Studies
+High-Yield CHO Transient Expression
+——Trans CHO Kit Plus
+
+Figure 2. Antibody titer over 11 days in CHO-K1 cells using 
+Trans CHO Kit Plus versus control under a simple process.
+Cell density was adjusted to 6 × 10⁶ cells/mL on the day of transfection, and the culture was fed 2–3 times during cultivation.
+Case 2: mAb Expression in CHO-K1 with a Simple Process
+Over the 11-day culture, Trans CHO Kit Plus maintained 
+significantly higher expression than the control, reaching 3500 
+mg/L on Day 11 and delivering approximately 40% higher 
+productivity, demonstrating superior transient transfection 
+efficiency and product yield.
+Case 3: mAb Expression in CHO-K1 with a High-Density Process
+Cells were seeded at 3 × 10⁶ cells/mL one day before transfection and reached 9 × 10⁶ cells/mL on the day of transfection; plasmid concen-
+tration was adjusted to 3 µg/mL.
+Case 4: mAb Expression in CHO-K1 with a High-Density Process
+Cell density was adjusted to 9 × 10⁶ cells/mL on the day of transfection, and the culture was fed 2–3 times during cultivation.
+Figure 3. Antibody titer over 7 days in CHO-K1 cells using Trans 
+CHO Kit Plus versus control under a high-density process.
+Trans CHO Kit Plus showed significantly higher expression on 
+Days 3, 5, and 7, with a 30% improvement in expression level. 
+Titer exceeded 2200 mg/L on Day 7, demonstrating superior 
+transient transfection efficiency and productivity.
+Across the full 11-day culture, Trans CHO Kit Plus maintained 
+significantly higher expression than the control, reaching 4000 
+mg/L on Day 11 and delivering approximately 30% higher 
+productivity, demonstrating superior transient transfection 
+efficiency and product yield.
+Figure 4. Antibody titer over 11 days in CHO-K1 cells using 
+Trans CHO Kit Plus versus control under a high-density 
+process.
+High-Yield CHO Transient Expression
+——Trans CHO Kit Plus

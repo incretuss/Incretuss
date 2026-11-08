@@ -1,0 +1,2413 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/14462/bioMerieux_API_ID_32_%D0%91%D0%B0%D0%B7%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8.pdf
+
+API® и ID 32
+Идентификация
+
+API® и ID 32
+Идентификация
+Обновление
+Изменения можно разделить на следующие категории:
+Ряд новых видов добавлены в базу данных (в том числе как совершенно новые виды, так и 
+виды, выделенные на основе новых результатов).
+Некоторые виды бактерий были удалены из-за применения более строгих критериев. 
+Некоторые редкие виды, изученные недостаточно полно, также удалены из базы данных.
+Названия некоторых видов были изменены для соответствия изменениям таксономиче-
+ской системы бактерий, официально описанной в Международном журнале системати-
+ческой и эволюционной микробиологии.
+Были пересмотрены примечания для отражения изменений названий и списка добавленных 
+и удаленных видов.
+Процентные значения и характеристики были изменены для отражения вариаций, кото-
+рые наблюдаются в профилях микроорганизмов, анализированных с момента пересмотра 
+базы данных.
+Дополнительные тесты изменены для отражения новой доступной справочной инфор-
+мации.
+
+3
+ТЕСТЫ ДЛЯ ОРИЕНТИРОВАНИЯ
+Грамотрицательные 
+палочки
+api 20 NE
+api 10 S
+API 20 E
+RAPID 20 E
+ID 32 E
+RAPID ID 32 E
+API 50 CHE
+НЕ 
+ФЕРМЕНТИРУЮТ
+ФЕРМЕНТИРУЮТ
+ ГРАМ
+ПАЛОЧКИ
+ОКСИДАЗА
+ОКСИДАЗА
+Окисление
+Ферментирование
+Окисление
+Ферментирование
+Окисление
+Ферментирование
+Окисление
+Ферментирование
+
+4
+Рост в углекислотной 
+атмосфере
+Палочки изогнутой 
+или спиральной формы
+Рост в атмосфере для 
+микроаэрофильных видов
+Анаэробы
+ОКСИДАЗА
+ ГРАМ
+ПАЛОЧКИ
+Мелкие грам палочки 
+(Haemophilus)
+ТЕСТЫ ДЛЯ ОРИЕНТИРОВАНИЯ
+ДРУГИЕ Грамотрицательные 
+палочки
+Haemophilus
+Bacteroïdes
+Fusobacterium
+Prevotella
+Campylobacter
+api NH
+Haemophilus
+api 20 a
+rapid id 32 a
+Bacteroïdes
+Fusobacterium
+Prevotella
+api 20 CAMPY
+Campylobacter
+
+5
+ТЕСТЫ ДЛЯ ОРИЕНТИРОВАНИЯ
+Грамположительные 
+палочки
+Анаэробы
+Спорообразующие 
+палочки
+Мелкие палочки 
+характерной формы. 
+Частичное обесцвечивание 
+(гранулирование)
+Короткие палочки 
+с закругленными 
+концами. Подвижны при 
+температуре 20–25 °C. 
+Неподвижны при температуре 37 °C
+Большие 
+спорообразующие 
+палочки
+Палочки 
+с концами сильно 
+неравной толщины
+Clostridium
+Corynebacterium
+Listeria
+Bacillus
+Lactobacillus
+КАТАЛАЗА
+КАТАЛАЗА
+Аэро/анаэробы
+ ГРАМ
+ПАЛОЧКИ
+api 20 a
+RAPID ID 32 a
+api CORYNE
+ API LISTERIA
+api CHB
+api 50 CHL
+
+6
+ТЕСТЫ ДЛЯ ОРИЕНТИРОВАНИЯ
+КОККИ 
+КОККИ
+КОККИ
+ГРАМ
+ГРАМ
+КАТАЛАЗА
+КАТАЛАЗА
+КОККИ, расположенные парами
+Анаэробы
+api STAPH
+id 32 a STAPH
+Staphylococcus
+Micrococcus
+api 20 STREP
+RAPID ID 32 STREP
+Steptococcus
+Enterococcus
+api 20 a
+RAPID ID 32 a
+Veillonella
+api NH
+Neisseria
+
+7
+ТЕСТЫ ДЛЯ ОРИЕНТИРОВАНИЯ
+Дрожжеподобные грибы
+Пробы 
+с ассимиляцией
+Пробы с окислением сахаров 
+или ферментативной активности
+МИКРОСКО-
+ПИЧЕСКОЕ 
+ВЫЯВЛЕНИЕ 
+ГРИБОВ
+api 20 c aux
+ID 32 C
+Candida
+Cryptococcus
+Geotrichum
+Kloeckera
+Pichia
+Rhodotorula
+Trichosporon
+api CANDIDA
+Candida
+Cryptococcus
+Saccharomyces
+Trichosporon
+
+8
+Назначение наборов 
+для идентификации
+API® 20 E
+Грамотрицательные палочки
+API® 10 S
+Грамотрицательные палочки
+Rapid 20ETM
+Enterobacteriaceae
+API® 20 NE
+Грамотрицательные, не относящиеся 
+к Enterobacteriaceae
+API® Staph
+Стафилококки
+API® 20 Strep
+Стрептококки
+API® Candida
+Дрожжеподобные грибы
+API® 20 C AUX
+Дрожжеподобные грибы
+API® 20 A
+Анаэробы
+API® Coryne
+Коринебактерии
+API® Campy
+Campylobacter
+API® Listeria
+Listeria
+API® NH
+Neisseria, Haemophilus
+API® 50 CHE
+Enterobacteriaceae
+AP®I 50 CHL
+Лактобактерии
+API® 50 CHB
+Бациллы
+ID 32 E
+Грамотрицательные палочки
+Rapid ID 32 E
+Enterobacteriaceae
+ID 32 GN
+Грамотрицательные палочки
+ID 32 STAPH
+Стафилококки
+Rapid ID 32 STREP
+Стрептококки
+ID 32 C
+Дрожжеподобные грибы
+Rapid ID 32 A
+Анаэробы
+
+9
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Abiotrophia defectiva 
+Achromobacter denitrificans Alcaligenes deni-
+trificans
+Achromobacter xylosoxidans Alcaligenes xylo-
+soxidans
+Acinetobacter/Moraxella spp
+Acinetobacter/Pseudomonas spp
+Acinetobacter baumannii
+Acinetobacter baumannii/calcoaceticus
+Acinetobacter calcoaceticus
+Acinetobacter haemolyticus
+Acinetobacter johnsonii
+Acinetobacter junii
+Acinetobacter junii/johnsonii
+Acinetobacter lwoffii
+Acinetobacter radioresistens
+Acinetobacter spp
+Actinobacillus pleuropneumoniae
+Actinomyces israelii
+Actinomyces meyeri
+Actinomyces meyeri/odontolyticus
+Actinomyces naeslundii
+Actinomyces neuii ssp anitratus
+Actinomyces neuii ssp neuii
+Actinomyces odontolyticus
+Actinomyces radingae
+Actinomyces turicensis
+Actinomyces viscosus
+Aeromonas caviae
+Aeromonas hydrophila/caviae
+Aeromonas hydrophila
+Aeromonas hydrophila/caviae/sobria
+Aeromonas salmonicida ssp achromogenes
+Aeromonas salmonicida masoucida/achromogenes
+Aeromonas salmonicida ssp masoucida
+Aeromonas salmonicida ssp salmonicida
+Aeromonas sobria
+Aerococcus urinae
+Aerococcus viridans
+Aggregatibacter actinomycetemcomitans
+Aggregatibacter aphrophilus
+Alcaligenes faecalis
+Alcaligenes spp
+Alloiococcus otitis
+Anaerobiospirillum succiniciproducens
+Anaerococcus prevotii
+Aneurinibacillus aneurinilyticus
+Arcanobacterium haemolyticum
+Arcobacter cryaerophilus
+Arthrobacter spp
+Avibacterium paragallinarum
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+10
+Bacillus amyloliquefaciens
+Bacillus anthracis
+Bacillus badius
+Bacillus cereus
+Bacillus circulans
+Bacillus coagulans
+Bacillus firmus
+Bacillus lentus
+Bacillus licheniformis
+Bacillus megaterium
+Bacillus mycoides
+Bacillus pumilus
+Bacillus smithii
+Bacillus subtilis
+Bacillus subtilis/amyloliquefaciens
+Bacillus thuringiensis
+Bacteroides caccae
+Bacteroides eggerthii
+Bacteroides fragilis
+Bacteroides ovatus
+Bacteroides ovatus/thetaiotaomicron
+Bacteroides stercoris/eggerthii
+Bacteroides stercoris
+Bacteroides thetaiotaomicron
+Bacteroides uniformis
+Bacteroides vulgatus
+Bacillus non reactive
+Bergeyella zoohelcum
+Bibersteinia trehalosi
+Bifidobacterium adolescentis
+Bifidobacterium bifidum
+Bifidobacterium breve
+Bifidobacterium dentium
+ 
+Bifidobacterium longum
+Bifidobacterium spp
+Bordetella/Alcaligenes/Moraxella spp
+Bordetella avium
+Bordetella bronchiseptica
+Bordetella spp
+Brevundimonas diminuta/Oligella urethralis
+Brevundimonas diminuta
+Brevundimonas vesicularis
+Brevibacillus agri
+Brevibacillus borstelensis
+Brevibacillus brevis
+Brevibacillus centrosporus
+Brevibacillus choshinensis
+Brevibacillus laterosporus
+Brevibacillus non reactive
+Brevibacterium casei
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+11
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Brevibacterium epidermidis
+Brevibacterium spp
+Brochothrix thermosphacta
+Brucella spp
+Budvicia aquatica
+Burkholderia cepacia
+Burkholderia gladioli
+Burkholderia pseudomallei
+Buttiauxella agrestis
+Candida albicans
+Candida boidinii
+Candida catenulata
+ 
+Candida ciferrii
+Candida colliculosa
+Candida dattila
+Candida dubliniensis
+Candida famata
+Candida glabrata
+Candida globosa
+Candida guilliermondii
+Candida hellenica
+Candida holmii
+Candida inconspicua/norvegensis
+Candida inconspicua
+Candida intermedia
+Candida kefyr
+Candida krusei
+Candida krusei/inconspicua
+Candida lambica
+ 
+Candida lipolytica
+Candida lusitaniae
+Candida magnoliae
+Candida melibiosica
+Candida membranifaciens
+Candida norvegensis
+Candida norvegica
+Candida parapsilosis
+Candida pelliculosa
+Candida pulcherrima
+Candida rugosa
+Candida sake
+Candida silvicola
+Candida spherica
+Candida thermophila
+Candida tropicalis
+Candida utilis
+Candida valida
+Candida zeylanoides
+Campylobacter coli
+Campylobacter fetus ssp venerealis
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+12
+Campylobacter fetus ssp fetus
+Campylobacter hyointestinalis
+Campylobacter jejuni ssp doylei
+Campylobacter jejuni ssp jejuni
+Campylobacter lari
+Campylobacter lari UPTC
+Campylobacter mucosalis
+Campylobacter sputorum ssp bubulus
+Campylobacter sputorum bv Fecalis
+Campylobacter sputorum bv Sputorum
+Campylobacter upsaliensis
+Campylobacter ureolyticus
+Capnocytophaga gingivalis
+Capnocytophaga ochracea
+Capnocytophaga sputigena
+Capnocytophaga spp
+Carnobacterium divergens
+Carnobacterium maltaromaticum
+Cedecea davisae
+Cedecea lapagei
+Cedecea lapagei/neteri
+Cedecea neteri
+Cedecea spp
+Cellulomonas spp/Microbacterium spp
+Cellulomonas spp
+Cellulosimicrobium cellulans
+Chromobacterium violaceum
+Chryseobacterium indologenes
+Citrobacter amalonaticus/farmeri
+Citrobacter amalonaticus
+Citrobacter braakii
+Citrobacter farmeri
+Citrobacter freundii
+Citrobacter freundii group
+Citrobacter koseri/farmeri
+Citrobacter koseri
+Citrobacter koseri/amalonaticus
+Citrobacter sedlakii
+Citrobacter youngae
+Clostridium acetobutylicum
+Clostridium baratii
+Clostridium beijerinckii/butyricum
+Clostridium beijerinckii
+Clostridium bifermentans
+Clostridium botulinum
+Clostridium botulinum/sporogenes
+Clostridium butyricum
+Clostridium cadaveris
+Clostridium clostridioforme
+Clostridium difficile
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+13
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Clostridium fallax
+Clostridium glycolicum
+Clostridium histolyticum
+Clostridium innocuum
+Clostridium limosum
+Clostridium paraputrificum
+Clostridium perfringens
+Clostridium ramosum
+Clostridium septicum
+Clostridium sordellii
+Clostridium sporogenes
+Clostridium subterminale
+Clostridium tertium
+Clostridium tetani
+Clostridium tyrobutyricum
+Clostridium spp
+Collinsella aerofaciens
+Comamonas testosteroni/Pseudomonas 
+alcaligenes
+Comamonas testosteroni
+Comamonas spp
+Corynebacterium accolens
+Corynebacterium afermentans/coyleae
+Corynebacterium afermentans
+Corynebacterium amycolatum
+Corynebacterium argentoratense
+Corynebacterium auris
+Corynebacterium auris/Turicella otitidis
+Corynebacterium bovis
+Corynebacterium coyleae
+Corynebacterium cystitidis
+Corynebacterium diphtheriae biotype belfanti
+Corynebacterium diphtheriae biotype gravis
+Corynebacterium diphtheriae biotype intermedius
+Corynebacterium diphtheriae biotype mitis/
+belfanti
+Corynebacterium diphtheriae mitis
+Corynebacterium glucuronolyticum
+Corynebacterium group F-1
+Corynebacterium group G
+Corynebacterium jeikeium
+Corynebacterium kutscheri
+Corynebacterium macginleyi
+Corynebacterium minutissimum
+Corynebacterium pilosum
+Corynebacterium propinquum
+Corynebacterium pseudodiphtheriticum
+Corynebacterium pseudotuberculosis
+Corynebacterium renale
+Corynebacterium renale group
+Corynebacterium seminale (C.glucuronolyticum)
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+14
+Corynebacterium striatum/amycolatum
+Corynebacterium striatum
+Corynebacterium ulcerans
+Corynebacterium urealyticum
+Cronobacter dublinensis ssp dublinensis
+Cronobacter dublinensis ssp lactaridi
+Cronobacter dublinensis ssp lausannensis
+Cronobacter dublinensis
+Cronobacter muytjensii 
+Cronobacter malonaticus
+Cronobacter sakazakii 
+Cronobacter sakazakii group
+Cronobacter turicensis
+Cronobacter spp
+Cryptococcus albidus
+Cryptococcus curvatus
+Cryptococcus humicola
+Cryptococcus laurentii
+Cryptococcus neoformans
+Cryptococcus terreus
+Cryptococcus uniguttulatus
+Cupriavidus pauculus
+Delftia acidovorans
+Dermacoccus nishinomiyaensis
+Dermabacter hominis
+Dietzia spp
+Edwardsiella hoshinae
+Edwardsiella tarda
+Eggerthella lenta
+Eikenella corrodens
+Elizabethkingia meningoseptica
+Empedobacter brevis
+Enterobacter aerogenes
+Enterobacter amnigenus
+Enterobacter asburiae
+Enterobacter cancerogenus
+Enterobacter cloacae
+Enterobacter gergoviae
+Enterobacter spp/E.coli/Shigella sonnei
+Enterococcus avium
+Enterococcus casseliflavus
+Enterococcus cecorum
+Enterococcus durans
+Enterococcus faecalis
+Enterococcus faecium
+Enterococcus gallinarum
+Enterococcus hirae
+Enterococcus saccharolyticus
+Enterobacter spp
+Erwinia spp
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+15
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Erysipelothrix rhusiopathiae
+Escherichia coli
+Escherichia fergusonii
+Escherichia hermannii
+Escherichia vulneris
+Eubacterium limosum
+Ewingella americana
+Finegoldia magna
+Fusobacterium mortiferum
+Fusobacterium necrophorum/nucleatum
+Fusobacterium necrophorum ssp funduliforme
+Fusobacterium necrophorum ssp necrophorum
+Fusobacterium necrogenes
+Fusobacterium necrophorum
+Fusobacterium nucleatum
+Fusobacterium varium
+Gardnerella vaginalis
+ 
+ 
+ 
+Geotrichum candidum
+Geotrichum fermentans
+Geotrichum klebahnii
+Gardnerella vaginalis
+Gemella haemolysans
+Gemella morbillorum
+Geobacillus stearothermophilus
+Geobacillus thermoglucosidasius
+Geotrichum spp
+Globicatella sanguinis
+Gordonia spp
+Granulicatella adiacens
+Grimontia hollisae
+Haemophilus influenzae
+Haemophilus influenzae biotype I
+Haemophilus influenzae biotype II
+Haemophilus influenzae biotype III
+Haemophilus influenzae biotype IV
+Haemophilus influenzae biotype V
+Haemophilus influenzae biotype VI
+Haemophilus influenzae biotype VII
+Haemophilus influenzae biotype VIII
+Haemophilus parainfluenzae
+Haemophilus parainfluenzae biotype I
+Haemophilus parainfluenzae biotype II
+Haemophilus parainfluenzae biotype III
+Haemophilus parainfluenzae biotype IV
+Haemophilus parainfluenzae biotype VI
+Haemophilus parainfluenzae biotype VII
+Haemophilus parainfluenzae biotype VIII
+Hafnia alvei
+Helicobacter cinaedi
+Helicobacter fennelliae
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+16
+Helicobacter pylori
+Histophilus somni
+Klebsiella oxytoca
+Klebsiella pneumoniae ssp ozaenae
+Klebsiella pneumoniae ssp pneumoniae
+Klebsiella pneumoniae ssp rhinoscleromatis
+Kloeckera apis/apiculata
+Kloeckera apiculata
+Kloeckera apis 
+Kloeckera japonica
+Kloeckera spp
+Kluyvera ascorbata
+Kluyvera cryocrescens
+Kluyvera intermedia
+Kluyvera spp
+Kocuria varians/rosea
+Kocuria kristinae
+Kocuria rosea
+Kocuria varians
+Kodamaea ohmeri
+Kytococcus sedentarius
+Lachancea kluyverii
+Lactobacillus acidophilus/jensenii
+Lactobacillus acidophilus
+Lactobacillus brevis
+Lactobacillus buchneri
+Lactobacillus casei
+Lactobacillus collinoides
+Lactobacillus coprophilus (Wei.confusa)
+Lactobacillus crispatus
+Lactobacillus curvatus
+Lactobacillus delbrueckii ssp bulgaricus
+Lactobacillus delbrueckii ssp delbrueckii
+Lactobacillus delbrueckii ssp lactis
+Lactobacillus fermentum
+Lactobacillus fructivorans
+Lactobacillus helveticus
+Lactobacillus jensenii
+Lactobacillus lindneri
+Lactobacillus paracasei ssp paracasei
+Lactobacillus pentosus
+Lactobacillus plantarum
+Lactobacillus rhamnosus
+Lactobacillus salivarius
+Lactococcus garvieae
+Lactococcus lactis ssp cremoris
+Lactococcus lactis ssp hordniae
+Lactococcus lactis ssp lactis
+Lactococcus raffinolactis
+Leclercia adecarboxylata
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+17
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Leifsonia aquatica
+Leptotrichia buccalis
+Leuconostoc citreum
+Leuconostoc lactis
+Leuconostoc mesenteroides ssp dextranicum
+Leuconostoc mesenteroides ssp mesenteroides/
+dextranicum
+Leuconostoc mesenteroides ssp cremoris
+Leuconostoc mesenteroides ssp mesenteroides
+Leuconostoc spp
+Lindnera saturnus
+Listeria grayi
+Listeria innocua
+Listeria ivanovii
+Listeria monocytogenes/innocua
+Listeria monocytogenes
+Listeria seeligeri
+Listeria welshimeri
+Listeria spp
+Lysinibacillus fusiformis
+Lysinibacillus sphaericus
+Moraxella (Branhamella) catarrhalis
+Moraxella lacunata
+Moraxella nonliquefaciens
+Moraxella osloensis
+Mannheimia haemolytica/Bibersteinia trehalosi
+Mannheimia haemolytica
+Methylobacterium mesophilicum
+Micrococcus luteus
+Micrococcus lylae
+Microbacterium spp
+Micrococcus spp
+Millerozyma farinosa
+Mobiluncus curtisii
+Mobiluncus mulieris
+Mobiluncus spp
+Moellerella wisconsensis
+Moraxella spp
+Morganella morganii ssp morganii
+Morganella morganii ssp sibonii
+Morganella morganii
+Myroides spp/Chryseobacterium indologenes
+Myroides spp
+Neisseria animaloris/zoodegmatis
+Neisseria cinerea
+Neisseria gonorrhoeae
+Neisseria lactamica
+Neisseria meningitidis
+Neisseria mucosa
+Neisseria polysaccharea
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+18
+Neisseria sicca
+Neisseria subflava
+Neisseria spp
+Nocardia spp
+Non-fermenter spp
+Ochrobactrum anthropi
+Oerskovia turbata
+Oligella spp
+ 
+Oligella ureolytica
+Oligella urethralis
+ 
+Paenibacillus alvei
+Paenibacillus amylolyticus
+Paenibacillus glucanolyticus
+Paenibacillus lautus
+Paenibacillus macerans
+Paenibacillus pabuli
+Paenibacillus polymyxa
+Paenibacillus thiaminolyticus
+Paenibacillus validus
+Pantoea agglomerans
+Pantoea dispersa
+Pantoea spp
+Parabacteroides distasonis
+Parabacteroides merdae
+Parvimonas micra
+Pasteurella aerogenes
+Pasteurella multocida
+Pasteurella pneumotropica
+Pasteurella pneumotropica/Mannheimia haemo-
+lytica
+Pasteurella spp
+Pectobacterium atrosepticum
+Pectobacterium betavasculorum
+Pectobacterium carotovorum ssp carotovorum
+Pectobacterium carotovorum
+Pediococcus acidilactici
+Pediococcus damnosus
+Pediococcus pentosaceus
+Pediococcus spp
+Peptococcus niger
+Peptoniphilus asaccharolyticus
+Peptoniphilus indolicus
+Peptostreptococcus group
+Photobacterium damselae ssp damselae
+Photobacterium damselae ssp piscicida
+Photobacterium damselae
+Plesiomonas shigelloides
+Porphyromonas asaccharolytica
+Porphyromonas endodontalis
+Porphyromonas gingivalis
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+19
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Prevotella bivia
+Prevotella buccae
+Prevotella buccalis
+Prevotella denticola
+Prevotella disiens
+Prevotella intermedia/disiens
+Prevotella intermedia
+Prevotella loescheii
+Prevotella melaninogenica/oralis
+Prevotella melaninogenica
+Prevotella oralis
+Priceomyces carsonii
+Prototheca wickerhamii
+Propionibacterium acnes
+Propionibacterium avidum
+Propionibacterium granulosum
+Propionibacterium propionicum/avidum
+Propionibacterium propionicum
+Proteus mirabilis
+Proteus penneri
+Proteus vulgaris group
+Providencia alcalifaciens/rustigianii
+Providencia alcalifaciens
+Providencia rettgeri
+Providencia rustigianii
+Providencia stuartii
+Providencia stuartii/alcalifaciens
+Pseudomonas aeruginosa/fluorescens/putida
+Pseudomonas aeruginosa
+Pseudomonas alcaligenes
+Pseudomonas fluorescens/putida
+Pseudomonas fluorescens
+Pseudomonas luteola
+Pseudomonas mendocina
+Pseudomonas oleovorans
+Pseudomonas oryzihabitans
+Pseudomonas putida
+Pseudomonas stutzeri
+Pseudomonas spp
+Pseudomonas/Comamonas spp
+Pseudoflavonifractor capillosus
+Peptostreptococcus anaerobius
+Psychrobacter phenylpyruvicus
+Rahnella aquatilis
+Ralstonia pickettii
+Raoultella ornithinolytica
+Raoultella planticola
+Raoultella terrigena
+Raoultella spp
+ 
+Rhodotorula glutinis
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+20
+Rhodotorula minuta
+Rhodotorula mucilaginosa
+Rhodococcus equi
+Rhodococcus spp
+Rothia dentocariosa
+Rothia mucilaginosa
+Rhizobium radiobacter
+Shewanella putrefaciens group
+Saccharomyces cerevisiae
+Salmonella enterica ssp arizonae
+Salmonella enterica ssp enterica
+Salmonella ser. Enteritidis
+Salmonella ser.Gallinarum
+Salmonella ser.Paratyphi A
+Salmonella ser.Paratyphi B
+Salmonella ser.Pullorum
+Salmonella ser.Typhi
+Salmonella ser.Typhimurium
+Salmonella spp
+Saprochaete capitata
+Schwanniomyces etchellsii/Priceomyces carsonii
+Schwanniomyces etchellsii
+Schwanniomyces polymorphus
+Serratia ficaria
+Serratia fonticola
+Serratia grimesii
+Serratia liquefaciens
+Serratia liquefaciens/plymuthica
+ 
+Serratia marcescens
+Serratia odorifera
+Serratia plymuthica
+Serratia proteamaculans
+Serratia proteamaculans
+Serratia rubidaea
+Shigella boydii
+Shigella dysenteriae
+Shigella flexneri
+Shigella sonnei
+Shigella spp
+Sphingobacterium multivorum
+Sphingobacterium spiritivorum
+Sphingomonas paucimobilis
+Sporobolomyces salmonicolor
+Staphylococcus arlettae
+Staphylococcus aureus
+Staphylococcus auricularis
+Staphylococcus capitis
+Staphylococcus caprae
+Staphylococcus carnosus
+Staphylococcus chromogenes
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+21
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+Staphylococcus cohnii ssp cohnii
+Staphylococcus cohnii ssp urealyticus
+Staphylococcus epidermidis
+Staphylococcus equorum
+Staphylococcus gallinarum
+Staphylococcus haemolyticus
+Staphylococcus hominis
+Staphylococcus hyicus
+Staphylococcus intermedius
+Staphylococcus kloosii
+Staphylococcus lentus
+Staphylococcus lugdunensis
+Staphylococcus pseudintermedius
+Staphylococcus saccharolyticus
+Staphylococcus saprophyticus
+Staphylococcus schleiferi
+Staphylococcus sciuri
+Staphylococcus simulans
+Staphylococcus warneri
+Staphylococcus xylosus
+Stenotrophomonas maltophilia
+Streptococcus acidominimus
+Streptococcus agalactiae
+Streptococcus alactolyticus
+Streptococcus anginosus
+Streptococcus bovis
+Streptococcus canis
+Streptococcus constellatus ssp constellatus
+Streptococcus constellatus ssp pharyngis
+Streptococcus constellatus
+Streptococcus downei
+ 
+Streptococcus downei/sobrinus
+ 
+Streptococcus dysgalactiae ssp dysgalactiae
+ 
+Streptococcus dysgalactiae ssp equisimilis
+ 
+Streptococcus equi ssp equi
+ 
+Streptococcus equi ssp zooepidemicus
+ 
+Streptococcus equinus
+ 
+Streptococcus gallolyticus ssp gallolyticus
+ 
+Streptococcus gallolyticus ssp pasteurianus
+ 
+Streptococcus gordonii
+ 
+Streptococcus group L
+ 
+Streptococcus infantarius ssp coli (Str.lutetiensis)
+ 
+Streptococcus infantarius ssp infantarius
+ 
+Streptococcus intermedius
+Streptococcus mitis
+Streptococcus mutans
+Streptococcus oralis
+Streptococcus parasanguinis
+Streptococcus pluranimalium
+Streptococcus pneumoniae
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+
+* Для ID 32 GN: исключительно автоматическое считывание и интерпретация идентификации, APIWEB™ использовать нельзя.
+22
+Streptococcus porcinus
+Streptococcus pyogenes
+Streptococcus salivarius ssp salivarius
+Streptococcus salivarius ssp thermophilus
+Streptococcus sanguinis
+Streptococcus sobrinus
+Streptococcus suis I
+Streptococcus suis II
+Streptococcus uberis
+Streptococcus vestibularis
+Tatumella ptyseos
+Tetragenococcus halophilus
+Trichosporon asahii
+Trichosporon asteroides
+Trichosporon inkin
+Trichosporon mucoides
+Trichosporon ovoides
+Trichosporon spp
+Trueperella bernardiae
+Trueperella pyogenes
+Turicella otitidis
+Vibrio alginolyticus/parahaemolyticus
+Vibrio alginolyticus
+Vibrio cholerae
+Vibrio fluvialis
+Vibrio metschnikovii
+Vibrio mimicus
+Vibrio parahaemolyticus
+Vibrio vulnificus/cholerae
+Vibrio vulnificus
+Veillonella parvula
+Veillonella spp
+Virgibacillus pantothenticus
+Weeksella virosa
+Weeksella virosa/Bergeyella zoohelcum
+Weeksella virosa/Empedobacter brevis
+Weissella confusa
+Weissella viridescens
+Xanthomonas campestris
+Yersinia aldovae
+Yersinia enterocolitica
+Yersinia frederiksenii/intermedia
+Yersinia frederiksenii
+Yersinia intermedia
+Yersinia kristensenii
+Yersinia pestis
+Yersinia pseudotuberculosis
+Yersinia ruckeri
+Zygosaccharomyces spp
+API® 20 E
+API® 10 S
+Rapid 20 ETM
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Coryne
+API® Campy
+API® Listeria
+API® NH
+API® 50 CHE
+API® 50 CHL
+API® 50 CHB
+ID 32 E
+Rapid ID 32 E
+ID 32 GN*
+ID 32 Staph
+Rapid ID 32 Strep
+ID 32 C
+Rapid ID 32 A
+ Виды, представленные в базе данных
+ Виды, идентифицируемые с использованием 
+дополнительных тестов
+ Изменение таксона 
+ Новые виды 
+
+23
+НОМЕНКЛАТУРА 
+ДРОЖЖЕподобных 
+ГРИБОВ
+Название в базе данных
+Несовершенная стадия
+Совершенная стадия
+Другие наименования
+Candida albicans
+Candida albicans
+Candida boidinii
+Candida boidinii
+Candida catenulata
+Candida catenulata
+Candida ciferrii
+Candida ciferrii
+Trichomonascus ciferrii
+Stephanoascus ciferrii
+Candida colliculosa
+Candida colliculosa
+Torulaspora delbrueckii
+Candida dattila
+Candida dattila
+Lachancea thermotolerans
+Kluyveromyces thermotolerans
+Candida dubliniensis
+Candida dubliniensis
+Candida famata
+Candida famata
+Debaryomyces hansenii
+Candida glabrata
+Candida glabrata
+Candida globosa
+Candida globosa
+Citeromyces matritensis
+Candida guilliermondii
+Candida guilliermondii
+Meyerozyma guilliermondii
+Candida hellenica
+Candida hellenica
+Zygoascus meyerae
+Candida holmii
+Candida holmii
+Kazachstania exigua
+Saccharomyces exiguus
+Candida inconspicua
+Candida inconspicua
+Candida intermedia
+Candida intermedia
+Candida kefyr
+Candida kefyr
+Kluyveromyces marxianus
+Candida krusei
+Candida krusei
+Pichia kudriavzevii
+Candida lambica
+Candida lambica
+Pichia fermentans
+Candida lipolytica
+Candida lipolytica
+Yarrowia lipolytica
+Candida lusitaniae
+Candida lusitaniae
+Clavispora lusitaniae
+Candida magnoliae
+Candida magnoliae
+Candida melibiosica
+Candida melibiosica
+Candida membranifaciens
+Candida membranifaciens
+Candida norvegensis
+Candida norvegensis
+Pichia norvegensis
+Candida norvegica
+Candida norvegica
+Candida parapsilosis
+Candida parapsilosis
+Candida pelliculosa
+Candida pelliculosa
+Wickerhamomyces anomalus
+Candida pulcherrima
+Candida pulcherrima
+Metschnikowia pulcherrima
+Candida rugosa
+Candida rugosa
+Candida sake
+Candida sake
+
+24
+Название в базе данных
+Несовершенная стадия
+Совершенная стадия
+Другие наименования
+Candida silvicola
+Candida silvicola
+Nakazawaea holstii
+Candida spherica
+Candida spherica
+Kluyveromyces lactis var lactis
+Candida thermophila
+Candida thermophila
+Ogataea polymorpha
+Hansenula polymorpha,Pichia angusta
+Candida tropicalis
+Candida tropicalis
+Candida utilis
+Candida utilis
+Lindnera jadinii
+Candida valida
+Candida valida
+Pichia membranifaciens
+Candida zeylanoides
+Candida zeylanoides
+Cryptococcus albidus
+Cryptococcus albidus
+Cryptococcus curvatus
+Cryptococcus curvatus
+Cryptococcus humicola
+Cryptococcus humicola
+Cryptococcus laurentii
+Cryptococcus laurentii
+Cryptococcus neoformans
+Cryptococcus neoformans
+Filobasidiella neoformans
+Cryptococcus terreus
+Cryptococcus terreus
+Cryptococcus uniguttulatus
+Cryptococcus uniguttulatus
+Filobasidium uniguttulatus
+Geotrichum candidum
+Geotrichum candidum
+Galactomyces candidus
+Geotrichum fermentans
+Geotrichum fermentans
+Geotrichum klebahnii
+Geotrichum klebahnii
+Kloeckera apiculata
+Kloeckera apiculata
+Hanseniaspora uvarum
+Kloeckera apis
+Kloeckera apis
+Hanseniaspora guilliermondii
+Kloeckera japonica
+Kloeckera japonica
+Hanseniaspora valbyensis
+Kodamaea ohmeri
+Kodamaea ohmeri
+Lachancea kluyverii
+Lachancea kluyverii
+Saccharomyces kluyveri
+Lindnera saturnus
+Lindnera saturnus
+Millerozyma farinosa
+Millerozyma farinosa
+Priceomyces carsonii
+Priceomyces carsonii
+Pichia carsonii
+Prototheca wickerhamii
+Prototheca wickerhamii
+Rhodotorula glutinis
+Rhodotorula glutinis
+Rhodotorula minuta
+Rhodotorula minuta
+Rhodotorula mucilaginosa
+Rhodotorula mucilaginosa
+Saccharomyces cerevisiae
+Saccharomyces cerevisiae
+Saprochaete capitata
+Saprochaete capitata
+Magnusiomyces capitatus
+Schwanniomyces etchellsii
+Schwanniomyces etchellsii
+Pichia etchelsii
+Schwanniomyces polymorphus
+Schwanniomyces polymorphus
+Debaryomyces polymorphus
+Sporobolomyces salmonicolor Sporobolomyces salmonicolor Sporidiobolus salmonicolor
+Trichosporon asahii
+Trichosporon asahii
+Trichosporon asteroides
+Trichosporon asteroides
+Trichosporon inkin
+Trichosporon inkin
+Trichosporon mucoides
+Trichosporon mucoides
+Trichosporon ovoides
+Trichosporon ovoides
+
+25
+НОМЕРА ДОПОЛНИТЕЛЬНЫЕ 
+РЕАКТИВЫ
+70380
+Zn (2 x 10 г)
+X
+X
+X
+70402
+TDA (2 x 1 ампула)
+1/8
+1/4
+1/20
+70422
+VP 1
+ 
+(2 x 2 ампулы)
+VP 2
+1/8
+1/8
+1/8
+1/8
+1/20
+70442
+NIT 1
+ 
+(2 x 2 ампулы)
+NIT 2
+1/8
+1/4
+1/8
+1/8
+1/20
+1/20
+1/20
+70494
+ZYM A (2 x 1 ампула)
+1/8
+1/8
+1/20
+1/5
+70493
+ZYM B (2 x 1 ампула)
+1/8
+1/8
+1/20
+1/5
+70492
+PYZ (2 x 1 ампула)
+1/8
+70491
+NIN (2 ампулы)
+1/4
+1/4
+70510
+BCP (1 ампула)
+1/2
+70520
+EHR (1 ампула)
+1/2
+70530
+XYL (2 ампулы)
+1/8
+70542
+James (2 x 1 ампула)
+1/8
+1/8
+1/4
+1/8
+1/20
+70562
+FB (2 x 1 ампула)
+1/4
+СРЕДА ДЛЯ ИЗГОТОВ-
+ЛЕНИЯ СУСПЕНЗИИ
+20230
+Среда NaCl 0,85 % (5 л)
+X
+1/10
+20070
+Среда NaCl 0,85 % (2 мл)
+1/4
+1/4
+20150
+Среда для изготовле-
+ния суспензии (5 мл)
+1/4
+1/2
+1/4
+1/10
+70700
+Среда для изготовле-
+ния суспензии (2 мл)
+1/4
+1/4
+1/10
+1/10
+ДОПОЛНИТЕЛЬНЫЕ 
+ПРОДУКТЫ
+55635
+Реактив оксидазы
+X
+X
+X
+X
+X
+50110
+Среда API® OF
+X
+50120
+Среда API® M
+X
+70160**
+Тупферы
+X
+X
+X
+X
+X
+X
+X
+X
+70900
+Стандарт Макфарланда
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+50300-50430-20100 50300-50410
+20100
+20050
+20500
+20600
+20900
+10300
+10500
+20210
+20300
+20800
+10400
+25200
+20700
+10100
+* числа = рекомендованные количества дополнительных реактивов для каждого 
+заказываемого набора стрипов (например, TDA = 1/8 <=> 1/8 набора с номером 70402 
+(2 ампулы TDA) необходимо для использования с одним набором с номером 20100 
+(25 стрипов API 20 E). 
+X = необходимый дополнительный продукт 
+(a): для стрипа API 20 E используйте набор дополнительного реактива с номером 20120 
+(7 ампул).
+**без РУ
+РЕАКТИВЫ ДЛЯ ЗАКАЗА
+API® 20 E (a)
+API® 20 NE
+API® Staph
+API® 20 Strep
+API® Coryne
+API® Listeria
+API® Candida
+API® 20 C AUX
+API® 20 A
+API® Campy
+API® NH
+API® ZYM
+API® 50 CH
+API® 50 CH 
+API® 50 CHB/E
+API® 20 E (a)
+RapiD 20E
+API® 10 S
+50 CHL
+
+26
+НОМЕРА ДОПОЛНИТЕЛЬНЫЕ 
+РЕАКТИВЫ
+70572
+VP A
+ 
+(2 x 2 ампулы)
+VP B
+1/8
+1/8
+70442
+NIT 1
+NIT 2
+1/8
+1/8
+70491
+NIN
+1/8
+70542
+James
+1/8
+1/8
+1/8
+70562
+FB
+1/8
+1/8
+1/8
+32500
+32200
+32400
+32700
+32300
+32600
+ID 32 Staph
+ID 32 C
+ID 32 E
+Rapid ID 32 E
+Rapid ID 32 A
+Rapid ID 32 Strep
+РЕАКТИВЫ ДЛЯ ЗАКАЗА
+
+27
+Название
+Кат. №
+Микроорганизмы
+Раскапыватель – 3 мл; 
+ручной – 2 мл
+Макфар-
+ланд
+ПЕРЕНОСИ-
+МЫЙ 
+ОБЪЕМ
+СРЕДА
+Время 
+инкубации
+ТЕМПЕ-
+РАТУРА
+Атмосфера
+API® 20 E
+20100
+20160
+Энтеробактерии 
+и другие неприхотливые 
+грамотрицательные палочки
+Среда NaCl 0,85 % (5 мл) 
+или среда для изготовле-
+ния суспензии (5 мл)
+1 коло-
+ния
+Н/П
+Н/П
+18–24 ч./ 
+48 ч.
+37 °C
+Аэробная
+RapiD 20 E
+20701
+Энтеробактерии
+Среда NaCl 0,85 % (2 мл)
+0,5 McF
+Н/П
+Н/П
+4 ч.
+37 °C
+Аэробная
+API® 10 S
+10100
+Энтеробактерии и другие
+неприхотливые 
+грамотрицательные палочки
+Среда NaCl 0,85 % (5 мл) 
+или среда для изготовле-
+ния суспензии (5 мл)
+1 коло-
+ния
+Н/П
+Н/П
+18–24 ч.
+37 °C
+Аэробная
+API® 20 NE
+20050
+Неэнтеробактерии 
+и неприхотливые 
+грамотрицательные палочки
+Среда NaCl 0,85 % (2 мл)
+0,5 McF
+200 мкл
+API AUX
+24–48 ч.
+30 °C
+Аэробная
+API® Staph
+20500
+Роды Staphylococcus, Kocuria 
+и Micrococcus
+Среда API Staph
+0,5 McF
+Н/П
+Среда
+18–24 ч.
+37 °C
+Аэробная
+API® 20 Strep
+20600
+Стрептококки
+Среда для изготовления 
+суспензии (2 мл)
+4 McF
+500 мкл
+Н/П
+4–24 ч.
+37 °C
+Аэробная
+API® Coryne
+20900
+Бактерии коринеформные
+Среда для изготовления 
+суспензии (3 мл)
+> 6 McF
+500 мкл
+Среда
+24 ч.
+37 °C
+Аэробная
+API® Listeria
+10300
+Листерии
+Среда для изготовления 
+суспензии (2 мл)
+1 McF
+Н/П
+API GP
+24 ч.
+37 °C
+Аэробная
+API® Candida
+10500
+Грибы
+Среда NaCl 0,85 % (2 мл)
+3 McF
+Н/П
+Среда
+18–24 ч.
+37 °C
+Аэробная
+API® 20 C 
+AUX
+20210
+Грибы
+Среда NaCl 0,85 % (2 мл) 
+или среда для изготовле-
+ния суспензии (2 мл)
+2 McF
+100 мкл
+Н/П
+48–72 ч.
+30 °C
+Аэробная
+API® 20 A
+20300
+Анаэробы
+Среда API 20 A
+3 McF
+Н/П
+Н/П
+24 ч.
+37 °C
+АнАэробная
+API® Campy
+20800
+Кампилобактер
+Среда NaCl 0,85 % (3 мл)
+6 McF
+150 мкл
+API C
+24 ч.
+37 °C
+Аэробная/
+CO2
+API® NH
+10400
+Neisseria – Haemophilus 
+и Moraxella (Branhamella) 
+catarrhalis
+Среда NaCl 0,85 % (2 мл)
+4 McF
+Н/П
+Среда
+2 ч.
+37 °C
+Аэробная
+API® ZYM
+25200
+Полуколичественные тесты 
+ферментативной активности
+Среда NaCl 0,85 % (2 мл) 
+или среда для изготовле-
+ния суспензии (2 мл)
+5–6 McF
+Н/П
+Н/П
+4 ч.
+37 °C
+Аэробная
+API® 50 CH
+API® 50 
+CHB/E
+50300
+50430
+Бациллы
+Среда NaCl 0,85 % (5 мл)
++ среда API 50 CHB/E
+2 McF
+2 McF
+Н/П
+API AUX
+24–48 ч.
+3/6–24 ч.
+30 °C
+55 °C
+Аэробная
+API® 50 CH
+API® 50 
+CHB/E
+50300
+50430
+Enterobacteriaceae
+Среда NaCl 0,85 % (5 мл)
++ среда API 50 CHB/E
+0,5 McF
+0,5 McF
+Н/П
+Среда
+24–48 ч.
+37 °C
+Аэробная
+API® 50 CH
+API® 50 CHL
+50300
+50410
+Лактобактерии
+Среда API 50 CHL
+2 McF
+Н/П
+Н/П
+30/48 ч.
+30/ 
+37 °C
+Аэробная
+Краткая методика
+
+28
+Название
+Кат. №
+МИКРО-
+ОРГАНИЗМЫ
+Раскапыватель – 3 мл; 
+ручной – 2 мл
+Макфар-
+ланд
+ПЕРЕНОСИ-
+МЫЙ 
+ОБЪЕМ
+СРЕДА
+Объемы 
+раскапыва-
+ния
+Время 
+инкубации
+ТЕМПЕ-
+РАТУРА Атмосфера
+Rapid ID 32 E
+32700
+Энтеробактерии
+Среда NaCl 0,85 %
+0,5
+Н/П
+Н/П
+55 мкл x 32
+4 ч.
+37 °C 
+Аэробная
+Rapid ID 32 A
+32300
+Анаэробы
+Среда для изготовления 
+суспензии 
+4
+Н/П
+Н/П
+55 мкл x 32
+4 ч.
+37 °C 
+Аэробная
+Rapid ID 32 
+STREP
+32600
+Стрептококки
+Среда для изготовления 
+суспензии
+4
+Н/П
+Н/П
+55 мкл x 32
+4 ч.
+37 °C 
+Аэробная
+ID 32 E
+32400
+Энтеробактерии 
+НЕ энтеробактерии
+Среда NaCl 0,85 %
+0,5
+Н/П
+Н/П
+55 мкл x 32
+24 ч.
+37 °C 
+Аэробная +
+влажность
+ID 32 STAPH
+32500
+Стафилококки
+Среда для изготовления 
+суспензии
+0,5
+Н/П
+Н/П
+55 мкл x 32
+24 ч.
+37 °C 
+Аэробная +
+влажность
+ID 32 C
+32200
+Грибы
+Среда для изготовления 
+суспензии
+2
+250 мкл
+API C
+Среда
+135 мкл x 32
+24/ 48 ч.
+30 °C 
+Аэробная + 
+влажность
+Краткая методика
+
+29
+Источники
+1 • Elizabethkingia meningoseptica
+KIM (K.K.), KIM (M.K.), LIM (J.H.), PARK (H.Y.) and LEE (S.T.): Transfer of Chryseobacterium 
+meningosepticum and Chryseobacterium miricola to Elizabethkingia gen. nov. as 
+Elizabethkingia meningoseptica comb. nov. and Elizabethkingia miricola comb. nov. Int. J. 
+Syst. Evol. Microbiol., 2005, 55, 1287-1293.
+2 • Kluyvera intermedia
+PAVAN (M.E.), FRANCO (R.J.), RODRIGUEZ (J.M.), GADALETA (P.), ABBOTT (S.L.), JANDA 
+(J.M.) and ZORZÓPULOS (J.): Phylogenetic relationships of the genus Kluyvera: transfer of 
+Enterobacter intermedius Izard et al. 1980 to the genus Kluyvera as Kluyvera intermedia 
+comb. nov. and reclassification of Kluyvera cochleae as a later synonym ofK. intermedia. Int. 
+J. Syst. Evol. Microbiol., 2005, 55, 437-442.
+3 • Salmonella spp
+TINDALL (B.J.), GRIMONT (P.A.D.), GARRITY (G.M.) and EUZÉBY (J.P.): Nomenclature and 
+taxonomy of the genus Salmonella. Int. J. Syst. Evol. Microbiol., 2005, 55, 521-524.
+4 • Bibersteinia trehalosi
+BLACKALL (P.J.), BOJESEN (A.M.), CHRISTENSEN (H.) and BISGAARD (M.): Reclassification 
+of [Pasteurella] trehalosi as Bibersteinia trehalosi gen. nov., comb. nov. Int. J. Syst. Evol. 
+Microbiol., 2007, 57, 666-674.
+5 • Cronobacter spp
+IVERSEN (C.), MULLANE (N.), McCARDELL (B.), TALL (B.D.), LEHNER (A.), FANNING (S.), 
+STEPHAN (R.) and JOOSTEN (H.): Cronobacter gen. nov., a new genus to accommodate 
+the biogroups of Enterobacter sakazakii, and proposal of Cronobacter sakazakii gen. nov., 
+comb. nov., Cronobacter malonaticus sp. nov., Cronobacter turicensis sp. nov., Cronobacter 
+muytjensii sp. nov., Cronobacter dublinensis sp. nov., Cronobacter genomospecies 1, and 
+of three subspecies, Cronobacter dublinensis subsp. dublinensis subsp. nov., Cronobacter 
+dublinensis subsp. lausannensis subsp. nov. and Cronobacter dublinensis subsp. lactaridi 
+subsp. nov. Int. J. Syst. Evol. Microbiol., 2008, 58, 1442-1447.
+6 • Streptococcus salivarius ssp salivarius
+HOWEY (R.T.), LOCK (C.M.) and MOORE (L.V.H.): Subspecies names automatically created 
+by Rule 46. Int. J. Syst. Bacteriol., 1990, 40, 317-319.
+7 • Streptococcus salivarius ssp thermophilus
+VALIDATION LIST N° 54. Int. J. Syst. Bacteriol., 1995, 45, 619-620. [SCHLEIFER (K.H.), 
+EHRMANN (M.), KRUSCH (U.) and NEVE (H.): Revival of the species Streptococcus 
+thermophilus (ex Orla-Jensen, 1919) nom. rev. Syst. Appl. Microbiol., 1991, 14, 386-388.]
+Note: The Validation List N° 54 [1] encompasses the following citation: «Name: 
+Streptococcus thermophilus (basonym: Streptococcus salivarius subsp. thermophilus) - 
+Proposed as: Revived name - Authors: Schleifer et al. 1991 [2] - Nomenclatural type: ATCC 
+19258 (= NCDO 573)». However, Streptococcus thermophilus cannot be a revived name 
+because it appeared in the Approved Lists (1980). Obviously, Streptococcus thermophilus 
+nom. rev. (sic) is erroneously cited in the Validation List N° 54.
+8 • Streptococcus bovis
+Streptococcus gallolyticus ssp gallolyticus Streptococcus gallolyticus ssp pasteurianus 
+Streptococcus infantarius ssp coli Streptococcus infantarius ssp infantarius
+SCHLEGEL (L.), GRIMONT (F.), COLLINS (M.D.), RÉGNAULT (B.), GRIMONT (P.A.D.) and 
+BOUVET (A.): Streptococcus infantarius sp. nov., Streptococcus infantarius subsp. infantarius 
+subsp. nov. and Streptococcus infantarius subsp. coli subsp. nov., isolated from humans 
+and food. Int. J. Syst. Evol. Microbiol., 2000, 50, 1425-1434. ASSOCIATE EDITOR, IJSB: 
+Notification that new names and new combinations have appeared in volume 50, part 4, of 
+the IJSEM. Int. J. Syst. Evol. Microbiol., 2000, 50, 1701-1702.
+POYART (C.), QUESNE (G.) and TRIEU-CUOT (P.): Taxonomic dissection of the 
+Streptococcus bovis group by analysis of manganese-dependent superoxide dismutase gene 
+(sodA) sequences: reclassification of ‘Streptococcus infantarius subsp. coli’ as Streptococcus 
+lutetiensis sp. nov. and of Streptococcus bovis biotype II.2 as Streptococcus pasteurianus sp. 
+nov. Int. J. Syst. Evol. Microbiol., 2002, 52, 1247-1255.
+SCHLEGEL (L.), GRIMONT (F.), AGERON (E.), GRIMONT (P.A.D.) and BOUVET (A.): 
+Reappraisal of the taxonomy of the Streptococcus bovis/Streptococcus equinus complex and 
+related species: description of Streptococcus gallolyticus subsp. gallolyticus subsp. nov., S. 
+gallolyticus subsp. macedonicus subsp. nov. and S. gallolyticus subsp. pasteurianus subsp. 
+nov. Int. J. Syst. Evol. Microbiol., 2003, 53, 631-645.
+9 • Freydiere AM. 
+Yeast identification in the clinical microbiology laboratory: phenotypical methods. Medical 
+Mycology, 2001, Vol39, (1), p9-33
+10 • Budak A.
+Epidemiology of Candida infection. II. Application of biochemical methods for typing of 
+Candida albicans strains. Arch Immunol Ther Exp (Warsz).1990, Vol 38, (5-6), p369-77
+11 • C.P.Kurtzman
+The Yeast , a taxonomic study. 5ème Edition
+12 • Saprochaete capitata: Book : The Yeasts, Fifth Edition: A Taxonomic Study by C.P. 
+Kurtzman, J.W. Fell
+13 • Parabacteroides distasonis
+SAKAMOTO (M): Reclassification of Bacteroides distasonis, Bacteroides goldsteinii and 
+Bacteroides merdae as Parabacteroides distasonis gen. nov., comb. Nov., Parabacteroides 
+goldsteinii comb. Nov. and Parabacteroides merdae comb; nov. – International Journal of 
+Systematic and Evolutionary Microbiology, 2006,56,1599-1605
+14 • Campylobacter ureolyticus
+VANDAMME (P): Reclassification of Bacteroides ureolyticus as Campylobacter ureolyticus 
+comb. nov., and emended description of the genus Campylobacter – International Journal 
+of Systematic and Evolutionary Microbiology, 2010,60,2016-2022
+15 • Parvimonas micra
+TINDALL (B.J.) and EUZÉBY (J.P.): Proposal of Parvimonas gen. nov. and Quatrionicoccus 
+gen. nov. as replacements for the illegitimate, prokaryotic, generic names Micromonas 
+Murdoch and Shah 2000 and Quadricoccus Maszenan et al. 2002, respectively. Int. J. Syst. 
+Evol. Microbiol., 2006, 56, 2711-2713.
+16 • Propionibacterium propionicum
+MOORE (W.E.C.) and MOORE (L.V.H.): Index of the bacterial and yeast nomenclatural 
+changes published in the International Journal of Systematic Bacteriology since the 1980 
+Approved Lists of bacterial names (1 January 1980 to 1 January 1992). American Society for 
+Microbiology, Washington, D.C., 1992.
+
+30
+17 • Capnocytophaga species: 
+FRANDSEN (EVG): Diversity of Capnocytophaga species
+in children and description of Capnocytophaga leadbetteri sp. Nov. and Capnocytophaga 
+genospecies AHN8471 – International Journal of Systematic and Evolutionary Microbiology, 
+2008,58,324-336. GILLIGAN (PH): Capnocytophaga ochracea Septicemia - Journal 
+of Clinical Microbiology, 1981,13,4,643-645.WINN (RE): Septic arthritis involving 
+Capnocytophaga ochracea - Journal of Clinical Microbiology, 1984,19,4,538-540. HAWKEY 
+(PM): Capnocytophaga ochracea infection: two cases and a review of the published work 
+- Journal Clin Pathol, 1984,37,1066-1070. TANNER (ACR): API® ZYM and API® an-ident 
+reactions of fastidious oral gram-negative species - Journal of Clinical Microbiology, 
+1985,22,3,333-335. RUMMENS (JL): Isolation of Capnocytophaga species with a new 
+selective medium- Journal of Clinical Microbiology, 1985,22,3,375-378. BUU-HOI (AY): 
+Endocarditis caused by Capnocytophaga ochracea - Journal of Clinical Microbiology, 
+1988,26,5,1061-1062. YAMAMOTO (T): Capnocytophaga haemolytic asp. Nov. and 
+Capnocytophaga granulosa sp. Nov., from human dental plaque – International Journal of 
+Systematic Bacteriology, 1994,44,2,324-329.
+18 • YASSIN (A.F.), HUPFER (H.), SIERING (C.) and SCHUMANN (P.): 
+Comparative chemotaxonomic and phylogenetic studies on the genus Arcanobacterium Collins 
+et al. 1982 emend. Lehnen et al. 2006: proposal for Trueperella gen. nov. and emended 
+description of the genus Arcanobacterium. Int. J. Syst. Evol. Microbiol., 2011, 61, 1265-1274.
+19 • Campylobacter sputorum
+ON (S.L.W.), ATABAY (H.I.), CORRY (J.E.L.), HARRINGTON (C.S.) and VANDAMME (P.):
+Emended description of Campylobacter sputorum and revision of its infrasubspecific 
+(biovar) divisions, including C. sputorum biovar paraureolyticus, a urease-producing variant 
+from cattle and humans. Int. J. Syst. Bacteriol., 1998, 48, 195-206. VANDAMME (P.) and ON 
+(S.L.W.): Recommendations of the Subcommittee on the taxonomy of Campylobacter and 
+related bacteria. Int. J. Syst. Evol. Microbiol. 2001, 51, 719-721.
+20 • Avibacterium paragallinarum
+BLACKALL (PJ): Reclassification of Pasteurella gallinarum, [Haemophilus] paragallinarum, 
+Pasteurella avium and Pasteurella volantium as Avibacterium gallinarum gen. nov., comb. 
+nov., Avibacterium paragallinarum comb. nov., Avibacterium avium comb. nov. and 
+Avibacterium volantium comb. nov.– International Journal of Systematic and Evolutionary 
+Microbiology, 2005,55,353-62
+21 • Aggregatibacter actinomycetemcomitans, Aggregatibacter aphrophilus
+NORSKOV-LAURITSEN (N): Reclassification of Actinobacillus actinomycetemcomitans, 
+Haemophilus aphrophilus, Haemophilus paraphrophilus and Haemophilus segnis 
+as Aggregatibacter actinomycetemcomitans gen. nov., comb. nov., Aggregatibacter 
+aphrophilus comb. nov. and Aggregatibacter segnis comb. nov., and emended description of 
+Aggregatibacter aphrophilus to include V factor-dependent and V factor-independent isolates 
+- International Journal of Systematic and Evolutionary Microbiology, 2006,56,2135-46.
+22 • Lysinibacillus fusiformis and Lysinibacillus sphaericus
+AHMED (I), YOKOTA (A) : Proposal of Lysinibacillus boronitolerans gen. nov. sp. nov., and 
+transfer of Bacillus fusiformis to Lysinibacillus fusiformis comb. nov. and Bacillus sphaericus 
+to Lysinibacillus sphaericus comb. nov. Int J Syst Evol Microbiol. 2007 May;57(Pt 5):1117-25.
+23 • Streptococcus salivarius
+FARROW (JA), COLLINS (MD) : DNA base composition, DNA-DNA homology and long-
+chain fatty acid studies on streptococcus thermophilus and Streptococcus salivarius. J Gen 
+Microbiol. 1984 Feb;130(2):357-62.
+24 • Lactobacillus curvatus
+TORRIANI (S), VAN REENEN (CA), KLEIN (G) : Lactobacillus curvatus subsp. curvatus subsp. 
+nov. and Lactobacillus curvatus subsp. melibiosus subsp. nov. and Lactobacillus sake subsp. 
+sake subsp. nov. and Lactobacillus sake subsp. carnosus subsp. nov., New Subspecies 
+of Lactobacillus curvatus Abo-Elnaga and Kandler 1965 and Lactobacillus sake Katagiri, 
+Kitahara, and Fukami 1934 (Klein et al. 1996, Emended Descriptions), Respectively. Int. J. 
+Syst. Evol. Microbiol. , 1996, 46, 4, 1158-1163
+25 • Pectobacterium species :
+GARDAN (L) : Elevation of three subspecies of Pectobacterium carotovorum to species 
+level: Pectobacterium atrosepticum sp. nov., Pectobacterium betavasculorum sp. nov. and 
+Pectobacterium wasabiae sp. nov..- International Journal of Systematic and Evolutionary 
+Microbiology, 2003, 53, p381-39.
+26 • SPROER (C) :
+The phylogenetic position of Serratia, Buttiauxella and some other genera of the family 
+Enterobacteriaceae - International Journal of Systematic Bacteriology, 1999, 49, p1433-1438 
+HAUBEN (L) : Phylogenetic position of Phytopathogens within the Enterobacteriaceae 
+System. Appl. Microbiol., 1998, 21, p384-397 MERGAERT (J) : Reclassification of non-
+pigmented Erwinia herbicola strains from trees as Erwinia billingiae sp. nov. - International 
+Journal of Systematic Bacteriology, 1999, 49, p377- 383
+27 • Staphylococcus pseudintermedius :
+VAN HOOVELS (L): The first case of Staphylococcus pseudintermedius in humans 
+isolated from an ICD lead – ESCMID, Nice, 2006,P1698 DEVRIESE (LA): Staphylococcus 
+pseudintermedius sp. Nov., a coagulase-positive species from animals – IJSEM, 
+2005,55,1569-1573. SASAKI (T): Reclassification of phenotypically identified Staphylococcus 
+intermedius strains – JCM, 2007,45,2770-2778. HAJEK (V): Staphylococcus intermedius, a 
+new species isolated from animals – IJSB, 1976,26,401-408
+28 • Prototheca wickerhamii :
+PADHYE (A): Rapid identification of Prototheca species by API® 20C - Journal of Clinical 
+Microbiology, 1979,10,4,579-582.
+McMULLAN (B): Prototheca wicherhamii mimicking yeast: a cautionary tale - Journal of 
+Clinical Microbiology, 2011,49,8,3078-3081.
+29 • Parabacteroides distasonis et Parabacteroides merdae
+SAKAMOTO (M): Reclassification of Bacteroides distasonis, Bacteroides goldsteinii and 
+Bacteroides merdae as Parabacteroides distasonis gen. nov., comb. Nov., Parabacteroides 
+goldsteinii comb. Nov. and Parabacteroides merdae comb; nov. - International Journal of 
+Systematic and Evolutionary Microbiology, 2006,56,1599-1605
+30 • Propionibacterium propionicum
+MOORE (W.E.C.) and MOORE (L.V.H.): Index of the bacterial and yeast nomenclatural 
+changes published in the International Journal of Systematic Bacteriology since the 1980 
+Approved Lists of bacterial names (1 January 1980 to 1 January 1992). American Society for 
+Microbiology, Washington, D.C., 1992
+31 • Pseudoflavonifractor capillosus
+CARLIER (J.P.), BEDORA-FAURE (M.), K’OUAS (G.), ALAUZET (C.) and MORY (F.): Proposal 
+to unify Clostridium orbiscindens Winter et al. 1991 and Eubacterium plautii (Seguin 1928) 
+Hofstad and Aasjord 1982, with description of Flavonifractor plautii gen. nov., comb. nov., 
+and reassignment of Bacteroides capillosus to Pseudoflavonifractor capillosus gen. nov., 
+comb. nov. Int. J. Syst. Evol. Microbiol., 2010, 60, 585-590.
+32 • LENNETTE E.H., BALOWS A., HAUSLER (JR) W. J., SHADOMY H.J.
+Manual of Clinical Microbiology Fifth Edition (1991) Amer. Soc. Microbiol., Washington, D. C.
+2. BARNETT J.H., PAYNE R. W., YARROW D. Yeasts: Characteristics and Identification (First 
+edition 1983 , Second 1990 , Third 2000) Cambridge University Press – London
+33 • BARRETT T. J., PATTON C.M., MORRIS G.K
+Differentiation of Campylobacter species Using Phenotypic Characterization (1988) 
+Laboratory Medicine, 19, 96-102
+34 • BOUVET P.J.M., GRIMONT P.A.D. 
+Taxonomy of the Genus Acinetobacter with the Recognition of Acinetobacter baumannii 
+sp. Nov., Acinetobacter haemophilus sp. Nov., Acinetobacter johnsonii sp.nov., and 
+Acinetobacter junii sp. Nov. And Amended Descriptions of Acinetobacter calcoaceticus and 
+Acinetobacter lwoffi (1986) Int. J. Syst. Bacteriol., 36, 228-240
+35 • FARMER J.J. III, DAVIS B.R., HICKMAN-BRENNER F.W., McWHORTER A., 
+HUNTLEY- CARTER G.P., ASBURY M.A., WATHEN-GRADY H.G., ELIAS C., FANNING G.R., 
+STEIGERWALT A.G., O’HARA C.M., MORRIS G.K., SMITH P.B., DON BRENNER J. 
+
+31
+Biochemical Identification of New Species and Biogroups of Enterobacteriaceae Isolated 
+from Clinical Specimens (1985) J. Clin. Microbiol., 21, 46-76
+36 • GILARDI G.L.
+Identification of Glucose Nonfermenting Gram Negative Rods (1989) - Document Interne 
+7.HOLDEMAN L.V., CATO E.P., MODRE W.E.C. Anaerobe Laboratory Manual 4th Edition 
+(1977) Virginia Polytechnic Institute and State University - Virginia – USA
+37 • HOLLIS D.G., WEAVER R.E.
+Gram Positive organisms: a guide to identification Atlanta Special Bacteriology 
+Section(1984) Center for Disease Control
+38 • HOLMES B., PINNING C.A., DAWSON C.A.
+A Probability Matrix for the Identification of Gram-negative, Aerobic, Non-fermentative 
+Bacteria that Grow on Nutrient agar (1986) J. Gen. Microbiol., 132, 1827-1842
+39 • HOLMES B., PINNING C.A., DAWSON C.A.
+A Revised Probability Matrix for the Identification of Gram-negative, Aerobic Rod-shaped, 
+Fermentative Bacterial (1986) J. Gen. Microbiol., 132, 3113-3135
+40 • KILIAN M., MIKKELSEN L., HENRICHSEN J.
+Taxonomic Study of Viridans Streptococci: Description of Streptococcus gordonii sp. 
+Nov. and Emended Descriptions of Streptococcus sanguis (White and Niven (1946)), 
+Streptococcus oralis (Bridge and Sneath1982), and Streptococcus mitis (Andrews and 
+Horder 1906).(1986) Int. J. Bacteriol., 39, 471-484
+41 • KRIEG N.R., HOLT J.G.
+Bergey’s Manual of Systematic Bacteriology Ninth Edition - Volume 1 (1984) Williams & 
+Wilkins Co., Baltimore, Md
+42 • MEGRAUD F., CHEVRIER D., DESPLACES N., SEDALLIAN A., GUESDON J.L. 
+Urease-Positive Thermophilic Campylobacter Isolated from an Appendix and from Human 
+Feces. (1988) J. Clin. Microbiol., 26, 1050-1051
+43 • MOORE L.V.H., MOORE W.E.C.
+Anaerobe Lab Manual Update (1991) Virginia Polytechnic Institute and State University. 
+Blacksburg, Virginia, USA
+44 • PELOUX Y,CANIAUX I.
+Identification des corynebacteries et germes apparentés. Apport d’une nouvelle galerie 
+d’identification : API® Coryne (1990) Feuillets de Biologie, XXXI, 27-34
+45 • RICHARD C.
+Nouvelles Espèces de Enterobacteriaceae (1984) Bull. Institut Pasteur, 82, 255-277
+46 • SCHLEIFER K.H., KRAUS J., DVORAK C., KILPER-BAELTZ R., COLLINS M.D. 
+Transfer of Streptococcus lactis and Related Streptococci to the Genus Lactococcus gen. 
+Nov. (1985) System. Appl. Microbiol., 6, 183-195
+47 • SKINNER F.A., QUESNEL L.B.
+Streptococci (1978) Soc. Appl. Bacteriol. Symposium Série N° 7 - Academic Press
+48 • SNEATH P.H.A., MAIR N.S., SHARPE M.E., HOLT J.G.
+Bergey’s Manual of Systematic Bacteriology Ninth Edition - Volume 2 (1986) Williams & 
+Wilkins Co., Baltimore, Md
+49 • STEELE T. W., OWEN R.J.
+Campylobacter jejuni subsp. doylei subsp. nov., a Subspecies of Nitrate-Negative 
+Campylobacters Isolated from Human Clinical Specimens (1988) Int. J. Syst. Bacteriol., 38, 
+316-318
+50 • KREGER VAN RIJ N. J. W.
+«The Yeasts - A Taxonomic Study.» Livre Ed. ELSEVIER (1984)
+51 • COYLE M.B., NOWOWIEJSKI D.J., RUSSEL J.Q., GROMAN N.B.
+«Laboratory review of reference strains of Corynebacterium diphtheriae indicates mistyped 
+intermedius strains.» (1993) J. Clin. Microbiol. 31, 11, 3060-3062.
+52 • FUNKE G, LAWSON P.A, COLLINS M.D.
+«Heterogeneity within human-derived centers for disease control and prevention (CDC) 
+Coryneform group ANF- 1 - like bacteria and description of Corynebacterium auris sp. nov.» 
+(1981) Int. J. Syst. Bact. 45, 4, 735-739.
+53 • RIEGEL P., RUIMY R., DE BRIEL D., PREVOST G., JEHL F., CHRISTEN R., MONTEIL H.
+«Corynebacterium seminale sp. nov., a new species of Coryneform organism associated 
+with genital infection in male patients.» (1995) J. Clin. Microbiol. 33, 2244-2249.
+54 • RIEGEL P., DE BRIEL D., PREVOST G., JEHL F., MONTEIL H., MINCK R. 
+«Taxonomic Study of Corynebacterium group ANF-1 strains : Proposal of Corynebacterium 
+afermentans sp. nov. containing the Subspecies Corynebacterium afermentans subsp. 
+afermentans subsp. nov. and Corynebacterium afermentans subsp. nov. lipophilum subsp. 
+nov.» (1993) Int. J. Syst. Bact. Vol.43, N°2, 287-292.
+55 • RIEGEL P., DE BRIEL D., PREVOST G., JEHL F., MONTIEL H.
+Proposal of Corynebacterium propinquum sp. nov. for Corynebacterium group ANF-3 
+strains. (1993) FEMS Microbiology Letters Vol. 113
+56 • MURRAY P.R., BARON E.J., PFALLER M.A., TENOVER F.C., YOLKEN R.H. 
+Manual of clinical microbiology. (Sixth edition 1995 , 7th 1999 , 8th 2003 Livre ED. ASM 
+PRESS.)
+57 • RENAUD F.N.R.,DUTAUR M., DAOUD S., AUBEL D.,RIEGEL P., MONGET D., FRENEY J.
+Differentiation Of Corynebacterium amycolatum, C.minutissimum , and C.striatum by 
+carbon assimilation tests. (1998) J.Clin.Microbiol., 36, 3698-370<Bibliographie>2.
+58 • FUNKE G., VON GRAEVENITZ A., CLARRIDGE J.E., BERNARD K.A. 
+Clinical microbiology of Coryneform bacteria. (1997) Clinical microbiology reviews Vol10, 
+1, 125-159.
+59 • DAOUD S.E.
+«Apport des tests auxanotrophiques dans l’identification de quatre espèces de 
+Corynebacteries.» (1996) Diplome d’etudes approfondies de Génie Biologique et Médical.
+60 • R. A. WHILEY, H. Y. FRASER, C. W. I. DOUGLAS, J. M. HARDIE, A. M. WILLIAMS, 
+and M. D. COLLINS
+Streptococcus parasanguis sp. nov., an atypical viridans Streptococcus from human clinical 
+specimens. FEMS Microbiology Letters 68 (1990) p. 115-121
+61 • SHINJO (T.), FUJISAWA (T.) and MITSUOKA (T.)
+Proposal of two subspecies of Fusobacterium necrophorum (Flügge) Moore and 
+Holdeman: Fusobacterium necrophorum subsp. necrophorum subsp. nov., nom. rev. (ex 
+Flügge 1886), and Fusobacterium necrophorum subsp. funduliforme subsp. nov., nom. rev. 
+(ex Hallé 1898). Int. J. Syst. Bacteriol., 1991, 41, 395-397
+62 • SCHLEGEL (L.), GRIMONT (F.), AGERON (E.), GRIMONT (P.A.D.) and BOUVET (A.)
+Reappraisal of the taxonomy of the Streptococcus bovis/Streptococcus equinus complex and 
+related species: description of Streptococcus gallolyticus subsp. gallolyticus subsp. nov., S. 
+gallolyticus subsp. macedonicus subsp. nov. and S. gallolyticus subsp. pasteurianus subsp. 
+nov. Int. J. Syst. Evol. Microbiol., 2003, 53, 631-645.
+63 • POYART (C.), QUESNE (G.) and TRIEU-CUOT (P.)
+Taxonomic dissection of the Streptococcus bovis groupby analysis of manganese-
+dependent superoxide dismutase gene (sodA) sequences: reclassification 
+of’Streptococcus infantarius subsp. coli’ as Streptococcus lutetiensis sp. nov. and of 
+Streptococcus bovis biotype II.2 as Streptococcus pasteurianus sp. nov. Int. J. Syst. Evol. 
+Microbiol., 2002, 52, 1247-1255.
+64 • AGUIRRE (M.) and COLLINS (M.D.)
+Phylogenetic analysis of some Aerococcus-like organisms for urinary tract infections: 
+description of Aerococcus urinae sp. nov. J. Gen. Microbiol., 1992, 138, 401-405.
+65 • COLLINS M.D., AGUIRRE M., FACKLAM R.R., SHALLCROSS J. and WILLIAMS A.M. 
+Globicatella sanguis gen. nov., sp. nov., a new gram-positive catalase-negative bacterium 
+from human sources. J. Appl. Bacteriol. 1992, 73, 433-437.]
+66 • GAUTHIER G., LAFAY B., RUIMY R., BREITTMAYER V., NICOLAS J.L., GAUTHIER M. 
+and CHRISTEN R. 
+Small-subunit rRNA sequences and whole DNA relatedness concur for the reassignment 
+of Pasteurella piscicida(Snieszko et al.) Janssen and Surgalla to the genus Photobacterium 
+as Photobacterium damsela subsp.piscicida comb. Nov Int. J. Syst. Bacteriol., Jan 1995; 45: 
+139-144
+
+Local-25092023 Документ и/или изображения не имеют юридической силы. bioMérieux оставляет за собой право изменять технические характеристики своей продукции без предварительного 
+уведомления / используются BIOMÉRIEUX, логотип BIOMÉRIEUX, PIONEERING DIAGNOSTICS, API® и APIWEB™, ожидающие рассмотрения и/или зарегистрированные товарные знаки, 
+принадлежащие компании bioMérieux, одной из ее дочерних компаний или одной из ее компаний / любое другое название или товарный знак является собственностью соответствующего 
+владельца. РУ № ФСЗ 2011/10309 от 17.06.2021, № ФСЗ 2011/10307 от 02.08.2011- bioMérieux S.A. 673 620 399 RCS Lyon / Отпечатано в РФ / ООО «Издательство «Триада», ИНН 6905077762, 
+КПП 695001001, 170034, г. Тверь, пр. Чайковского, дом № 9, офис 514, тел.: +7-915-730-10-37, +7-910-647-49-85.
+ООО «биоМерье Рус»
+117418, г. Москва, Нахимовский проспект, д. 51 • Тел. +7 (495) 221 10 79 • E-mail: info.russia@biomerieux.com
+www.biomerieux.com

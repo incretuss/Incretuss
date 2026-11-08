@@ -1,0 +1,292 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/13041/FineTest_Recombinant_Protein-Cytokines.pdf
+
+Cytokines
+Recombinant Proteins
+
+Conc.
+(pg/ml)
+R company
+7.8125
+0.079
+0.090
+31.25
+0.532
+0.624
+1.377
+1.555
+2.853
+2.961
+125
+500
+15.625
+0.308
+0.379
+0.858
+0.960
+2.071
+2.297
+3.383
+3.322
+62.5
+250
+1000
+FineTest®
+OD (450nm)
+High Purity：Over 95% by SDS-PAGE
+Carrier free, animal free
+Low endotoxin: Less than 1EU/μg，LAL
+Good activity：Catalytic activity, cell proliferation
+Tag choice：His/Fc/tag-free protein
+Multiple species：Human/Mouse/Rat/Monkey/Dog/Pig
+The protein expressed by HEK293 and CHO mammalian 
+cell expression system has higher activity.
+ELISA test comparison between P2750 FineTest 
+recombinant CD147 and 972-EMN R company
+recombinant-CD147.The result shows FineTest 
+protein is at the same level as R company.
+ Cytokines play an important role in signal transduction between cells. Intercellular substances are synthesized and 
+secreted by stimulation. They regulate cell growth, differentiation and immune response to participate in cell activity 
+via binding with relevant receptors. Cytokines contain interleukins, inflammatory factors, matrix metalloproteinases, 
+growth factors, chemokines, colony-stimulating factors, interferons, tumor necrosis factors etc.
+E.coli expression system has stably expressed more than 6,500 kinds of proteins with high purity and good activity, which 
+can meet most experiments.
+Eukaryotic Expression System
+Prokaryotic Expression System
+®
+ ®
+Activity: Measured in a cell proliferation assay using NR6R-3T3 
+mouse fibroblast cells.The ED50 for this effect is 60-230 ng/mL 
+in a fluorometric assay.
+P3449
+Recombinant Mouse IL-27
+Activity: Measured in an anti-viral assay using HepG2 human 
+hepatocellular carcinoma cells infected with encephalomyocarditis 
+(EMC) virus. The ED50 for this effect is 0.6-8 ng/mL.
+Recombinant Human PDGF-AA(ng/mL)
+0
+1000
+10
+-1
+10
+0
+10
+1
+10
+2
+10
+3
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+Mean RFU
+Recombinant Mouse IL-27(ng/mL)
+0
+500
+10
+-3
+10
+-2
+10
+-1
+10
+1
+10
+0
+10
+2
+10
+3
+1000
+1500
+2000
+2500
+3000
+Mean RFU
+P8189
+Recombinant Human pdgf-A
+Validation of protein activity
+
+ E.coli expression system is the widely used and cost-effective protein expression system. E.coli is featured 
+with clear genetic background, rapid cell proliferation, simple culture, high expression level, strong anti-pollution etc.
+Prokaryotic protein expression system is more suitable for expressing protein with low molecular weight and less 
+modification. FineTest provides one-stop services to satisfy customers’ different requirements, covering codon 
+optimization, gene synthesis, expression and purification, removal of endotoxin.
+Custom Protein Services
+P9766
+P8404
+P9592
+P4856
+P9499
+P8665
+P9611
+P8240
+P9733
+P9778
+P9788
+P9707
+P9992
+P4949 
+P9613
+P9627
+P9270
+10ug/50ug
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50ug
+10μg/50μg
+10μg/50μg
+10ug/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10ug/50ug
+10μg/50μg
+10μg/50μg
+Recombinant Bovine VEGFA
+Recombinant Human CD40
+Recombinant Human EGFR
+Recombinant Mouse IL-10
+Recombinant Human G-CSF
+Recombinant Human GM-CSF
+Recombinant Human HGF alpha chain 
+Recombinant Human IGFBP-3
+Recombinant Human IL-12A+B
+Recombinant Human IL-13-FC 
+Recombinant Human IL-18BP
+Recombinant Human IL-21R
+Recombinant Human IL-27
+Recombinant Human BDNF
+Recombinant Human IL-3
+Recombinant Human IL-34
+Recombinant Human M-CSF
+P9610
+P5148
+P2940
+P9706
+P9537
+P8133
+P9018
+P9500
+P9321
+P10034
+P10035 
+P3449
+P3338
+P9693
+P9320
+P9633
+P9767
+10ug/50ug
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50ug
+10μg/50μg
+10μg/50μg
+10ug/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10μg/50μg
+10ug/50ug
+10μg/50μg
+10μg/50μg
+Recombinant Human MYDGF
+Recombinant Human GDNF
+Recombinant Human TGFB1
+Recombinant Human TGFB3
+Recombinant Human THPO
+Recombinant Human VEGF165 
+Recombinant Human VEGFC
+Recombinant Mouse G-CSF
+Recombinant Mouse GM-CSF
+Recombinant Mouse IFNA1
+Recombinant Mouse FNb 
+Recombinant Mouse IL-27
+Recombinant Mouse IL-31R
+Recombinant Mouse IL-5 
+Recombinant Mouse M-CSF
+Recombinant Mouse TGFB1
+Recombinant Pig VEGFA
+Cat.NO
+Product name
+Size
+Cat.NO
+Product name
+Size
+View more products, please visit www.fn-test.com
+Confirm Customers’ 
+Requirements
+Analyze protein 
+expression
+Protein production
+Project Delivery
+Offer quotation according 
+to analytical results
+Sign technical services
+contract and receive advance 
+payment
+1. Prokaryotic protein expression services(E.Coli)
+
+ Mammalian cell expression system can perform complex post-translational modification, including glycosylation, 
+phosphorylation and acetylation etc. Thus, expressed recombinant proteins are closer to conformation of native 
+protein, showing higher biological activity and stability.
+Wuhan Fine Biotech Co., Ltd
+1-2 Floor, BLD 22, Optics Valley Biopharmaceutical Accelerator,No.388 
+Gaoxin 2nd Road, East Lake High Tech Development Zone,Wuhan, 
+430074, Hubei, China
+www.fn-test.com
+fine@fn-test.com
+2. Mammalian Transient Protein Expression Services
+1. Prokaryotic protein expression services(Continued)
+ Transient expression system is featured with easy operation 
+and short experimental cycle, obtaining a few recombinant 
+proteins in the shorter period.
+Our transient expression in mammalian cells mainly chooses 
+HEK293 and CHO cells as host, offering flexible services to 
+satisfy different custom requirements, such as tag removal, 
+endotoxin removal etc. We have self-developed cell transfection 
+technology and reagent formula. Thus, better products and 
+services can be offered to customers in a cost-effective way.
+Service Items
+Gene Synthesis
+Protein Expression
+Protein Purification
+Project Delivery
+Service Timeline
+1-2 weeks
+1 week
+1-2 weeks
+Total: 3-4 weeks
+Service Checklist
+Codon optimization, expression vector construction, sequencing, plasmid preparation 
+Solubility analysis, expression condition optimization 
+Soluble protein purification, renaturation of inclusion bodies, QC Validation 
+Protein sample purification, COA 
+Service Items
+Gene Synthesis
+Project Delivery
+Service Timeline
+1-2 weeks
+Total: 3-5 weeks
+Service Checklist
+Codon optimization, expression vector construction, sequencing, plasmid preparation 
+Protein sample purification, COA 
+Protein Expression
+and Purification
+Transiently transfected HEK293/CHO cell, protein purification, QC validation
+2-3 weeks
+Case 1
+Case 2
+Case 3

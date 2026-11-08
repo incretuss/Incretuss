@@ -1,0 +1,148 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/14445/Lake_Product_List.pdf
+
+Sl.No
+PRODUCT
+QUALITY
+CAS No
+THERAPEUTIC CATEGORY
+CEP
+DMF CTD
+EU GMP
+WHO GMP
+EU WC
+ANVISA
+TGA
+1
+Alprazolam
+EP, USP. BP, IP
+28981-97-7
+Anxiolytic
+2
+Bromazepam
+EP, BP
+1812-30-2
+Anxiolytic
+3
+Clobazam
+EP, BP, IP
+22316-47-8
+Anxiolytic, anticonvulsant
+ 
+4
+Clonazepam
+EP, USP. BP, IP
+1622-61-3
+Anticonvulsant
+5
+Cloxazolam
+EP, BP, IP
+24166-13-0
+Hypnotic
+6
+Chlordiazepoxide
+USP, EP, IP
+58-25-3
+Sedative, hypnotic
+7
+Diazepam
+USP, EP, IP
+439-14-5
+Anxiety
+8
+Dorzolamide hydrochloride
+USP, IP
+130693-82-2
+Anti glaucoma
+9
+Flunitrazepam
+EP, BP
+1622-62-4
+Hypnotic
+10
+Flurazepam di hydrochloride
+USP
+1172-18-5
+Anticonvulsant
+11
+Flurazepam mono hydrochloride
+EP, BP
+36105-20-1
+Insomnia
+12
+Fluvoxamine maleate
+EP, USP, BP, IP
+61718-82-9
+Compulsive Disorder
+13
+Lorazepam
+EP, USP, BP, IP
+846-49-1
+Anxiolytic, anticonvulsant
+14
+Loperamide hydrochloride
+EP, USP, BP, IP
+34552-83-5
+Diarrhea
+15
+Loprazolam mesilate
+BP
+70111-54-5
+Hypnotic
+16
+Midazolam maleate
+INH
+59467-94-6
+Anesthesia
+17
+Midazolam hydrochloride
+INH
+59467-96-8
+Anesthesia
+18
+Midazolam base
+EP, IP, BP
+59467-70-8
+Anesthesia
+19
+Nimetazepam
+EP
+2011-67-8
+Hypnotic & Anticonvulsant
+20
+Nitrazepam
+EP, BP, IP
+146-22-5
+Anticonvulsant
+21
+Nordazepam
+EP
+1088-11-5
+Anticonvulsant & Muscle Relaxant
+22
+Olanzapine form - 1
+EP, USP
+132539-06-1
+Biopolar Disorder
+23
+Pinazepam
+EP
+52463-83-9
+Anticonvulsant
+24
+Triazolam
+USP
+28911-01-5
+Anticonvulsant
+25
+Tofisopam
+JP
+22345-47-7
+Anxiolytic
+26
+Zolpidem tartrate
+EP, USP, BP, IP
+99294-93-6
+Sedative, hypnotic
+LAKE CHEMICALS PVT LTD
+ACTIVE PHARMACEUTICAL INGREDIENTS PORTFOLIO
+CERTIFICATIONS

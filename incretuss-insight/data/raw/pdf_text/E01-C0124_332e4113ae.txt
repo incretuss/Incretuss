@@ -1,0 +1,809 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12106/GIGROTERMON_cleanroom_presentation_EN_v33.pdf
+
+Inzhenernye Tekhnologii LLC • Chelyabinsk, Russia
+GIGROTERMON
+Environmental monitoring system for pharmaceutical cleanrooms
+Temperature • relative humidity • differential pressure between zones
+The system is designed in line with the EAEU Rules of Good Manufacturing Practice (GMP) (EEC Council Decision No. 77 of 3 
+November 2016) and their Annex 1 as amended by EEC Council Decision No. 67 of 20 May 2026
+State Register of Measuring 
+Instruments
+system No. 87656-22
+IPM sensors No. 83449-21
+Minpromtorg Register
+GIGROTERMON
+No. 10383970
+Register of Russian 
+Software
+Gigrotermon-ARM
+No. 11819
+Quality management 
+system
+GOST R ISO 9001-2015
+On the market since 2010 • Serial production since 2015 • Developed and manufactured in Chelyabinsk
+gigrotermon.ru
+
+Key points for each department
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+2 / 20
+• Designed in line with Decision No. 67
+• Deviation report for batch release
+• Continuous recording and event log
+slides 3, 8–10
+• DQ / IQ / OQ / PQ package based on the URS
+• Developer takes part in qualification
+• System configuration report
+slides 9, 11, 14, 15
+• Architecture matched to the cleanroom grade
+• Door-side indication, alarm delay
+• SCADA integration via OPC-UA
+slides 4–6, 12
+• IPM sensors — type-approved measuring 
+instruments
+• Verification interval: 2 years
+• Sensor verification due-date notifications
+slides 7, 13, 20
+• On-premises server and database
+• Network segment and VPN
+• AES-256 radio channel encryption
+slides 9, 11, 20
+• Listed in the Russian industrial products and 
+software registers
+• Components, repair and verification in Russia
+• References from manufacturers and distributors
+slides 15–19
+Quality and batch release
+Validation
+Architecture, devices, integration
+Metrology
+IT and information security
+Procurement, service, experience
+
+System capabilities by Annex 1 clauses
+As amended by EEC Council Decision No. 67
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+3 / 20
+Clause
+Topic
+GIGROTERMON capabilities
+4.14
+Differential pressure between adjacent 
+grades
+Type-approved IPM-41 sensors: 0–50 Pa; accuracy by modification ±3.0…±1.5 Pa; for 10–15 Pa differentials between 
+grades — modification -03 (±1.5 Pa within 0–20 Pa)
+4.16
+Critical differential pressures
+Door-side pressure indication — PIRS-CAN nodes; continuous recording; warning and alarm thresholds for each channel 
+in Gigrotermon-ARM; light and sound alarm and notification of responsible staff; alarm delay on the device and in 
+Gigrotermon-ARM; acknowledgement with a comment in the log
+4.24 · 4.25
+Qualification and environmental 
+monitoring
+Routine monitoring — by permanently installed channels; differential pressure, temperature and humidity for 
+qualification — by verified type-approved IPM sensors
+4.32
+Requalification
+Differential pressure, temperature and humidity are recorded continuously — a full history is available for requalification
+9.2 iii · 9.6
+Temperature and humidity
+Warning and alarm thresholds for each channel in Gigrotermon-ARM; an excursion creates a log event and notifies 
+responsible staff
+9.5 · 9.13
+Routine monitoring, actions on 
+excursions
+24/7 sensor polling; measurements stored in device memory; notification of responsible staff; log of messages sent to 
+users
+9.3 · 10.10
+Data for batch release
+Trend charts for any period; deviation report: channel, start and end of the deviation, direction, extreme value, duration; 
+statistics with the percentage of time outside thresholds
+
+System architecture
+Gigrotermon-ARM is the top level of the system; the site SCADA can be connected optionally
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+4 / 20
+GIGROTERMON system: from sensors to reports and notifications — all included
+Sensors
+• temperature
+• relative humidity
+• differential pressure between 
+zones
+• atmospheric pressure
+• HEPA filter loading (IPM-44)
+• third-party sensors with 
+standard analogue and 
+discrete outputs — via 
+expansion modules
+Nodes and controllers
+I-Sens → Gigrotermon-RF
+433 MHz radio, AES-256; up to 50 nodes; 
+readings on the node display
+PIRS-CAN → Gigrotermon-CAN
+CAN bus up to 1000 m; up to 99 nodes; readout 
+and three-colour light at the door
+Daisy-chained sensors → Gigrotermon-M4S
+lines up to 100 m; up to 99 sensors; readings on 
+the controller display outside the clean zone
+Gigrotermon-ARM
+• server and database on the site’s 
+own hardware
+• unlimited number of workstations; 
+web module for browser, tablet and 
+smartphone
+• floor plans, charts, event log, 
+reports
+• thresholds, acknowledgement, 
+notifications
+• perpetual licence
+Top level of the system
+Notifications: light and sound alarm — on the devices; e-mail, SMS, Telegram, MAX — from Gigrotermon-ARM; SMS and phone 
+call — via the GSMIT-LTE modem, independently of the server
+optional
+Site SCADA
+Connected when the site already 
+runs a SCADA and wants to see 
+GIGROTERMON data in a familiar 
+environment — on its own screens 
+and charts.
+Connection options — slide 12
+OPC-UA
+
+Four architectures for cleanroom grades
+The architectures differ in field-level devices and their local functions; features common to all are shown in the bottom block
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+5 / 20
+Budget
+Auxiliary and non-critical areas, technical 
+corridors
+Components
+Differential pressure, temperature and 
+humidity sensors — in the rooms, daisy-
+chained to Gigrotermon-M4S controllers 
+outside the clean zone
+Where readings are shown
+All parameters — in Gigrotermon-ARM and 
+on the controller displays
+Hybrid (economy)
+Grade D, production and QC laboratories
+Components
+Differential pressure sensors — daisy-chained to 
+Gigrotermon-M4S controllers outside the clean 
+zone; temperature and humidity — wireless I-
+Sens nodes in the room
+Where readings are shown
+Temperature and humidity — on the I-Sens 
+node displays; all parameters — in 
+Gigrotermon-ARM and on the controller 
+displays
+Optimal
+recommended for Grades A, B, C
+Grades A, B, C, D
+Components
+Differential pressure — wired PIRS-CAN nodes 
+at airlock doors; temperature and humidity —
+wireless I-Sens nodes in the room
+Where readings are shown
+Differential pressure — on PIRS-CAN nodes: 
+digital readout, three-colour indication; 
+temperature and humidity — on the I-Sens 
+node displays; all parameters — in 
+Gigrotermon-ARM and on the controller 
+displays
+Premium
+Grades A, B, C, D
+Components
+Differential pressure — wired PIRS-CAN nodes 
+at airlock doors; temperature and humidity —
+wired PIRS-CAN nodes in the room
+Where readings are shown
+All parameters — on PIRS-CAN nodes: digital 
+readout, three-colour indication; all parameters 
+— in Gigrotermon-ARM and on the controller 
+displays
+Common to all architectures:
+type-approved IPM sensors
+measurements stored in device memory
+SCADA connection via OPC-UA
+Gigrotermon-ARM: log, reports, notifications, 
+acknowledgement
+alert level and action limit in Gigrotermon-ARM
+differential pressure alarm delay — on the 
+device and in Gigrotermon-ARM
+Measurement interval and power
+Measurement interval — from 1 min. 
+Sensors are powered by the controller
+Measurement interval and power
+Measurement interval — from 1 min. Power: 
+pressure sensors — from the controller, I-
+Sens nodes — battery-powered
+Measurement interval and power
+Measurement interval: differential pressure —
+from 10 s, temperature and humidity — from 
+1 min. Power: PIRS-CAN nodes — from the bus, 
+I-Sens nodes — battery-powered
+Measurement interval and power
+Measurement interval — from 10 s. PIRS-CAN 
+nodes are powered from the bus
+
+Door-side indication and alarm logic
+The warning threshold corresponds to the “alert level” and the alarm threshold to the “action limit” (Annex 1, Glossary)
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+6 / 20
+PIRS-CAN node at the airlock door
+Digital readout, three-colour indication, stack light
+NORMAL
+Normal indication on the node and stack light; 
+measurements are archived
+WARNING
+Warning indication on the node and stack light, log 
+event, notification of responsible staff
+ALARM
+Alarm indication on the node and stack light, alarm 
+relay, log event, notification of responsible staff
+Normal passage through the door
+• The alarm delay is set on PIRS-CAN nodes for the alert level and the action limit (up to 12 hours) and in Gigrotermon-
+ARM — synchronised with the hardware delay or set separately (up to 24 hours): a log event and a notification 
+appear only if the excursion lasts longer than the set time, so a normal passage does not become an alarm.
+• The delays set are assessed and justified within the contamination control strategy (cl. 4.16).
+Acknowledgement
+• Warnings and alarms are acknowledged by a user with the relevant permission, who adds a comment on the cause 
+and the actions taken; the record goes to the event log with the user name and time.
+• In CAN-bus architectures, manual acknowledgement can be enabled: the alarm state is held on the node and the 
+alarm relay it controls even after the parameter returns to normal — until a dedicated operator confirmation in 
+Gigrotermon-ARM.
+• Comments in the event log are protected against deletion and editing.
+
+IPM climate sensors
+Russian State Register of Measuring Instruments No. 83449-21 — type approval valid until 26 October 2031; verification interval 2 years
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+7 / 20
+Temperature and humidity: IPM-10, IPM-11
+• Temperature −40…+60 °C (IPM-11 — from −10 °C), humidity 5–95 %; accuracy by 
+modification: temperature ±1.0…±0.2 °C, humidity ±5.0…±1.5 %
+• For cleanrooms — stainless steel housing with a sintered metal powder filter, 
+designed for washing and disinfection; IP52
+Differential pressure: IPM-41
+• Differential pressure 0–50 Pa; accuracy by modification ±3.0…±1.5 Pa; for 10–
+15 Pa differentials between adjacent grades — modification -03 (±1.5 Pa within 
+0–20 Pa)
+• Installed in the ceiling void: only the pressure sampling tube enters the clean 
+zone
+Low temperatures and atmospheric pressure:
+IPM-21, IPM-22, IPM-30
+• IPM-21: −80…+125 °C, IPM-22: −196…+125 °C — freezers and cryogenic storage; 
+accuracy by modification ±5.0 or ±2.5 °C
+• IPM-30: atmospheric pressure 30–110 kPa; accuracy ±0.2 kPa
+HEPA filter loading: IPM-44
+• Differential pressure across the HEPA filter −500…+500 Pa — filter loading 
+indicator
+• Not a type-approved measuring instrument; its data are not metrologically 
+significant
+Specifications by modification — slide 20. Order code example: IPM-10-22-4-2.
+
+Operation during communication and power loss
+Measurements are stored in device memory and uploaded to the database once communication is restored
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+8 / 20
+Memory in nodes and controllers
+• I-Sens nodes — 16,384 measurements
+• PIRS-CAN nodes — 23,600 measurements
+• Gigrotermon-M4S — 24,240 measurements per 
+channel
+Power supply
+• I-Sens nodes — battery
+• PIRS-CAN nodes — powered from the bus with a 
+built-in backup battery
+• Gigrotermon-M4S — mains-powered with a built-in 
+backup battery
+Failures logged as events
+• “Sensor lost” and “Device communication lost” are 
+recorded in the event log, and messages are sent to 
+responsible staff
+• The GSMIT-LTE modem reports switching to backup 
+power
+Notification bypassing the server
+• The GSMIT-LTE modem responds to the alarm relay: 
+SMS and phone call over the cellular network
+• The signal goes from the device straight to the 
+modem, so notifications work even if the server is 
+stopped or the local network fails
+Measurement interval
+• PIRS-CAN nodes — from 10 s
+• I-Sens nodes and Gigrotermon-M4S — from 1 min
+• Database records carry a time stamp for every 
+measurement
+24/7 polling
+• Channels are polled around the clock, automatically 
+(cl. 9.5)
+• Readings and charts are available 24/7 — at 
+workstations and in the web module
+
+Gigrotermon-ARM: records and access control
+By Annex 11 clauses; approaches of EEC Board Recommendation No. 25 and FDA 21 CFR Part 11
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+9 / 20
+Clause
+Topic
+Gigrotermon-ARM capabilities
+7
+Data storage
+Database records are created automatically and protected against modification and deletion; the measurement archive 
+cannot be edited manually; time stamp for every measurement; data backup and export of settings
+8
+Printouts
+Event log and log of messages sent to users — in PDF, CSV or HTML; data for a period — as image (PNG), spreadsheet 
+(XLSX) and combined (PDF) files; each report shows the name of the user who generated it
+9
+Audit trails
+The event log (audit trail) is always on: remote user log-in and log-out, failed log-in attempts; user actions — changes to 
+software settings with old and new values, acknowledgements, comments — with user name and time; records are 
+protected against deletion and editing
+10
+Change and configuration management
+Settings changes are recorded in the event log; editing of software parameters is available only to users with the 
+assigned permissions; the configuration report (software version, database, users and rights, devices and settings) is 
+generated by the administrator; reports taken before and after a software update allow the settings to be compared
+12
+Security
+Unlimited number of user accounts; permissions by function, roles Administrator, Technologist, Operator, Auditor; 
+passwords of at least 8 characters with an uppercase letter and a digit, validity 90 days (up to 365), the last eight cannot 
+be reused; lock-out after failed log-in attempts; automatic log-out of the remote client on timeout
+13
+Incident management
+“Sensor lost” and “Device communication lost” are recorded in the event log, and messages are sent to responsible staff
+16
+Business continuity
+If communication or external power is lost, measurements are stored in the devices and uploaded to the database later; 
+SMS and phone call via the GSMIT-LTE modem, bypassing the server
+
+Reports and notifications
+By Annex 1 clauses
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+10 / 20
+Clause
+Topic
+Gigrotermon-ARM capabilities
+4.16
+Notification of critical differential 
+pressures
+Light and sound alarm, SMS, phone call via the GSMIT-LTE modem, e-mail, Telegram, MAX
+4.16
+Notification delay
+Differential pressure alarm delay — on the device and in Gigrotermon-ARM: a message is sent only if the event lasts 
+longer than the set time; the delays set are assessed and justified within the contamination control strategy
+9.3
+Process reviews and investigations
+Statistics for a period: maximum, minimum, mean, percentage of time outside thresholds; trend charts for any period; 
+scheduled reports, including the Roszdravnadzor form; sensor data export for a period as image (PNG), spreadsheet 
+(XLSX) and combined (PDF) files
+9.13
+Recipients and message log
+Messages are sent to individual recipients — by event, device and channel; reports — when generated automatically, by 
+e-mail; log of messages sent to users — who received what, exported from the software to PDF, CSV or HTML
+9.13
+Acknowledgement and event reports
+Acknowledgement with a comment on the cause and actions taken, user name and time; in CAN-bus architectures, 
+manual acknowledgement can be enabled: the alarm state is held on the node and the alarm relay it controls even after 
+the parameter returns to normal — until a dedicated operator confirmation in Gigrotermon-ARM; automatic reports on 
+events and messages sent
+10.10
+Data for batch release
+Deviation report: a permitted range is set for each channel; the report shows the channel name, start and end of the 
+deviation, direction, extreme value and duration; if there were no deviations, the report states this explicitly
+
+IT and information security
+By Annex 11 clauses; the system runs on-premises, on the site’s own hardware
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+11 / 20
+Clause
+Topic
+GIGROTERMON capabilities
+3
+Supplier and documentation
+Operating manuals for all devices and software — on gigrotermon.ru; QMS certified to GOST R ISO 9001-2015; validation 
+documentation from the developer; Gigrotermon-ARM is listed in the Register of Russian Software, No. 11819
+4.3
+System description and resources
+FS, HDS and SDS specifications and installation diagram; perpetual licence; Gigrotermon-ARM server on Windows, incl. a 
+virtual machine; a PC with pre-installed software can be supplied; client workstations and web module; DBMS: MS SQL, 
+MySQL or MariaDB
+5
+Radio channel and SCADA
+433 MHz radio in a licence-exempt band (SCRF Decision No. 07-20-03-001), power up to 10 mW; AES-256, a unique key 
+for each controller, dynamic key change, protection against replay and brute-force attacks; radio data sheet supplied 
+with the proposal; SCADA via OPC-UA with X.509 certificates
+5
+External notifications
+Enabled by the site itself: e-mail via a mail server (SMTP); Telegram and SMS gateway over the internet; MAX also needs 
+an inbound internet connection to the Gigrotermon-ARM server, registration, a domain name and a qualified e-signature; 
+GSMIT-LTE modem — cellular network, independent of the server
+7
+Data storage
+Server, database and measurement archive — on the site’s own hardware; data backup and export of settings
+10 · 11
+Software updates
+Updates are published on the manufacturer’s website, and the site decides whether to install them; installation over the 
+current version keeps the settings; configuration reports taken before and after an update allow the settings to be 
+compared
+12
+Security: network and remote access
+Client–server exchange and server-to-device communication are designed for a single segment of the site network; for 
+connection over the internet — a VPN joining the PCs into one network; a diagnostic server port for IT monitoring 
+systems; user accounts and passwords — slide 9
+
+Integration with the customer’s SCADA
+Three connection options; recommended — OPC-UA supplied with Gigrotermon-ARM
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+12 / 20
+For GxP — when connected via Gigrotermon-ARM
+• Primary records and reports for inspection stay in Gigrotermon-ARM
+• SCADA is a display tool; the qualification scope stays the same
+• Measurements, notifications, archive and reports run independently of SCADA
+• If the SCADA is replaced, the field level stays unchanged; work can also continue 
+in the software itself
+Option
+OPC-UA supplied with Gigrotermon-ARM —
+recommended
+Modbus RTU from the devices
+Third-party OPC server
+How it works
+The OPC server supplied with Gigrotermon-ARM 
+serves data from the software database
+SCADA polls the devices directly via Modbus RTU
+A third-party OPC server polls the devices via 
+Modbus RTU and serves data via OPC-UA
+Single master on the RS-
+485 line
+Gigrotermon-ARM
+SCADA
+Third-party OPC server
+Data and tags
+Pre-configured address space: current values, 
+communication status, both alarm levels as 
+separate tags; read-only; X.509 certificates
+Tags — per the Modbus register map; the map is 
+provided on request
+Tags — per the Modbus register map, provided 
+on request; a single address space with other 
+equipment
+When to choose
+Upgrading the field level at an operating 
+pharmaceutical plant
+A simple local system for one or two sites
+The site already runs a unified OPC server
+Connection experience
+• Connection verified on site with: Siemens WinCC (a dedicated OPC server build is 
+supplied), Simple SCADA, Systeme Building Operation
+• SCADA receives data already written to the Gigrotermon-ARM database — the 
+same values as in the archive and reports
+
+Metrological assurance
+Type-approved measuring instruments, verification by accredited organisations, records in FGIS Arshin
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+13 / 20
+State Register of Measuring Instruments
+• GIGROTERMON system — No. 87656-22
+• IPM climate sensors — No. 83449-21; type approval valid until 26 October 2031 
+(Rosstandart Order No. 1789 of 4 September 2026)
+• IPM-44 — filter condition indicator; not a type-approved measuring instrument
+Verification
+• Verification interval — 2 years
+• Proof of verification — record in FGIS Arshin, certificate on request; no 
+verification mark is applied to the sensors (per the type description)
+• If a sensor’s verification expiry date is set in Gigrotermon-ARM, the software 
+notifies when it expires
+Type recognition outside Russia
+• GIGROTERMON system — Uzbekistan (02-2.0318)
+• IPM climate sensors — Kyrgyzstan (KG417/01.12.3941-24), Uzbekistan (02-
+2.0242)
+Sensor replacement for verification
+• In Gigrotermon-RF and Gigrotermon-CAN systems, a monitoring point can be 
+bound to a node: when the sensor is replaced, the monitoring point stays the 
+same, and the floor-plan display and chart recording continue
+• The serial number of the new sensor appears in the channel properties, in 
+measurement reports and in the configuration report
+
+Qualification and validation
+The developer prepares the documentation package for the specific site and the customer’s URS
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+14 / 20
+Reference
+Topic
+GIGROTERMON capabilities
+Annex 1, cl. 4.24, 4.25
+Qualification and environmental 
+monitoring
+Routine monitoring — by permanently installed channels; differential pressure, temperature and humidity for 
+qualification — by verified type-approved IPM sensors; mapping and chamber qualification — BEREG data loggers and 
+HeatMap Builder software (separate materials)
+Annex 1, cl. 4.32
+Requalification
+Differential pressure, temperature and humidity are recorded continuously — a full history is available for 
+requalification
+Annex 11, cl. 3, 4.5
+Supplier and documentation
+Developer takes part in qualification; QMS certified to GOST R ISO 9001-2015; a sample package is available on 
+request in anonymised form
+Annex 11, cl. 4.1
+Life-cycle documents
+Validation master plan; design (DQ), installation (IQ), operational (OQ) and performance (PQ) qualification protocols 
+and reports; final validation report
+Annex 11, cl. 4.3, 4.4
+System description and URS
+Functional specification (FS), hardware (HDS) and software (SDS) design specifications, installation diagram, passports 
+and operating manuals; protocols are prepared for the site and the customer’s URS, customisation by the developer
+Annex 11, cl. 10, 11
+Software updates
+Configuration reports taken before and after a software update allow an objective comparison of settings; the 
+decision on requalification rests with the customer
+GAMP 5
+Software category
+Gigrotermon-ARM — typically GAMP category 4 (configured product); the final category is determined by the 
+customer
+
+Implementation and service
+From design to qualification — by the developer, the customer or partner integrators
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+15 / 20
+Design and supply
+• Performed by: the developer
+• Architecture for the cleanroom grades, 
+specification, layout of nodes and cabinets
+• Equipment is supplied pre-configured
+Installation and commissioning
+• Performed by: site staff following the instructions, 
+the developer or a partner integrator
+• At restricted-access sites — partners licensed by 
+the FSB of Russia; a partner is selected for the site’s 
+region
+Qualification
+• Performed by: the customer, with the developer’s 
+participation
+• DQ, IQ, OQ, PQ protocols and validation 
+documentation — for the site and the customer’s 
+URS
+Warranty and service
+• 12-month warranty; maintenance under a service 
+contract
+• Service life of the devices — 8 years
+• Components, repair and verification in Russia
+• Replacement and expansion from the factory 
+warehouse; compatibility is maintained for years
+Documentation
+• Operating manuals for all devices and software —
+on gigrotermon.ru
+• Passports are included in the delivery; verification 
+procedures — on the RST-Metrologiya and 
+gigrotermon.ru websites
+Demonstration
+• On-site demonstration on the manufacturer’s test 
+rig built from serial equipment
+• Gigrotermon-ARM demo: event log, deviation 
+report, excursion indication
+
+Registers, certificates and recognition
+Developed and manufactured in Chelyabinsk; on the market since 2010, serial production since 2015
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+16 / 20
+Register of Russian Industrial Products (Decree No. 719)
+GIGROTERMON system — entry No. 10383970 of 11 March 2026, valid 
+until 10 March 2029
+Proof of origin
+“Made in Russia” certificate No. СС000587 of 8 November 2024 —
+GIGROTERMON system; ST-1 certificate of origin; Minpromtorg 
+confirmation of manufacturing in Russia
+Register of Russian Software
+Gigrotermon-ARM — entry No. 11819 of 18 October 2021; the company 
+holds 12 entries in total, including device firmware
+Quality and company status
+QMS certified to GOST R ISO 9001-2015; accredited IT company (Ministry 
+of Digital Development); the company is listed in the register of radio-
+electronic industry organisations
+Recognition
+Golden Mercury National Award 2024 — “Best exporter in industrial 
+manufacturing”; “100 Best Goods of Russia” 2024 — GIGROTERMON 
+system in the “Golden Hundred”
+What this means for the customer
+Russian origin confirmed by entry No. 10383970 in the Register of 
+Russian Industrial Products; components, repair and verification in 
+Russia; standard components in stock at the factory warehouse
+
+Experience and references
+Pharmaceutical manufacturing, distribution and logistics: Russia, Kazakhstan, Uzbekistan, Kyrgyzstan, Belarus, Azerbaijan
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+17 / 20
+since 2010
+in the monitoring systems market
+500+
+projects at pharmaceutical plants, 
+in distribution and pharmacies
+2000+
+customers
+30+
+people on the team
+6
+countries of operation
+Over the years, hundreds of sites with GIGROTERMON installed have passed scheduled and unscheduled Roszdravnadzor inspections and GILS&NP GMP inspections with no findings 
+on the monitoring system.
+Russia: manufacturing
+• R-Pharm JSC / R-Opra LLC
+• Biosintez PJSC
+• Rafarma JSC
+• Medsintez Plant LLC
+• Organika JSC
+• Usolye-Sibirsky Chemical and Pharmaceutical Plant JSC
+Russia: distribution and logistics
+• CV Protek JSC
+• N.C. Logistic LLC
+Export
+• ASTOR ALLIANCE, Curatio Pharm, ASKLEPIY, GRAND 
+PHARM — Uzbekistan
+• Viva Pharm LLP — Kazakhstan
+• Neman-Pharm LLC — Kyrgyzstan
+Customer reviews — gigrotermon.ru/about/reviews.
+
+What customers say
+From official letters of 2025 — manufacturers and distributors (translated from Russian)
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+18 / 20
+“
+“Since 2022, the Gigrotermon system has proven reliable, with 
+high-quality field-level devices… The system is used at several 
+sites of the group of companies. …They provided qualified 
+assistance with the validation work”
+R-Pharm JSC
+General Director V.G. Ignatiev, 26 June 2025
+“
+“The well-thought-out design and build quality of the 
+Gigrotermon monitoring system ensure its reliable, failure-free 
+operation for 3 years and more”
+Biosintez PJSC, Sun Pharma group
+General Director D.V. Boldov, 2025
+“
+“The system has operated reliably in aggressive environments 
+and under industrial electromagnetic interference. …Today the 
+plant has 166 monitoring points. Monitoring coverage keeps 
+expanding”
+Rafarma JSC
+General Director V.V. Ilyushin, 30 June 2025
+“
+“We confirm that the purchased temperature, humidity and 
+differential pressure monitoring system performs all declared 
+functions properly and works reliably. …Additional equipment 
+deliveries to expand the system are made promptly, with no 
+quality issues”
+Medsintez Plant LLC
+Chief Engineer A.A. Butorov, 20 June 2025
+“
+“The GIGROTERMON system demonstrates its reliability and 
+stable operation in the real conditions of pharmaceutical 
+production. The positive results of our cooperation… give us 
+grounds for further joint work at the new production facilities 
+we are building”
+Usolye-Sibirsky Chemical and Pharmaceutical Plant JSC
+Chief Engineer I.V. Shcherbakov, 2025
+“
+“In 2019, our company’s central warehouse in Pushkino, 
+Moscow Region, and 13 of our regional warehouses were 
+equipped with the GIGROTERMON system. …The system has 
+proven effective and reliable, becoming an indispensable tool 
+for monitoring environmental conditions at our warehouse 
+complexes”
+CV Protek JSC
+Deputy General Director E.E. Marchenko, 30 June 2025
+Group sites and help with validation
+Failure-free operation for 3+ years
+166 monitoring points, coverage growing
+Prompt system expansion
+Reliable in real production
+Central and 13 regional warehouses
+
+Next step
+Four steps — from the questionnaire to implementation
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+19 / 20
+1
+Questionnaire
+Type of site, cleanroom grades, number 
+of monitoring points and pressure 
+cascade boundaries, existing systems and 
+SCADA, timeline, URS
+2
+Technical solution
+Architecture for the cleanroom grades, 
+specification, layout of nodes and 
+cabinets
+3
+Proposal
+Commercial proposal, scope of validation 
+documentation based on the URS, radio 
+data sheet for the IT security team
+4
+Demo and implementation
+Demo on the manufacturer’s test rig, 
+installation, commissioning, participation 
+in qualification
+Inzhenernye Tekhnologii LLC
++7 (800) 700-18-70 — toll-free within Russia • +7 (351) 242-07-45
+info@gigrotermon.ru
+gigrotermon.ru — operating manuals, questionnaire, customer reviews
+Komsomolsky Prospekt 2, 9th floor, Chelyabinsk 454008, Russia
+The first step is the questionnaire. Based on it, the 
+company’s specialists will prepare a technical solution 
+and proposal that take into account the site layout 
+and existing systems.
+
+Technical specifications
+IPM sensors — per type description No. 83449-21; nodes, radio channel and server — per the operating documentation
+Inzhenernye Tekhnologii LLC • gigrotermon.ru
+20 / 20
+Sensor
+Measuring range
+Maximum permissible error
+IPM-10, IPM-12
+temperature −40…+60 °C
+humidity 5–95 % (IPM-10)
+by modification: temperature ±1.0…±0.2 °C (±0.2 — at 
++20…+60 °C), humidity ±5.0…±1.5 % (±1.5 — at 5–75 %)
+IPM-11
+temperature −10…+60 °C
+humidity 5–95 %
+by modification: temperature ±1.0…±0.2 °C (±0.2 — at 
++20…+60 °C), humidity ±5.0…±1.5 % (±1.5 — at 5–75 %)
+IPM-21, IPM-22
+temperature −80…+125 °C (IPM-21), 
+−196…+125 °C (IPM-22)
+by modification: ±5.0 or ±2.5 °C
+IPM-30
+atmospheric pressure 30–110 kPa
+±0.2 kPa
+IPM-41
+differential pressure 0–50 Pa
+by modification: -01 — ±3.0 Pa; -02 — ±2.5 Pa; -03 —
+±1.5 Pa (0–20 Pa), ±2.5 Pa (20–50 Pa)
+IPM-44
+differential pressure across the HEPA filter 
+−500…+500 Pa
+filter loading indicator; not a type-approved measuring 
+instrument
+Radio channel
+• 433.0625–434.78125 MHz, 55 channels of 31.25 kHz, LoRa modulation; 
+power up to 10 mW; sensitivity down to −139 dBm
+• AES-256: a unique key for each Gigrotermon-RF, dynamic key change; 
+protection against packet replay and brute-force attacks
+• Up to 7 km line of sight; up to 50 devices per Gigrotermon-RF; licence-
+exempt band (SCRF Decision No. 07-20-03-001)
+Gigrotermon-ARM server
+• Windows, including a virtual machine; DBMS: MS SQL, MySQL or MariaDB
+• 5–15 sensors: RAM from 4 GB, disk from 128 GB; up to 100 sensors — disk at least 500 GB; several hundred sensors: CPU 
+with 4+ cores at 3 GHz, RAM 16–32 GB, disk at least 2 TB
+I-Sens node
+PIRS-CAN node
+Gigrotermon-M4S
+Link
+433 MHz radio
+CAN bus up to 
+1000 m
+4 lines up to 100 m
+Per controller
+up to 50 nodes
+up to 99 nodes
+up to 99 sensors
+Memory
+16,384 
+measurements
+23,600 
+measurements
+24,240 per channel
+Interval
+from 1 min
+from 10 s
+from 1 min
+Power supply
+battery
+bus and backup 
+battery
+mains and backup 
+battery
+Ingress protection: I-Sens and PIRS-CAN nodes — IP65; IPM sensors in a metal housing 
+— IP52

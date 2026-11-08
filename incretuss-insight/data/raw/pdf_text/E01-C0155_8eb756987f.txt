@@ -1,0 +1,492 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12473/pharmaceutical_API_Product_list_--26_04_09_20260922113616.pdf
+
+杭州鸿沁医药科技有限公司
+HANGZHOU HONGQIN PHARMTECH CO.,LTD.
+TEL NO. :WHATSAPP NO.: 008613675855990 (Ida Zhang) 
+E-MAIL: zhangjunling0916@126.com info@hqpharmtech.cn
+TEL and WHATSAPP NO.: 00861895712956(Zoe Zhang)
+E-MAIL:office.z@hqpharmtech.cn
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+1
+Oxaliplatin
+61825-94-3
+Antitumor API
+DMF/CoPP/WC/CEP/NMPA-
+A/PMDA/MFDS
+2
+Carboplatin
+41575-94-4
+Antitumor API
+DMF/WC/NMPA-A
+3
+Cisplatin
+15663-27-1
+Antitumor API
+DMF/WC/NMPA-I
+4
+Nedaplatin
+95734-82-0
+Antitumor API
+DMF
+5
+Palbociclib
+571190-30-2
+Antitumor API
+DMF/WC/MFDS/NMPA-I/PMDA-under 
+review
+6
+Ribociclib
+1374639-75-4
+1211441-98-3
+Antitumor API
+DMF(1374639-75-4)
+7
+Abemaciclib
+1231929-97-7
+Antitumor API
+8
+Lapatinib
+388082-78-8
+388082-77-7
+231277-92-2
+Antitumor API
+DMF/WC/NMPA-I(388082-78-8)
+9
+Lenvatinib
+857890-39-2
+417716-92-8
+Antitumor API
+10
+Dasatinib
+863127-77-9
+302962-49-8
+Antitumor API
+11
+Osimertinib
+1421373-66-1
+1421373-65-0
+Antitumor API
+12
+Enzalutamide
+915087-33-1
+Antitumor API
+DMF/WC/MFDS/NMPA-I/PMDA-under 
+review
+
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+13
+Apalutamide
+956104-40-8
+Antitumor API
+14
+Olaparib
+763113-22-0
+Antitumor API
+15
+Niraparib
+1613220-15-7
+1038915-60-4
+Antitumor API
+16
+Ifosfamide
+3778-73-2
+Antitumor API
+DMF
+17
+Capecitabine
+154361-50-9
+Antitumor API
+DMF/CoPP/WC/CEP/NMPA-
+A/PMDA/MFDS
+18
+Pemetrexed Disodium (7/2.5 H2O)
+357166-29-1
+357166-30-4
+Antitumor API
+DMF/WC/CEP/NMPA-A(357166-29-1)
+19
+Hydroxyurea
+127-07-1
+Antitumor API
+20
+Tegafur
+17902-23-7
+Antitumor API
+21
+Terbinafine Hydrochloride /Base
+78628-80-5
+91161-71-6
+Antifungal API
+DMF/CoPP/WC/CEP/MFDS/NMPA-
+A(78628-80-5)
+22
+Butenafine Hydrochloride
+101827-46-7
+Antifungal API
+23
+Febuxostat
+144060-53-7
+Antigout API
+DMF/CoPP/WC/NMPA-A/PMDA
+24
+Racecadotril
+81110-73-8
+Antidiarrheal API
+DMF/CEP
+25
+Vonoprazan Fumarate
+1260141-27-2
+Antiacid API
+DMF/WC/NMPA-I
+26
+Ezetimibe
+163222-33-1
+Lipid Modifying API
+DMF/CopPP/WC/MFDS/NMPA-A/PMDA-
+under review
+
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+27
+Mitiglinide Calcium
+207844-01-7
+Anti-diabetic API
+DMF/CoPP/NMPA-A
+28
+Cisatracurium Besylate
+96946-42-8
+Anesthetic API
+DMF/WC/NMPA-I
+29
+Atracurium Besylate
+64228-81-5
+Anesthetic API
+30
+Ropivacaine Hydrochloride /Base
+132112-35-7
+84057-95-4
+Anesthetic API
+DMF/WC/NMPA-I（132112-35-7）
+31
+Cenobamate
+913088-80-9
+Muscle relaxant API
+DMF
+32
+Rivaroxaban
+366789-02-8
+Antithrombotic API
+DMF/WC/NMPA-I
+33
+Crisaborole
+906673-24-3
+Anti-inflammatory API
+DMF
+34
+Baricitinib
+1187594-09-7
+Baricitinib API
+35
+Ruxolitinib phosphate
+1092939-17-7
+Ruxolitinib phosphate API
+36
+Argatroban
+141396-28-3
+Argatroban API
+37
+Brexpiprazole
+913611-97-9
+Brexpiprazole API
+38
+Pimavanserin
+706779-91-1
+Pimavanserin API
+39
+Gefapixant Citrate
+2310299-91-1
+Gefapixant Citrate API
+40
+Capivasertib
+1143532-39-1
+Capivasertib API
+
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+41
+Lefamulin
+1061337-51-6
+Lefamulin API
+42
+Fezolinetant
+1629229-37-3
+Fezolinetant API
+43
+Elinzanetant
+929046-33-3
+Elinzanetant API
+44
+Clascoterone
+19608-29-8
+Clascoterone API
+45
+Dotinurad
+1285572-51-1
+Dotinurad API
+46
+Difelikefalin
+1024828-77-0
+Difelikefalin API
+47
+Ivosidenib
+1448347-49-6
+Ivosidenib API
+48
+Difamilast
+937782-05-3
+Difamilast API
+49
+Carfilzomib
+868540-17-4
+Carfilzomib API
+50
+Oprozomib
+935888-69-0
+Oprozomib API
+51
+Sulopenem
+120788-07-0
+Sulopenem API
+52
+6-Azaindole
+271-29-4
+6-Azaindole API
+53
+Ganciclovir
+82410-32-0
+Ganciclovir API
+54
+Ganciclovir sodium
+107910-75-8
+Ganciclovir sodium API
+
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+55
+Valganciclovir hydrochloride
+175865-59-5
+Valganciclovir hydrochloride API
+56
+Acyclovir
+59277-89-3
+Acyclovir API
+57
+Acyclovir Sodium
+69657-51-8
+Acyclovir Sodium API
+58
+Valaciclovir Hydrochloride
+124832-27-5
+Valaciclovir Hydrochloride API
+59
+Entecavir Monohydrate
+209216-23-9
+Entecavir Monohydrate API
+60
+Sitagliptin phosphate
+654671-78-0
+Sitagliptin phosphate API
+61
+Sitagliptin phosphate monohydrate
+654671-77-9
+Sitagliptin phosphate monohydrate API
+62
+Sitagliptin Hydrochloride Monohydrate
+862156-92-1
+Sitagliptin Hydrochloride Monohydrate 
+API
+63
+Vildagliptin
+274901-16-5
+Vildagliptin API
+64
+Repaglinide
+135062-02-1
+Repaglinide API
+65
+Alogliptin benzoate
+850649-62-6
+Alogliptin benzoate API
+66
+Linagliptin
+668270-12-0
+Linagliptin API
+67
+Teneligliptin Hydrobromide Hydrate
+1572583-29-9
+Teneligliptin Hydrobromide Hydrate API
+68
+Dapagliflozin propanediol monohydrate
+960404-48-2
+Dapagliflozin propanediol monohydrate 
+API
+
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+69
+empagliflozin 
+864070-44-0
+empagliflozin API
+70
+Ertugliflozin L-pyroglutamic acid
+1210344-83-4
+Ertugliflozin L-pyroglutamic acid API
+71
+Imeglimin (hydrochloride)
+775351-61-6
+Imeglimin (hydrochloride) API
+72
+Imatinib mesylate
+220127-57-1
+ Imatinib mesylate API
+73
+Erlotinib hydrochloride
+183319-69-9
+Erlotinib hydrochloride API
+74
+Ibrutinib
+936563-96-1
+Ibrutinib API
+75
+Tofacitinib Citrate
+540737-29-9
+Tofacitinib Citrate API
+76
+Silodosin
+160970-54-7
+Silodosin API
+77
+D-Penicillamine
+52-67-5
+D-Penicillamine API
+78
+Upadacitinib hemihydrate
+2050057-56-0
+Upadacitinib hemihydrate API
+79
+Upadacitinib
+1310726-60-3
+Upadacitinib API
+80
+Melatonin；N-acetyl-5-
+methoxytryptamine
+73-31-4
+Melatonin；N-acetyl-5-
+methoxytryptamine API
+81
+ Linezolid
+165800-03-3
+ Linezolid API
+82
+OCTADECANEDIOIC ACID
+871-70-5
+OCTADECANEDIOIC ACID API
+
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+83
+Nabumetone
+42924-53-8
+Nabumetone API
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+
+102
+103
+104
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+105
+106
+107
+108
+109
+110
+111
+112
+113
+
+114
+115
+116
+117
+118
+119
+S/N
+PRODUCT NAME
+CAS NO
+PRODUCT USAGE 
+120
+121
+122
+123
+124
+125
+126
+
+127
+128
+129
+130
+131
+132
+133
+134
+S/N
+PRODUCT NAME
+CAS NO
+Product Usage 
+135
+136
+137
+
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149

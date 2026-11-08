@@ -1,0 +1,1820 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/12200/TICA_TBF_CAT_2024.pdf
+
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+TBF
+FORM No.A14218G01
+JENVIN MODULAR AIR HANDLING UNIT
+Series
+TICA Central Air Conditioner
+TICA PRO LLC 
+www.tica.pro
+
+Contents
+P2
+P6
+P4
+P8
+Product Overview
+Mechanical Performance 
+Product Cleanliness 
+Design
+Nomenclature
+P14
+P16
+Unit Energy-saving 
+Design
+Professional Model 
+Selection Software
+Established in 1991
+Nanjing Headquarter
+Tianjin Base
+Guangzhou Base
+Chengdu Base
+TICA Quality For IAQ
+TICA is a professional enterprise specialized in R&D, manufacturing, sales and 
+services of environment cleaning and thermal energy utilization. 
+TICA is a national high-tech enterprise, a single leading enterprise cultivated by the Ministry of Industry and Information 
+Technology, a national brand cultivation enterprise of the Ministry of Industry and Information Technology, and a vice 
+chairman member of China Refrigeration and Air-conditioning Industry Association. It has a national-recognized enterprise 
+technology center, an enterprise academician workstation, and a post-doctoral research workstation. Its projects cover 
+Beijing Bird's Nest Stadium, Water Cube, Wukesong Indoor Stadium, PetroChina, Sinopec, State Grid, Nanjing Panda, 
+Hangzhou Xiaoshan International Airport, Hainan Airlines Group, Shangri-La Hotel, Manila Ocean Park, Abu Dhabi Al 
+Muneera, SM City in Philippines and Unilever, etc.
+TICA is also the outstanding provider of central air conditioners 
+for China's subway networks and has successfully served 
+nearly 60 key subway lines in major cities such as Beijing, 
+Shanghai, Guangzhou, Shenzhen, Chengdu, Suzhou, 
+Hangzhou and Tianjin. TICA is a professional supplier 
+and service provider in China that specializes in system 
+integration of clean environment. While for microelectronics, 
+hospital operating rooms, biopharmaceutical industry and 
+other professional purification areas, our market share has 
+achieved over 40% in each.
+TICA owns five production sites in Nanjing, Tianjin, Guangzhou, Chengdu and Kuala Lumpur, and a network of over 70 sales 
+and service filiales around the world.
+Its Nanjing HQ base received 3-star certification for national No. 001 green industrial construction.
+TICA focuses on indoor air quality (IAQ) in clean environments. Product lines include return air purifiers, heat recovery 
+ventilators, fresh air purifiers, air purifiers, as well as the clean air handling units and digital variable-capacity air handling 
+units used in the professional purification field. Regarding core technology, TICA established an ISO class 1 super-clean 
+environment integration system and won the first prize of CMIST.
+In the field of thermal energy utilization, TICA's product lines include modular chillers, VRF units, screw chillers, centrifugal 
+chillers, and ORC low-temperature waste heat power generation systems. In 2015, TICA and United Technologies 
+Corporation (UTC) established a global strategic joint venture cooperation relationship and acquired PureCycle, an ORC 
+low-temperature power generation company owned by Pratt & Whitney under UTC. TICA obtained PureCycle trademarks 
+and more than 100 patents and national copyrights. TICA’s efficient centrifugal chillers, water-cooled screw chillers, and 
+air-cooled screw chillers are manufactured with the technical license of Carrier under UTC.
+TICA is characterized by excellent system integration capability. In the application of "Efficient Refrigeration System of 
+Underground Railway Station", the integrated COP of the refrigeration room amounts to 6.0, and the research achievement 
+reaches the international advanced level. In 2018, TICA merged and acquired an OFC central air conditioning enterprise 
+. TICA’s excellent system integration capability and the 
+ world-class OFC water chillers help 
+increase the integrated COP of the efficient equipment room to 6.7 to 7.0.
+TICA---We're striving.
+TICA aims to build itself into a world-leading system integration supplier and service 
+provider that specializes in clean environment and thermal energy utilization.
+
+2
+3
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+Reasons for Launching 
+As the state authorities strengthen supervision on medical treatment, 
+public health as well as food and drug safety, the requirements for the 
+purifiers used in clean operating rooms and food and drug workshops 
+constantly increase. On the basis of ensuring clean and hygienic air 
+conditioning equipment, the concept of energy saving deepens.
+Europe has established a perfect set of clean and hygienic standards for 
+clean air-conditioning equipment used in the fields of medical treatment, 
+public health, food and drugs. The air-conditioning systems for domestic 
+high-end clean operating rooms, high-end purification workshops of 
+pharmaceutical factories, and high-end food manufacturing workshops 
+are designed by reference to Europe design standards, thus raising 
+more specialized requirements for purification equipment.
+Structures of Jenvin modular AHUs meet the requirements of EN1886 
+(a European standard), and VDI 6022-1 and DIN 1946-4 (Germany 
+standards). Core parts are international well-known brands. They not 
+only feature superior mechanical performance, but also apply to high-
+grade clean operating rooms, clean pharmaceutical manufacturing 
+workshops, and clean factories in food industry, etc.
+Product Overview
+Core Parts
+2
+3
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+4
+5
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+VDI 6022-1 Hygiene requirement for ventilation 
+and air-conditioning systems and units
+DIN 1946-4 Ventilation in buildings and rooms of health care
+The EUROVENT standard is well-known for 
+its strict test methods and high requirements. 
+Its authoritativeness is recognized throughout 
+the world and is referred to as the class A air 
+conditioner certification standard in Europe.
+Mechanical Index of the Case
+Mechanical strength of the case
+Air leakage rate of the case
+Cold bridge factor
+Cabinet heat transfer coefficient
+EN1886
+D1
+L1
+ TB2
+T2
+European Standard
+DIN refers to German Institute for Standardization, 
+while VDI indicates Association of German 
+Engineers with nearly 130,000 members of 
+engineers and scientists.
+The DIN 1946-4 standard is applicable to 
+all medical buildings and departments, and 
+provides demanding requirements for medical 
+air conditioners. It emphasizes that components 
+and materials of air conditioning system cannot 
+contaminate the passing-by airflow.
+VDI 6022 part1 describes the ideal sanitary 
+state of the air conditioning system and raises 
+complete sanitary requirements to prevent 
+adverse effects on indoor air.
+German Standard
+Application characteristics: Chilled water type air conditioning unit
+Characteristics: H—Horizontal type
+Design S/N: A, B, C...
+Specifications: XX—Height modulus YY—Width modulus 
+(Each modulus is 76.5 mm.)
+TICA Jenvin modular air handling unit
+TBF XX YY B H W
+Example: TBF1216BHW
+Box plate thickness 50 mm, 12 modulus for the height, 16 modulus for the width, horizontal, chilled water type air conditioning unit
+External height of unit = Height modulus*76.5 + 100 + Base height; External width = Width modulus*76.5 + 100.
+Nomenclature
+The unit is 
+of left type.
+Air flow direction
+Air flow direction
+If the water inlet and outlet pipes 
+are on the left when facing the 
+air flow direction, the unit is of left 
+type. If the pipes are on the right, 
+the unit is of right type.
+Left/Right Judgment of the Unit
+Nomenclature
+4
+5
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+6
+7
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+3. Cold bridge factor and heat 
+transfer coefficient
+Case plate
+1. Add a profile that prevents 
+cold bridge generation to 
+the interior.
+Stand column
+2. Internal lining square 
+steel for preventing cold 
+bridge generation
+3D section
+1. Mechanical performance
+2. Air leakage rate
+Frame
+1. Built-in steel square 
+tube
+2. High strength GFK
+Case plate
+1. Thickness of internal and external 
+metal plates is 1.0 mm.
+2. The thickness of the case plate 
+is 50 mm.
+Superior Mechanical 
+Performance of the Unit
+Mechanical Index of the Case
+Mechanical strength 
+Air leakage rate 
+Cold bridge factor
+Heat transfer coefficient
+EN1886
+D1
+L1
+ TB2
+T2
+Mechanical Performance
+6
+7
+Jenvin Level
+D1
+L1
+TB2
+T2
+EN 1886
+Mechanical strength
+Air leakage rate
+Cold bridge factor
+Heat transfer coefficient
+Case plate
+1. Integral free foaming 
+sealant
+Unit interior
+1. The case plate and frame 
+are sealed with microbial 
+inert high-density material.
+Jenvin Level
+D1
+L1
+TB2
+T2
+EN 1886
+Mechanical strength
+Air leakage rate
+Cold bridge factor
+Heat transfer coefficient
+Jenvin Level
+D1
+L1
+TB2
+T2
+EN 1886
+Mechanical strength
+Air leakage rate
+Cold bridge factor
+Heat transfer coefficient
+Sealing case plate
+Flat interior
+3D section
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+8
+9
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+Actual measurement shows that 
+the closed air valve complies with
+BS EN 1751:2014 Class 3.
+8
+9
+Cleanliness*Energy efficient*High fire protection grade
+Product Cleanliness Design
+2. The case complies with the 
+hygiene standard design.
+ DIN 1946-4 -- 6.5.1 General Requirements for Units
+★ The sealing material does not breed bacteria.
+★ Sheet metal has powder spraying coating of at least 
+60 μm thick, or uses corrosion-resistant stainless 
+steel.
+★ The inner surface is smooth for easy cleaning.
+ VDI6022-1 -- 4.3.5 Unit Case
+★ Porous sealing material without openings.
+★ Fire protection measures comply with VDI 
+3803.
+★ Easy for cleaning and checking smoothness 
+of the inner surface.
+The interior is flat. 
+Therefore, dust is not easy 
+to accumulate and the 
+interior is easily cleaned.
+The high-density closed-hole 
+microbial inert sealing material 
+prevents bacteria breeding.
+The external sheet metal is 
+fully sprayed with electrostatic 
+powder, and the coating 
+thickness is 80 μm. The 
+internal sheet metal is sprayed 
+or uses stainless steel.
+Fire protection class is A, 
+meeting FM certification 
+requirements.
+Case plate meets IPX5 
+water-proof requirements. 
+Avoid thermal insulation 
+failure.
+Unit’s bottom frame is 
+fully sprayed.
+1
+2
+DIN 1946-4 -- 6.5.1 General 
+Requirements for Units
+★ At least meet EN1751 leakage class 2.
+★ Flexible connection of insulation materials.
+1. The design of the air valve complies 
+with the hygiene standard.
+BS EN 1751:2014 classification standard l/(s*m
+2) 
+Class 1 
+740
+Class 2 
+157
+Class 3 
+30
+Class 4 
+6
+Design
+Design
+2
+1
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+10
+11
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+3. The fan motor section complies with the hygiene standard design.
+ VDI6022-1 -- 4.3.5 Unit Case
+★ The fan or drive that will produce belt wear to 
+reduce air quality does not exist.
+★ Easy cleaning.
+EC fan available without belt wear and dust
+Blade + motor shell, aluminum alloy
+Bracket spraying
+No volute, easy cleaning
+ VDI6022-1 -- 4.3.5 Unit Case
+★ Using a differential pressure gauge for detection
+★ Closed-hole sealing material
+★ Maintaining filter efficiency throughout the 
+lifecycle
+ DIN 1946-4 -- 6.5.1 General Requirements for Units
+★ Installing a differential pressure gauge in the filter section
+★ Keeping the filtering level throughout the service period
+4. The filter section complies with the hygiene standard design.
+Professional Detail Design
+TICA’s installation and design of the differential 
+pressure gauge is patented. TICA replaces the 
+traditional plastic tube with stainless steel tube. The 
+joint is sealed with a rubber seal to effectively solve 
+the problem of air leakage and differential pressure 
+pointer jitter caused by insufficient strength of the 
+connecting pipe of the differential pressure gauge.
+Highly-closed Filter Frame
+The patented filter framework maximizes the 
+performance of the filter section and achieves a 
+filter bypass leak rate of up to EN1886 (F9).
+Nanofiber 
+wave-structure 
+filter
+Electrostatic 
+melt-blown filter
+Usage time
+Efficiency
+Filter efficiency is not attenuated during use period 
+when a nanofiber wave-structure filter is used.
+10
+11
+3
+4
+VDI6022-1 -- 4.3.5 Unit Case
+★ The fan or drive that will produce belt wear 
+to reduce air quality does not exist.
+★ Easy cleaning.
+Design
+Design
+3
+4
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+12
+13
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+6. The cooling coil section/water
+retaining section complies with
+the hygiene standard design.
+ VDI6022-1 -- 4.3.5 Unit Case
+★ The heat exchanger is easily cleaned.
+★ Anti-corrosion
+★ The moisture eliminator is easily removed and 
+cleaned.
+★ The drain pan is corrosion-resistant and easily 
+cleaned.
+ DIN 1946-4 -- 6.5.1 General Requirements for Units
+★ Fin spacing is equal to or greater than 2 mm. 
+Therefore, fins are easily cleaned.
+★ The heat exchanger frame is resistant to corrosion.
+★ The moisture eliminator is resistant to corrosion 
+and easily cleaned.
+★ The drain pan is resistant to corrosion. Water 
+is drained timely and the drain pipe diameter 
+should be at least 40 mm.
+The cooling coil frame is stainless steel and the 
+pitch of fins is equal to or greater than 2 mm.
+Use a professional software for model selection 
+and an efficient heat exchanger. The heat 
+exchanger is designed by using professional AHRI-
+certified models to ensure performance consistency 
+between the selected model and real device. The 
+coil is integrated with quality RoHS-certified copper 
+tubes and unique corrugated aluminum fins through 
+the advanced mechanical expansion tube process. 
+The coil passes air tightness test before delivery to 
+ensure no leakage.
+★
+★
+Cooling coil/moisture eliminator can 
+be pulled out from the side of the unit.
+Stainless steel moisture 
+eliminator
+Material thickness of stainless 
+steel drain pan ≥ 1.5 mm Slope 
+design ≥ 3%
+Use a light-tube electric heater. Dust is not easily 
+deposited on the surface of the electric heater.
+5. The electric heating section complies
+with the hygiene standard design.
+12
+13
+5
+6
+5
+6
+Design
+Design
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+14
+15
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+Energy-saving Design of Filter Section
+Uniform air flow and small resistance loss
+Smaller fan mounting space in the cabinet
+High motor efficiency
+Unit Energy-saving Design
+Compared with glass fiber, the primary and secondary 
+filters help reduce resistance by 40%.
+Filter efficiency is guaranteed throughout the lifecycle.
++
+Nanofiber wave-structure 
+with relatively low windward 
+fan speed and less resistance.
+Filters are fully deployed in 
+the air inlet section with low 
+windward fan speed, thus 
+further reducing resistance.
+No belt drive loss and belt replacement fee
+No inverter loss
+Energy-saving Design in the Fan Section
+Airfoil blade
+Low airflow loss + efficient operation + 
+high stability
+14
+15
+Multiple fans are used in parallel, with better adjustment capability. Based on differential pressure feedback, 
+the controller can automatically adjust the fan speed according to the specified air flow to achieve constant air 
+flow operation.
+0-10 V
+Pa
+m
+3
+Design
+Design
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+16
+17
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+1. Personalized product 
+customization and quick 
+model selection
+Specialized operating system, easy 
+to use, automatic system association 
+design, fast model selection and high 
+accuracy.
+Complete project management to listen 
+to customers feedback on product design 
+and give speedy answers.
+Switch between languages.
+2. Powerful model selection 
+function
+Set a variety of modules based on the rich 
+design experience of TICA modular AHUs. 
+Directly fetch models during model selection, 
+thus speeding up model selection.
+The software is embedded with a variety 
+of functional section configurations to meet 
+customer requirements for different process 
+designs.
+A large-capacity unit model database can 
+meet the requirements of various locations 
+for case sizes.
+3. Professional model selection 
+of core parts
+TICA uses the professional heat exchanger 
+selection software to provide a wide range of 
+choices for coil rows, loops, and fins based 
+on the operation conditions of the unit. The 
+heat exchanger selection software passes 
+U.S. AHRI certification.
+Fan and motor selection can be determined 
+automatically based on air flow and pressure 
+requirements. Recommend the fan and motor 
+combination at the best operating status point.
+4. Output of a complete set of 
+reports
+The model selection results can be output 
+through a complete set of reports, including 
+the technical parameter detail list of each 
+functional section of the unit, the coil model 
+selection detail list, enthalpy/humidity chart, 
+operating conditions, and unit size diagram.
+The output report is professional, accurate 
+and intuitive.
+Professional Model Selection Software
+16
+17
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+| www.tica.pro
+www.tica.pro I
+
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+Air Flow Table
+Cooling Capacity Table
+Unit Specifications TBF
+Windward Fan Speed of the Coil (m/s)
+Height
+Width
+2.00
+2.25
+2.50
+2.80
+3.00
+3.50
+08
+08
+1470 
+1650 
+1840 
+2060 
+2210 
+2570 
+08
+12
+2590 
+2910 
+3240 
+3630 
+3880 
+4530 
+08
+16
+3710 
+4170 
+4640 
+5190 
+5560 
+6490 
+12
+12
+4210 
+4730 
+5260 
+5890 
+6310 
+7360 
+12
+16
+6030 
+6780 
+7530 
+8440 
+9040 
+10550 
+12
+20
+7850 
+8830 
+9810 
+10980 
+11770 
+13730 
+16
+16
+8340 
+9390 
+10430 
+11680 
+12520 
+14600 
+16
+20
+10860 
+12220 
+13580 
+15210 
+16290 
+19010 
+16
+24
+13380 
+15050 
+16730 
+18730 
+20070 
+23420 
+20
+20
+13880 
+15620 
+17350 
+19430 
+20820 
+24290 
+20
+24
+17100 
+19240 
+21370 
+23940 
+25650 
+29920 
+20
+28
+20320 
+22860 
+25400 
+28440 
+30470 
+35550 
+24
+24
+20070 
+22580 
+25090 
+28100 
+30110 
+35130 
+24
+28
+23850 
+26830 
+29810 
+33390 
+35770 
+41740 
+24
+32
+27630 
+31080 
+34530 
+38680 
+41440 
+48350 
+28
+28
+27380 
+30810 
+34230 
+38340 
+41070 
+47920 
+28
+32
+31720 
+35680 
+39650 
+44410 
+47580 
+50000 
+28
+37
+36060 
+40560 
+45070 
+50000 
+32
+32
+36840 
+41440 
+46040 
+50000 
+32
+37
+41870 
+47110 
+50000 
+Unit 
+Specifications 
+TBF
+Rated 
+Air Flow 
+(m
+3/h)
+Fresh Air Condition
+Return Air Condition
+4 rows
+6 rows
+8 rows
+4 rows
+6 rows
+8 rows
+Sensible 
+Cooling 
+Capacity 
+(kW)
+Total 
+Cooling 
+Capacity 
+(kW)
+Sensible 
+Cooling 
+Capacity 
+(kW)
+Total 
+Cooling 
+Capacity 
+(kW)
+Sensible 
+Cooling 
+Capacity 
+(kW)
+Total 
+Cooling 
+Capacity 
+(kW)
+Sensible 
+Cooling 
+Capacity 
+(kW)
+Total 
+Cooling 
+Capacity 
+(kW)
+Sensible 
+Cooling 
+Capacity 
+(kW)
+Total 
+Cooling 
+Capacity 
+(kW)
+Sensible 
+Cooling 
+Capacity 
+(kW)
+Total 
+Cooling 
+Capacity 
+(kW)
+08
+08
+1840 
+12 
+27 
+13 
+31 
+14 
+33 
+6 
+7 
+7 
+9 
+8 
+10 
+08
+12
+3240 
+21 
+49 
+22 
+53 
+23 
+54 
+11 
+13 
+13 
+16 
+14 
+18 
+08
+16
+4640 
+26 
+60 
+33 
+78 
+33 
+78 
+18 
+22 
+19 
+23 
+19 
+24 
+12
+12
+5260 
+33 
+77 
+36 
+85 
+37 
+88 
+18 
+21 
+21 
+27 
+21 
+27 
+12
+16
+7530 
+41 
+97 
+52 
+123 
+53 
+125 
+29 
+34 
+30 
+37 
+30 
+38 
+12
+20
+9810 
+54 
+127 
+70 
+166 
+70 
+166 
+33 
+39 
+39 
+48 
+40 
+51 
+16
+16
+10430 
+57 
+132 
+71 
+169 
+72 
+172 
+40 
+48 
+41 
+51 
+41 
+52 
+16
+20
+13580 
+75 
+175 
+97 
+230 
+97 
+230 
+45 
+53 
+55 
+67 
+55 
+70 
+16
+24
+16730 
+90 
+211 
+118 
+281 
+120 
+287 
+55 
+63 
+68 
+84 
+67 
+84 
+20
+20
+17350 
+91 
+213 
+123 
+291 
+122 
+292 
+57 
+67 
+69 
+84 
+68 
+85 
+20
+24
+21370 
+111 
+259 
+141 
+334 
+154 
+366 
+69 
+80 
+87 
+105 
+85 
+107 
+20
+28
+25400 
+135 
+316 
+171 
+406 
+183 
+437 
+83 
+97 
+104 
+126 
+103 
+130 
+24
+24
+25090 
+132 
+308 
+167 
+397 
+180 
+430 
+82 
+95 
+102 
+123 
+100 
+127 
+24
+28
+29810 
+161 
+376 
+202 
+482 
+216 
+516 
+98 
+115 
+123 
+150 
+121 
+153 
+24
+32
+34530 
+188 
+442 
+237 
+564 
+253 
+603 
+108 
+128 
+143 
+175 
+142 
+180 
+28
+28
+34230 
+187 
+438 
+233 
+553 
+250 
+597 
+114 
+134 
+142 
+174 
+139 
+175 
+28
+32
+39650 
+219 
+514 
+272 
+647 
+290 
+692 
+126 
+149 
+166 
+204 
+164 
+209 
+28
+37
+45070 
+254 
+600 
+315 
+751 
+336 
+801 
+157 
+185 
+178 
+219 
+188 
+239 
+32
+32
+46040 
+254 
+597 
+316 
+752 
+337 
+804 
+154 
+182 
+192 
+235 
+189 
+240 
+32
+37
+50000 
+286 
+674 
+353 
+842 
+374 
+893 
+176 
+208 
+198 
+245 
+210 
+268 
+Remarks:
+1. Fresh air conditions: The dry/wet bulb temperature of air inlet is 35°C/28°C.
+2. Air return conditions: The dry/wet bulb temperature of air inlet is 24°C/17°C.
+3. Chilled water inlet/outlet temperature: 7°C/12°C; windward fan speed of the coil: 2.5 m/s.
+Unit: m
+3/h
+18
+19
+| www.tica.pro
+www.tica.pro I
+
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+No.
+Height
+Modulus
+Width
+Modulus
+Air Inlet/
+Outlet 
+Section
+Plate 
+Type
+Bag 
+Type
+Dense- 
+pleated
+Cooling Coil Section
+Moisture 
+Eliminator 
+Section
+Heating Humidification
+Fan Section
+Flow 
+Equalization 
+Section
+2 rows 4/6 rows 8 rows 10 rows 
+EBM 
+310
+EBM 
+450
+1
+8
+8
+536
+153
+459
+383
+459
+536
+612
+689
+77
+306
+459
+842
+1071
+459
+2
+8
+12
+536
+153
+459
+383
+459
+536
+612
+689
+306
+459
+3
+8
+16
+536
+153
+459
+383
+459
+536
+612
+689
+306
+459
+4
+12
+12
+536
+153
+459
+383
+459
+536
+612
+689
+306
+459
+5
+12
+16
+536
+153
+459
+383
+459
+536
+612
+689
+306
+459
+6
+12
+20
+536
+153
+459
+383
+459
+536
+612
+689
+306
+459
+7
+16
+16
+612
+153
+459
+383
+459
+536
+612
+689
+306
+459
+8
+16
+20
+612
+153
+459
+383
+459
+536
+612
+689
+306
+459
+9
+16
+24
+612
+153
+459
+383
+459
+536
+612
+689
+306
+459
+10
+20
+20
+612
+153
+459
+383
+459
+536
+612
+689
+306
+459
+11
+20
+24
+612
+153
+459
+383
+459
+536
+612
+689
+306
+459
+12
+20
+28
+612
+153
+459
+383
+459
+536
+612
+689
+306
+459
+13
+24
+24
+689
+153
+459
+383
+689
+765
+842
+918
+306
+459
+14
+24
+28
+689
+153
+459
+383
+689
+765
+842
+918
+306
+459
+15
+24
+32
+689
+153
+459
+383
+689
+765
+842
+918
+306
+459
+16
+28
+28
+765
+153
+459
+383
+689
+765
+842
+918
+306
+459
+17
+28
+32
+765
+153
+459
+383
+689
+765
+842
+918
+306
+459
+18
+28
+37
+765
+153
+459
+383
+689
+765
+842
+918
+306
+459
+19
+32
+32
+842
+153
+459
+383
+689
+765
+842
+918
+306
+459
+20
+32
+37
+842
+153
+459
+383
+689
+765
+842
+918
+306
+459
+Unit Specifications 
+TBF
+Rated Air 
+Flow 
+(m
+3/h)
+Fresh Air Condition 
+(dry bulb temperature of air inlet: 7°C)
+Return Air Condition 
+(dry bulb temperature of air inlet: 15°C)
+1 row
+2 rows
+3 rows
+4 rows
+1 row
+2 rows
+3 rows
+4 rows
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+Total 
+Heating 
+Capacity 
+(kW)
+08
+08
+1840 
+8 
+16 
+21 
+25 
+7 
+13 
+18 
+21 
+08
+12
+3240 
+16 
+30 
+39 
+45 
+13 
+24 
+32 
+38 
+08
+16
+4640 
+25 
+44 
+57 
+64 
+20 
+36 
+47 
+54 
+12
+12
+5260 
+26 
+47 
+62 
+72 
+21 
+39 
+52 
+60 
+12
+16
+7530 
+39 
+70 
+91 
+102 
+32 
+58 
+76 
+87 
+12
+20
+9810 
+53 
+92 
+106 
+133 
+43 
+77 
+88 
+112 
+16
+16
+10430 
+54 
+97 
+125 
+140 
+44 
+80 
+103 
+121 
+16
+20
+13580 
+73 
+128 
+147 
+185 
+59 
+105 
+122 
+153 
+16
+24
+16730 
+92 
+156 
+181 
+230 
+75 
+132 
+152 
+191 
+20
+20
+17350 
+90 
+161 
+185 
+233 
+75 
+133 
+153 
+193 
+20
+24
+21370 
+114 
+165 
+228 
+289 
+93 
+166 
+191 
+241 
+20
+28
+25400 
+137 
+198 
+264 
+345 
+112 
+164 
+227 
+287 
+24
+24
+25090 
+136 
+196 
+271 
+341 
+111 
+195 
+225 
+286 
+24
+28
+29810 
+163 
+235 
+314 
+410 
+135 
+196 
+270 
+340 
+24
+32
+34530 
+192 
+277 
+366 
+480 
+157 
+227 
+305 
+399 
+28
+28
+34230 
+190 
+274 
+366 
+471 
+155 
+225 
+310 
+395 
+28
+32
+39650 
+223 
+318 
+423 
+554 
+182 
+265 
+350 
+458 
+28
+37
+45070 
+260 
+367 
+469 
+636 
+212 
+307 
+409 
+522 
+32
+32
+46040 
+256 
+369 
+492 
+643 
+212 
+305 
+407 
+532 
+32
+37
+50000 
+288 
+415 
+548 
+699 
+239 
+346 
+453 
+591 
+Heating Capacity Table
+Section Length Table
+Remarks:
+1. Hot water inlet and outlet temperature: 60°C/50°C; windward fan speed of the coil: 2.5 m/s.
+Unit: mm
+20
+21
+| www.tica.pro
+www.tica.pro I
+
+TICA Central Air Conditioner
+MODULAR AIR HANDLING UNIT /
+Lifting Diagram
+Hanger
+Stay bar
+Drainage ditch
+Foundation
+Terrace
+Floor drain
+A-A amplification
+L = Unit length + 200
+W = Unit width + 200
+Wire 
+rope
+Steel 
+pipe
+ The air conditioning units of all structure types should be installed on a horizontal base.
+ A sufficient space should be reserved around the unit, especially at the access door side of unit pipes, fan and motor, so as to facilitate 
+routine unit inspection and regular maintenance.
+ A U-shaped drain pipe must be first connected at the condensate water outlet or a floating ball-type water seal must be installed before 
+connecting to the external pipe.
+ Exert balanced force when connecting the water inlet and outlet pipes of coil. Excessive force may damage the coil.
+ The motor of air conditioning unit should be connected to a power supply with overload protection, and provide with grounding protection.
+ Flexible connection should be adopted between the air conditioning unit and the external air duct to avoid vibration transmission.
+Installation Notes
+1. Never run the unit where acid, alkali, salt spray and other corrosive gases are present, as it will
+damage the unit casing, pipeline or electrical components.
+2. Keep the surroundings around the unit clean and dry and ensure smooth ventilation for the unit.
+Clean the air-side heat exchanger periodically (once every one to two months) to maintain excellent 
+heat transfer effect and save energy.
+3. Install the drainage pipe according to this manual. Ensure that water will drain smoothly. Take
+thermal insulation measures well. Prevent generation of condensing water. Make sure to check the 
+drainage pipe before the unit operates. If it is blocked, clear the foreign matter so that condensing 
+water can be discharged smoothly.
+4. Check whether wiring of the unit power supply and electrical system is secure, and whether
+electrical components work abnormally. If an exception occurs, repair or replace electrical 
+components. Regularly check whether the unit is grounded reliably.
+5. The minimum starting voltage of the unit must be kept above 90% of the rated voltage, the voltage
+must be within ±10% of the rated voltage range during operation, and the voltage difference between 
+the phases should be within the range of ±2%. An adverse impact will be caused to the unit when 
+the voltage is too high or too low. Make sure that the power supply is stable. Otherwise, when the 
+unit starts, it may generate excessive current, thus damaging the motor.
+6. The unit can be maintained and repaired only when the unit is powered off and the power supply
+is cut off.
+7. After the unit is faulty, find out the cause and remove the fault before restarting the unit. Do not
+restart the unit if the fault is not removed.
+8. Never short circuit the protective device of the unit, as it may damage the unit.
+9. Protect the internal cables of the unit to prevent the insulation layer from being damaged by sharp
+objects.
+10. The wire and cable should be far away from the heat source. Do not move them frequently, and
+do not bend or twist them violently.
+11. Control cabinet installation and usage:
+1) The control cabinet is embedded with AC strong power supply. Therefore, exercise caution during
+operation.
+2) The control line of the unit must be separated from the power cord of power supply to prevent
+interference.
+3) It is necessary to use the power supply that meets requirements. The use of a substandard power
+supply may damage the control cabinet.
+4) Do not place wires in the control cabinet or store long exposed wires inside the control cabinet. After
+the control cabinet door is repaired, install and reset it timely to prevent rainwater from entering.
+5) Be sure to control the running status of the air-conditioning unit through the control cabinet. It is
+forbidden to insert and remove the power plug to switch on/off the unit. Do not frequently shut down 
+the unit by using the emergency stop switch.
+6) Do not use sharp objects when operating the controller’s display. Do not impose excessive force,
+lest the controller panel may be damaged.
+7) Do not wipe the surface of the controller’s display with solvent or strong chemicals. If there is
+slight dust, gently dust it with a clean soft cloth or cotton yarn. If the surface is seriously dirtied, use a 
+clean soft cloth or cotton yarn to remove dirt from the cabinet and then let it air dry.
+8) When an control cabinet alarm is reported or displayed, do not repair the cabinet yourself. Dial
+service hotline of TICA or contact your local service provider.
+Notes
+Lift the unit according to the schematic diagram for safety.
+Before lifting, insert materials such as cardboard at the position 
+where the wire rope comes into contact with the housing, 
+preventing the wire rope from scratching the unit.
+Foundation Drawing
+This dashed area indicates 
+the base. Make sure that the 
+base surface is flat.
+Floor drain – at the same side 
+with the condensate water pipe
+Unit base diagram
+Unit Installation
+H = Unit inside static pressure (mmH2O) +20 
+When the inside static pressure exceeds 750 Pa, increase 
+the base height
+U-shaped water seal installation diagram
+H = Unit inside static pressure (mmH2O) +20 
+When the inside static pressure exceeds 750 Pa, increase the 
+base height
+Floating ball-type water seal installation diagram
+22
+23
+| www.tica.pro
+www.tica.pro I
+
+12. Air filter
+Check the dust accumulation status on the unit filter screen regularly (twice per month 
+recommended). If a differential pressure detection device is installed, the user needs to clean or 
+replace the filter in time when the final resistance reaches the defined value. TICA recommends 
+the following final resistance values:
+Filtering efficiency specification 
+Recommended final resistance (Pa)
+G3 (primary efficiency) 
+100-200
+G4 (primary efficiency) 
+150-250
+M5-M6 (medium efficiency) 
+250-300
+F7-F8 (medium/high efficiency) 
+300-400
+F9-E11 (sub-high efficiency) 
+400-450
+High efficiency and ultrahigh efficiency 
+400-600
+13. Heat exchanger
+Make sure that the heat exchanger coil fins and copper pipes are free from scratches and dent. 
+Keep the coil clean and brush the fins of the coil with nylon brush. A vacuum cleaner must be 
+used for cleaning before brushing. If compressed air is available, use a high pressure air pipe 
+or a spray nozzle to clean the coil. The outer surface of the coil shall be dust-free after cleaning, 
+and the heat transfer effect of the inner surface shall reach its original heat transfer capability. In 
+addition to cleaning fins, after the coil has been used for 2-3 years, clear the water scale inside. If 
+possible, use softened water to produce cold/hot water for the unit coil.
+14. Drainage pipe
+Make sure to check the drainage pipe before the unit operates. If it is blocked, clear the foreign 
+matter so that condensing water can be discharged smoothly.
+15. After the unit has operated for one week, readjust tightness of the belt. After that, perform
+routine check every three months.
+16. After the unit has operated for a period of time, the wiring pile head of electric wire will get
+loose. Check and tighten the wiring pile head in three days after the unit is turned on for the first time.
+17. The fan and motor bearings need to be checked regularly (three times per month
+recommended). Check the motor bearing sealing ring (e.g., V-sealing ring), and replace it
+when necessary; check whether the installed and connected parts get loose; check the bearing
+operating status by listening to abnormal noises, detecting vibration, and monitoring the oil
+consumption or bearing vibration measuring element. In case of any abnormality, stop the unit
+immediately, and locate and eliminate the cause in time. Take heating measures or use special
+tools to install, remove or replace bearings. Do not knock or pry bearings.
+18. Make sure that the steam valve of the steam coil is closed before the fan stops. Make sure
+that the steam valve of the steam humidifier is closed before the fan stops.
+19. If the customer provides a power control cabinet, start electric heating only after the fan starts.
+Turn off electric heating 5 minutes before the fan stops. The overheat protection switch of the
+electric heater needs to be connected to the electric heating protection loop.
+Production Permit
+24 | www.tica.pro
+«TICA PRO» LLC
+Tel.: +7 (495) 822-29-00 
+E-mail: info@tica.ru 
+www.tica.ru
+MODULAR AHU - JENVIN SERIES

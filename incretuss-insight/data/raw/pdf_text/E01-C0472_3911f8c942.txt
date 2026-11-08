@@ -1,0 +1,124 @@
+SOURCE: https://itelgroup-bucket.storage.yandexcloud.net/Production/exb_doc/2047/13041/FineTest_Antibody.pdf
+
+Over 10,000 Antibodies for Your Choice!
+Various Antibodies:Over 10,000 in-stock antibodies for more than 10,000 protein targets, covering 10 research areas 
+such as tumor, signal transduction, cardiovascular disease, immunology, cell biology, neuroscience, metabolism, 
+developmental biology, epigenetics, stem cell.
+FineTest Antibody
+
+Primary Antibodies (Rabbit pAb, Mouse mAb, FCM Antibodies)
+Secondary Antibodies
+Various antibodies with high specificity and stable batch; Over 20 species including common rabbit, mouse, rat, goat, 
+sheep, human and rare guinea pig, chicken, horse, bovine, canine, porcine etc. Over 100 conjugated secondary antibodies 
+labeled with HRP, Biotin, FITC, Cy3, Alexa Fluor 488, Alexa Fluor 594 etc.
+Advantages：
+小鼠脾脏T细胞检测
+Flow Cytometry Antibodies
+FineTest launched classically cloned and purified antibody with high affinity and specificity based on the monoclonal antibody 
+development platform. Our products cover various species and targets for your choice, such as human, rat, mouse etc. Besides, 
+FineTest also provides the complete FCM solution, including free colour matching, assay guidance and data analysis services.
+More than 10 kinds of fluoresceins, which meet the requirements of color matching in multi-color 
+flow experiments.
+Case 1: T Cell Detection in Mouse Spleen
+Case 2: Treg Cell Detection in Mouse Spleen
+01
+02
+03
+Validation
+Timely Aftersale
+Services
+In-stock Supply
+Validated for various 
+species, samples and 
+applications, ensuring 
+antibody quality.
+Rapid after-sale services, 
+short solution cycle, 
+response in 24h, high 
+customer satisfaction.
+Sufficient in-stock 
+antibodies, fast delivery.
+
+FineTest offers a complete type of polyclonal and monoclonal loading control antibodies, featured with high specificity and wide 
+applications; Used for most qualitative, quantitative, and localization analysis of proteins; Besieds human, mouse, rat etc, other 
+rare species are also available(e.g. rabbit, zebrafish, monkey etc.); Custom services are also offered.
+Loading Control Antibodies
+Tag Antibodies
+Phosphorylated antibodies can detect changes in phosphorylation level of this protein when cells are stimulated, focusing on 
+studying the active state of this protein. Applications include immunology, biochemistry, oncology, proteomics, especially the life 
+science research on cell signaling, apoptosis, cancer etc. FineTest provides various antibodies for amino acid phosphorylation sites.
+Phosphorylated Antibodies
+IHC_human colon cancer
+IHC_rat testes
+WB
+WB
+IP
+WB
+IP
+IF
+WB
+FNab03342 GAPDH Antibody Validated Image
+FNab00880 Beta Tubulin antibody Validated Image
+FNab00008 6*His, His-Tag antibody Validated Image
+FNab03433 GFP tag antibody
+Validated Image
+FNab10910 Phospho-p53 (Ser15) antibody Validated Image
+293T cells were subjected to 
+SDS PAGE followed by western 
+blot with FNab10910 at 
+dilution of 1:1000. 293T cells 
+were treated by UV at room 
+temperature for 15-30 
+minutes.
+FNab10441 γ-H2AX antibody Validated Image
+IHC_mouse testes
+IF_Hela cell
+Tag antibodies are efficient tools for studying expression of tagged recombinant proteins. FineTest provides antibodies for differ-
+ent tags, which have been strictly validated in applications like WB, IP, IF etc.
+
+Organelle markers antibodies are tools for specific recognition and localization of specific intracellular organelle, and have been 
+widely applied in IF, IHC and WB etc. Common markers include mitochondrion(COX IV, TOM20), Golgi apparatus(GM130, 
+TGN46), endoplasmic reticulum(Calnexin, PDI), lysosome(LAMP1), nucleus(Histone H3, Lamin B1).
+FNab08858 TOM20 antibody Validated Image：
+FNab09833 PDI antibody Validated Image:
+Organelle Markers
+Hot Selling Secondary Antibodies
+IHC_human hepatic tissue
+IHC_rat brain tissue
+IF_Hela cell
+WB
+IF_Hela cell
+WB
+Cat.No
+Product Name
+Applications
+FNSA-0003
+FNSA-0004
+FNSA-0030
+FNSA-0031
+FNSA-0055
+FNSA-0056
+FNSA-0060
+FNSA-0061
+HRP-Goat Anti-Mouse IgG (H+L)
+HRP-Goat Anti-Rabbit IgG (H+L)
+FITC-Goat Anti-Mouse IgG (H+L)
+FITC-Goat Anti-Rabbit IgG (H+L)
+Alexa Fluor 488-Goat Anti-Mouse IgG (H+L)
+Alexa Fluor 488-Goat Anti-Rabbit IgG (H+L)
+Alexa Fluor 594-Goat Anti-Mouse IgG (H+L)
+Alexa Fluor 594-Goat Anti-Rabbit IgG (H+L)
+WB,IHC
+WB,IHC
+IF, FC
+IF, FC
+IF, FC
+IF, FC
+IF, FC
+IF, FC
+Wuhan Fine Biotech Co., Ltd
+1-2 Floor, BLD 22, Optics Valley Biopharmaceutical Accelerator,No.388 
+Gaoxin 2nd Road, East Lake High Tech Development Zone,Wuhan, 
+430074, Hubei, China
+www.fn-test.com
+fine@fn-test.com
