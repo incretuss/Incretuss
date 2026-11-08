@@ -149,7 +149,7 @@ def main(argv=None) -> int:
         return 0
 
     fetcher = Fetcher(settings)
-    browser = BrowserFetcher(settings, robots_check=fetcher.robots_allowed) if settings.use_browser_fallback else None
+    browser = BrowserFetcher(settings, robots_check=fetcher.robots_allowed, throttle=fetcher._throttle) if settings.use_browser_fallback else None
     try:
         # ------------------------------------------------------ choose event
         start_url = args.url
@@ -230,7 +230,11 @@ def main(argv=None) -> int:
         for line in adapter.describe_strategy(directory_url):
             print(f"  {line}")
         print(f"  Adapter selection: {reason}")
-        print(f"  Politeness: {settings.request_delay:.1f}s between requests per host, sequential, robots.txt respected")
+        delay = settings.request_delay
+        robots = fetcher._robots.get(fetcher._origin(directory_url))
+        cd = robots.crawl_delay(settings.user_agent) if robots else None
+        delay_txt = f"{delay:.1f}s" + (f" (robots.txt Crawl-delay {cd:g}s applies)" if cd and cd > delay else "")
+        print(f"  Politeness: {delay_txt} between requests per host, sequential, robots.txt respected")
         print(f"  PDFs: {'yes' if settings.extract_pdfs else 'no'} | Browser fallback: "
               f"{'yes' if browser else 'no'} | Database: {settings.db_path}")
         if args.discover_only:
@@ -248,6 +252,7 @@ def main(argv=None) -> int:
             except FetchError:
                 log.warning("Continuing with the exhibitors discovered so far.")
             engine.run_profiles(limit=args.limit, retry_failed=not args.no_retry_failed, refresh=args.refresh)
+            engine.run_pending_documents()
         except KeyboardInterrupt:
             interrupted = True
             print("\nInterrupted. All completed work is saved; run `python main.py --resume` to continue.")

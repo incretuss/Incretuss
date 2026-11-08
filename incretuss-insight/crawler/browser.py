@@ -27,8 +27,9 @@ class BrowserUnavailable(RuntimeError):
 
 
 class BrowserFetcher:
-    def __init__(self, settings: Settings, robots_check=None):
+    def __init__(self, settings: Settings, robots_check=None, throttle=None):
         self.settings = settings
+        self._throttle = throttle
         self._pw = None
         self._browser = None
         self._robots_check = robots_check
@@ -66,6 +67,8 @@ class BrowserFetcher:
         if self._robots_check and not self._robots_check(url):
             raise PermissionError(f"disallowed by robots.txt: {url}")
         self._start()
+        if self._throttle:
+            self._throttle(url)   # same per-host politeness as plain HTTP
         ctx = self._browser.new_context(user_agent=self.settings.user_agent, java_script_enabled=True)
         page = ctx.new_page()
 

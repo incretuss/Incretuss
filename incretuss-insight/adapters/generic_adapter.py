@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup, Tag
 from adapters.base_adapter import BaseAdapter, ListingPage, ProfileContext
 from crawler.browser import BrowserUnavailable
 from crawler.fetcher import FetchError
-from crawler.link_extractor import anchor_name, best_profile_family, card_container
+from crawler.link_extractor import CTA_TEXT, anchor_name, best_profile_family, card_container
 from crawler.pagination import find_next_page, has_js_pagination
 from database.models import (
     CompanyData, DocumentRef, EvidenceType, ExhibitorStub, ExtractionStatus, PageLog, ProductData,
@@ -195,9 +195,12 @@ class GenericAdapter(BaseAdapter):
         main = soup.find("main") or soup.find("article") or soup.body or soup
         text = main.get_text("\n", strip=True)
 
-        h1 = text_of(main.find("h1"))
+        h1 = text_of(main.find("h1")) or text_of(main.select_one("[class*=compname], [class*=company-name], "
+                                                                 "[class*=exhibitor-name]"))
         name = ctx.name
-        if h1 and ctx.name and (ctx.name.lower() in h1.lower() or h1.lower() in ctx.name.lower()):
+        if h1 and (not ctx.name or CTA_TEXT.fullmatch(ctx.name)):
+            name = h1          # the listing only showed a call-to-action text
+        elif h1 and ctx.name and (ctx.name.lower() in h1.lower() or h1.lower() in ctx.name.lower()):
             name = h1 if len(h1) <= len(ctx.name) + 40 else ctx.name
 
         excl = set(self._exclude_domains) | {website_key(ctx.profile_url)}
@@ -239,6 +242,15 @@ class GenericAdapter(BaseAdapter):
                         source_url=urljoin(final, href) if href and not href.startswith("javascript") else final,
                         evidence_text=f"Listed under heading '{htext}': {nm}" + (f" | {desc[:300]}" if desc else ""),
                         evidence_type=EvidenceType.PROFILE_BRAND if is_brand else EvidenceType.PROFILE_PRODUCT))
+        # Organiser category "chips"/tags without a heading (class names say what they are).
+        if not sectors:
+            for el in main.select("[class*=cat], [class*=sector], [class*=industr]"):
+                cls = " ".join(el.get("class", [])).lower()
+                if re.search(r"stand|booth|location|cart|catch|cater|scatter", cls) or el.find(["p", "div", "li"]):
+                    continue
+                t = text_of(el)
+                if t and 2 < len(t) < 80 and not CTA_TEXT.fullmatch(t) and t not in {x.sector for x in sectors}:
+                    sectors.append(SectorEntry(sector=t))
         # de-duplicate products by name within the profile
         seen = set()
         products = [p for p in products if not (p.name.lower() in seen or seen.add(p.name.lower()))]
@@ -246,8 +258,11 @@ class GenericAdapter(BaseAdapter):
         documents = []
         for a in main.find_all("a", href=True):
             u = urljoin(final, a["href"])
-            if is_pdf_url(u):
-                documents.append(DocumentRef(title=text_of(a), url=u, doc_type="brochure"))
+            label = text_of(a) or ""
+            icon = " ".join(" ".join(i.get("class", [])) for i in a.find_all("i"))
+            if is_pdf_url(u) or (u.startswith("http") and (re.search(r"\bpdf\b|brochure|catalog", label, re.I)
+                                                           or "file-pdf" in icon)):
+                documents.append(DocumentRef(title=label or None, url=u, doc_type="brochure"))
         documents = list({d.url: d for d in documents}.values())[: self.settings.max_pdfs_per_company]
 
         if website:

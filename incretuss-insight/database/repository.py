@@ -70,8 +70,14 @@ class Repository:
                                 (event_id, norm)).fetchone()
         listing = stub.model_dump(exclude={"extra"}) | {"extra": stub.extra}
         if row:
-            self.conn.execute("UPDATE companies SET listing_data=? WHERE company_id=?",
-                              (json.dumps(listing, ensure_ascii=False), row["company_id"]))
+            # Refresh listing fields; profile-extracted values are never overwritten.
+            self.conn.execute(
+                "UPDATE companies SET listing_data=?,"
+                " company_name=CASE WHEN extraction_status='pending' THEN ? ELSE company_name END,"
+                " country=COALESCE(country, ?), hall=COALESCE(hall, ?), booth=COALESCE(booth, ?)"
+                " WHERE company_id=?",
+                (json.dumps(listing, ensure_ascii=False), stub.name, stub.country, stub.hall, stub.booth,
+                 row["company_id"]))
             return row["company_id"], False
         seq = (self.conn.execute("SELECT COALESCE(MAX(seq),0)+1 FROM companies WHERE event_id=?",
                                  (event_id,)).fetchone()[0])

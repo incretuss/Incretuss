@@ -23,6 +23,11 @@ NOT_PROFILE = re.compile(r"/(tag|tags|category|categories|search|login|register|
                          r"page|wp-content|static|assets|media|images?|feed|rss|privacy|terms|cookie|"
                          r"contact|about|faq)(/|$)|[?&](page|sort|lang|filter|letter)=", re.I)
 NAV_CONTAINERS = ("nav", "header", "footer")
+# Call-to-action link texts that are never a company name.
+CTA_TEXT = re.compile(
+    r"\W*((view|see|visit|open|read|learn|find out|show|go to|more|click here)\s*(the\s+|our\s+)?"
+    r"(profile|details?|more|exhibitor|company|info(rmation)?|stand|booth|page|website)?|more info|details?|"
+    r"profile|products?|brands?|brochures?|videos?|press releases?|contact|website|»|→|›)\W*", re.I)
 ID_SEGMENT = re.compile(r"^(?=.*\d)[\w=+.-]{1,}$|^[\w-]{3,}$")
 
 
@@ -56,12 +61,17 @@ def anchor_name(anchors: list[Tag]) -> str | None:
     """Best display name for a profile from all anchors that point to it."""
     texts = []
     for a in anchors:
+        # A heading or "title"/"name" element inside the link is the strongest signal.
+        titled = a.find(["h1", "h2", "h3", "h4", "h5"]) or a.find(class_=re.compile(r"title|name", re.I))
+        if titled is not None:
+            t = re.sub(r"\s+", " ", titled.get_text(" ", strip=True))
+            if t and not CTA_TEXT.fullmatch(t):
+                return t[:300]
         t = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
         if not t:
             img = a.find("img", alt=True)
             t = (img["alt"].strip() if img else "") or (a.get("title") or "").strip()
-        if t and not re.fullmatch(r"(view|more|details?|read more|profile|visit|\.\.\.|»|→|products?|"
-                                  r"brands?|brochures?|video|press release|image|logo|\W+)", t, re.I):
+        if t and not CTA_TEXT.fullmatch(t) and not re.fullmatch(r"(image|logo|\.\.\.)", t, re.I):
             texts.append(t)
     if not texts:
         return None

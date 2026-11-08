@@ -110,6 +110,19 @@ class CrawlEngine:
         for i, row in enumerate(rows, 1):
             self._process_company(row, i, len(rows))
 
+    def run_pending_documents(self) -> None:
+        """Process brochures left pending by earlier runs (e.g. run with --no-pdf)."""
+        if not self.settings.extract_pdfs:
+            return
+        rows = self.repo.conn.execute(
+            "SELECT DISTINCT c.company_id, c.company_name FROM documents d JOIN companies c USING(company_id)"
+            " WHERE c.event_id=? AND d.status='pending' ORDER BY c.seq", (self.event_id,)).fetchall()
+        if rows:
+            log.info("Processing pending brochures for %d companies", len(rows))
+        for r in rows:
+            ok, total = self.run_documents(r["company_id"], r["company_name"])
+            log.info("  %s - PDFs %d/%d", r["company_name"], ok, total)
+
     def _process_company(self, row, i: int, n: int) -> None:
         cid, name = row["company_id"], row["company_name"]
         listing = json.loads(row["listing_data"] or "{}")
@@ -153,7 +166,7 @@ class CrawlEngine:
         mark = {"success": "ok", "partial": "partial"}.get(result.status.value, result.status.value)
         log.info("[%d/%d] %s - %s: %d products, %d brands%s (%.1fs) | totals: %d/%d processed, ok %d, partial %d, "
                  "failed %d, products %d, websites %d",
-                 i, n, name, mark, n_prod, n_brand, pdf_note, time.time() - t0, st["processed"], st["discovered"],
+                 i, n, result.company.name or name, mark, n_prod, n_brand, pdf_note, time.time() - t0, st["processed"], st["discovered"],
                  st["success"], st["partial"], st["failed"], st["products"], st["websites"])
         for w in result.warnings:
             log.debug("    warning: %s", w)
