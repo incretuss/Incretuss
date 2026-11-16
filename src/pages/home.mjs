@@ -68,6 +68,7 @@ function categoryIndex() {
   <div class="wrap">
     ${sectionHead({ title: 'What we supply', lede: 'The catalogue is organised in three categories. Every entry lists its botanical or chemical identity, marker compound or CAS number, and the forms we supply.' })}
     <ol class="cat-index">${rows}</ol>
+    <p class="also-from"><a class="link-arrow" href="/pharma/">Also from Incretuss: Pharma ${icons.arrow}</a></p>
   </div>
 </section>`;
 }

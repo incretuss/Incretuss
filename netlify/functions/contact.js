@@ -21,6 +21,34 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
 const RATE_LIMIT_MAX = 5; // requests per IP per window
 
+// Pharma enquiries (/pharma/…, js/pharma.js) carry `type: "pharma"` and their
+// own fields, and go to PHARMA_RECEIVER_EMAIL (default info@incretuss.com).
+const PHARMA_MAX_LENGTHS = {
+  name: 100,
+  company: 100,
+  country: 80,
+  email: 254,
+  phone: 40,
+  product: 200,
+  strength: 120,
+  quantity: 120,
+  destination: 120,
+  message: 5000,
+};
+const PHARMA_REQUIRED = ['name', 'company', 'country', 'email', 'destination'];
+const PHARMA_LABELS = {
+  name: 'Name',
+  company: 'Company',
+  country: 'Country',
+  email: 'Email',
+  phone: 'Phone',
+  product: 'Product',
+  strength: 'Required form / strength',
+  quantity: 'Quantity',
+  destination: 'Destination market',
+};
+const PHARMA_DEFAULT_RECEIVER = 'info@incretuss.com';
+
 const GENERIC_ERROR = 'Something went wrong on our end. Please try again shortly or email us directly.';
 
 function jsonResponse(statusCode, body, extraHeaders) {
@@ -132,6 +160,8 @@ exports.handler = async (event) => {
     return jsonResponse(200, { ok: true });
   }
 
+  if (payload.type === 'pharma') return handlePharma(payload, ip);
+
   const name = cleanField(payload.name);
   const company = cleanField(payload.company);
   const email = cleanField(payload.email);
@@ -229,3 +259,98 @@ exports.handler = async (event) => {
     return jsonResponse(502, { ok: false, error: GENERIC_ERROR });
   }
 };
+
+// ---------- Pharma enquiry ----------
+// The message keeps its line breaks (cleanField would flatten them), with
+// control characters other than newline removed.
+function cleanMessage(value) {
+  if (typeof value !== 'string') return '';
+  return value
+    .replace(/\r\n?/g, '\n')
+    .replace(/[\0-\x09\x0B-\x1F\x7F\u0085\u2028\u2029]/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+async function handlePharma(payload, ip) {
+  const f = {};
+  for (const key of Object.keys(PHARMA_MAX_LENGTHS)) {
+    f[key] = key === 'message' ? cleanMessage(payload[key]) : cleanField(payload[key]);
+  }
+
+  const missing = PHARMA_REQUIRED.filter((k) => !f[k]);
+  if (missing.length) {
+    return jsonResponse(400, {
+      ok: false,
+      error: `Please complete: ${missing.map((k) => PHARMA_LABELS[k]).join(', ')}.`,
+    });
+  }
+  if (payload.licence !== true) {
+    return jsonResponse(400, {
+      ok: false,
+      error: 'Please confirm that you hold the licence required to import or distribute pharmaceutical products.',
+    });
+  }
+  for (const [key, max] of Object.entries(PHARMA_MAX_LENGTHS)) {
+    if (f[key].length > max) return jsonResponse(400, { ok: false, error: `${PHARMA_LABELS[key] || key} is too long.` });
+  }
+  if (!EMAIL_RE.test(f.email)) {
+    return jsonResponse(400, { ok: false, error: 'Please provide a valid email address.' });
+  }
+
+  const apiKey = process.env.RESEND_API_KEY;
+  const sender = process.env.CONTACT_FROM_EMAIL;
+  const receiver = process.env.PHARMA_RECEIVER_EMAIL || PHARMA_DEFAULT_RECEIVER;
+  if (!apiKey || !sender) {
+    console.error(
+      'Contact function (pharma) is missing required environment variables:',
+      JSON.stringify({ RESEND_API_KEY: apiKey ? 'set' : 'MISSING', CONTACT_FROM_EMAIL: sender ? 'set' : 'MISSING' })
+    );
+    return jsonResponse(500, { ok: false, error: GENERIC_ERROR });
+  }
+
+  const submittedAt = new Date().toISOString();
+  const rows = Object.keys(PHARMA_LABELS)
+    .filter((k) => f[k])
+    .map((k) => [PHARMA_LABELS[k], f[k]]);
+  rows.push(['Licence confirmed', 'Yes: holds the licence required to import or distribute pharmaceutical products']);
+  rows.push(['Submitted', submittedAt]);
+
+  const text = [...rows.map(([k, v]) => `${k}: ${v}`), '', f.message || '(no message)'].join('\n');
+  const html = `<div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#14171a;line-height:1.6;">
+  <h2 style="margin:0 0 16px;font-size:16px;">New pharma enquiry from incretuss.com</h2>
+  <table cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%;max-width:560px;">
+    ${rows
+      .map(
+        ([label, value]) =>
+          `<tr><td style="padding:6px 12px 6px 0;color:#565b56;white-space:nowrap;vertical-align:top;">${escapeHtml(
+            label
+          )}</td><td style="padding:6px 0;">${escapeHtml(value)}</td></tr>`
+      )
+      .join('\n    ')}
+  </table>
+  <p style="margin:20px 0 6px;color:#565b56;">Message</p>
+  <p style="margin:0;white-space:pre-wrap;">${escapeHtml(f.message || '(no message)')}</p>
+</div>`;
+
+  try {
+    const resend = new Resend(apiKey);
+    const { data, error } = await resend.emails.send({
+      from: sender,
+      to: receiver,
+      replyTo: f.email,
+      subject: `Pharma enquiry from ${f.company}${f.product ? `: ${f.product}` : ''}`.slice(0, 250),
+      text,
+      html,
+    });
+    if (error) {
+      console.error('Resend rejected the pharma enquiry email:', error);
+      return jsonResponse(502, { ok: false, error: GENERIC_ERROR });
+    }
+    console.log('Pharma enquiry sent via Resend:', { id: data && data.id, ip });
+    return jsonResponse(200, { ok: true });
+  } catch (err) {
+    console.error('Unexpected error calling Resend (pharma):', err);
+    return jsonResponse(502, { ok: false, error: GENERIC_ERROR });
+  }
+}

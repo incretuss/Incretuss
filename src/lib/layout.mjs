@@ -6,6 +6,9 @@ const FONTS =
 
 const YEAR = new Date().getFullYear();
 
+// URL path for an output file: "index.html" -> "", "pharma/index.html" -> "pharma/".
+export const hrefOf = (path) => path.replace(/(^|\/)index\.html$/, '$1');
+
 function organizationLd() {
   return {
     '@context': 'https://schema.org',
@@ -36,7 +39,7 @@ function breadcrumbLd(trail) {
       '@type': 'ListItem',
       position: i + 1,
       name: c.label,
-      item: SITE.url + '/' + (c.href === 'index.html' ? '' : c.href),
+      item: SITE.url + '/' + hrefOf(c.href),
     })),
   };
 }
@@ -52,7 +55,7 @@ export function breadcrumb(trail) {
       .map((c, i) =>
         i === trail.length - 1
           ? `<li aria-current="page">${esc(c.label)}</li>`
-          : `<li><a href="/${c.href === 'index.html' ? '' : c.href}">${esc(c.label)}</a></li>`
+          : `<li><a href="/${hrefOf(c.href)}">${esc(c.label)}</a></li>`
       )
       .join('') +
     '</ol></nav>'
@@ -144,7 +147,7 @@ function header(active, counts) {
   );
 }
 
-function footer() {
+function footer(note) {
   const cat = CATEGORIES.map((c) => `<li><a href="/${c.page}">${esc(c.name)}</a></li>`).join('');
   return (
     '<footer class="site-footer">' +
@@ -166,6 +169,7 @@ function footer() {
     `<p><a href="mailto:${SITE.email}">${SITE.email}</a><br><a href="tel:${SITE.phoneHref}">${SITE.phone}</a><br><span>${SITE.hours}</span></p>` +
     '</div>' +
     '</div>' +
+    (note ? `<p class="footer-note">${esc(note)}</p>` : '') +
     '<div class="footer-bottom">' +
     `<span>© ${YEAR} ${SITE.legalName}. All rights reserved.</span>` +
     '<span>Bulk supply to manufacturers only. We do not sell to consumers.</span>' +
@@ -190,9 +194,13 @@ function footer() {
  * @param {boolean}[o.noindex]
  * @param {string} o.body        page <main> content
  * @param {object} o.counts      product counts per category (for the menu)
+ * @param {Array}  [o.styles]    extra stylesheets (after style.css)
+ * @param {string} [o.fonts]     extra Google Fonts stylesheet URL
+ * @param {string} [o.bodyClass]
+ * @param {string} [o.footerNote] plain-text notice shown above the footer bottom line
  */
 export function page(o) {
-  const canonical = SITE.url + '/' + (o.path === 'index.html' ? '' : o.path);
+  const canonical = SITE.url + '/' + hrefOf(o.path);
   const ld = [];
   if (o.path === 'index.html' || o.path === 'contact.html' || o.path === 'about.html') ld.push(organizationLd());
   if (o.trail) ld.push(breadcrumbLd(o.trail));
@@ -225,16 +233,16 @@ ${o.noindex ? '<meta name="robots" content="noindex">\n' : `<link rel="canonical
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="${FONTS}">
-<link rel="stylesheet" href="/style.css">
+${o.fonts ? `<link rel="stylesheet" href="${o.fonts}">\n` : ''}<link rel="stylesheet" href="/style.css">${(o.styles || []).map((s) => `\n<link rel="stylesheet" href="${s}">`).join('')}
 <script>document.documentElement.classList.add('js')</script>
 ${ld.map(ldScript).join('\n')}
 </head>
-<body>
+<body${o.bodyClass ? ` class="${o.bodyClass}"` : ''}>
 ${header(o.active, o.counts)}
 <main id="main"${o.mainAttrs ? ' ' + o.mainAttrs : ''}>
 ${o.body}
 </main>
-${footer()}
+${footer(o.footerNote)}
 ${scripts.map((s) => `<script src="${s}" defer></script>`).join('\n')}
 </body>
 </html>
