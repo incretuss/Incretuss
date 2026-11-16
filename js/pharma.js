@@ -45,7 +45,7 @@
         c.setAttribute('aria-pressed', on ? 'true' : 'false');
         if (on && state.area) label = c.firstChild.textContent.trim();
       });
-      if (current) current.textContent = label ? ': ' + label : '';
+      if (current) current.textContent = label;
       results.textContent = matched
         ? 'Showing ' + shown + ' of ' + matched + (matched === 1 ? ' product' : ' products') + (label ? ' in ' + label : '') + (q ? ' matching “' + state.q + '”' : '') + '.'
         : '';
@@ -136,7 +136,7 @@
 
   function setStatus(text, kind) {
     status.textContent = text;
-    status.className = 'ph-status' + (kind ? ' is-' + kind : '');
+    status.className = 'form-status' + (kind ? ' is-' + kind : '');
   }
 
   // Enquiry page: product from ?product=

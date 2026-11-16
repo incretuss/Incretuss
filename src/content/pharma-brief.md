@@ -70,14 +70,12 @@ Use therapeutic_area as a filter on every category page, not as a separate menu.
 "Products listed are available for business-to-business supply to licensed pharmaceutical companies, distributors and government buyers only. Product availability depends on registration and patent status in the destination country. Information on this site is not medical advice and does not promote any product to patients."
 - No health claims, no "cures"/"treats" language, no prices, no patient-facing copy, no stock images of pills or people.
 
-## 7. Brand (match the existing Incretuss site)
-- Colours: white ground (#FFFFFF); ink text (#14171A); secondary text (#565B56).
-- Primary sage-deep #2D5037 for buttons, bands and footer, with white text on it.
-- Sage-tint #E7EDE7 for alternating section backgrounds.
-- Signal red #B71C1C only for thin rules and the quote button accent, under 2% of any page.
-- No gradients, blue or purple.
-- Type: Fraunces 500 for headings (one word may be italic in #249643 at 18px+); Inter for body and buttons; IBM Plex Mono, uppercase with open tracking, for eyebrows, labels and spec rows.
-- Style: 1px hairline rules, radii 6/12/20px, soft wide shadows only, 24px outline icons, no emoji.
+## 7. Design (identical to the existing Incretuss site)
+- The Pharma pages must look exactly like the rest of incretuss.com. Do not introduce new fonts, colours, corner radii or shadows, and do not restyle the site.
+- Use the site's existing tokens in `style.css`: warm paper ground (#F6F5F0), ink (#1A1D1B), deep green (#1F3A26) for buttons, bands and footer, square 2px corners, 1px hairline rules, no shadows.
+- Use the site's existing fonts: Source Serif 4 for headings, IBM Plex Sans for body and buttons, IBM Plex Mono for spec values.
+- Reuse the site's existing components: page header, labels, key-spec rows, register tables (Aroma Chemicals page), steps, category links, inquiry band and contact-form fields. Only add styles for things the site has no component for (area filter chips and mobile drawer, enquiry dialog, licence checkbox).
+- No gradients, blue or purple. 24px outline icons, no emoji.
 - Voice: manufacturer to manufacturer. Section headings are short statements ending in a full stop ("Our pharma range."). Buttons are verb-first Title Case ("Request a Quote"). No superlatives, no exclamation marks, no urgency.
 - Use the existing Incretuss logo files; do not redraw the logo.
 - Text contrast must meet WCAG AA.
@@ -89,6 +87,6 @@ Use therapeutic_area as a filter on every category page, not as a separate menu.
 - SEO:
   - Unique title and meta description per page, e.g. "Atorvastatin Tablets | Incretuss Pharma".
   - Product schema (no price or offers).
-  - Breadcrumbs: Pharma › Category › Product.
+  - Breadcrumbs: Home / Pharma / Category / Product, in the site's existing breadcrumb style.
   - Add every /pharma page to the sitemap.
 - Do not change existing botanical pages, except for adding the nav link and one "Also from Incretuss: Pharma" link on the home page.

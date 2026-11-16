@@ -3,6 +3,12 @@
 //
 // Every product, count and therapeutic-area filter comes from
 // data/pharma-catalogue.csv via src/lib/pharma.mjs.
+//
+// Look and feel: these pages reuse the site's existing components and
+// classes (page-head, product-head, key-spec, register tables, steps,
+// cat-links, inquiry band, contact-form fields) so the Pharma section matches
+// the rest of incretuss.com. pharma.css only adds what the site had no
+// component for (area chips and drawer, enquiry dialog, licence checkbox).
 import { SITE } from '../content/site.mjs';
 import {
   COMPLIANCE,
@@ -15,6 +21,8 @@ import {
 } from '../content/pharma.mjs';
 import { esc, icons, truncate } from '../lib/html.mjs';
 import { breadcrumb } from '../lib/layout.mjs';
+import { sectionHead } from '../lib/components.mjs';
+import { pageHead } from './catalogue.mjs';
 import {
   PHARMA,
   areaGroups,
@@ -25,8 +33,6 @@ import {
   relatedPharma,
 } from '../lib/pharma.mjs';
 
-const FONTS =
-  'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Inter:wght@400;500;600&display=swap';
 const ENQUIRY = 'pharma/enquiry/index.html';
 const TITLE_SUFFIX = ' | Incretuss Pharma';
 const PER_PAGE = 50;
@@ -34,91 +40,68 @@ const PER_PAGE = 50;
 const total = PHARMA.length;
 const productCats = PHARMA_CATEGORIES.filter((c) => !c.partnering);
 const partnering = PHARMA_CATEGORIES.find((c) => c.partnering);
+const num = (c) => String(PHARMA_CATEGORIES.indexOf(c) + 1).padStart(2, '0');
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
-const icon = {
-  arrow: icons.arrow,
-  filter:
-    '<svg class="ph-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>',
-  close:
-    '<svg class="ph-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>',
-  search:
-    '<svg class="ph-i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>',
-  doc:
-    '<svg class="ph-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M14 3v4h4M10 12h5M10 16h5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>',
-  send:
-    '<svg class="ph-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12 20 4l-4 16-4-6z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="m12 14 8-10" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>',
-  box:
-    '<svg class="ph-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="m3 7.5 9 4.5 9-4.5M12 12v9" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>',
-};
+const close =
+  '<svg class="i" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>';
 
 const enquiryHref = (product) =>
   '/' + ENQUIRY.replace('index.html', '') + (product ? '?product=' + encodeURIComponent(product) : '');
 
-// "Request a Quote" link: opens the enquiry dialog (js/pharma.js) with the
-// product prefilled, or the enquiry page when scripts are unavailable.
-function quoteLink(product, { label = 'Request a Quote', cls = 'ph-btn ph-btn-quote', srSuffix = true } = {}) {
+// "Request a Quote": opens the enquiry dialog (js/pharma.js) with the product
+// prefilled, or the enquiry page when scripts or <dialog> are unavailable.
+function quoteLink(product, { label = 'Request a Quote', cls = 'btn btn-primary', sr = true } = {}) {
   return (
-    `<a class="${cls}" href="${enquiryHref(product)}" data-enquire="${esc(product || '')}">` +
-    esc(label) +
-    (product && srSuffix ? `<span class="sr-only">: ${esc(product)}</span>` : '') +
+    `<a class="${cls}" href="${enquiryHref(product)}" data-enquire="${esc(product || '')}">${esc(label)}` +
+    (product && sr ? `<span class="sr-only">: ${esc(product)}</span>` : '') +
     '</a>'
   );
-}
-
-const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
-
-function eyebrow(text) {
-  return `<p class="ph-eyebrow">${text}</p>`;
 }
 
 function shell(o) {
   return {
     ...o,
-    title: o.title,
-    fonts: FONTS,
     styles: ['/pharma.css'],
     bodyClass: 'is-pharma',
-    mainAttrs: 'class="ph"',
     footerNote: COMPLIANCE,
     active: 'pharma',
-    scripts: ['/js/pharma.js', ...(o.scripts || [])],
+    scripts: ['/js/pharma.js'],
     body: o.body + (o.noDialog ? '' : enquiryDialog()),
   };
 }
 
-// ---------- Enquiry form (shared) ----------
-function enquiryForm(product = '') {
-  const field = (id, label, { type = 'text', required = false, auto = '', max = 120, value = '', wide = false } = {}) =>
-    `<div class="ph-field${wide ? ' ph-field-wide' : ''}"><label for="pe-${id}">${label}${required ? ' <span aria-hidden="true">*</span>' : ''}</label>` +
-    `<input id="pe-${id}" name="${id}" type="${type}"${auto ? ` autocomplete="${auto}"` : ''}${required ? ' required' : ''} maxlength="${max}"${value ? ` value="${esc(value)}"` : ''}></div>`;
+const HOME = { label: 'Home', href: 'index.html' };
+const PHARMA_CRUMB = { label: 'Pharma', href: 'pharma/index.html' };
+const catCrumb = (c) => ({ label: c.name, href: `pharma/${c.slug}/index.html` });
+
+// ---------- Enquiry form (shared; same field styles as contact.html) ----------
+function enquiryForm() {
+  const f = (id, label, { type = 'text', req = false, auto = '', max = 120 } = {}) =>
+    `<div class="field"><label for="pe-${id}">${label}${req ? ' <span aria-hidden="true">*</span>' : ''}</label>` +
+    `<input id="pe-${id}" name="${id}" type="${type}"${auto ? ` autocomplete="${auto}"` : ''}${req ? ' required' : ''} maxlength="${max}"></div>`;
   return `
-<form class="ph-form" id="pharmaEnquiry" novalidate>
-  <div class="ph-form-grid">
-    ${field('name', 'Name', { required: true, auto: 'name', max: 100 })}
-    ${field('company', 'Company', { required: true, auto: 'organization', max: 100 })}
-    ${field('country', 'Country', { required: true, auto: 'country-name', max: 80 })}
-    ${field('email', 'Business email', { type: 'email', required: true, auto: 'email', max: 254 })}
-    ${field('phone', 'Phone', { type: 'tel', auto: 'tel', max: 40 })}
-    ${field('product', 'Product', { max: 200, value: product })}
-    ${field('strength', 'Required form / strength', { max: 120 })}
-    ${field('quantity', 'Quantity', { max: 120 })}
-    ${field('destination', 'Destination market', { required: true, max: 120, wide: true })}
-    <div class="ph-field ph-field-wide"><label for="pe-message">Message</label>
-      <textarea id="pe-message" name="message" rows="4" maxlength="5000" aria-describedby="pe-message-hint"></textarea>
-      <p class="ph-hint" id="pe-message-hint">Registration status you need, documentation (COA, DMF, COPP, CTD dossier), packaging and target delivery.</p>
-    </div>
+<form class="contact-form" id="pharmaEnquiry" novalidate>
+  <div class="field-row">${f('name', 'Name', { req: true, auto: 'name', max: 100 })}${f('company', 'Company', { req: true, auto: 'organization', max: 100 })}</div>
+  <div class="field-row">${f('country', 'Country', { req: true, auto: 'country-name', max: 80 })}${f('email', 'Business email', { type: 'email', req: true, auto: 'email', max: 254 })}</div>
+  <div class="field-row">${f('phone', 'Phone', { type: 'tel', auto: 'tel', max: 40 })}${f('product', 'Product', { max: 200 })}</div>
+  <div class="field-row">${f('strength', 'Required form / strength')}${f('quantity', 'Quantity')}</div>
+  ${f('destination', 'Destination market', { req: true })}
+  <div class="field"><label for="pe-message">Message</label>
+    <textarea id="pe-message" name="message" rows="4" maxlength="5000" aria-describedby="pe-message-hint"></textarea>
+    <p class="field-hint" id="pe-message-hint">Registration status you need, documentation (COA, DMF, COPP, CTD dossier), packaging and target delivery.</p>
   </div>
   <div class="ph-check">
     <input type="checkbox" id="pe-licence" name="licence" required>
     <label for="pe-licence">${esc(LICENCE_CONFIRM)} <span aria-hidden="true">*</span></label>
   </div>
   <div class="hp" aria-hidden="true"><label for="pe-website">Leave this field empty</label><input id="pe-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
-  <div class="ph-form-foot">
-    <button type="submit" class="ph-btn ph-btn-primary" id="pharmaSubmit">Send Enquiry</button>
-    <p class="ph-status" id="pharmaStatus" role="status" aria-live="polite"></p>
+  <div class="form-foot">
+    <button type="submit" class="btn btn-primary" id="pharmaSubmit">Send Enquiry</button>
+    <p class="form-status" id="pharmaStatus" role="status" aria-live="polite"></p>
   </div>
-  <p class="ph-hint">Fields marked * are required. Enquiries go to <a href="mailto:${SITE.email}">${SITE.email}</a>. We use your details only to respond.</p>
-  <noscript><p class="ph-hint">This form needs JavaScript. You can also email your requirement to <a href="mailto:${SITE.email}">${SITE.email}</a>.</p></noscript>
+  <p class="field-hint">Fields marked * are required. Enquiries go to <a href="mailto:${SITE.email}">${SITE.email}</a>. We use your details only to respond.</p>
+  <noscript><p class="field-hint">This form needs JavaScript. You can also email your requirement to <a href="mailto:${SITE.email}">${SITE.email}</a>.</p></noscript>
 </form>`;
 }
 
@@ -127,195 +110,189 @@ function enquiryDialog() {
 <dialog class="ph-dialog" id="pharmaDialog" aria-labelledby="pharmaDialogTitle">
   <div class="ph-dialog-head">
     <div>
-      ${eyebrow('Enquiry')}
+      <p class="label">Enquiry</p>
       <h2 id="pharmaDialogTitle">Request a quote.</h2>
     </div>
-    <button type="button" class="ph-icon-btn" data-close-dialog>${icon.close}<span class="sr-only">Close</span></button>
+    <button type="button" class="icon-btn" data-close-dialog>${close}<span class="sr-only">Close</span></button>
   </div>
   ${enquiryForm()}
 </dialog>`;
 }
 
 // ---------- Shared fragments ----------
-function head({ trail, label, title, lede, meta = '', aside = '' }) {
+// Same markup and classes as inquiryBand() in src/lib/components.mjs; the
+// button opens the pharma enquiry form instead of contact.html.
+function band({ title = 'Request a quote.', text, label = 'Request a Quote', product = '', secondary } = {}) {
   return `
-<section class="ph-head">
-  <div class="ph-wrap">
-    ${breadcrumb(trail)}
-    <div class="ph-head-grid">
-      <div>
-        ${label ? eyebrow(label) : ''}
-        <h1>${title}</h1>
-        ${lede ? `<p class="ph-lede">${lede}</p>` : ''}
-        ${meta}
-      </div>
-      ${aside}
-    </div>
-  </div>
-</section>`;
-}
-
-function ctaBand({ title = 'Send your requirement.', text, label = 'Request a Quote', product = '' } = {}) {
-  return `
-<section class="ph-band">
-  <div class="ph-wrap ph-band-grid">
-    <div>
+<section class="inquiry">
+  <div class="wrap inquiry-grid">
+    <div class="inquiry-main">
       <h2>${title}</h2>
-      <p>${text || 'Product, dosage form and strength, quantity and destination market. We reply with specifications, COA and dossier status for your market.'}</p>
+      <p>${text || 'Send the product, dosage form and strength, quantity and destination market. We reply with specifications, COA and dossier status for your market.'}</p>
+      <div class="actions">
+        ${quoteLink(product, { label, cls: 'btn btn-light', sr: false })}
+        ${secondary ? `<a class="link-arrow link-light" href="${secondary.href}">${secondary.label} ${icons.arrow}</a>` : ''}
+      </div>
     </div>
-    <div class="ph-band-actions">
-      ${quoteLink(product, { label, cls: 'ph-btn ph-btn-light', srSuffix: false })}
-      <p class="ph-band-contact"><a href="mailto:${SITE.email}">${SITE.email}</a><br><a href="tel:${SITE.phoneHref}">${SITE.phone}</a></p>
-    </div>
+    <dl class="inquiry-contact">
+      <div><dt>Email</dt><dd><a href="mailto:${SITE.email}">${SITE.email}</a></dd></div>
+      <div><dt>Phone</dt><dd><a href="tel:${SITE.phoneHref}">${SITE.phone}</a></dd></div>
+      <div><dt>Office</dt><dd>Bengaluru, Karnataka, India</dd></div>
+    </dl>
   </div>
 </section>`;
 }
 
-const pharmaTrail = { label: 'Pharma', href: 'pharma/index.html' };
-const catTrail = (c) => ({ label: c.name, href: `pharma/${c.slug}/index.html` });
+function catLinks(cats, cls = '') {
+  return (
+    `<ul class="cat-links ph-cat-links ${cls}">` +
+    cats
+      .map((c) => {
+        const count = c.partnering ? 'Licensing, dossiers, technology transfer' : plural(pharmaCounts[c.slug], 'product', 'products');
+        return (
+          `<li><a href="${catHref(c)}"><span class="menu-index">${num(c)}</span><span class="cat-links-name">${esc(c.name)}</span>${icons.arrow}` +
+          `<span class="cat-links-lede">${esc(c.intro)}</span><span class="cat-links-lede ph-count">${count}</span></a></li>`
+        );
+      })
+      .join('') +
+    '</ul>'
+  );
+}
 
 // ---------- /pharma/ ----------
 function landing() {
-  const cards = PHARMA_CATEGORIES.map((c, i) => {
-    const n = pharmaCounts[c.slug];
-    const count = c.partnering ? 'Licensing · dossiers · transfer' : plural(n, 'product', 'products');
-    return `
-      <li><a class="ph-card" href="${catHref(c)}">
-        <span class="ph-card-index">${String(i + 1).padStart(2, '0')}</span>
-        <h3>${esc(c.name)}</h3>
-        <p>${esc(c.intro)}</p>
-        <span class="ph-card-foot"><span>${count}</span>${icon.arrow}</span>
-      </a></li>`;
-  }).join('');
-
   const body = `
-<section class="ph-hero">
-  <div class="ph-wrap ph-hero-grid">
-    <div>
-      ${eyebrow('Incretuss Pharma')}
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="label">Incretuss Pharma</p>
       <h1>Pharmaceutical supply, <em>precisely</em> sourced.</h1>
-      <p class="ph-lede">APIs and finished generics for manufacturers, importers and tender buyers worldwide.</p>
-      <div class="ph-actions">
-        ${quoteLink('', { srSuffix: false })}
-        <a class="ph-btn ph-btn-outline" href="#range">View the Range</a>
+      <p class="hero-lede">APIs and finished generics for manufacturers, importers and tender buyers worldwide.</p>
+      <div class="actions">
+        ${quoteLink('', { sr: false })}
+        <a class="link-arrow" href="#range">View the pharma range ${icons.arrow}</a>
       </div>
     </div>
-    <dl class="ph-spec ph-hero-spec">
-      <div><dt>Catalogue</dt><dd>${total} products in ${productCats.length} categories</dd></div>
-      <div><dt>Scope</dt><dd>APIs, intermediates and finished generics</dd></div>
-      <div><dt>Buyers</dt><dd>Manufacturers, importers, distributors, tender buyers</dd></div>
-      <div><dt>Documents</dt><dd>COA, specifications, DMF, COPP, CTD on request</dd></div>
+    <dl class="facts">
+      <div><dt>Catalogue</dt><dd>${total} products in ${productCats.length} categories, plus partnering and licensing</dd></div>
+      <div><dt>Scope</dt><dd>APIs, API intermediates and finished generic medicines</dd></div>
+      <div><dt>Buyers</dt><dd>Manufacturers, importers, distributors and tender buyers</dd></div>
+      <div><dt>Documentation</dt><dd>COA and specifications; DMF, COPP and CTD dossier status on request</dd></div>
     </dl>
   </div>
 </section>
 
-<section class="ph-section" id="range">
-  <div class="ph-wrap">
-    <div class="ph-section-head">
-      ${eyebrow('Categories')}
-      <h2>Our pharma range.</h2>
-      <p>Each category is filtered by therapeutic area. Open a product for its dosage form and documentation.</p>
-    </div>
-    <ul class="ph-cards">${cards}</ul>
+<section class="section" id="range">
+  <div class="wrap">
+    ${sectionHead({ label: 'Categories', title: 'Our pharma range.', lede: 'Each category can be filtered by therapeutic area. Open a product for its dosage form and documentation.' })}
+    ${catLinks(PHARMA_CATEGORIES)}
   </div>
 </section>
 
-<section class="ph-section ph-tint">
-  <div class="ph-wrap">
-    <div class="ph-section-head">
-      ${eyebrow('How we work')}
+<section class="section section-tint">
+  <div class="wrap split">
+    <div class="split-head">
+      <p class="label">How we work</p>
       <h2>Three steps to supply.</h2>
+      <p>From your requirement to a quotation for the product and market you confirm.</p>
     </div>
-    <ol class="ph-steps">
-      ${HOW_WE_WORK.map(
-        ([t, d], i) =>
-          `<li><span class="ph-step-icon">${[icon.send, icon.doc, icon.box][i]}</span><span class="ph-step-num">Step ${String(i + 1).padStart(2, '0')}</span><h3>${esc(t)}</h3><p>${esc(d)}</p></li>`
-      ).join('')}
-    </ol>
+    <div class="split-body">
+      <ol class="steps">
+        ${HOW_WE_WORK.map(([t, d], i) => `<li><span class="process-num">${String(i + 1).padStart(2, '0')}</span><div><h3>${esc(t)}</h3><p>${esc(d)}</p></div></li>`).join('')}
+      </ol>
+    </div>
   </div>
 </section>
-${ctaBand({ title: 'Request a quote.' })}`;
+${band()}`;
 
   return shell({
     path: 'pharma/index.html',
     title: 'Pharmaceutical APIs & Finished Generics' + TITLE_SUFFIX,
     description: `APIs, intermediates and finished generic medicines for pharmaceutical manufacturers, importers, distributors and tender buyers: ${total} products across tablets, injectables, inhalers, eye care and more.`,
-    trail: [pharmaTrail],
+    trail: [HOME, PHARMA_CRUMB],
     body,
   });
 }
 
 // ---------- /pharma/<category>/ ----------
+// Register table rows (same table as the Aroma Chemicals page; it stacks on
+// small screens without horizontal scrolling).
 function row(p) {
   return (
-    `<li class="ph-row" data-area="${p.areaSlug}" data-name="${esc(p.name.toLowerCase())}">` +
-    `<a class="ph-row-name" href="${p.href}">${esc(p.name)}</a>` +
-    `<span class="ph-row-meta"><span class="ph-k">Form</span>${esc(p.dosageForm)}</span>` +
-    `<span class="ph-row-meta"><span class="ph-k">Area</span>${esc(p.area)}</span>` +
-    quoteLink(p.name, { cls: 'ph-btn ph-btn-sm ph-btn-quote-line' }) +
-    '</li>'
+    `<tr class="ph-row" data-area="${p.areaSlug}" data-name="${esc(p.name.toLowerCase())}">` +
+    `<th scope="row"><a href="${p.href}">${esc(p.name)}</a></th>` +
+    `<td class="mono">${esc(p.dosageForm)}</td>` +
+    `<td>${esc(p.area)}</td>` +
+    `<td class="register-actions">${quoteLink(p.name, { cls: 'btn btn-secondary btn-sm' })}</td>` +
+    '</tr>'
   );
 }
 
-function categoryPage(c, index) {
+function categoryPage(c) {
   const items = inPharmaCategory(c);
   const groups = areaGroups(c);
-  const trail = [pharmaTrail, catTrail(c)];
+  const trail = [HOME, PHARMA_CRUMB, catCrumb(c)];
   const chips =
     `<button type="button" class="ph-chip" data-area="" aria-pressed="true">All areas <span>${items.length}</span></button>` +
-    groups
-      .map((g) => `<button type="button" class="ph-chip" data-area="${g.slug}" aria-pressed="false">${esc(g.area)} <span>${g.items.length}</span></button>`)
-      .join('');
+    groups.map((g) => `<button type="button" class="ph-chip" data-area="${g.slug}" aria-pressed="false">${esc(g.area)} <span>${g.items.length}</span></button>`).join('');
 
   const body =
-    head({
+    pageHead({
       trail,
-      label: `Category ${String(index + 1).padStart(2, '0')}`,
+      label: `Pharma · Category ${num(c)}`,
       title: esc(c.name),
       lede: esc(c.intro),
-      meta: `<p class="ph-meta">${plural(items.length, 'product', 'products')} · ${plural(groups.length, 'therapeutic area', 'therapeutic areas')}</p>`,
+      extra: `<p class="page-meta">${plural(items.length, 'product', 'products')} in ${plural(groups.length, 'therapeutic area', 'therapeutic areas')} · <a href="${enquiryHref('')}" data-enquire="">Request a quote</a></p>`,
     }) +
     `
-<section class="ph-section ph-section-first">
-  <div class="ph-wrap" data-catalogue data-per-page="${PER_PAGE}">
-    <div class="ph-toolbar">
-      <div class="ph-search">
-        <label class="sr-only" for="ph-q">Search ${esc(c.name)} by product name</label>
-        ${icon.search}
-        <input type="search" id="ph-q" placeholder="Search by product name" autocomplete="off">
+<section class="section section-first">
+  <div class="wrap" data-catalogue data-per-page="${PER_PAGE}">
+    <div class="ph-tools">
+      <div class="filter-field ph-search">
+        <label for="ph-q">Search</label>
+        <input type="search" id="ph-q" placeholder="Product name" autocomplete="off">
       </div>
-      <button type="button" class="ph-btn ph-btn-outline ph-filter-open" aria-expanded="false" aria-controls="ph-filters">${icon.filter}Therapeutic Area<span class="ph-filter-current"></span></button>
-    </div>
-    <div class="ph-filters" id="ph-filters" role="group" aria-labelledby="ph-filters-title">
-      <div class="ph-filters-head">
-        <p class="ph-eyebrow" id="ph-filters-title">Therapeutic area</p>
-        <button type="button" class="ph-icon-btn ph-filter-close">${icon.close}<span class="sr-only">Close filters</span></button>
+      <button type="button" class="btn btn-secondary ph-filter-open" aria-expanded="false" aria-controls="ph-filters">Therapeutic area<span class="ph-filter-current"></span></button>
+      <div class="ph-filters" id="ph-filters" role="group" aria-labelledby="ph-filters-title">
+        <div class="ph-filters-panel">
+          <div class="ph-filters-head">
+            <p class="ph-filters-title" id="ph-filters-title">Therapeutic area</p>
+            <button type="button" class="icon-btn ph-filter-close">${close}<span class="sr-only">Close filters</span></button>
+          </div>
+          <div class="ph-chips">${chips}</div>
+        </div>
       </div>
-      <div class="ph-chips">${chips}</div>
     </div>
-    <p class="ph-results" id="ph-results" role="status" aria-live="polite"></p>
+    <p class="filter-status ph-results" id="ph-results" role="status" aria-live="polite"></p>
     ${groups
       .map(
         (g) => `
-    <section class="ph-group" data-group="${g.slug}" aria-labelledby="area-${g.slug}">
-      <h2 class="ph-group-title" id="area-${g.slug}">${esc(g.area)}<span>${g.items.length}</span></h2>
-      <ul class="ph-rows">${g.items.map(row).join('')}</ul>
-    </section>`
+    <div class="register-group ph-group" data-group="${g.slug}">
+      <h2 class="register-title" id="area-${g.slug}">${esc(g.area)}<span>${plural(g.items.length, 'product', 'products')}</span></h2>
+      <div class="table-scroll"><table class="register" aria-labelledby="area-${g.slug}">
+        <thead><tr><th scope="col">Product</th><th scope="col">Dosage form</th><th scope="col">Therapeutic area</th><th scope="col"><span class="sr-only">Actions</span></th></tr></thead>
+        <tbody>${g.items.map(row).join('')}</tbody>
+      </table></div>
+    </div>`
       )
       .join('')}
-    <p class="ph-empty" id="ph-empty" hidden>No products match. <button type="button" class="ph-text-btn" data-reset>Clear the search</button> or ${quoteLink('', { label: 'ask us for the product', cls: 'ph-text-link', srSuffix: false })}.</p>
-    <div class="ph-more-wrap"><button type="button" class="ph-btn ph-btn-outline" id="ph-more" hidden>Show More Products</button></div>
+    <p class="filter-empty" id="ph-empty" hidden>No products match. <button type="button" class="text-btn" data-reset>Clear the search</button> or <a href="${enquiryHref('')}" data-enquire="">ask us for the product</a>.</p>
+    <div class="ph-more"><button type="button" class="btn btn-secondary" id="ph-more" hidden>Show More Products</button></div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="wrap">
+    <h2 class="h-small">Other pharma categories</h2>
+    ${catLinks(PHARMA_CATEGORIES.filter((x) => x !== c))}
   </div>
 </section>` +
-    ctaBand({ text: `Send the product, dosage form and strength, quantity and destination market. We reply with specifications, COA and the documentation available for ${esc(c.name.toLowerCase())} in your market.` });
+    band({ text: `Send the product, dosage form and strength, quantity and destination market. We reply with specifications, COA and the documentation available for your market.` });
 
   return shell({
     path: `pharma/${c.slug}/index.html`,
     title: c.name + TITLE_SUFFIX,
-    description: truncate(
-      `${c.name} for B2B supply: ${items.length} products across ${groups.length} therapeutic areas. ${c.intro} Specifications and documentation on request.`,
-      160
-    ),
+    description: truncate(`${c.name} for B2B supply: ${items.length} products across ${groups.length} therapeutic areas. ${c.intro} Specifications and documentation on request.`, 160),
     trail,
     body,
   });
@@ -323,57 +300,56 @@ function categoryPage(c, index) {
 
 // ---------- /pharma/<category>/<product>/ ----------
 function productPage(p) {
-  const trail = [pharmaTrail, catTrail(p.cat), { label: p.name, href: p.path }];
+  const c = p.cat;
+  const trail = [HOME, PHARMA_CRUMB, catCrumb(c), { label: p.name, href: p.path }];
   const doc = documentation(p);
   const related = relatedPharma(p);
   const others = PHARMA.filter((q) => q.name === p.name && q !== p);
+  const mono = (v) => `<span class="mono">${v}</span>`;
 
-  const body =
-    head({
-      trail,
-      label: esc(p.cat.name),
-      title: esc(p.name),
-      aside: '',
-    }) +
-    `
-<section class="ph-section ph-section-first">
-  <div class="ph-wrap ph-product">
-    <div>
-      <dl class="ph-spec">
-        <div><dt>Category</dt><dd><a href="${catHref(p.cat)}">${esc(p.cat.name)}</a></dd></div>
-        <div><dt>Dosage form</dt><dd>${esc(p.dosageForm)}</dd></div>
-        <div><dt>Therapeutic area</dt><dd><a href="${catHref(p.cat)}?area=${p.areaSlug}">${esc(p.area)}</a></dd></div>
-        <div><dt>Documentation</dt><dd>${esc(doc)}</dd></div>
-      </dl>
-      ${p.patent ? `<p class="ph-note">${esc(PATENT_NOTE)}</p>` : ''}
-      ${
-        others.length
-          ? `<p class="ph-also">Also available as: ${others.map((q) => `<a href="${q.href}">${esc(q.cat.name)}</a>`).join(', ')}.</p>`
-          : ''
-      }
+  const body = `
+<section class="product-head">
+  <div class="wrap">
+    ${breadcrumb(trail)}
+    <div class="product-grid">
+      <div class="product-media">
+        <div class="compound-plate" aria-hidden="true">
+          <span class="cp-top">${esc(p.area)}</span>
+          <span class="cp-name">${esc(p.name)}</span>
+          <span class="cp-cas">${esc(p.dosageForm)}</span>
+          <span class="cp-foot">Incretuss · Pharma · ${esc(c.short || c.name)}</span>
+        </div>
+      </div>
+      <div class="product-summary">
+        <p class="label"><a href="${catHref(c)}">${esc(c.name)}</a></p>
+        <h1>${esc(p.name)}</h1>
+        <dl class="key-spec">
+          <div><dt>Category</dt><dd>${mono(`<a href="${catHref(c)}">${esc(c.name)}</a>`)}</dd></div>
+          <div><dt>Dosage form</dt><dd>${mono(esc(p.dosageForm))}</dd></div>
+          <div><dt>Therapeutic area</dt><dd>${mono(`<a href="${catHref(c)}?area=${p.areaSlug}">${esc(p.area)}</a>`)}</dd></div>
+          <div><dt>Documentation</dt><dd>${mono(esc(doc))}</dd></div>
+        </dl>
+        ${p.patent ? `<p class="geo-note ph-patent">${esc(PATENT_NOTE)}</p>` : ''}
+        <div class="actions">
+          ${quoteLink(p.name, { sr: false })}
+          <a class="btn btn-secondary" href="${catHref(c)}">All ${esc(c.short || c.name)}</a>
+        </div>
+        ${others.length ? `<p class="doc-links"><span>Also available as:</span> ${others.map((q) => `<a href="${q.href}">${esc(q.cat.name)}</a>`).join('<span aria-hidden="true"> · </span>')}</p>` : ''}
+      </div>
     </div>
-    <aside class="ph-product-aside">
-      ${eyebrow('Enquiry')}
-      <p>Send the strength, quantity and destination market. We confirm availability, specifications and dossier status for that market.</p>
-      ${quoteLink(p.name, { srSuffix: false })}
-      <a class="ph-link" href="${catHref(p.cat)}">All ${esc(p.cat.name)} ${icon.arrow}</a>
-    </aside>
   </div>
 </section>
 ${
   related.length
     ? `
-<section class="ph-section ph-tint">
-  <div class="ph-wrap">
-    <div class="ph-section-head">
-      ${eyebrow(esc(p.area))}
-      <h2>Related products.</h2>
-    </div>
-    <ul class="ph-related">
+<section class="section section-tint">
+  <div class="wrap">
+    ${sectionHead({ label: esc(p.area), title: 'Related products.', lede: `More products in ${esc(p.area.toLowerCase())}.` })}
+    <ul class="related">
       ${related
         .map(
           (q) =>
-            `<li><a href="${q.href}"><span class="ph-related-cat">${esc(q.cat.short || q.cat.name)}</span><span class="ph-related-name">${esc(q.name)}</span><span class="ph-related-form">${esc(q.dosageForm)}</span></a></li>`
+            `<li><a href="${q.href}"><span class="related-cas ph-related-form">${esc(q.dosageForm)}</span><span class="related-name">${esc(q.name)}</span><span class="related-sub">${esc(q.cat.name)}</span></a></li>`
         )
         .join('')}
     </ul>
@@ -381,14 +357,14 @@ ${
 </section>`
     : ''
 }
-${ctaBand({ title: 'Request a quote.', product: p.name })}`;
+${band({ product: p.name, text: 'Send the strength, quantity and destination market. We confirm availability, specifications and dossier status for that market.', secondary: { href: catHref(c), label: `More ${esc(c.name.toLowerCase())}` } })}`;
 
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: p.titleName,
     description: `${p.name}, ${p.dosageForm}. Therapeutic area: ${p.area}. ${doc}.`,
-    category: `${p.cat.name} > ${p.area}`,
+    category: `${c.name} > ${p.area}`,
     url: `${SITE.url}${p.href}`,
     brand: { '@type': 'Brand', name: 'Incretuss Pharma' },
     additionalProperty: [
@@ -405,6 +381,7 @@ ${ctaBand({ title: 'Request a quote.', product: p.name })}`;
       160
     ),
     trail,
+    ogType: 'product',
     ld: [ld],
     body,
   });
@@ -412,36 +389,41 @@ ${ctaBand({ title: 'Request a quote.', product: p.name })}`;
 
 // ---------- /pharma/partnering/ ----------
 function partneringPage() {
-  const trail = [pharmaTrail, catTrail(partnering)];
+  const trail = [HOME, PHARMA_CRUMB, catCrumb(partnering)];
   const body =
-    head({
+    pageHead({
       trail,
-      label: 'Category 10',
+      label: `Pharma · Category ${num(partnering)}`,
       title: esc(partnering.name),
       lede: esc(partnering.intro),
+      extra: `<div class="actions">${quoteLink(PARTNERING_ENQUIRY, { label: 'Discuss a Partnership', sr: false })}</div>`,
     }) +
     `
-<section class="ph-section ph-section-first">
-  <div class="ph-wrap ph-product">
-    <div>
-      <div class="ph-section-head">
-        ${eyebrow('What we can discuss')}
-        <h2>Three ways to partner.</h2>
-      </div>
-      <dl class="ph-options">
+<section class="section">
+  <div class="wrap split">
+    <div class="split-head">
+      <p class="label">What we can discuss</p>
+      <h2>Three ways to partner.</h2>
+      <p>Tell us the molecule, dosage form and the markets you want to register in.</p>
+    </div>
+    <div class="split-body">
+      <dl class="ruled-list">
         ${PARTNERING.options.map(([t, d]) => `<div><dt>${esc(t)}</dt><dd>${esc(d)}</dd></div>`).join('')}
       </dl>
-      <h3 class="ph-h3">How a partnership starts.</h3>
-      <ol class="ph-numbered">${PARTNERING.steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
+      <h3 class="h-small ph-h-gap">How a partnership starts</h3>
+      <ol class="steps">
+        ${PARTNERING.steps.map((s, i) => `<li><span class="process-num">${String(i + 1).padStart(2, '0')}</span><div><p>${esc(s)}</p></div></li>`).join('')}
+      </ol>
+      <div class="actions">${quoteLink(PARTNERING_ENQUIRY, { label: 'Discuss a Partnership', sr: false })}</div>
     </div>
-    <aside class="ph-product-aside">
-      ${eyebrow('Partnering')}
-      <p>Tell us the molecule, dosage form and the markets you want to register in.</p>
-      ${quoteLink(PARTNERING_ENQUIRY, { label: 'Discuss a Partnership', cls: 'ph-btn ph-btn-primary', srSuffix: false })}
-    </aside>
   </div>
 </section>` +
-    ctaBand({ title: 'Discuss a partnership.', label: 'Discuss a Partnership', product: PARTNERING_ENQUIRY, text: 'Licensing, dossier supply or technology transfer for regulated-market generics. Send the molecule, dosage form and target markets.' });
+    band({
+      title: 'Discuss a partnership.',
+      label: 'Discuss a Partnership',
+      product: PARTNERING_ENQUIRY,
+      text: 'Licensing, dossier supply or technology transfer for regulated-market generics. Send the molecule, dosage form and target markets.',
+    });
 
   return shell({
     path: `pharma/${partnering.slug}/index.html`,
@@ -454,23 +436,23 @@ function partneringPage() {
 
 // ---------- /pharma/enquiry/ ----------
 function enquiryPage() {
-  const trail = [pharmaTrail, { label: 'Enquiry', href: ENQUIRY }];
+  const trail = [HOME, PHARMA_CRUMB, { label: 'Request a Quote', href: ENQUIRY }];
   const body =
-    head({
+    pageHead({
       trail,
-      label: 'Enquiry',
+      label: 'Pharma',
       title: 'Request a quote.',
       lede: 'Send your requirement. We reply with specifications, COA and dossier status for your destination market.',
     }) +
     `
-<section class="ph-section ph-section-first">
-  <div class="ph-wrap ph-product">
-    <div class="ph-form-panel">${enquiryForm()}</div>
-    <aside class="ph-product-aside">
-      ${eyebrow('Contact')}
-      <dl class="ph-spec">
+<section class="section section-first">
+  <div class="wrap contact-grid">
+    <div class="contact-form-wrap">${enquiryForm()}</div>
+    <aside class="contact-aside">
+      <dl class="contact-details">
         <div><dt>Email</dt><dd><a href="mailto:${SITE.email}">${SITE.email}</a></dd></div>
         <div><dt>Phone</dt><dd><a href="tel:${SITE.phoneHref}">${SITE.phone}</a></dd></div>
+        <div><dt>Office</dt><dd><address>${SITE.legalName}<br>${SITE.address.lines.join('<br>')}</address></dd></div>
         <div><dt>Hours</dt><dd>${SITE.hours}</dd></div>
       </dl>
     </aside>
@@ -488,11 +470,5 @@ function enquiryPage() {
 }
 
 export function pharmaPages() {
-  return [
-    landing(),
-    ...productCats.map((c) => categoryPage(c, PHARMA_CATEGORIES.indexOf(c))),
-    partneringPage(),
-    ...PHARMA.map(productPage),
-    enquiryPage(),
-  ];
+  return [landing(), ...productCats.map(categoryPage), partneringPage(), ...PHARMA.map(productPage), enquiryPage()];
 }
