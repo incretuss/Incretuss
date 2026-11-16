@@ -6,14 +6,15 @@
 // data/products.json + src/content/botanicals.json, then writes the HTML
 // files and sitemap.xml to the repository root, which is what Netlify
 // publishes. No dependencies: Node 18+ only.
-import { writeFileSync, unlinkSync, existsSync } from 'node:fs';
-import { page } from './lib/layout.mjs';
+import { writeFileSync, unlinkSync, existsSync, mkdirSync, rmSync } from 'node:fs';
+import { page, hrefOf } from './lib/layout.mjs';
 import { CATEGORIES } from './content/site.mjs';
 import { PRODUCTS, counts } from './lib/catalogue.mjs';
 import home from './pages/home.mjs';
 import brochurePage from './pages/brochure.mjs';
 import { productsIndex, categoryPage } from './pages/catalogue.mjs';
 import { productPage } from './pages/product.mjs';
+import { pharmaPages } from './pages/pharma.mjs';
 import { aboutPage, applicationsPage, comparePage, contactPage, notFoundPage, qualityPage } from './pages/company.mjs';
 
 const root = new URL('../', import.meta.url);
@@ -30,13 +31,20 @@ const pages = [
   comparePage(),
   brochurePage(),
   notFoundPage(),
+  ...pharmaPages(),
 ];
+
+// The Pharma section is regenerated from data/pharma-catalogue.csv on every
+// build; clear it first so products removed from the CSV lose their pages.
+rmSync(new URL('pharma/', root), { recursive: true, force: true });
 
 const seen = new Set();
 for (const p of pages) {
   if (seen.has(p.path)) throw new Error('Duplicate output path: ' + p.path);
   seen.add(p.path);
-  writeFileSync(new URL(p.path, root), page({ ...p, counts }));
+  const file = new URL(p.path, root);
+  mkdirSync(new URL('./', file), { recursive: true });
+  writeFileSync(file, page({ ...p, counts }));
 }
 
 // Superseded by one static page per compound (see netlify.toml redirect).
@@ -46,14 +54,20 @@ for (const old of ['cosmetic.html', 'cosmetic-ingredients.html', 'js/cosmetic-pa
 
 const today = new Date().toISOString().slice(0, 10);
 const priority = (path) =>
-  path === 'index.html' ? '1.0' : path === 'products.html' || CATEGORIES.some((c) => c.page === path) ? '0.9' : '0.7';
+  path === 'index.html'
+    ? '1.0'
+    : path === 'products.html' || path === 'pharma/index.html' || CATEGORIES.some((c) => c.page === path)
+      ? '0.9'
+      : /^pharma\/[^/]+\/index\.html$/.test(path)
+        ? '0.8'
+        : '0.7';
 const sitemap =
   '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   pages
     .filter((p) => !p.noindex)
     .map(
       (p) =>
-        `  <url><loc>https://incretuss.com/${p.path === 'index.html' ? '' : p.path}</loc><lastmod>${today}</lastmod><priority>${priority(p.path)}</priority></url>`
+        `  <url><loc>https://incretuss.com/${hrefOf(p.path)}</loc><lastmod>${today}</lastmod><priority>${priority(p.path)}</priority></url>`
     )
     .join('\n') +
   '\n</urlset>\n';

@@ -1,0 +1,114 @@
+/* ==========================================================================
+   INCRETUSS: Pharma section additions (/pharma/… pages, after style.css)
+   The Pharma pages are built from the site's existing components; this file
+   only covers what the site had no component for: therapeutic-area chips
+   (a drawer on mobile), the enquiry dialog, the licence checkbox, and small
+   layout fixes. It uses the tokens defined in style.css only.
+   ========================================================================== */
+
+/* ---------- Category page: search + therapeutic-area filter ---------- */
+.ph-tools {
+  padding: 20px; background: var(--white); border: 1px solid var(--rule); margin-bottom: 8px;
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px;
+}
+.ph-search { max-width: 460px; }
+.ph-filter-open { display: none; }
+.ph-filters-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.ph-filters-title { font-size: 13px; font-weight: 500; color: var(--ink-2); }
+.ph-filter-close { display: none; }
+
+.ph-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.ph-chip {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 34px; padding: 4px 12px;
+  font-size: 14px; color: var(--ink-2); background: var(--white);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  transition: border-color .15s, background-color .15s, color .15s;
+}
+.ph-chip span { font-size: 13px; color: var(--ink-3); }
+.ph-chip:hover { border-color: var(--ink-3); color: var(--ink); }
+.ph-chip[aria-pressed='true'] { background: var(--green-900); border-color: var(--green-900); color: #fff; }
+.ph-chip[aria-pressed='true'] span { color: var(--on-dark-2); }
+
+/* Search and chips need JS; without it every product is listed. */
+html:not(.js) .ph-tools { display: none; }
+
+.ph-results { padding: 16px 0 0; white-space: normal; min-height: 2.6em; }
+.ph-group { margin-top: 32px; }
+.ph-group .register-actions { width: 168px; }
+.ph-group .register-actions .btn { white-space: nowrap; }
+.ph-group .register td.mono { white-space: normal; width: 24%; }
+.ph-row[hidden], .ph-group[hidden] { display: none !important; }
+.ph-more { display: flex; justify-content: center; margin-top: 32px; }
+
+/* ---------- Landing / category links: 10 categories on a 3-column grid ---------- */
+.ph-cat-links .ph-count { font-family: var(--mono); font-size: 12px; color: var(--tone); margin-top: 6px; }
+@media (min-width: 761px) {
+  .ph-cat-links li + li { border-left: 0; }
+  .ph-cat-links li:not(:nth-child(3n + 1)) { border-left: 1px solid var(--rule); }
+  .ph-cat-links li:nth-child(3n + 1) a { padding-left: 0; }
+}
+
+/* ---------- Product page ---------- */
+.ph-patent { margin-top: 20px; max-width: 52ch; }
+.key-spec .mono a { color: var(--green-700); border-bottom: 1px solid var(--rule); }
+.key-spec .mono a:hover { border-color: currentColor; }
+.ph-related-form { border-left-color: var(--green-700); font-family: var(--mono); font-size: 13px; min-height: 84px; }
+
+/* partnering */
+.ph-h-gap { margin-top: 36px; }
+.split-body .steps + .actions { margin-top: 28px; }
+
+/* ---------- Enquiry form ---------- */
+.ph-check {
+  display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 12px; align-items: start;
+  padding: 14px 16px; background: var(--green-100); font-size: 15px; color: var(--green-900);
+}
+.ph-check input { width: 18px; height: 18px; margin-top: 3px; accent-color: var(--green-900); }
+.ph-check label span { color: var(--red); }
+.contact-form .field-hint a { color: var(--green-700); text-decoration: underline; text-underline-offset: 3px; }
+
+.ph-dialog {
+  width: min(760px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); margin: auto;
+  padding: clamp(20px, 3vw, 36px); background: var(--paper); color: var(--ink);
+  border: 1px solid var(--rule); border-top: 3px solid var(--green-700); border-radius: var(--radius);
+}
+.ph-dialog::backdrop { background: rgba(20, 38, 25, .5); }
+.ph-dialog-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 24px; }
+.ph-dialog-head .label { margin-bottom: 8px; }
+
+/* ---------- Compliance notice in the shared footer (pharma pages only) ---------- */
+.is-pharma .footer-note {
+  padding: 20px 0; border-top: 1px solid rgba(242, 241, 234, .14);
+  font-size: 13px; line-height: 1.7; color: var(--on-dark-2); max-width: 110ch;
+}
+body.ph-locked { overflow: hidden; }
+
+/* ---------- Mobile: filters collapse into a drawer ---------- */
+@media (max-width: 760px) {
+  .ph-tools { padding: 16px; gap: 12px; }
+  .ph-search { max-width: none; }
+  .ph-filter-open { display: inline-flex; width: 100%; justify-content: space-between; }
+  .ph-filter-current { font-weight: 400; color: var(--ink-3); margin-left: auto; padding-left: 8px; }
+  .ph-filter-open:hover .ph-filter-current { color: inherit; }
+  .ph-filters {
+    position: fixed; inset: 0; z-index: 400; display: flex; flex-direction: column; justify-content: flex-end;
+    background: rgba(20, 38, 25, .5); visibility: hidden; opacity: 0; transition: opacity .2s, visibility .2s;
+  }
+  .ph-filters.is-open { visibility: visible; opacity: 1; }
+  .ph-filters-panel { background: var(--paper); border-top: 3px solid var(--green-700); max-height: 78dvh; display: flex; flex-direction: column; }
+  .ph-filters-head { margin: 0; padding: 8px 8px 8px 20px; border-bottom: 1px solid var(--rule); }
+  .ph-filters-title { font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .ph-filter-close { display: grid; }
+  .ph-chips { flex-direction: column; flex-wrap: nowrap; gap: 0; overflow-y: auto; padding: 4px 20px 24px; }
+  .ph-chip { justify-content: space-between; min-height: 48px; border: 0; border-bottom: 1px solid var(--rule); border-radius: 0; background: transparent; padding: 0; font-size: 15px; text-align: left; }
+  .ph-chip[aria-pressed='true'] { background: transparent; color: var(--green-900); font-weight: 600; border-color: var(--rule); }
+  .ph-chip[aria-pressed='true'] span { color: var(--green-900); }
+  .ph-group .register-actions .btn { white-space: nowrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ph-filters, .ph-chip { transition: none; }
+}
+@media print {
+  .ph-tools, .ph-more, .ph-dialog, .register-actions { display: none !important; }
+  .ph-row[hidden], .ph-group[hidden] { display: revert !important; }
+}

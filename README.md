@@ -49,3 +49,20 @@ cosmetic ingredients or claim regulatory status (IFRA, FEMA, etc.) without
 supporting documents.
 
 The contact form posts to `netlify/functions/contact.js` (Resend); see `.env.example`.
+
+## Pharma section (`/pharma/`)
+
+Generated from `data/pharma-catalogue.csv` (the single source of truth;
+columns `product, category, therapeutic_area, dosage_form, patent_note`).
+To update the range, replace the CSV and run `npm run build`; the whole
+`pharma/` folder is regenerated, and products removed from the CSV lose
+their pages.
+
+- Category names, intro lines, documentation and compliance wording:
+  `src/content/pharma.mjs` (`category` in the CSV must match a name there).
+- Templates: `src/pages/pharma.mjs`; data helpers: `src/lib/pharma.mjs`.
+- Styles: `pharma.css` (pharma pages only); script: `js/pharma.js`.
+- Enquiries post to `/api/contact` with `type: "pharma"` and go to
+  `PHARMA_RECEIVER_EMAIL` (default `info@incretuss.com`).
+- Brief and catalogue sources (including the Arene Lifesciences APIs):
+  `src/content/pharma-brief.md`.

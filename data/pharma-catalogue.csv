@@ -1,0 +1,832 @@
+product,category,therapeutic_area,dosage_form,patent_note
+Besifloxacin,Active Pharmaceutical Ingredients,Anti-infectives,API (bulk drug substance),yes
+Ceftaroline Fosamil,Active Pharmaceutical Ingredients,Anti-infectives,API (bulk drug substance),yes
+Rilpivirine,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),yes
+Apixaban,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),yes
+Edoxaban,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),yes
+Eltrombopag,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),yes
+Prasugrel,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),yes
+Rivaroxaban,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),no
+Ticagrelor,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),yes
+Asenapine,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),yes
+Duloxetine Hydrochloride,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),no
+Eletriptan Hydrobromide,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),no
+Eslicarbazepine Acetate,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),yes
+Fingolimod Hydrochloride,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),no
+Gabapentin Enacarbil,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),yes
+Lurasidone,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),yes
+Vilazodone,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),yes
+Aficamten,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),yes
+Azilsartan Medoxomil,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),yes
+Dronedarone,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),yes
+Etripamil,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),yes
+Ezetimibe,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),no
+Tolvaptan,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),yes
+Delgocitinib,Active Pharmaceutical Ingredients,Dermatology & Wound Care,API (bulk drug substance),yes
+Doxecitine,Active Pharmaceutical Ingredients,Diabetes & Metabolic,API (bulk drug substance),yes
+Doxribtimine,Active Pharmaceutical Ingredients,Diabetes & Metabolic,API (bulk drug substance),yes
+Linagliptin,Active Pharmaceutical Ingredients,Diabetes & Metabolic,API (bulk drug substance),yes
+Saxagliptin,Active Pharmaceutical Ingredients,Diabetes & Metabolic,API (bulk drug substance),yes
+Dexlansoprazole,Active Pharmaceutical Ingredients,Gastroenterology,API (bulk drug substance),yes
+Paltusotine,Active Pharmaceutical Ingredients,Hormones & Endocrine,API (bulk drug substance),yes
+Eldecalcitol,Active Pharmaceutical Ingredients,Musculoskeletal & Bone,API (bulk drug substance),yes
+Febuxostat,Active Pharmaceutical Ingredients,Musculoskeletal & Bone,API (bulk drug substance),yes
+Minodronic Acid,Active Pharmaceutical Ingredients,Musculoskeletal & Bone,API (bulk drug substance),yes
+Abiraterone,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Crizotinib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Degarelix,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Icotinib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Mirdametinib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Pazopanib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Plerixafor,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Pralatrexate,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Ruxolitinib Phosphate,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Sevabertinib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Treosulfan,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Vandetanib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Vemurafenib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Vimseltinib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Ziftomenib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Zongertinib,Active Pharmaceutical Ingredients,Oncology,API (bulk drug substance),yes
+Suzetrigine,Active Pharmaceutical Ingredients,Pain & Inflammation,API (bulk drug substance),yes
+Zucapsaicin,Active Pharmaceutical Ingredients,Pain & Inflammation,API (bulk drug substance),yes
+Atrasentan,Active Pharmaceutical Ingredients,Renal & Hepatic,API (bulk drug substance),yes
+Nalfurafine,Active Pharmaceutical Ingredients,Renal & Hepatic,API (bulk drug substance),yes
+Aclidinium Bromide,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Alcaftadine,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),yes
+Bilastine,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),yes
+Brensocatib Monohydrate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),yes
+Formoterol Fumarate Dihydrate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Glycopyrronium Bromide,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Indacaterol Maleate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),yes
+Ipratropium Bromide,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Levocetirizine Dihydrochloride,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Levosalbutamol Sulphate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Montelukast Sodium,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Olodaterol Hydrochloride,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Remibrutinib,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),yes
+Roflumilast,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Salmeterol Xinafoate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Tiotropium Bromide Monohydrate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Umeclidinium Bromide,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Vilanterol Trifenatate,Active Pharmaceutical Ingredients,Respiratory & Allergy,API (bulk drug substance),no
+Avanafil,Active Pharmaceutical Ingredients,Urology & Men's Health,API (bulk drug substance),yes
+Flibanserin Hydrochloride,Active Pharmaceutical Ingredients,Urology & Men's Health,API (bulk drug substance),no
+Mirabegron,Active Pharmaceutical Ingredients,Urology & Men's Health,API (bulk drug substance),yes
+Solifenacin Succinate,Active Pharmaceutical Ingredients,Urology & Men's Health,API (bulk drug substance),no
+Elinzanetant,Active Pharmaceutical Ingredients,Women's Health & Fertility,API (bulk drug substance),yes
+Ulipristal Acetate,Active Pharmaceutical Ingredients,Women's Health & Fertility,API (bulk drug substance),yes
+Tenofovir Disoproxil Fumarate,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Tenofovir Alafenamide Fumarate,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),yes
+Tenofovir Intermediates,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),Intermediate (for API synthesis),no
+Emtricitabine,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Abacavir Sulphate,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Zidovudine,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Efavirenz,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Nevirapine,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Etravirine Intermediates,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),Intermediate (for API synthesis),no
+Atazanavir Sulphate,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Darunavir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Lopinavir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Ritonavir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Saquinavir Mesylate,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Fosamprenavir Calcium,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Dolutegravir Sodium,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),yes
+Raltegravir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),yes
+Bictegravir Intermediates,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),Intermediate (for API synthesis),yes
+Daclatasvir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),yes
+Valganciclovir Hydrochloride,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Acyclovir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Oseltamivir Phosphate,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),no
+Nirmatrelvir,Active Pharmaceutical Ingredients,Antivirals (HIV & Hepatitis),API (bulk drug substance),yes
+Bedaquiline Intermediates,Active Pharmaceutical Ingredients,Anti-infectives,Intermediate (for API synthesis),yes
+Linezolid,Active Pharmaceutical Ingredients,Anti-infectives,API (bulk drug substance),no
+Amlodipine Besylate,Active Pharmaceutical Ingredients,Cardiovascular,API (bulk drug substance),no
+Clopidogrel Bisulphate,Active Pharmaceutical Ingredients,Blood & Haematology,API (bulk drug substance),no
+Trazodone,Active Pharmaceutical Ingredients,CNS & Psychiatry,API (bulk drug substance),no
+Tapentadol,Active Pharmaceutical Ingredients,Pain & Inflammation,API (bulk drug substance),yes
+Amoxicillin,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Amoxicillin + Clavulanic Acid,Tablets & Capsules,Anti-infectives,Tablet,no
+Amoxicillin + Cloxacillin,Tablets & Capsules,Anti-infectives,Capsule,no
+Amoxicillin + Cloxacillin + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,Capsule,no
+Amoxicillin + Potassium Clavulanate + Lactobacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Ampicillin,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Ampicillin + Cloxacillin,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Azithromycin,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Azithromycin + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Cefaclor,Tablets & Capsules,Anti-infectives,"Capsule, Tablet (ER)",no
+Cefadroxil,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Cefadroxil + Ambroxol,Tablets & Capsules,Anti-infectives,Tablet,no
+Cefdinir,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Cefditoren Pivoxil,Tablets & Capsules,Anti-infectives,Tablet (DT),no
+Cefixime,Tablets & Capsules,Anti-infectives,Tablet (DT),no
+Cefixime + Azithromycin,Tablets & Capsules,Anti-infectives,Tablet,no
+Cefixime + Clavulanic acid,Tablets & Capsules,Anti-infectives,Capsule,no
+Cefixime + Cloxacillin,Tablets & Capsules,Anti-infectives,Capsule,no
+Cefixime + Cloxacillin (As Sodium) + Lactobacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Cefixime + Dicloxacillin,Tablets & Capsules,Anti-infectives,Tablet (ER),no
+Cefixime + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,"Tablet, Tablet (DT)",no
+Cefixime + Ofloxacin,Tablets & Capsules,Anti-infectives,Tablet (DT),no
+Cefixime + Potassium Clavulanate,Tablets & Capsules,Anti-infectives,Tablet,no
+Cefpodoxime,Tablets & Capsules,Anti-infectives,Tablet (DT),no
+Cefpodoxime + Clavulanic Acid,Tablets & Capsules,Anti-infectives,Tablet,no
+Cefpodoxime + Ofloxacin,Tablets & Capsules,Anti-infectives,Tablet (DT),no
+Cefpodoxime + Potassium Clavulanate,Tablets & Capsules,Anti-infectives,Tablet,no
+Ceftibuten,Tablets & Capsules,Anti-infectives,Capsule,no
+Cefuroxime,Tablets & Capsules,Anti-infectives,Tablet (DT),no
+Cefuroxime Axetil + Potassium Clavulanate,Tablets & Capsules,Anti-infectives,Tablet,no
+Cephalexin,Tablets & Capsules,Anti-infectives,"Capsule, Tablet (DT)",no
+Chloramphenicol,Tablets & Capsules,Anti-infectives,Capsule,no
+Ciprofloxacin,Tablets & Capsules,Anti-infectives,Tablet,no
+Ciprofloxacin + Ornidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Ciprofloxacin + Tinidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Clindamycin,Tablets & Capsules,Anti-infectives,Capsule,no
+Cloxacillin,Tablets & Capsules,Anti-infectives,Capsule,no
+Doxycycline,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Doxycycline + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Doxycycline + Tinidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Erythromycin,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Faropenem Sodium,Tablets & Capsules,Anti-infectives,Tablet (ER),no
+Levofloxacin,Tablets & Capsules,Anti-infectives,Tablet,no
+Levofloxacin + Ambroxol HCl,Tablets & Capsules,Anti-infectives,Tablet,no
+Levofloxacin + Ornidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Lincomycin,Tablets & Capsules,Anti-infectives,Capsule,no
+Metronidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Metronidazole + Norfloxacin,Tablets & Capsules,Anti-infectives,Tablet,no
+Minocycline,Tablets & Capsules,Anti-infectives,"Capsule, Tablet",no
+Moxifloxacin,Tablets & Capsules,Anti-infectives,Tablet,no
+Norfloxacin,Tablets & Capsules,Anti-infectives,Tablet,no
+Norfloxacin + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Norfloxacin + Tinidazole + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Ofloxacin,Tablets & Capsules,Anti-infectives,Tablet,no
+Ofloxacin + Metronidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Ofloxacin + Ornidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Ofloxacin + Ornidazole + Lactic Acid Bacillus,Tablets & Capsules,Anti-infectives,Tablet,no
+Ofloxacin + Tinidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Ornidazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Oxytetracycline,Tablets & Capsules,Anti-infectives,Capsule,no
+Rifaximin,Tablets & Capsules,Anti-infectives,"Tablet, Tablet (DT)",no
+Roxithromycin,Tablets & Capsules,Anti-infectives,Tablet,no
+Roxithromycin + Ambroxol,Tablets & Capsules,Anti-infectives,Tablet,no
+Tetracycline,Tablets & Capsules,Anti-infectives,Capsule,no
+Trimethoprim + Sulfamethoxazole,Tablets & Capsules,Anti-infectives,Tablet,no
+Vancomycin,Tablets & Capsules,Anti-infectives,Capsule,no
+Fluconazole,Tablets & Capsules,Antifungals,"Capsule, Tablet",no
+Fluconazole + Tinidazole,Tablets & Capsules,Antifungals,Tablet,no
+Itraconazole,Tablets & Capsules,Antifungals,Capsule,no
+Voriconazole,Tablets & Capsules,Antifungals,Tablet,no
+Albendazole,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Albendazole + Ivermectin,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Artemether,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Artemether + Lumefantrine,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Artesunate,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Chloroquine,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Hydroxychloroquine,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Ivermectin,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Mebendazole,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Mefloquine,Tablets & Capsules,Antiparasitic & Antimalarial,Tablet,no
+Abacavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Abacavir + Lamivudine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Acyclovir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Atazanavir + Lamivudine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Atazanavir + Lamivudine + Nevirapine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Atazanavir + Ritonavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Daclatasvir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Darunavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Dolutegravir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Dolutegravir + Lamivudine + Tenofovir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Dolutegravir + Lamivudine + Tenofovir Alafenamide,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Efavirenz,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Efavirenz + Lamivudine + Tenofovir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Entecavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Favipiravir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Ganciclovir,Tablets & Capsules,Antivirals (HIV & Hepatitis),"Capsule, Tablet",no
+Lamivudine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Lamivudine + Zidovudine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Lamivudine + Zidovudine + Nevirapine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Lopinavir + Ritonavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Nelfinavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Nevirapine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Ribavirin,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Ritonavir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Sofosbuvir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Sofosbuvir + Daclatasvir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Tenofovir + Lamivudine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Tenofovir Disoproxil Fumarate,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Valacyclovir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Velpatasvir + Sofosbuvir,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Zidovudine,Tablets & Capsules,Antivirals (HIV & Hepatitis),Tablet,no
+Acetylsalicylic acid,Tablets & Capsules,Blood & Haematology,Tablet,no
+Clopidogrel,Tablets & Capsules,Blood & Haematology,Tablet,no
+Clopidogrel + Aspirin,Tablets & Capsules,Blood & Haematology,Tablet,no
+Deferiprone,Tablets & Capsules,Blood & Haematology,Capsule,no
+Etamsylate,Tablets & Capsules,Blood & Haematology,Tablet,no
+Etamsylate + Tranexamic Acid,Tablets & Capsules,Blood & Haematology,Tablet,no
+Rivaroxaban,Tablets & Capsules,Blood & Haematology,Tablet,no
+Tranexamic Acid,Tablets & Capsules,Blood & Haematology,Tablet,no
+Tranexamic Acid + Mefenamic Acid,Tablets & Capsules,Blood & Haematology,Tablet,no
+Amisulpride,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Chlorpromazine,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Clomipramine,Tablets & Capsules,CNS & Psychiatry,Capsule,no
+Donepezil,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Dothiepin,Tablets & Capsules,CNS & Psychiatry,Capsule,no
+Duloxetine,Tablets & Capsules,CNS & Psychiatry,"Capsule, Tablet",no
+Duloxetine + Mecobalamin,Tablets & Capsules,CNS & Psychiatry,Capsule,no
+Escitalopram,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Flunarizine,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Fluoxetine,Tablets & Capsules,CNS & Psychiatry,Capsule,no
+Gabapentin,Tablets & Capsules,CNS & Psychiatry,Capsule,no
+Haloperidol,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Imipramine,Tablets & Capsules,CNS & Psychiatry,"Capsule, Tablet",no
+Levetiracetam,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Olanzapine,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Paroxetine,Tablets & Capsules,CNS & Psychiatry,Tablet (SR),no
+Phenytoin Sodium,Tablets & Capsules,CNS & Psychiatry,"Capsule, Tablet (ER)",no
+Piracetam,Tablets & Capsules,CNS & Psychiatry,"Capsule, Tablet",no
+Risperidone,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Sodium Valproate,Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Varenicline (As tartrate),Tablets & Capsules,CNS & Psychiatry,Tablet,no
+Zonisamide,Tablets & Capsules,CNS & Psychiatry,Capsule,no
+Amiloride + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Amiodarone,Tablets & Capsules,Cardiovascular,Tablet,no
+Amlodipine,Tablets & Capsules,Cardiovascular,Tablet,no
+Amlodipine + Atenolol,Tablets & Capsules,Cardiovascular,Tablet,no
+Amlodipine + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Amlodipine + Indapamide,Tablets & Capsules,Cardiovascular,Tablet (SR),no
+Amlodipine + Metoprolol,Tablets & Capsules,Cardiovascular,Tablet,no
+Amlodipine + Telmisartan + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Atenolol + Indapamide,Tablets & Capsules,Cardiovascular,Tablet (SR),no
+Atorvastatin,Tablets & Capsules,Cardiovascular,Tablet,no
+Atorvastatin + Ezetimibe,Tablets & Capsules,Cardiovascular,Tablet,no
+Atorvastatin + Fenofibrate,Tablets & Capsules,Cardiovascular,Tablet,no
+Etilefrine Hydrochloride,Tablets & Capsules,Cardiovascular,Tablet,no
+Ezetimibe + Fenofibrate,Tablets & Capsules,Cardiovascular,Tablet,no
+Fluvastatin (As calcium),Tablets & Capsules,Cardiovascular,Tablet,no
+Ivabradine,Tablets & Capsules,Cardiovascular,Tablet,no
+Labetalol,Tablets & Capsules,Cardiovascular,Tablet,no
+Lisinopril + Amlodipine,Tablets & Capsules,Cardiovascular,Tablet,no
+Losartan Potassium,Tablets & Capsules,Cardiovascular,Tablet,no
+Losartan Potassium + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Metoprolol (As succinate) + Amlodipine,Tablets & Capsules,Cardiovascular,Tablet (ER),no
+Metoprolol (As succinate) + Ramipril,Tablets & Capsules,Cardiovascular,Tablet (ER),no
+Nifedipine,Tablets & Capsules,Cardiovascular,Tablet (SR),no
+Olmesartan,Tablets & Capsules,Cardiovascular,Tablet,no
+Olmesartan + Amlodipine,Tablets & Capsules,Cardiovascular,Tablet,no
+Olmesartan + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Propranolol + Flunarizine,Tablets & Capsules,Cardiovascular,Capsule,no
+Ramipril,Tablets & Capsules,Cardiovascular,Tablet,no
+Ramipril + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Rosuvastatin,Tablets & Capsules,Cardiovascular,Tablet,no
+Rosuvastatin + Fenofibrate,Tablets & Capsules,Cardiovascular,Tablet,no
+Telmisartan,Tablets & Capsules,Cardiovascular,Tablet,no
+Telmisartan + Amlodipine,Tablets & Capsules,Cardiovascular,Tablet,no
+Telmisartan + Hydrochlorothiazide,Tablets & Capsules,Cardiovascular,Tablet,no
+Empagliflozin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Empagliflozin + Linagliptin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Empagliflozin + Metformin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Glibenclamide + Metformin,Tablets & Capsules,Diabetes & Metabolic,Tablet (SR),no
+Glimepiride,Tablets & Capsules,Diabetes & Metabolic,"Capsule, Tablet",no
+Glimepiride + Metformin,Tablets & Capsules,Diabetes & Metabolic,"Tablet (SR), Tablet, Tablet (PR)",no
+Glimepiride + Metformin + Pioglitazone,Tablets & Capsules,Diabetes & Metabolic,"Tablet, Tablet (SR)",no
+Linagliptin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Metformin + Linagliptin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Metformin HCl,Tablets & Capsules,Diabetes & Metabolic,Tablet (SR),no
+Metformin HCl + Alpha Lipoic Acid,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Metformin HCl + Gliclazide,Tablets & Capsules,Diabetes & Metabolic,Tablet (SR),no
+Metformin HCl + Glimepiride + Voglibose,Tablets & Capsules,Diabetes & Metabolic,Tablet (SR),no
+Metformin HCl + Sitagliptin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Orlistat,Tablets & Capsules,Diabetes & Metabolic,Capsule,no
+Pioglitazone + Glimepiride,Tablets & Capsules,Diabetes & Metabolic,Capsule,no
+Sitagliptin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Vildagliptin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Vildagliptin + Metformin,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Voglibose,Tablets & Capsules,Diabetes & Metabolic,Tablet,no
+Aprepitant Kit,Tablets & Capsules,Gastroenterology,Capsule,no
+Digestive Enzyme Blend (Alpha Galactosidase + Lipase + Amylase + Protease),Tablets & Capsules,Gastroenterology,Capsule,no
+Digestive Enzymes,Tablets & Capsules,Gastroenterology,Capsule,no
+Esomeprazole,Tablets & Capsules,Gastroenterology,"Capsule, Tablet",no
+Esomeprazole (with Sodium Bicarbonate),Tablets & Capsules,Gastroenterology,Tablet,no
+Esomeprazole + Domperidone,Tablets & Capsules,Gastroenterology,"Capsule, Tablet",no
+Granisetron,Tablets & Capsules,Gastroenterology,Tablet,no
+Itopride,Tablets & Capsules,Gastroenterology,Tablet (FC),no
+Lansoprazole,Tablets & Capsules,Gastroenterology,"Capsule, Tablet",no
+Levosulpiride,Tablets & Capsules,Gastroenterology,Tablet,no
+Levosulpiride + Rabeprazole,Tablets & Capsules,Gastroenterology,Capsule,no
+Loperamide,Tablets & Capsules,Gastroenterology,Tablet,no
+Omeprazole,Tablets & Capsules,Gastroenterology,"Capsule, Tablet",no
+Omeprazole + Domperidone,Tablets & Capsules,Gastroenterology,"Tablet, Capsule",no
+Pantoprazole,Tablets & Capsules,Gastroenterology,Tablet,no
+Pantoprazole + Cinitapride,Tablets & Capsules,Gastroenterology,Capsule,no
+Pantoprazole + Domperidone,Tablets & Capsules,Gastroenterology,"Tablet, Capsule",no
+Pantoprazole + Itopride,Tablets & Capsules,Gastroenterology,Capsule,no
+Pantoprazole + Levosulpiride,Tablets & Capsules,Gastroenterology,Capsule,no
+Rabeprazole,Tablets & Capsules,Gastroenterology,Tablet,no
+Rabeprazole + Diclofenac,Tablets & Capsules,Gastroenterology,Capsule,no
+Rabeprazole + Domperidone,Tablets & Capsules,Gastroenterology,"Tablet, Capsule",no
+Racecadotril,Tablets & Capsules,Gastroenterology,Capsule,no
+Deflazacort,Tablets & Capsules,Hormones & Endocrine,Tablet,no
+Dexamethasone,Tablets & Capsules,Hormones & Endocrine,Tablet,no
+Liothyronine,Tablets & Capsules,Hormones & Endocrine,Tablet,no
+Methylprednisolone,Tablets & Capsules,Hormones & Endocrine,Tablet,no
+Testosterone Undecanoate,Tablets & Capsules,Hormones & Endocrine,Capsule,no
+Thyroxine Sodium,Tablets & Capsules,Hormones & Endocrine,Tablet,no
+Alendronic Acid,Tablets & Capsules,Musculoskeletal & Bone,Tablet,no
+Alfacalcidol,Tablets & Capsules,Musculoskeletal & Bone,Tablet,no
+Calcium Carbonate + Vitamin D3,Tablets & Capsules,Musculoskeletal & Bone,Tablet,no
+Colchicine,Tablets & Capsules,Musculoskeletal & Bone,Tablet,no
+Diacerein,Tablets & Capsules,Musculoskeletal & Bone,"Capsule, Tablet",no
+Glucosamine Sulphate,Tablets & Capsules,Musculoskeletal & Bone,Capsule,no
+Risedronate + Calcium Carbonate (combi pack),Tablets & Capsules,Musculoskeletal & Bone,Tablet,no
+Abiraterone Acetate,Tablets & Capsules,Oncology,Tablet,no
+Anastrozole,Tablets & Capsules,Oncology,Tablet,no
+Capecitabine,Tablets & Capsules,Oncology,Tablet,no
+Chlorambucil,Tablets & Capsules,Oncology,Tablet,no
+Crizotinib,Tablets & Capsules,Oncology,Capsule,no
+Cyclophosphamide,Tablets & Capsules,Oncology,Tablet,no
+Enzalutamide,Tablets & Capsules,Oncology,Capsule,no
+Erlotinib,Tablets & Capsules,Oncology,Tablet,no
+Etoposide,Tablets & Capsules,Oncology,Capsule,no
+Fludarabine Phosphate,Tablets & Capsules,Oncology,Tablet,no
+Flutamide,Tablets & Capsules,Oncology,Tablet,no
+Gefitinib,Tablets & Capsules,Oncology,Tablet,no
+Hydroxyurea,Tablets & Capsules,Oncology,Capsule,no
+Ibrutinib,Tablets & Capsules,Oncology,Tablet,no
+Imatinib,Tablets & Capsules,Oncology,"Tablet, Capsule",no
+Lenvatinib,Tablets & Capsules,Oncology,Capsule,no
+Letrozole,Tablets & Capsules,Oncology,Tablet,no
+Nilotinib,Tablets & Capsules,Oncology,Capsule,no
+Palbociclib,Tablets & Capsules,Oncology,Capsule,no
+Procarbazine,Tablets & Capsules,Oncology,Capsule,no
+Sunitinib,Tablets & Capsules,Oncology,Capsule,no
+Tamoxifen Citrate,Tablets & Capsules,Oncology,Tablet,no
+Temozolomide,Tablets & Capsules,Oncology,Capsule,no
+Tretinoin,Tablets & Capsules,Oncology,Tablet,no
+Aceclofenac,Tablets & Capsules,Pain & Inflammation,"Tablet (DT), Tablet (SR)",no
+Aceclofenac + Paracetamol,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Aceclofenac + Paracetamol + Serratiopeptidase,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Aceclofenac + Paracetamol + Trypsin Chymotrypsin,Tablets & Capsules,Pain & Inflammation,Capsule,no
+Aceclofenac + Serratiopeptidase,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Aceclofenac + Thiocolchicoside,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Celecoxib,Tablets & Capsules,Pain & Inflammation,Capsule,no
+Diclofenac,Tablets & Capsules,Pain & Inflammation,Tablet (SR),no
+Diclofenac + Famotidine,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Diclofenac + Paracetamol + Chlorzoxazone,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Diclofenac + Paracetamol + Serratiopeptidase,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Diclofenac + Serratiopeptidase,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Dicyclomine + Mefenamic Acid,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Dicyclomine + Paracetamol,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Dicyclomine HCl,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Drotaverine,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Drotaverine + Mefenamic Acid,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Eperisone Hydrochloride + Diclofenac Potassium,Tablets & Capsules,Pain & Inflammation,Capsule,no
+Etodolac,Tablets & Capsules,Pain & Inflammation,Tablet (ER),no
+Etoricoxib,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Indomethacin,Tablets & Capsules,Pain & Inflammation,Capsule,no
+Ketoprofen,Tablets & Capsules,Pain & Inflammation,Capsule,no
+Lornoxicam,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Lornoxicam + Paracetamol,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Mefenamic Acid,Tablets & Capsules,Pain & Inflammation,Capsule,no
+Paracetamol,Tablets & Capsules,Pain & Inflammation,"Effervescent Tablet, Tablet",no
+Paracetamol + Vitamin C,Tablets & Capsules,Pain & Inflammation,Effervescent Tablet,no
+Piroxicam,Tablets & Capsules,Pain & Inflammation,"Capsule, Tablet",no
+Serratiopeptidase,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Thiocolchicoside + Etoricoxib,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Tolperisone + Diclofenac,Tablets & Capsules,Pain & Inflammation,Tablet (SR),no
+Trypsin + Bromelain + Rutoside Trihydrate,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Trypsin-Chymotrypsin,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Trypsin-Chymotrypsin + Diclofenac,Tablets & Capsules,Pain & Inflammation,Tablet,no
+Sevelamer Carbonate,Tablets & Capsules,Renal & Hepatic,Tablet,no
+Acebrophylline,Tablets & Capsules,Respiratory & Allergy,Capsule,no
+Ambroxol + Olopatadine,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Ambroxol Hydrochloride + Doxofylline,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Aminophylline,Tablets & Capsules,Respiratory & Allergy,Tablet (CR),no
+Cetirizine,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Cetirizine + Dextromethorphan + Phenylephrine + Ambroxol + Guaifenesin,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Cetirizine HCl + Phenylephrine HCl + Ambroxol HCl + Guaifenesin,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Diphenhydramine,Tablets & Capsules,Respiratory & Allergy,Capsule,no
+Doxofylline,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Levocetirizine,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Levocetirizine + Ambroxol,Tablets & Capsules,Respiratory & Allergy,Tablet (SR),no
+Levocetirizine + Montelukast,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Levosalbutamol + Ambroxol HCl + Guaifenesin,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Montelukast + Levocetirizine + Ambroxol,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+N-Acetylcysteine + Vitamin C,Tablets & Capsules,Respiratory & Allergy,Effervescent Tablet,no
+Terbutaline + Bromhexine + Chlorpheniramine,Tablets & Capsules,Respiratory & Allergy,Tablet,no
+Azathioprine,Tablets & Capsules,Transplant & Immunology,Tablet,no
+Cyclosporine,Tablets & Capsules,Transplant & Immunology,Capsule,no
+Mycophenolate Mofetil,Tablets & Capsules,Transplant & Immunology,Tablet,no
+Mycophenolate Sodium,Tablets & Capsules,Transplant & Immunology,Tablet,no
+Tacrolimus,Tablets & Capsules,Transplant & Immunology,Capsule,no
+Alfuzosin HCl + Dutasteride,Tablets & Capsules,Urology & Men's Health,Tablet (ER),no
+Dutasteride,Tablets & Capsules,Urology & Men's Health,"Capsule, Tablet",no
+Dutasteride + Tamsulosin,Tablets & Capsules,Urology & Men's Health,Capsule,no
+Finasteride,Tablets & Capsules,Urology & Men's Health,Tablet,no
+Flavoxate Hydrochloride,Tablets & Capsules,Urology & Men's Health,Tablet,no
+Pentosan Polysulfate Sodium,Tablets & Capsules,Urology & Men's Health,Capsule,no
+Sildenafil Citrate,Tablets & Capsules,Urology & Men's Health,"Effervescent Tablet, Tablet",no
+Tadalafil,Tablets & Capsules,Urology & Men's Health,Tablet,no
+Tamsulosin Hydrochloride,Tablets & Capsules,Urology & Men's Health,Capsule,no
+Tolterodine Tartrate + Tamsulosin HCl,Tablets & Capsules,Urology & Men's Health,Tablet (ER),no
+Adenosylcobalamin + Iron + Folic Acid + Zinc,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Amla extract + Vitamin C,Tablets & Capsules,Vitamins & Nutrition,Effervescent Tablet,no
+Antioxidant + Lycopene + Lutein + Multivitamin & Multimineral,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Carbonyl Iron + Folic Acid + Vitamin B12,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Carbonyl Iron + Folic Acid + Vitamin B12 + Vitamin C + Zinc,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Carbonyl Iron + Zinc + Folic Acid,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Cyanocobalamin + Folic Acid + Iron + Zinc,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Ferrous Ascorbate + Folic Acid,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Ferrous Ascorbate + Folic Acid + Adenosylcobalamin + Vitamin B12 + Zinc,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Ferrous Ascorbate + Folic Acid + Zinc Sulphate,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Folic Acid,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Folic Acid + DHA + Vitamin C + Vitamin B12,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Folic Acid + Vitamin B12,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Folic Acid + Vitamin B12 + Vitamin C,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Iodine,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Iron + Folic Acid,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Lime extract + Vitamin C,Tablets & Capsules,Vitamins & Nutrition,Effervescent Tablet,no
+Lycopene + Multivitamin and Multimineral,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Mecobalamin + Alpha Lipoic Acid + Inositol + Folic Acid + Chromium + Selenium + Benfotiamine,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Methylcobalamin + Alpha Lipoic Acid + Benfotiamine + Vitamin B6 + Folic Acid + Biotin + Chromium,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Probiotic Blend (Lactobacillus Sporogenes + Streptococcus Faecalis + Clostridium Butyricum + Bacillus Mesentericus),Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Sodium Feredetate + Adenosylcobalamin + Folic Acid + Vitamin B12 + Zinc,Tablets & Capsules,Vitamins & Nutrition,Tablet,no
+Vitamin A + E + C + Zinc + Magnesium + Selenium + Copper + Chromium,Tablets & Capsules,Vitamins & Nutrition,Capsule,no
+Vitamin C,Tablets & Capsules,Vitamins & Nutrition,Effervescent Tablet,no
+Vitamin C + Zinc,Tablets & Capsules,Vitamins & Nutrition,Effervescent Tablet,no
+Asparagus Racemosus + Multivitamins + Minerals,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Cabergoline,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Clomiphene Citrate,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Conjugated Estrogen,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Cyproterone Acetate + Ethinylestradiol,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Dehydroepiandrosterone (DHEA),Tablets & Capsules,Women's Health & Fertility,Capsule,no
+Dienogest,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Dienogest + Ethinylestradiol,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Doxylamine Succinate + Pyridoxine,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Doxylamine Succinate + Pyridoxine + Folic Acid,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Dydrogesterone,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Estradiol Valerate,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Ethinylestradiol,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Isoxsuprine Hydrochloride,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Levonorgestrel,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Levonorgestrel + Ethinylestradiol,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Medroxyprogesterone,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Methylergometrine Maleate,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Micronized Progesterone,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Natural Micronised Progesterone,Tablets & Capsules,Women's Health & Fertility,Capsule,no
+Norethisterone Acetate,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Norethisterone Acetate + Ethinylestradiol,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Progesterone Sustained Release,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Progesterone Vaginal,Tablets & Capsules,Women's Health & Fertility,Tablet,no
+Adrenaline,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Anti-Snake Venom,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection (lyophilised),no
+Articaine + Epinephrine,Injectables & Sterile Products,Anaesthesia & Critical Care,Dental cartridge,no
+Atracurium,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Bupivacaine Hydrochloride,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Bupivacaine Hydrochloride + Dextrose (Heavy),Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Cisatracurium Besylate,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Glycopyrrolate,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Hyaluronidase,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection (lyophilised),no
+Lidocaine + Epinephrine,Injectables & Sterile Products,Anaesthesia & Critical Care,Dental cartridge,no
+Lignocaine + Adrenaline,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Lignocaine Hydrochloride,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Magnesium Sulphate,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Pancuronium Bromide,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Potassium Chloride,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Propofol,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Rocuronium Bromide,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Sodium Bicarbonate,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Succinylcholine Chloride,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Sugammadex,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection,no
+Ulinastatin,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection (lyophilised),no
+Vecuronium,Injectables & Sterile Products,Anaesthesia & Critical Care,Injection (lyophilised),no
+Amikacin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Amoxicillin + Clavulanic Acid,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ampicillin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ampicillin + Cloxacillin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ampicillin + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Aztreonam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Benzathine Benzylpenicillin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefazolin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefepime,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefepime + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefepime + Tazobactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefoperazone,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefoperazone + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefotaxime,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefpirome + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftazidime,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftazidime + Avibactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftazidime + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftizoxime,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftizoxime + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftriaxone,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftriaxone + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ceftriaxone + Tazobactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefuroxime,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cefuroxime + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Chloramphenicol Sodium Succinate,Injectables & Sterile Products,Anti-infectives,Injection,no
+Clarithromycin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Clindamycin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Cloxacillin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Colistimethate Sodium,Injectables & Sterile Products,Anti-infectives,Injection (lyophilised),no
+Daptomycin,Injectables & Sterile Products,Anti-infectives,Injection (lyophilised),no
+Doripenem,Injectables & Sterile Products,Anti-infectives,Injection,no
+Doxycycline,Injectables & Sterile Products,Anti-infectives,Injection,no
+Ertapenem,Injectables & Sterile Products,Anti-infectives,Injection,no
+Fosfomycin Sodium,Injectables & Sterile Products,Anti-infectives,Injection,no
+Imipenem + Cilastatin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Lincomycin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Meropenem,Injectables & Sterile Products,Anti-infectives,Injection,no
+Meropenem + Sulbactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Meropenem + Tazobactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Minocycline,Injectables & Sterile Products,Anti-infectives,Injection,no
+Netilmicin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Penicillin G Procaine,Injectables & Sterile Products,Anti-infectives,Injection,no
+Piperacillin + Tazobactam,Injectables & Sterile Products,Anti-infectives,Injection,no
+Polymyxin B,Injectables & Sterile Products,Anti-infectives,Injection (lyophilised),no
+Streptomycin,Injectables & Sterile Products,Anti-infectives,Injection,no
+Sulbactam Sodium,Injectables & Sterile Products,Anti-infectives,Injection,no
+Teicoplanin,Injectables & Sterile Products,Anti-infectives,Injection (lyophilised),no
+Ticarcillin + Clavulanic Acid,Injectables & Sterile Products,Anti-infectives,Injection,no
+Tigecycline,Injectables & Sterile Products,Anti-infectives,Injection (lyophilised),no
+Vancomycin,Injectables & Sterile Products,Anti-infectives,Injection (lyophilised),no
+Amphotericin B,Injectables & Sterile Products,Antifungals,Injection (lyophilised),no
+Amphotericin B Liposomal,Injectables & Sterile Products,Antifungals,Injection (lyophilised),no
+Anidulafungin,Injectables & Sterile Products,Antifungals,Injection (lyophilised),no
+Caspofungin Acetate,Injectables & Sterile Products,Antifungals,Injection (lyophilised),no
+Micafungin,Injectables & Sterile Products,Antifungals,Injection (lyophilised),no
+Voriconazole,Injectables & Sterile Products,Antifungals,Injection (lyophilised),no
+Artemether,Injectables & Sterile Products,Antiparasitic & Antimalarial,Injection,no
+Artesunate,Injectables & Sterile Products,Antiparasitic & Antimalarial,Injection,no
+Quinine Dihydrochloride,Injectables & Sterile Products,Antiparasitic & Antimalarial,Injection,no
+Acyclovir,Injectables & Sterile Products,Antivirals (HIV & Hepatitis),Injection,no
+Ganciclovir,Injectables & Sterile Products,Antivirals (HIV & Hepatitis),Injection (lyophilised),no
+Zidovudine,Injectables & Sterile Products,Antivirals (HIV & Hepatitis),Injection,no
+Aprotinin,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Enoxaparin Sodium,Injectables & Sterile Products,Blood & Haematology,Pre-filled syringe,no
+Erythropoietin,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Etamsylate,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Ferric Carboxymaltose,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Heparin Sodium,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Human Albumin 20%,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Iron Sucrose,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Menadione,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Phytomenadione (Vitamin K1),Injectables & Sterile Products,Blood & Haematology,Injection,no
+Protamine Sulphate,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Streptokinase,Injectables & Sterile Products,Blood & Haematology,Injection (lyophilised),no
+Tranexamic Acid,Injectables & Sterile Products,Blood & Haematology,Injection,no
+Urokinase,Injectables & Sterile Products,Blood & Haematology,Injection (lyophilised),no
+Cerebroprotein Hydrolysate,Injectables & Sterile Products,CNS & Psychiatry,Injection (lyophilised),no
+Citicoline,Injectables & Sterile Products,CNS & Psychiatry,Injection,no
+Fluphenazine Decanoate,Injectables & Sterile Products,CNS & Psychiatry,Injection,no
+Levetiracetam,Injectables & Sterile Products,CNS & Psychiatry,Injection,no
+Phenytoin,Injectables & Sterile Products,CNS & Psychiatry,Injection,no
+Piracetam,Injectables & Sterile Products,CNS & Psychiatry,Injection,no
+Adenosine,Injectables & Sterile Products,Cardiovascular,Injection,no
+Amiodarone,Injectables & Sterile Products,Cardiovascular,Injection,no
+Dobutamine,Injectables & Sterile Products,Cardiovascular,Injection,no
+Dopamine,Injectables & Sterile Products,Cardiovascular,Injection,no
+Esmolol,Injectables & Sterile Products,Cardiovascular,Injection,no
+Labetalol,Injectables & Sterile Products,Cardiovascular,Injection,no
+Mephentermine,Injectables & Sterile Products,Cardiovascular,Injection,no
+Milrinone,Injectables & Sterile Products,Cardiovascular,Injection,no
+Nimodipine,Injectables & Sterile Products,Cardiovascular,Injection,no
+Nitroglycerin,Injectables & Sterile Products,Cardiovascular,Injection,no
+Noradrenaline,Injectables & Sterile Products,Cardiovascular,Injection,no
+Terlipressin,Injectables & Sterile Products,Cardiovascular,Injection,no
+Vasopressin,Injectables & Sterile Products,Cardiovascular,"Injection, Pre-filled syringe",no
+Verapamil,Injectables & Sterile Products,Cardiovascular,Injection,no
+Semaglutide,Injectables & Sterile Products,Diabetes & Metabolic,Pre-filled syringe,no
+Esomeprazole,Injectables & Sterile Products,Gastroenterology,Injection (lyophilised),no
+Famotidine,Injectables & Sterile Products,Gastroenterology,Injection,no
+Glutathione,Injectables & Sterile Products,Gastroenterology,Injection (lyophilised),no
+L-Ornithine L-Aspartate,Injectables & Sterile Products,Gastroenterology,Injection,no
+Metoclopramide,Injectables & Sterile Products,Gastroenterology,Injection,no
+Omeprazole,Injectables & Sterile Products,Gastroenterology,Injection (lyophilised),no
+Ondansetron,Injectables & Sterile Products,Gastroenterology,Injection,no
+Palonosetron,Injectables & Sterile Products,Gastroenterology,Injection,no
+Pantoprazole,Injectables & Sterile Products,Gastroenterology,Injection (lyophilised),no
+Hydrocortisone Sodium Succinate,Injectables & Sterile Products,Hormones & Endocrine,Injection (lyophilised),no
+Methylprednisolone Sodium Succinate,Injectables & Sterile Products,Hormones & Endocrine,Injection (lyophilised),no
+Octreotide,Injectables & Sterile Products,Hormones & Endocrine,Injection,no
+Octreotide LAR,Injectables & Sterile Products,Hormones & Endocrine,Injection (lyophilised),no
+Somatostatin,Injectables & Sterile Products,Hormones & Endocrine,Injection (lyophilised),no
+Somatropin,Injectables & Sterile Products,Hormones & Endocrine,Injection (lyophilised),no
+Testosterone Blend (Propionate + Isocaproate + Phenylpropionate + Decanoate),Injectables & Sterile Products,Hormones & Endocrine,Injection,no
+Testosterone Enanthate,Injectables & Sterile Products,Hormones & Endocrine,Injection,no
+Testosterone Propionate,Injectables & Sterile Products,Hormones & Endocrine,Injection,no
+Triamcinolone Acetonide,Injectables & Sterile Products,Hormones & Endocrine,Injection,no
+Calcitonin (Salmon),Injectables & Sterile Products,Musculoskeletal & Bone,Injection,no
+Disodium Pamidronate,Injectables & Sterile Products,Musculoskeletal & Bone,Injection,no
+Sodium Hyaluronate,Injectables & Sterile Products,Musculoskeletal & Bone,Pre-filled syringe,no
+Zoledronic Acid,Injectables & Sterile Products,Musculoskeletal & Bone,Injection,no
+Bevacizumab,Injectables & Sterile Products,Oncology,Injection,no
+Bleomycin,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Cabazitaxel,Injectables & Sterile Products,Oncology,Injection,no
+Calcium Folinate (Leucovorin),Injectables & Sterile Products,Oncology,Injection,no
+Carboplatin,Injectables & Sterile Products,Oncology,Injection,no
+Cisplatin,Injectables & Sterile Products,Oncology,Injection,no
+Cyclophosphamide,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Cytarabine,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Dacarbazine,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Daunorubicin,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Docetaxel,Injectables & Sterile Products,Oncology,Injection,no
+Doxorubicin,Injectables & Sterile Products,Oncology,Injection,no
+Epirubicin,Injectables & Sterile Products,Oncology,Injection,no
+Etoposide,Injectables & Sterile Products,Oncology,Injection,no
+Fludarabine,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Fulvestrant,Injectables & Sterile Products,Oncology,Pre-filled syringe,no
+Gemcitabine,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Ifosfamide + Mesna,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Irinotecan,Injectables & Sterile Products,Oncology,Injection,no
+L-Asparaginase,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Leuprolide Acetate,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Melphalan,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Mesna,Injectables & Sterile Products,Oncology,Injection,no
+Methotrexate,Injectables & Sterile Products,Oncology,Injection,no
+Methylene Blue,Injectables & Sterile Products,Oncology,Injection,no
+Mitomycin-C,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Oxaliplatin,Injectables & Sterile Products,Oncology,Injection,no
+Paclitaxel,Injectables & Sterile Products,Oncology,Injection,no
+Pegaspargase,Injectables & Sterile Products,Oncology,Injection,no
+Pemetrexed,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Vinblastine,Injectables & Sterile Products,Oncology,Injection (lyophilised),no
+Vincristine,Injectables & Sterile Products,Oncology,Injection,no
+Vinorelbine,Injectables & Sterile Products,Oncology,Injection,no
+Drotaverine,Injectables & Sterile Products,Pain & Inflammation,Injection,no
+Hyoscine Butylbromide,Injectables & Sterile Products,Pain & Inflammation,Injection,no
+Paracetamol,Injectables & Sterile Products,Pain & Inflammation,Injection,no
+Tenoxicam,Injectables & Sterile Products,Pain & Inflammation,Injection,no
+Valethamate,Injectables & Sterile Products,Pain & Inflammation,Injection,no
+Etophylline + Theophylline,Injectables & Sterile Products,Respiratory & Allergy,Injection,no
+N-Acetylcysteine,Injectables & Sterile Products,Respiratory & Allergy,Injection,no
+Promethazine,Injectables & Sterile Products,Respiratory & Allergy,Injection,no
+Mycophenolate Mofetil,Injectables & Sterile Products,Transplant & Immunology,Injection (lyophilised),no
+Alprostadil,Injectables & Sterile Products,Urology & Men's Health,Injection,no
+Methylcobalamin,Injectables & Sterile Products,Vitamins & Nutrition,"Injection, Pre-filled syringe",no
+Methylcobalamin + Nicotinamide + Folic Acid,Injectables & Sterile Products,Vitamins & Nutrition,Pre-filled syringe,no
+Methylcobalamin + Pyridoxine + Nicotinamide,Injectables & Sterile Products,Vitamins & Nutrition,Pre-filled syringe,no
+Thiamine,Injectables & Sterile Products,Vitamins & Nutrition,Injection,no
+Vitamin D3,Injectables & Sterile Products,Vitamins & Nutrition,Injection,no
+Carbetocin,Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Carboprost Tromethamine,Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Cetrorelix Acetate,Injectables & Sterile Products,Women's Health & Fertility,Injection (lyophilised),no
+Human Chorionic Gonadotropin (hCG),Injectables & Sterile Products,Women's Health & Fertility,Injection (lyophilised),no
+Human Menopausal Gonadotropin (hMG),Injectables & Sterile Products,Women's Health & Fertility,Injection (lyophilised),no
+Hydroxyprogesterone Caproate,Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Hydroxyprogesterone Caproate + Estradiol Valerate,Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Medroxyprogesterone Acetate,Injectables & Sterile Products,Women's Health & Fertility,"Injection, Pre-filled syringe",no
+Methylergometrine,Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Natural Progesterone,Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Progesterone (aqueous),Injectables & Sterile Products,Women's Health & Fertility,Injection,no
+Recombinant FSH,Injectables & Sterile Products,Women's Health & Fertility,Pre-filled syringe,no
+Urofollitropin (FSH),Injectables & Sterile Products,Women's Health & Fertility,Injection (lyophilised),no
+Beclomethasone + Levosalbutamol,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Beclomethasone + Salbutamol,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Beclomethasone Dipropionate,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Budesonide,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Fluticasone Propionate,Inhalers & Nasal Products,Respiratory & Allergy,"Inhaler (MDI), Nasal spray",no
+Formoterol + Budesonide,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Formoterol + Fluticasone,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Ipratropium + Levosalbutamol,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Ipratropium + Salbutamol,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Ipratropium Bromide,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Levosalbutamol,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Oxymetazoline,Inhalers & Nasal Products,Respiratory & Allergy,Nasal drops,no
+Salbutamol,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Salmeterol + Fluticasone,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Tiotropium Bromide,Inhalers & Nasal Products,Respiratory & Allergy,Inhaler (MDI),no
+Tobramycin 300 mg,Inhalers & Nasal Products,Respiratory & Allergy,Inhalation solution,no
+Xylometazoline,Inhalers & Nasal Products,Respiratory & Allergy,Nasal spray,no
+Aciclovir,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Atropine Sulphate,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Atropine Sulphate (low dose),Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Azelastine,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Benzocaine + Chlorbutol + Paradichlorobenzene + Turpentine Oil,Eye & Ear Care,Ophthalmology & ENT,Ear drops,no
+Bepotastine Besilate,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Betamethasone + Neomycin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Carboxymethylcellulose,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Chloramphenicol,Eye & Ear Care,Ophthalmology & ENT,"Eye ointment, Eye drops",no
+Ciprofloxacin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Cyclopentolate,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Dexamethasone Sodium Phosphate,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Diclofenac Sodium,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Difluprednate,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Dorzolamide + Timolol,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Erythromycin,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Fluorometholone + Tetrahydrozoline,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Fusidic Acid,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Hypromellose,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Indomethacin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Moxifloxacin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Moxifloxacin + Dexamethasone,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Moxifloxacin + Ketorolac,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Natamycin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Neomycin + Dexamethasone,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Neomycin + Polymyxin B + Bacitracin,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Nepafenac,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Olopatadine,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Polyethylene Glycol + Propylene Glycol,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Polymyxin B + Chloramphenicol + Dexamethasone,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Polymyxin B + Neomycin + Hydrocortisone,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Prednisolone + Gatifloxacin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Prednisolone Acetate,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Sodium Chloride 6%,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Tacrolimus,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Tetracycline,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Tetracycline + Hydrocortisone,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Timolol Maleate,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Tobramycin,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Tobramycin + Dexamethasone,Eye & Ear Care,Ophthalmology & ENT,Eye ointment,no
+Travoprost + Timolol,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Tropicamide,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Tropicamide + Phenylephrine,Eye & Ear Care,Ophthalmology & ENT,Eye drops,no
+Amoxicillin,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Amoxicillin + Clavulanic Acid,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Ampicillin,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Azithromycin,"Syrups, Suspensions & Sachets",Anti-infectives,Syrup / oral liquid,no
+Cefixime,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Cefpodoxime Proxetil,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Cefprozil,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Cefuroxime,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Cephalexin,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Clarithromycin,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Levofloxacin,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Levofloxacin + Ornidazole,"Syrups, Suspensions & Sachets",Anti-infectives,Dry syrup / oral suspension,no
+Metronidazole,"Syrups, Suspensions & Sachets",Anti-infectives,Syrup / oral liquid,no
+Metronidazole + Furazolidone,"Syrups, Suspensions & Sachets",Anti-infectives,Syrup / oral liquid,no
+Ofloxacin,"Syrups, Suspensions & Sachets",Anti-infectives,Syrup / oral liquid,no
+Posaconazole,"Syrups, Suspensions & Sachets",Antifungals,Syrup / oral liquid,no
+Albendazole,"Syrups, Suspensions & Sachets",Antiparasitic & Antimalarial,Syrup / oral liquid,no
+Sodium Valproate,"Syrups, Suspensions & Sachets",CNS & Psychiatry,Syrup / oral liquid,no
+Aluminium Hydroxide + Magnesium Hydroxide,"Syrups, Suspensions & Sachets",Gastroenterology,Syrup / oral liquid,no
+Domperidone,"Syrups, Suspensions & Sachets",Gastroenterology,Syrup / oral liquid,no
+Lactulose,"Syrups, Suspensions & Sachets",Gastroenterology,Syrup / oral liquid,no
+Liquid Paraffin + Milk of Magnesia,"Syrups, Suspensions & Sachets",Gastroenterology,Syrup / oral liquid,no
+Oxetacaine + Aluminium Hydroxide + Magnesium Hydroxide,"Syrups, Suspensions & Sachets",Gastroenterology,Syrup / oral liquid,no
+Deflazacort,"Syrups, Suspensions & Sachets",Hormones & Endocrine,Syrup / oral liquid,no
+Ibuprofen,"Syrups, Suspensions & Sachets",Pain & Inflammation,Syrup / oral liquid,no
+Ibuprofen + Paracetamol,"Syrups, Suspensions & Sachets",Pain & Inflammation,Syrup / oral liquid,no
+Paracetamol,"Syrups, Suspensions & Sachets",Pain & Inflammation,"Syrup / oral liquid, Oral drops",no
+Paracetamol + Phenylephrine + Chlorpheniramine,"Syrups, Suspensions & Sachets",Pain & Inflammation,Syrup / oral liquid,no
+Ambroxol,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Ambroxol + Guaifenesin + Terbutaline + Menthol,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Ambroxol + Levosalbutamol + Guaifenesin,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Ambroxol + Salbutamol + Dextromethorphan,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Bromhexine + Terbutaline + Guaifenesin + Menthol,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Dextromethorphan + Phenylephrine + Chlorpheniramine,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Levocetirizine,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Montelukast + Levocetirizine,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Montelukast Sodium,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Granules (sachet),no
+Phenylephrine + Chlorpheniramine,"Syrups, Suspensions & Sachets",Respiratory & Allergy,Syrup / oral liquid,no
+Sildenafil Citrate,"Syrups, Suspensions & Sachets",Urology & Men's Health,Oral jelly,no
+"Cholecalciferol 60,000 IU","Syrups, Suspensions & Sachets",Vitamins & Nutrition,Oral drops,no
+Ferrous Ascorbate + Folic Acid,"Syrups, Suspensions & Sachets",Vitamins & Nutrition,Syrup / oral liquid,no
+"Multivitamin (A, D3, B-complex)","Syrups, Suspensions & Sachets",Vitamins & Nutrition,Oral drops,no
+"Vitamin A 100,000 IU","Syrups, Suspensions & Sachets",Vitamins & Nutrition,Oral solution,no
+Vitamin D3,"Syrups, Suspensions & Sachets",Vitamins & Nutrition,Oral drops,no
+Adapalene + Clindamycin,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Azelaic Acid,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Beclomethasone + Clotrimazole + Neomycin,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Benzydamine + Chlorhexidine,"Creams, Ointments & Solutions",Dermatology & Wound Care,Mouthwash,no
+Betamethasone Dipropionate,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Betamethasone Valerate + Clioquinol,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Chondroitin Sulphate,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Clindamycin Phosphate,"Creams, Ointments & Solutions",Dermatology & Wound Care,"Cream / ointment / gel, Topical solution",no
+Clotrimazole,"Creams, Ointments & Solutions",Dermatology & Wound Care,"Cream / ointment / gel, Topical solution",no
+DEET (Diethyltoluamide),"Creams, Ointments & Solutions",Dermatology & Wound Care,Topical spray,no
+Dexpanthenol,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Fusidic Acid,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Gentian Violet,"Creams, Ointments & Solutions",Dermatology & Wound Care,Topical solution,no
+Ketoconazole + Clobetasol + Neomycin,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Lidocaine,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Methoxsalen + Aminobenzoic Acid,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Miconazole Nitrate,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Mupirocin,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Povidone-Iodine,"Creams, Ointments & Solutions",Dermatology & Wound Care,"Cream / ointment / gel, Topical solution",no
+Povidone-Iodine Scrub,"Creams, Ointments & Solutions",Dermatology & Wound Care,Topical solution,no
+Procaine + Benzocaine + Menthol,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Silver Sulfadiazine,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Zinc Oxide,"Creams, Ointments & Solutions",Dermatology & Wound Care,Cream / ointment / gel,no
+Testosterone 1%,"Creams, Ointments & Solutions",Hormones & Endocrine,Gel,no
+Diclofenac + Thiocolchicoside + Linseed Oil + Methyl Salicylate + Menthol,"Creams, Ointments & Solutions",Pain & Inflammation,Cream / ointment / gel,no
+Clotrimazole (vaginal),"Creams, Ointments & Solutions",Women's Health & Fertility,Cream / ointment / gel,no
+Conjugated Estrogen,"Creams, Ointments & Solutions",Women's Health & Fertility,Cream / ointment / gel,no
+Dinoprostone,"Creams, Ointments & Solutions",Women's Health & Fertility,Cream / ointment / gel,no
+Metronidazole + Miconazole,Suppositories & Pessaries,Anti-infectives,Suppository / pessary,no
+Clotrimazole,Suppositories & Pessaries,Antifungals,Suppository / pessary,no
+Clotrimazole + Clindamycin,Suppositories & Pessaries,Antifungals,Suppository / pessary,no
+Artesunate,Suppositories & Pessaries,Antiparasitic & Antimalarial,Suppository / pessary,no
+Bisacodyl,Suppositories & Pessaries,Gastroenterology,Suppository / pessary,no
+Bismuth Subgallate + Bismuth Oxide + Zinc Oxide + Peru Balsam,Suppositories & Pessaries,Gastroenterology,Suppository / pessary,no
+Glycerin,Suppositories & Pessaries,Gastroenterology,Suppository / pessary,no
+Diclofenac Sodium,Suppositories & Pessaries,Pain & Inflammation,Suppository / pessary,no
+Paracetamol,Suppositories & Pessaries,Pain & Inflammation,Suppository / pessary,no
+Ampicillin + Cloxacillin,Veterinary,Veterinary,Veterinary intramammary,no
+Cefalonium,Veterinary,Veterinary,Veterinary intramammary,no
+Cefoperazone,Veterinary,Veterinary,Veterinary intramammary,no
+Cefquinome Sulfate,Veterinary,Veterinary,Veterinary intramammary,no
+Cephalexin + Neomycin + Prednisolone,Veterinary,Veterinary,Veterinary intramammary,no
+Cloprostenol Sodium,Veterinary,Veterinary,Veterinary injection / liquid,no
+Enrofloxacin,Veterinary,Veterinary,Veterinary injection / liquid,no
+Ivermectin,Veterinary,Veterinary,Veterinary injection / liquid,no
+Progesterone,Veterinary,Veterinary,Veterinary injection / liquid,no
