@@ -3,12 +3,23 @@
 // they can be changed without touching code; see README.md.
 
 // Brochure tabs, in order. The first three are the catalogue categories;
-// "cosmetics" is a view across them for cosmetics and personal-care events.
+// "pharma" is the Pharma section; "cosmetics" is a view across the
+// botanical and aroma categories for cosmetics and personal-care events.
 // `key` is what data/brochure.json "defaultSection" and ?section= links use.
 export const SECTIONS = [
   { key: 'botanicals', category: 'botanical-extracts' },
   { key: 'nutraceuticals', category: 'nutraceuticals' },
   { key: 'aroma', category: 'aroma-chemicals' },
+  // Pharma: every product in data/pharma-catalogue.csv, by category and
+  // therapeutic area (see src/lib/pharma.mjs).
+  {
+    key: 'pharma',
+    name: 'Pharma',
+    index: '04',
+    tone: 'botanical',
+    intro:
+      'APIs, API intermediates and finished generic medicines for manufacturers, importers, distributors and tender buyers. Supplied business-to-business to licensed pharmaceutical companies only; availability depends on registration and patent status in the destination country.',
+  },
   {
     key: 'cosmetics',
     name: 'Cosmetics & Personal Care',
@@ -31,6 +42,10 @@ export const SECTION_ALIASES = {
   'aroma-chemicals': 'aroma',
   chemicals: 'aroma',
   ketones: 'aroma',
+  pharma: 'pharma',
+  pharmaceuticals: 'pharma',
+  apis: 'pharma',
+  generics: 'pharma',
   cosmetics: 'cosmetics',
   cosmetic: 'cosmetics',
   'personal-care': 'cosmetics',

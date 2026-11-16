@@ -903,11 +903,40 @@ body.nav-locked { overflow: hidden; }
 .b-capability { margin-top: 48px; max-width: 760px; }
 .b-capability .tags { margin-top: 16px; }
 
+/* Pharma tab: every product, by category and therapeutic area */
+.b-ph-jump { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 40px; }
+.b-ph-jump a {
+  display: inline-flex; align-items: baseline; gap: 8px; padding: 6px 12px; font-size: 14px; color: var(--ink-2);
+  background: var(--white); border: 1px solid var(--rule); border-radius: var(--radius);
+}
+.b-ph-jump a:hover { border-color: var(--ink-3); color: var(--ink); }
+.b-ph-jump .menu-count { font-size: 13px; color: var(--ink-3); }
+.b-ph-cat { scroll-margin-top: calc(var(--header-h) + 120px); }
+.b-ph-cat + .b-ph-cat { margin-top: 56px; }
+.b-ph-cat-head {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 24px; align-items: baseline;
+  padding-bottom: 12px; margin-bottom: 24px; border-bottom: 2px solid var(--tone);
+}
+.b-ph-cat-head h3 { font-size: 1.5rem; display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.b-ph-cat-head h3 span { font-family: var(--sans); font-size: 14px; font-weight: 400; color: var(--ink-3); }
+.b-ph-cat-head p { grid-column: 1; color: var(--ink-2); font-size: 15px; }
+.b-ph-cat-head .link-arrow { grid-column: 2; grid-row: 1; }
+.b-ph-areas { columns: 3 260px; column-gap: 40px; }
+.b-ph-area { break-inside: avoid; margin-bottom: 24px; }
+.b-ph-area .h-small { display: flex; justify-content: space-between; gap: 12px; padding-bottom: 6px; margin-bottom: 4px; border-bottom: 1px solid var(--rule); }
+.b-ph-area .h-small span { font-weight: 400; color: var(--ink-3); letter-spacing: 0; }
+.b-ph-area li { padding: 3px 0; font-size: 14px; line-height: 1.45; border-bottom: 1px solid var(--rule-soft); }
+.b-ph-area li a { color: var(--ink); }
+.b-ph-area li a:hover { color: var(--tone); text-decoration: underline; text-underline-offset: 3px; }
+.b-ph-area li span { font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
+.b-ph-partner .b-ph-cat-head { margin-bottom: 0; }
+
 @media (max-width: 1024px) {
   .b-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
   .b-tabs-bar { overflow-x: auto; }
+  .b-tabs { grid-auto-columns: minmax(132px, 1fr); }
   .b-tab { padding: 14px 12px 12px 0; gap: 8px; flex-direction: column; }
   .b-tab + .b-tab { padding-left: 12px; }
   .b-tab-name { font-size: 1rem; line-height: 1.25; }

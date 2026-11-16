@@ -8,6 +8,8 @@ import { EXTRACTION, ROUTES, SECTIONS, SECTION_ALIASES } from '../content/brochu
 import { esc, icons, inquiryHref } from '../lib/html.mjs';
 import { AROMA, PRODUCTS, category, compoundGroups, content, inCategory, isCompound, isFragranceMaterial, url } from '../lib/catalogue.mjs';
 import { compoundTable, inquiryBand, productMedia } from '../lib/components.mjs';
+import { PHARMA_CATEGORIES } from '../content/pharma.mjs';
+import { PHARMA, areaGroups, catHref, pharmaCounts } from '../lib/pharma.mjs';
 
 const CONFIG = JSON.parse(readFileSync(new URL('../../data/brochure.json', import.meta.url), 'utf8'));
 const DEFAULT = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase()] || SECTIONS[0].key;
@@ -16,8 +18,9 @@ const DEFAULT = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase(
 const TABS = SECTIONS.map((s, i) => {
   if (s.category) {
     const c = category(s.category);
-    return { ...s, index: c.index, name: c.name, tone: c.tone, intro: c.intro, page: c.page, count: inCategory(c.key).length };
+    return { ...s, index: c.index, name: c.name, short: c.short, tone: c.tone, intro: c.intro, page: c.page, count: inCategory(c.key).length };
   }
+  if (s.key === 'pharma') return { ...s, page: 'pharma/', count: PHARMA.length };
   const botanicals = PRODUCTS.filter((p) => !isCompound(p) && p.industries.includes('Cosmetics'));
   const fragrance = inCategory(AROMA).filter(isFragranceMaterial);
   return { ...s, index: '', page: 'applications.html#cosmetics', botanicals, fragrance, count: botanicals.length + fragrance.length };
@@ -50,9 +53,63 @@ function card(p) {
 const COMPOUND_NOTE =
   'Applications listed are the documented uses of each compound. Grade, purity, packaging and documentation are confirmed per order.';
 
+// Pharma: every product from data/pharma-catalogue.csv, one block per
+// category, grouped by therapeutic area. The dosage form is shown where it
+// tells products apart (not for plain APIs).
+const API_FORM = 'API (bulk drug substance)';
+function pharmaBody() {
+  const cats = PHARMA_CATEGORIES.filter((c) => !c.partnering);
+  const partnering = PHARMA_CATEGORIES.find((c) => c.partnering);
+  const jump =
+    '<ul class="b-ph-jump">' +
+    cats.map((c) => `<li><a href="#b-ph-${c.slug}">${esc(c.name)}<span class="menu-count">${pharmaCounts[c.slug]}</span></a></li>`).join('') +
+    `<li><a href="#b-ph-${partnering.slug}">${esc(partnering.name)}</a></li>` +
+    '</ul>';
+  const blocks = cats
+    .map(
+      (c) =>
+        `<section class="b-ph-cat" id="b-ph-${c.slug}" aria-labelledby="b-ph-h-${c.slug}">` +
+        '<div class="b-ph-cat-head">' +
+        `<h3 id="b-ph-h-${c.slug}">${esc(c.name)}<span>${pharmaCounts[c.slug]} products</span></h3>` +
+        `<p>${esc(c.intro)}</p>` +
+        `<a class="link-arrow" href="${catHref(c)}">On the website ${icons.arrow}</a>` +
+        '</div>' +
+        '<div class="b-ph-areas">' +
+        areaGroups(c)
+          .map(
+            (g) =>
+              '<div class="b-ph-area">' +
+              `<h4 class="h-small">${esc(g.area)} <span>${g.items.length}</span></h4>` +
+              '<ul>' +
+              g.items
+                .map(
+                  (p) =>
+                    `<li><a href="${p.href}">${esc(p.name)}</a>${p.dosageForm !== API_FORM ? ` <span>${esc(p.dosageForm)}</span>` : ''}</li>`
+                )
+                .join('') +
+              '</ul></div>'
+          )
+          .join('') +
+        '</div></section>'
+    )
+    .join('');
+  const partner =
+    `<section class="b-ph-cat b-ph-partner" id="b-ph-${partnering.slug}">` +
+    '<div class="b-ph-cat-head">' +
+    `<h3>${esc(partnering.name)}</h3>` +
+    `<p>${esc(partnering.intro)} Send the molecule, dosage form and target markets.</p>` +
+    `<a class="link-arrow" href="${catHref(partnering)}">On the website ${icons.arrow}</a>` +
+    '</div></section>';
+  const note =
+    '<p class="table-note">Documentation on request: COA and specifications for every product; DMF for APIs; COPP and CTD dossier status for finished products. Products under patent or regulatory exclusivity are supplied only to markets where none applies; availability is confirmed per destination country. Information here is not medical advice and does not promote any product to patients.</p>';
+  return jump + blocks + partner + note;
+}
+
 function panel(t) {
   let body;
-  if (t.key === 'cosmetics') {
+  if (t.key === 'pharma') {
+    body = pharmaBody();
+  } else if (t.key === 'cosmetics') {
     body =
       `<div class="b-grid">${t.botanicals.map(card).join('')}</div>` +
       '<div class="b-subsection">' +
@@ -83,7 +140,7 @@ export default function brochurePage() {
     const active = t.key === DEFAULT;
     return (
       `<a class="b-tab" href="?section=${t.key}" id="tab-${t.key}" data-section="${t.key}" data-tone="${t.tone}" role="tab" aria-controls="panel-${t.key}" aria-selected="${active}"${active ? '' : ' tabindex="-1"'}>` +
-      `<span class="menu-index">${t.index}</span><span class="b-tab-name">${esc(t.name)}</span>` +
+      `<span class="menu-index">${t.index}</span><span class="b-tab-name">${esc(t.short || t.name)}</span>` +
       `<span class="menu-count">${t.count}</span></a>`
     );
   }).join('');
@@ -94,7 +151,7 @@ export default function brochurePage() {
     <div class="page-head-grid">
       <div>
         <p class="label">Product brochure</p>
-        <h1>Botanical extracts, nutraceutical ingredients and aroma chemicals</h1>
+        <h1>Botanical extracts, nutraceutical ingredients, aroma chemicals and pharmaceuticals</h1>
         <p class="b-event" data-event${event ? '' : ' hidden'}>Meet us at <strong>${esc(event)}</strong></p>
       </div>
       <div class="page-head-aside">
@@ -142,7 +199,7 @@ export default function brochurePage() {
   return {
     path: 'brochure.html',
     title: 'Product Brochure | Incretuss',
-    description: `${SITE.legalName} product brochure: botanical extracts, nutraceutical ingredients and aroma chemicals.`,
+    description: `${SITE.legalName} product brochure: botanical extracts, nutraceutical ingredients, aroma chemicals, and pharmaceutical APIs and finished generics.`,
     active: 'products',
     noindex: true,
     scripts: ['/js/brochure.js'],

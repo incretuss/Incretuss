@@ -1,6 +1,6 @@
 // brochure.html only: shows one product section at a time with tabs to
 // switch. The section that opens first is chosen in this order:
-//   1. ?section=botanicals|nutraceuticals|aroma|cosmetics in the link
+//   1. ?section=botanicals|nutraceuticals|aroma|pharma|cosmetics in the link
 //   2. "defaultSection" in /data/brochure.json (read here at load, so editing
 //      that file takes effect without rebuilding the site)
 //   3. the default the page was built with.
@@ -15,6 +15,7 @@
     botanicals: 'botanicals', botanical: 'botanicals', 'botanical-extracts': 'botanicals',
     nutraceuticals: 'nutraceuticals', nutraceutical: 'nutraceuticals', nutra: 'nutraceuticals',
     aroma: 'aroma', 'aroma-chemicals': 'aroma', chemicals: 'aroma', ketones: 'aroma',
+    pharma: 'pharma', pharmaceuticals: 'pharma', apis: 'pharma', generics: 'pharma',
     cosmetics: 'cosmetics', cosmetic: 'cosmetics', 'personal-care': 'cosmetics',
   };
 
