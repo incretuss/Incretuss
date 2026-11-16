@@ -35,6 +35,7 @@ html:not(.js) .ph-tools { display: none; }
 .ph-results { padding: 16px 0 0; white-space: normal; min-height: 2.6em; }
 .ph-group { margin-top: 32px; }
 .ph-group .register-actions { width: 168px; }
+.ph-group .register-actions .btn { white-space: nowrap; }
 .ph-group .register td.mono { white-space: normal; width: 24%; }
 .ph-row[hidden], .ph-group[hidden] { display: none !important; }
 .ph-more { display: flex; justify-content: center; margin-top: 32px; }
