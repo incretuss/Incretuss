@@ -249,7 +249,7 @@ h1 em, h2 em, .statement-text em { font-style: italic; }
   visibility: visible; opacity: 1; transform: none;
   transition: opacity .16s var(--ease), transform .16s var(--ease), visibility 0s;
 }
-.menu-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(0, .9fr); gap: 0; padding-block: 28px 32px; }
+.menu-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(0, .9fr); gap: 0; padding-block: 28px 32px; }
 .menu-cat {
   display: flex; flex-direction: column; gap: 6px; padding: 4px 28px 8px; border-left: 1px solid var(--rule-soft);
 }
@@ -904,6 +904,16 @@ body.nav-locked { overflow: hidden; }
 .b-capability .tags { margin-top: 16px; }
 
 /* Pharma tab: every product, by category and therapeutic area */
+.b-ph-search { padding: 20px; background: var(--white); border: 1px solid var(--rule); margin-bottom: 16px; }
+.b-ph-search label { display: block; font-size: 13px; font-weight: 500; color: var(--ink-2); margin-bottom: 6px; }
+.b-ph-search input {
+  width: 100%; max-width: 560px; min-height: 44px; padding: 10px 12px; font-size: 16px; background: var(--white);
+  border: 1px solid #bdbbb1; border-radius: var(--radius); color: var(--ink);
+}
+.b-ph-search input:focus { outline: none; border-color: var(--green-700); box-shadow: 0 0 0 3px var(--green-100); }
+.b-ph-search .filter-status { padding: 10px 0 0; white-space: normal; }
+html:not(.js) .b-ph-search { display: none; }
+.b-ph-cat[hidden], .b-ph-area[hidden], .b-ph-area li[hidden], .b-ph-jump li[hidden] { display: none; }
 .b-ph-jump { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 40px; }
 .b-ph-jump a {
   display: inline-flex; align-items: baseline; gap: 8px; padding: 6px 12px; font-size: 14px; color: var(--ink-2);

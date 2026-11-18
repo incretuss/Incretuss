@@ -2,20 +2,24 @@
 // section opens first and the event name) live in data/brochure.json so
 // they can be changed without touching code; see README.md.
 
-// Brochure tabs, in order. The first three are the catalogue categories;
-// "pharma" is the Pharma section; "cosmetics" is a view across the
-// botanical and aroma categories for cosmetics and personal-care events.
+// Brochure tabs, in order. Botanicals and nutraceuticals are catalogue
+// categories; "pharma" is the Pharma section; "cosmetics" is a view across
+// the catalogue for cosmetics and personal-care events.
 // `key` is what data/brochure.json "defaultSection" and ?section= links use.
+//
+// `hidden: true` keeps a section in the code but leaves it off the brochure.
+// Aroma chemicals are hidden: set `hidden: false` (and `fragrance: true` on
+// cosmetics, with its intro wording) to show them again.
 export const SECTIONS = [
   { key: 'botanicals', category: 'botanical-extracts' },
   { key: 'nutraceuticals', category: 'nutraceuticals' },
-  { key: 'aroma', category: 'aroma-chemicals' },
+  { key: 'aroma', category: 'aroma-chemicals', hidden: true },
   // Pharma: every product in data/pharma-catalogue.csv, by category and
   // therapeutic area (see src/lib/pharma.mjs).
   {
     key: 'pharma',
     name: 'Pharma',
-    index: '04',
+    index: '03',
     tone: 'botanical',
     intro:
       'APIs, API intermediates and finished generic medicines for manufacturers, importers, distributors and tender buyers. Supplied business-to-business to licensed pharmaceutical companies only; availability depends on registration and patent status in the destination country.',
@@ -24,8 +28,10 @@ export const SECTIONS = [
     key: 'cosmetics',
     name: 'Cosmetics & Personal Care',
     tone: 'botanical',
+    // false: the aroma-chemical fragrance materials table is not shown.
+    fragrance: false,
     intro:
-      'Products from our range used in skin-care, hair-care and fragrance work: botanical extracts and essential oils, and aroma chemicals supplied as fragrance materials. Suitability for a specific cosmetic formulation, including IFRA and local regulatory requirements, is confirmed per order.',
+      'Products from our range used in skin-care, hair-care and fragrance work: botanical extracts and essential oils. Suitability for a specific cosmetic formulation, including IFRA and local regulatory requirements, is confirmed per order.',
   },
 ];
 

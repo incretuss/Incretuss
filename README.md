@@ -21,16 +21,25 @@ and commit the regenerated HTML and `sitemap.xml`.
 ## Event brochure (`/brochure.html`)
 
 The brochure shows one section at a time (Botanical Extracts, Nutraceutical
-Ingredients, Aroma Chemicals, or Cosmetics & Personal Care, which gathers the
-botanicals and fragrance materials relevant to cosmetics) with tabs to switch. Before an event,
-edit `data/brochure.json`:
+Ingredients, Pharma, or Cosmetics & Personal Care, which gathers the
+botanicals relevant to cosmetics) with tabs to switch. The Pharma tab lists
+every product in `data/pharma-catalogue.csv` by category and therapeutic
+area, with a search box (name or dosage form) and jump links per category.
+
+Aroma chemicals are kept in the code but not shown in the brochure: in
+`src/content/brochure.mjs` the `aroma` section has `hidden: true` and the
+cosmetics section has `fragrance: false`. Change those (and the cosmetics
+intro) and run `npm run build` to show them again. Links to
+`?section=aroma` open the default section instead.
+
+Before an event, edit `data/brochure.json`:
 
     {
-      "defaultSection": "cosmetics",
-      "event": "Vitafoods Asia 2026"
+      "defaultSection": "pharma",
+      "event": "CPHI Middle East 2026"
     }
 
-- `defaultSection`: `botanicals`, `nutraceuticals`, `aroma` or `cosmetics`: the section that opens first.
+- `defaultSection`: `botanicals`, `nutraceuticals`, `pharma` or `cosmetics`: the section that opens first (currently `pharma`).
 - `event`: optional; shows "Meet us at …" on the brochure. Leave `""` to hide it.
 
 Commit and push; no rebuild is needed for these two settings (running
@@ -64,5 +73,6 @@ their pages.
 - Styles: `pharma.css` (pharma pages only); script: `js/pharma.js`.
 - Enquiries post to `/api/contact` with `type: "pharma"` and go to
   `PHARMA_RECEIVER_EMAIL` (default `info@incretuss.com`).
+- Navigation: Pharma is listed in the Products dropdown (`src/lib/layout.mjs`), not as a separate top-level link.
 - Brief and catalogue sources (including the Arene Lifesciences APIs):
   `src/content/pharma-brief.md`.

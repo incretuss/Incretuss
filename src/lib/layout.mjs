@@ -1,5 +1,13 @@
 import { SITE, CATEGORIES, NAV } from '../content/site.mjs';
 import { esc, icons } from './html.mjs';
+import { PHARMA } from './pharma.mjs';
+
+// Pharma entry in the Products menu (desktop dropdown and mobile menu).
+const PHARMA_MENU = {
+  index: '04',
+  name: 'Pharma',
+  lede: 'APIs and finished generic medicines for manufacturers, importers and tender buyers.',
+};
 
 const FONTS =
   'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap';
@@ -75,6 +83,13 @@ function productsMenu(counts) {
         `<span class="menu-count">${counts[c.key]} ${c.key === 'aroma-chemicals' ? 'compounds' : 'products'}</span>` +
         '</a>'
     ).join('') +
+    // Pharma section (/pharma/), listed with the product categories.
+    `<a class="menu-cat" data-tone="botanical" href="/pharma/">` +
+    `<span class="menu-index">${PHARMA_MENU.index}</span>` +
+    `<span class="menu-name">${PHARMA_MENU.name}</span>` +
+    `<span class="menu-lede">${PHARMA_MENU.lede}</span>` +
+    `<span class="menu-count">${PHARMA.length} products</span>` +
+    '</a>' +
     '<div class="menu-aside">' +
     '<a class="link-arrow" href="/products.html">Full product catalogue ' + icons.arrow + '</a>' +
     '<a class="link-arrow" href="/applications.html">Browse by application ' + icons.arrow + '</a>' +
@@ -106,6 +121,7 @@ function header(active, counts) {
       (c) =>
         `<li><a href="/${c.page}" data-tone="${c.tone}"><span class="menu-index">${c.index}</span>${esc(c.name)}<span class="menu-count">${counts[c.key]}</span></a></li>`
     ).join('') +
+    `<li><a href="/pharma/" data-tone="botanical"><span class="menu-index">${PHARMA_MENU.index}</span>${PHARMA_MENU.name}<span class="menu-count">${PHARMA.length}</span></a></li>` +
     '<li><a href="/products.html"><span class="menu-index"></span>Full catalogue</a></li>' +
     '</ul>' +
     '<ul class="mobile-links">' +

@@ -12,17 +12,20 @@ import { PHARMA_CATEGORIES } from '../content/pharma.mjs';
 import { PHARMA, areaGroups, catHref, pharmaCounts } from '../lib/pharma.mjs';
 
 const CONFIG = JSON.parse(readFileSync(new URL('../../data/brochure.json', import.meta.url), 'utf8'));
-const DEFAULT = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase()] || SECTIONS[0].key;
+// Sections marked `hidden` stay in the code but are not rendered.
+const VISIBLE = SECTIONS.filter((s) => !s.hidden);
+const wanted = SECTION_ALIASES[String(CONFIG.defaultSection || '').toLowerCase()];
+const DEFAULT = VISIBLE.some((s) => s.key === wanted) ? wanted : VISIBLE[0].key;
 
 // Resolve each tab's name, tone, intro, link and products.
-const TABS = SECTIONS.map((s, i) => {
+const TABS = VISIBLE.map((s, i) => {
   if (s.category) {
     const c = category(s.category);
     return { ...s, index: c.index, name: c.name, short: c.short, tone: c.tone, intro: c.intro, page: c.page, count: inCategory(c.key).length };
   }
   if (s.key === 'pharma') return { ...s, page: 'pharma/', count: PHARMA.length };
   const botanicals = PRODUCTS.filter((p) => !isCompound(p) && p.industries.includes('Cosmetics'));
-  const fragrance = inCategory(AROMA).filter(isFragranceMaterial);
+  const fragrance = s.fragrance === false ? [] : inCategory(AROMA).filter(isFragranceMaterial);
   return { ...s, index: '', page: 'applications.html#cosmetics', botanicals, fragrance, count: botanicals.length + fragrance.length };
 });
 
@@ -84,7 +87,7 @@ function pharmaBody() {
               g.items
                 .map(
                   (p) =>
-                    `<li><a href="${p.href}">${esc(p.name)}</a>${p.dosageForm !== API_FORM ? ` <span>${esc(p.dosageForm)}</span>` : ''}</li>`
+                    `<li data-search="${esc((p.name + ' ' + p.dosageForm).toLowerCase())}"><a href="${p.href}">${esc(p.name)}</a>${p.dosageForm !== API_FORM ? ` <span>${esc(p.dosageForm)}</span>` : ''}</li>`
                 )
                 .join('') +
               '</ul></div>'
@@ -102,7 +105,16 @@ function pharmaBody() {
     '</div></section>';
   const note =
     '<p class="table-note">Documentation on request: COA and specifications for every product; DMF for APIs; COPP and CTD dossier status for finished products. Products under patent or regulatory exclusivity are supplied only to markets where none applies; availability is confirmed per destination country. Information here is not medical advice and does not promote any product to patients.</p>';
-  return jump + blocks + partner + note;
+  // Search (js/brochure.js): filters every product by name and dosage form.
+  const search =
+    '<div class="b-ph-search">' +
+    `<label for="b-ph-q">Search ${PHARMA.length} pharma products</label>` +
+    '<input type="search" id="b-ph-q" placeholder="Product name or dosage form, e.g. Amoxicillin, eye drops" autocomplete="off">' +
+    '<p class="filter-status" id="b-ph-status" role="status" aria-live="polite"></p>' +
+    '</div>';
+  const empty =
+    '<p class="filter-empty" id="b-ph-empty" hidden>No products match. Try another name, or <a href="/pharma/enquiry/">ask us for the product</a>.</p>';
+  return search + jump + blocks + empty + partner + note;
 }
 
 function panel(t) {
@@ -112,11 +124,13 @@ function panel(t) {
   } else if (t.key === 'cosmetics') {
     body =
       `<div class="b-grid">${t.botanicals.map(card).join('')}</div>` +
-      '<div class="b-subsection">' +
-      '<h3 class="h-small">Fragrance materials</h3>' +
-      '<p class="b-sub-lede">Aroma chemicals supplied for fragrance compounding. They are fragrance materials, not cosmetic actives; IFRA and regulatory status for your application is confirmed per order.</p>' +
-      compoundTable(compoundGroups(isFragranceMaterial), { caption: true, compare: false }) +
-      '</div>';
+      (t.fragrance.length
+        ? '<div class="b-subsection">' +
+          '<h3 class="h-small">Fragrance materials</h3>' +
+          '<p class="b-sub-lede">Aroma chemicals supplied for fragrance compounding. They are fragrance materials, not cosmetic actives; IFRA and regulatory status for your application is confirmed per order.</p>' +
+          compoundTable(compoundGroups(isFragranceMaterial), { caption: true, compare: false }) +
+          '</div>'
+        : '');
   } else if (t.category === AROMA) {
     body = compoundTable(compoundGroups(), { caption: true, compare: false }) + `<p class="table-note">${COMPOUND_NOTE}</p>`;
   } else {
@@ -151,7 +165,7 @@ export default function brochurePage() {
     <div class="page-head-grid">
       <div>
         <p class="label">Product brochure</p>
-        <h1>Botanical extracts, nutraceutical ingredients, aroma chemicals and pharmaceuticals</h1>
+        <h1>Botanical extracts, nutraceutical ingredients and pharmaceuticals</h1>
         <p class="b-event" data-event${event ? '' : ' hidden'}>Meet us at <strong>${esc(event)}</strong></p>
       </div>
       <div class="page-head-aside">
@@ -199,7 +213,7 @@ export default function brochurePage() {
   return {
     path: 'brochure.html',
     title: 'Product Brochure | Incretuss',
-    description: `${SITE.legalName} product brochure: botanical extracts, nutraceutical ingredients, aroma chemicals, and pharmaceutical APIs and finished generics.`,
+    description: `${SITE.legalName} product brochure: botanical extracts, nutraceutical ingredients, and pharmaceutical APIs and finished generics.`,
     active: 'products',
     noindex: true,
     scripts: ['/js/brochure.js'],

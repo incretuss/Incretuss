@@ -79,7 +79,6 @@ export const COMPOUND_GROUPS = [
 
 export const NAV = [
   { href: 'products.html', label: 'Products', key: 'products', menu: true },
-  { href: 'pharma/', label: 'Pharma', key: 'pharma' },
   { href: 'applications.html', label: 'Applications', key: 'applications' },
   { href: 'quality.html', label: 'Quality & Manufacturing', key: 'quality' },
   { href: 'about.html', label: 'About', key: 'about' },

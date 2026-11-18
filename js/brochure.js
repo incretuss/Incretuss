@@ -19,8 +19,11 @@
     cosmetics: 'cosmetics', cosmetic: 'cosmetics', 'personal-care': 'cosmetics',
   };
 
+  // Only sections that are on the page count (hidden ones, such as aroma
+  // chemicals, are not rendered), so a link to one falls back to the default.
   function normalize(value) {
-    return ALIASES[String(value || '').trim().toLowerCase()] || null;
+    var key = ALIASES[String(value || '').trim().toLowerCase()] || null;
+    return key && panels.some(function (p) { return p.dataset.section === key; }) ? key : null;
   }
 
   function show(key, opts) {
@@ -60,6 +63,57 @@
   });
 
   main.classList.add('is-tabbed');
+
+  /* ---------- Pharma: search every product by name or dosage form ---------- */
+  (function () {
+    var input = document.getElementById('b-ph-q');
+    if (!input) return;
+    var panel = document.getElementById('panel-pharma');
+    var items = Array.prototype.slice.call(panel.querySelectorAll('.b-ph-area li'));
+    var areas = Array.prototype.slice.call(panel.querySelectorAll('.b-ph-area'));
+    var cats = Array.prototype.slice.call(panel.querySelectorAll('.b-ph-cat:not(.b-ph-partner)'));
+    var jumps = Array.prototype.slice.call(panel.querySelectorAll('.b-ph-jump li'));
+    var status = document.getElementById('b-ph-status');
+    var empty = document.getElementById('b-ph-empty');
+    var total = items.length;
+
+    function apply() {
+      var words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+      var shown = 0;
+      items.forEach(function (li) {
+        var text = li.getAttribute('data-search');
+        var ok = words.every(function (w) { return text.indexOf(w) !== -1; });
+        li.hidden = !ok;
+        if (ok) shown++;
+      });
+      // While searching, counts show matches ("3 of 66"); otherwise totals.
+      function count(el, n, total, suffix) {
+        if (!el) return;
+        if (!el.dataset.total) el.dataset.total = el.textContent;
+        el.textContent = words.length ? n + ' of ' + total + (suffix || '') : el.dataset.total;
+      }
+      areas.forEach(function (a) {
+        var n = a.querySelectorAll('li:not([hidden])').length;
+        a.hidden = !n;
+        count(a.querySelector('h4 span'), n, a.querySelectorAll('li').length);
+      });
+      cats.forEach(function (c) {
+        var n = c.querySelectorAll('li:not([hidden])').length;
+        var all = c.querySelectorAll('li').length;
+        c.hidden = !n;
+        count(c.querySelector('h3 span'), n, all, ' products');
+        var jump = jumps.filter(function (j) { return j.querySelector('a').getAttribute('href') === '#' + c.id; })[0];
+        if (jump) { jump.hidden = !n; count(jump.querySelector('.menu-count'), n, all); }
+      });
+      status.textContent = words.length
+        ? shown + (shown === 1 ? ' product matches' : ' products match') + ' “' + input.value.trim() + '”.'
+        : total + ' products. Type to filter by name or dosage form.';
+      empty.hidden = shown > 0;
+    }
+    var timer;
+    input.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(apply, 60); });
+    apply();
+  })();
 
   var fromLink = normalize(new URLSearchParams(window.location.search).get('section'));
   if (fromLink) {

@@ -65,7 +65,7 @@ function shell(o) {
     styles: ['/pharma.css'],
     bodyClass: 'is-pharma',
     footerNote: COMPLIANCE,
-    active: 'pharma',
+    active: 'products',
     scripts: ['/js/pharma.js'],
     body: o.body + (o.noDialog ? '' : enquiryDialog()),
   };
